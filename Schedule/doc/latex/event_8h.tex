@@ -1,0 +1,97 @@
+\hypertarget{event_8h}{
+\section{Dokumentacja pliku include/event.h}
+\label{event_8h}\index{include/event.h@{include/event.h}}
+}
+{\ttfamily \#include $<$QtCore/QList$>$}\par
+{\ttfamily \#include $<$QtCore/QDataStream$>$}\par
+{\ttfamily \#include \char`\"{}term.h\char`\"{}}\par
+{\ttfamily \#include $<$QDate$>$}\par
+{\ttfamily \#include $<$QtCore/QtGlobal$>$}\par
+{\ttfamily \#include \char`\"{}idgenerator.h\char`\"{}}\par
+Wykres zależności załączania dla event.h:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=191pt]{event_8h__incl}
+\end{center}
+\end{figure}
+Ten wykres pokazuje, które pliki bezpośrednio lub pośrednio załączają ten plik:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=77pt]{event_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Komponenty}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classEvent}{Event}
+\begin{DoxyCompactList}\small\item\em Reprezentuje zdarzenie w postaci zdefiniowanej przez użytkownika. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+QDataStream \& \hyperlink{event_8h_a62e8730ab4dc16e3d456b527a12635b3}{operator$<$$<$} (QDataStream \&stream, const \hyperlink{classEvent}{Event} \&event)
+\begin{DoxyCompactList}\small\item\em Zapisuje informacje o danym wydarzeniu do danego strumienia. \item\end{DoxyCompactList}\item 
+QDataStream \& \hyperlink{event_8h_a055427e98ad131966edb6fb652add004}{operator$>$$>$} (QDataStream \&stream, \hyperlink{classEvent}{Event} \&event)
+\begin{DoxyCompactList}\small\item\em Odczytuje informacje o danym wydarzeniu z danego strumienia. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Dokumentacja funkcji}
+\hypertarget{event_8h_a62e8730ab4dc16e3d456b527a12635b3}{
+\index{event.h@{event.h}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!event.h@{event.h}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$<$$<$ (QDataStream \& {\em stream}, \/  const {\bf Event} \& {\em event})}}
+\label{event_8h_a62e8730ab4dc16e3d456b527a12635b3}
+
+
+Zapisuje informacje o danym wydarzeniu do danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień do którego będą zapisywane dane. \item[{\em event}]Wydarzenie które będzie zapisywane. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+
+
+Definicja w linii 3 pliku event.cpp.
+
+
+
+
+\begin{DoxyCode}
+4 {
+5     return stream<<event.subjectID<<event.typeID<<event.terms;
+6 }
+\end{DoxyCode}
+
+
+\hypertarget{event_8h_a055427e98ad131966edb6fb652add004}{
+\index{event.h@{event.h}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!event.h@{event.h}}
+\subsubsection[{operator$>$$>$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$>$$>$ (QDataStream \& {\em stream}, \/  {\bf Event} \& {\em event})}}
+\label{event_8h_a055427e98ad131966edb6fb652add004}
+
+
+Odczytuje informacje o danym wydarzeniu z danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień z którego będą odczytywane dane. \item[{\em event}]Wydarzenie które zostanie zainicjalizowane wczytanymi danymi. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+
+
+Definicja w linii 8 pliku event.cpp.
+
+
+
+
+\begin{DoxyCode}
+9 {
+10     return stream>>event.subjectID<<event.typeID<<event.terms;
+11 }
+\end{DoxyCode}
+
+

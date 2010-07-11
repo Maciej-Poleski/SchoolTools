@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classInitializable.html" title="Określa klasy inicjalizowalne." alt="" coords="108,366,262,549"/>
+<area shape="rect" id="node6" href="$classIDGenerator.html" title="Generator identyfikatorów określonego typu." alt="" coords="286,345,414,570"/>
+<area shape="rect" id="node10" href="$classCompList.html" title="{CompList\&lt; Event \&gt;\n||+ operator==()\l}" alt="" coords="438,409,593,506"/>
+<area shape="rect" id="node12" href="$classQList.html" title="{QList\&lt;Event \&gt;\n||}" alt="" coords="433,155,553,253"/>
+<area shape="rect" id="node14" href="$classCompList.html" title="Klasa poszerzająca funkcjonalność QList&lt;T&gt;" alt="" coords="577,155,702,253"/>
+<area shape="rect" id="node16" href="$classQList.html" title="{QList\&lt; T \&gt;\n||}" alt="" coords="593,6,686,103"/>
+</map>

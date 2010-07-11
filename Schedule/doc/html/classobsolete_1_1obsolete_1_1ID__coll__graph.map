@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classobsolete_1_1obsolete_1_1obsolete_1_1obsolete_1_1EventID.html" title="Klasa reprezentująca identyfikator zdarzenia." alt="" coords="5,1283,363,1530"/>
+<area shape="rect" id="node4" href="$classobsolete_1_1obsolete_1_1obsolete_1_1obsolete_1_1obsolete_1_1AbstractIncrementalID.html" title="Podstawa dla wszystkich klas identyfikatorów automatycznych." alt="" coords="227,729,757,1146"/>
+<area shape="rect" id="node20" href="$classobsolete_1_1obsolete_1_1obsolete_1_1obsolete_1_1MarkID.html" title="Klasa reprezentująca identyfikator oceny." alt="" coords="387,1283,739,1530"/>
+<area shape="rect" id="node6" href="$classobsolete_1_1obsolete_1_1obsolete_1_1obsolete_1_1obsolete_1_1obsolete_1_1AbstractID.html" title="Klasa bazowa dla wszystkich typów identyfikatorowych." alt="" coords="419,174,939,591"/>
+<area shape="rect" id="node28" href="$classobsolete_1_1obsolete_1_1obsolete_1_1obsolete_1_1obsolete_1_1AbstractReservedID.html" title="Klasa reprezentująca identyfikatory rezerwowane z góry." alt="" coords="781,643,1299,1231"/>
+<area shape="rect" id="node26" href="$classobsolete_1_1obsolete_1_1obsolete_1_1obsolete_1_1TypeID.html" title="Klasa reprezentująca identyfikator typu wydarzenia." alt="" coords="763,1358,1117,1455"/>
+<area shape="rect" id="node41" href="$classobsolete_1_1obsolete_1_1obsolete_1_1obsolete_1_1SubjectID.html" title="Klasa reprezentująca identyfikator przedmiotu." alt="" coords="1141,1358,1512,1455"/>
+</map>

@@ -1,0 +1,5 @@
+klasa Initializable DONE
+klasa Deletable DONE
+Operator== w każdej klasie zapisywalnej
+Operatory<< i >> w każdej klasie zapisywalnej
+Mark i MarkEvaluator są przestarzałe --> zastąpić rodziną klas Mark z interfejsem MarkEvaluator

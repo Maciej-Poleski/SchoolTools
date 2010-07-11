@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>SchoolTools - Schedule: Dokumentacja pliku src/events.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.3 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li><a href="dirs.html"><span>Katalogi</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="dir_0ffeab24d93772fbe098d1cc681459a6.html">src</a>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja pliku events.cpp</h1><code>#include &quot;<a class="el" href="events_8cpp_source.html">../include/events.h</a>&quot;</code><br/>
+<code>#include &lt;QtCore/QFile&gt;</code><br/>
+<code>#include &quot;<a class="el" href="initializable_8h_source.html">initializable.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="complist_8h_source.html">complist.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="event_8h_source.html">event.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="generatoridgenerator_8h_source.html">generatoridgenerator.h</a>&quot;</code><br/>
+<div class="dynheader">
+Wykres zależności załączania dla events.cpp:</div>
+<div class="dynsection">
+<div class="center"><img src="events_8cpp__incl.png" border="0" usemap="#src_2events_8cpp_map" alt=""/></div>
+<map name="src_2events_8cpp_map" id="src_2events_8cpp">
+<area shape="rect" id="node6" href="initializable_8h.html" title="initializable.h" alt="" coords="199,171,313,205"/><area shape="rect" id="node10" href="complist_8h.html" title="complist.h" alt="" coords="144,89,237,122"/><area shape="rect" id="node14" href="event_8h.html" title="event.h" alt="" coords="347,89,421,122"/><area shape="rect" id="node30" href="generatoridgenerator_8h.html" title="generatoridgenerator.h" alt="" coords="527,89,711,122"/><area shape="rect" id="node26" href="idgenerator_8h.html" title="idgenerator.h" alt="" coords="636,171,751,205"/></map>
+</div>
+<div class="dynheader">
+Ten wykres pokazuje, które pliki bezpośrednio lub pośrednio załączają ten plik:</div>
+<div class="dynsection">
+<div class="center"><img src="events_8cpp__dep__incl.png" border="0" usemap="#src_2events_8cppdep_map" alt=""/></div>
+</div>
+
+<p><a href="events_8cpp_source.html">Idź do kodu źródłowego tego pliku.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Funkcje</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="events_8cpp.html#a560f3fdc9b76a9fe9146335122ecda39">operator&lt;&lt;</a> (QDataStream &amp;stream, const <a class="el" href="classEvents.html">Events</a> &amp;events)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Zapisuje informacje o wydarzeniach do danego strumienia.  <a href="#a560f3fdc9b76a9fe9146335122ecda39"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="events_8cpp.html#a9e3a2b909c5dcbc9519365ccafc4a96f">operator&gt;&gt;</a> (QDataStream &amp;stream, <a class="el" href="classEvents.html">Events</a> &amp;events)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Odczytuje informacje o wydarzeniach z danego strumienia.  <a href="#a9e3a2b909c5dcbc9519365ccafc4a96f"></a><br/></td></tr>
+</table>
+<hr/><h2>Dokumentacja funkcji</h2>
+<a class="anchor" id="a560f3fdc9b76a9fe9146335122ecda39"></a><!-- doxytag: member="events.cpp::operator&lt;&lt;" ref="a560f3fdc9b76a9fe9146335122ecda39" args="(QDataStream &amp;stream, const Events &amp;events)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDataStream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">QDataStream &amp;&nbsp;</td>
+          <td class="paramname"> <em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classEvents.html">Events</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>events</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Zapisuje informacje o wydarzeniach do danego strumienia. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>stream</em>&nbsp;</td><td>Strumień do którego będą zapisywane dane. </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>events</em>&nbsp;</td><td>Wydarzenia które będzie zapisywane. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Zwraca:</b></dt><dd>Ten sam strumień. </dd></dl>
+
+<p>Definicja w linii <a class="el" href="events_8cpp_source.html#l00005">5</a> pliku <a class="el" href="events_8cpp_source.html">events.cpp</a>.</p>
+
+<p>Odwołuje się do <a class="el" href="events_8h_source.html#l00025">Events::eventIDGenerator</a> i <a class="el" href="events_8h_source.html#l00027">Events::events</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00006"></a>00006 {
+<a name="l00007"></a>00007     <span class="keywordflow">return</span> stream&lt;&lt;events.<a class="code" href="classEvents.html#aee8768258412e3f8d298a539e038169c" title="Generator identyfikatorów wydarzeń.">eventIDGenerator</a>&lt;&lt;events.<a class="code" href="classEvents.html#a5356edbf1b04707635693988919f5457" title="Lista wszystkich wydarzeń. Będzie się powiększać.">events</a>;
+<a name="l00008"></a>00008 }
+</pre></div></p>
+
+</div>
+</div>
+<a class="anchor" id="a9e3a2b909c5dcbc9519365ccafc4a96f"></a><!-- doxytag: member="events.cpp::operator&gt;&gt;" ref="a9e3a2b909c5dcbc9519365ccafc4a96f" args="(QDataStream &amp;stream, Events &amp;events)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDataStream&amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype">QDataStream &amp;&nbsp;</td>
+          <td class="paramname"> <em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classEvents.html">Events</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>events</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Odczytuje informacje o wydarzeniach z danego strumienia. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>stream</em>&nbsp;</td><td>Strumień z którego będą odczytywane dane. </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>events</em>&nbsp;</td><td>Obiekt klasy <a class="el" href="classEvents.html" title="Klasa przechowuje wszystkie wydarzenia i zarządza nimi.">Events</a> który zostanie zainicjalizowany wczytanymi danymi. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Zwraca:</b></dt><dd>Ten sam strumień. </dd></dl>
+
+<p>Definicja w linii <a class="el" href="events_8cpp_source.html#l00010">10</a> pliku <a class="el" href="events_8cpp_source.html">events.cpp</a>.</p>
+
+<p>Odwołuje się do <a class="el" href="events_8h_source.html#l00025">Events::eventIDGenerator</a> i <a class="el" href="events_8h_source.html#l00027">Events::events</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00011"></a>00011 {
+<a name="l00012"></a>00012     <span class="keywordflow">return</span> stream&gt;&gt;events.<a class="code" href="classEvents.html#aee8768258412e3f8d298a539e038169c" title="Generator identyfikatorów wydarzeń.">eventIDGenerator</a>&gt;&gt;events.<a class="code" href="classEvents.html#a5356edbf1b04707635693988919f5457" title="Lista wszystkich wydarzeń. Będzie się powiększać.">events</a>;
+<a name="l00013"></a>00013 }
+</pre></div></p>
+
+</div>
+</div>
+</div>
+<hr class="footer"/><address style="text-align: right;"><small>Wygenerowano Sat Jul 10 18:45:18 2010 dla SchoolTools - Schedule programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>

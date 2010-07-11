@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classAbstractIDGenerator.html" title="Klasa bazowa obiektów&#45;generatorów identyfikatorów." alt="" coords="331,153,525,293"/>
+<area shape="rect" id="node13" href="$classAbstractIncrementalID.html" title="Podstawa dla wszystkich klas identyfikatorów automatycznych." alt="" coords="660,163,865,282"/>
+<area shape="rect" id="node22" href="$classAbstractReservedID.html" title="Klasa reprezentująca identyfikatory rezerwowane z góry." alt="" coords="899,153,1091,293"/>
+<area shape="rect" id="node5" href="$classEventIDGenerator.html" title="Klasa generatorów generatorów identyfikatorów wydarzeń." alt="" coords="5,353,155,450"/>
+<area shape="rect" id="node7" href="$classMarkIDGenerator.html" title="Klasa generatorów generatorów identyfikatorów skutków wydarzeń." alt="" coords="179,353,323,450"/>
+<area shape="rect" id="node9" href="$classSubjectIDGenerator.html" title="Klasa generatorów generatorów identyfikatorów przedmiotów." alt="" coords="347,353,509,450"/>
+<area shape="rect" id="node11" href="$classTypeIDGenerator.html" title="Generator generatorów obiektów TypeID." alt="" coords="533,353,680,450"/>
+<area shape="rect" id="node15" href="$classEventID.html" title="Klasa reprezentująca identyfikator zdarzenia." alt="" coords="704,342,805,461"/>
+<area shape="rect" id="node19" href="$classMarkID.html" title="Klasa reprezentująca identyfikator oceny." alt="" coords="829,342,925,461"/>
+<area shape="rect" id="node17" href="$classID.html" title="Korzeń nowej idei uniwersalnego ID." alt="" coords="917,510,955,607"/>
+<area shape="rect" id="node24" href="$classSubjectID.html" title="Klasa reprezentująca identyfikator przedmiotu." alt="" coords="949,353,1040,450"/>
+<area shape="rect" id="node27" href="$classTypeID.html" title="Klasa reprezentująca identyfikator typu wydarzenia." alt="" coords="1064,353,1139,450"/>
+</map>

@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>SchoolTools - Schedule: Plik źródłowy include/deletable.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.3 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li><a href="dirs.html"><span>Katalogi</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="dir_d86edb86472748ce3b9447a9e360126c.html">include</a>
+  </div>
+</div>
+<div class="contents">
+<h1>deletable.h</h1><a href="deletable_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#ifndef DELETABLE_H</span>
+<a name="l00002"></a>00002 <span class="preprocessor"></span><span class="preprocessor">#define DELETABLE_H</span>
+<a name="l00003"></a>00003 <span class="preprocessor"></span>
+<a name="l00005"></a><a class="code" href="classDeletable.html">00005</a> <span class="keyword">class </span><a class="code" href="classDeletable.html" title="Reprezentuje klasy których obiekty są usuwalne.">Deletable</a>
+<a name="l00006"></a>00006 {
+<a name="l00007"></a>00007 <span class="keyword">public</span>:
+<a name="l00008"></a>00008 <span class="keyword">protected</span>:
+<a name="l00009"></a><a class="code" href="classDeletable.html#abcb42a117a871f07ff1baa8c33050d29">00009</a>     <span class="keywordtype">bool</span> <a class="code" href="classDeletable.html#abcb42a117a871f07ff1baa8c33050d29" title="Czy obiekt istnieje.">exist</a>;             
+<a name="l00010"></a>00010 <span class="keyword">private</span>:
+<a name="l00011"></a>00011 <span class="keyword">public</span>:
+<a name="l00013"></a><a class="code" href="classDeletable.html#a0f7c43f5e6ff5b97884fad16e95cfc97">00013</a>     <a class="code" href="classDeletable.html#a0f7c43f5e6ff5b97884fad16e95cfc97" title="Decyduje o tym, czy powstający obiekt istnieje.">Deletable</a>(<span class="keywordtype">bool</span> <a class="code" href="classDeletable.html#abcb42a117a871f07ff1baa8c33050d29" title="Czy obiekt istnieje.">exist</a>=<span class="keyword">false</span>) : <a class="code" href="classDeletable.html#abcb42a117a871f07ff1baa8c33050d29" title="Czy obiekt istnieje.">exist</a>(<a class="code" href="classDeletable.html#abcb42a117a871f07ff1baa8c33050d29" title="Czy obiekt istnieje.">exist</a>) {}
+<a name="l00014"></a>00014     
+<a name="l00019"></a><a class="code" href="classDeletable.html#a1db2e625adf7b75d815f618b3179d23a">00019</a>     <span class="keywordtype">bool</span> <a class="code" href="classDeletable.html#a1db2e625adf7b75d815f618b3179d23a" title="Porównuje ze sobą obiekty pod kątem identyczności.">operator==</a>(<span class="keyword">const</span> <a class="code" href="classDeletable.html" title="Reprezentuje klasy których obiekty są usuwalne.">Deletable</a> &amp;o)<span class="keyword"> const</span>
+<a name="l00020"></a>00020 <span class="keyword">    </span>{
+<a name="l00021"></a>00021         <span class="keywordflow">return</span> <a class="code" href="classDeletable.html#abcb42a117a871f07ff1baa8c33050d29" title="Czy obiekt istnieje.">exist</a>==o.<a class="code" href="classDeletable.html#abcb42a117a871f07ff1baa8c33050d29" title="Czy obiekt istnieje.">exist</a>;
+<a name="l00022"></a>00022     }
+<a name="l00023"></a>00023 
+<a name="l00024"></a>00024 <span class="keyword">protected</span>:
+<a name="l00028"></a><a class="code" href="classDeletable.html#abc2b06e3fc03fa971e4491fcd3a7f7bf">00028</a>     <span class="keywordtype">bool</span> <a class="code" href="classDeletable.html#abc2b06e3fc03fa971e4491fcd3a7f7bf" title="Sprawdza czy obiekt istnieje.">alive</a>()<span class="keyword"> const</span>
+<a name="l00029"></a>00029 <span class="keyword">    </span>{
+<a name="l00030"></a>00030         <span class="keywordflow">return</span> <a class="code" href="classDeletable.html#abcb42a117a871f07ff1baa8c33050d29" title="Czy obiekt istnieje.">exist</a>;
+<a name="l00031"></a>00031     }
+<a name="l00032"></a>00032     
+<a name="l00037"></a><a class="code" href="classDeletable.html#a64c5029bf4e737e0c80f9cadae016ed3">00037</a>     <span class="keywordtype">bool</span> <a class="code" href="classDeletable.html#a64c5029bf4e737e0c80f9cadae016ed3" title="Ustawia status obiektu.">setExistance</a>(<span class="keywordtype">bool</span> e)
+<a name="l00038"></a>00038     {
+<a name="l00039"></a>00039         <span class="keywordtype">bool</span> old=<a class="code" href="classDeletable.html#abcb42a117a871f07ff1baa8c33050d29" title="Czy obiekt istnieje.">exist</a>;
+<a name="l00040"></a>00040         <a class="code" href="classDeletable.html#abcb42a117a871f07ff1baa8c33050d29" title="Czy obiekt istnieje.">exist</a>=e;
+<a name="l00041"></a>00041         <span class="keywordflow">return</span> old;
+<a name="l00042"></a>00042     }
+<a name="l00043"></a>00043 <span class="keyword">private</span>:
+<a name="l00044"></a>00044 
+<a name="l00045"></a>00045 };
+<a name="l00046"></a>00046 
+<a name="l00047"></a>00047 <span class="preprocessor">#endif // DELETABLE_H</span>
+</pre></div></div>
+<hr class="footer"/><address style="text-align: right;"><small>Wygenerowano Sat Jul 10 18:45:13 2010 dla SchoolTools - Schedule programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>

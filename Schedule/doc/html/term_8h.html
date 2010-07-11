@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>SchoolTools - Schedule: Dokumentacja pliku include/term.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.3 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li><a href="dirs.html"><span>Katalogi</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="dir_d86edb86472748ce3b9447a9e360126c.html">include</a>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja pliku term.h</h1><code>#include &lt;QtCore/QDate&gt;</code><br/>
+<code>#include &quot;<a class="el" href="initializable_8h_source.html">initializable.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="idgenerator_8h_source.html">idgenerator.h</a>&quot;</code><br/>
+<div class="dynheader">
+Wykres zależności załączania dla term.h:</div>
+<div class="dynsection">
+<div class="center"><img src="term_8h__incl.png" border="0" usemap="#include_2term_8h_map" alt=""/></div>
+<map name="include_2term_8h_map" id="include_2term_8h">
+<area shape="rect" id="node5" href="initializable_8h.html" title="initializable.h" alt="" coords="152,89,267,122"/><area shape="rect" id="node9" href="idgenerator_8h.html" title="idgenerator.h" alt="" coords="300,89,415,122"/></map>
+</div>
+<div class="dynheader">
+Ten wykres pokazuje, które pliki bezpośrednio lub pośrednio załączają ten plik:</div>
+<div class="dynsection">
+<div class="center"><img src="term_8h__dep__incl.png" border="0" usemap="#include_2term_8hdep_map" alt=""/></div>
+<map name="include_2term_8hdep_map" id="include_2term_8hdep">
+<area shape="rect" id="node3" href="events_8h.html" title="include/events.h" alt="" coords="5,89,139,122"/></map>
+</div>
+
+<p><a href="term_8h_source.html">Idź do kodu źródłowego tego pliku.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Komponenty</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">class &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTerm.html">Term</a></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Reprezentacja egzekucji wydarzenia.  <a href="classTerm.html#_details">Więcej...</a><br/></td></tr>
+<tr><td colspan="2"><h2>Funkcje</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="term_8h.html#a607138da9b016f91528f99ab09407712">operator&lt;&lt;</a> (QDataStream &amp;stream, const <a class="el" href="classTerm.html">Term</a> &amp;term)  throw (char*)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Zapisuje dany termin do danego strumienia.  <a href="#a607138da9b016f91528f99ab09407712"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="term_8h.html#ad3ecfcfe45e8df9b765a1b06be05a457">operator&gt;&gt;</a> (QDataStream &amp;stream, <a class="el" href="classTerm.html">Term</a> &amp;term)  throw (char*)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Odczytuje dany termin z danego strumienia.  <a href="#ad3ecfcfe45e8df9b765a1b06be05a457"></a><br/></td></tr>
+</table>
+<hr/><h2>Dokumentacja funkcji</h2>
+<a class="anchor" id="a607138da9b016f91528f99ab09407712"></a><!-- doxytag: member="term.h::operator&lt;&lt;" ref="a607138da9b016f91528f99ab09407712" args="(QDataStream &amp;stream, const Term &amp;term)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDataStream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">QDataStream &amp;&nbsp;</td>
+          <td class="paramname"> <em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classTerm.html">Term</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>term</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td>  throw (char*)</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Zapisuje dany termin do danego strumienia. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>stream</em>&nbsp;</td><td>Strumień do którego będzie zapisany termin. </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>term</em>&nbsp;</td><td>Termin który zostanie zapisany. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl><dt><b>Wyjątki:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>char*</em>&nbsp;</td><td>Jeżeli zapisywany termin nie został zainicjalizowany </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Zwraca:</b></dt><dd>Ten sam strumień. </dd></dl>
+
+<p>Definicja w linii <a class="el" href="term_8cpp_source.html#l00003">3</a> pliku <a class="el" href="term_8cpp_source.html">term.cpp</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00004"></a>00004 {
+<a name="l00005"></a>00005     term.<a class="code" href="classInitializable.html#afdbe035143b09de69f5c45a05c1b332c" title="Pozwala na dalsze wykonywanie kodu jeżeli dany obiekt jest zainicjalizowany.">checkInitialized</a>();
+<a name="l00006"></a>00006     operator&lt;&lt;(stream,static_cast&lt;const QDate&amp;&gt;(term));
+<a name="l00007"></a>00007     <span class="keywordflow">return</span> stream&lt;&lt;term.<a class="code" href="classTerm.html#acc86c9d25865449a551947aa1597dec5" title="Identyfikator wydarzenia.">eventID</a>&lt;&lt;term.<a class="code" href="classTerm.html#a59508892d24fb82de0db91a377c690fb" title="Identyfikator oceny - skutku egzekucji wydarzenia.">markID</a>&lt;&lt;term.<a class="code" href="classTerm.html#a58a815dca7217ba0e9e4e084d7c91648" title="Czy jest odwołany.">revoke</a>;
+<a name="l00008"></a>00008 }
+</pre></div></p>
+
+</div>
+</div>
+<a class="anchor" id="ad3ecfcfe45e8df9b765a1b06be05a457"></a><!-- doxytag: member="term.h::operator&gt;&gt;" ref="ad3ecfcfe45e8df9b765a1b06be05a457" args="(QDataStream &amp;stream, Term &amp;term)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDataStream&amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype">QDataStream &amp;&nbsp;</td>
+          <td class="paramname"> <em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classTerm.html">Term</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>term</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td>  throw (char*)</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Odczytuje dany termin z danego strumienia. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>stream</em>&nbsp;</td><td>Strumień z którego będzie odczytany termin. </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>term</em>&nbsp;</td><td>Termin który zostanie zainicjalizowany odczytanymi danymi. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl><dt><b>Wyjątki:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>char*</em>&nbsp;</td><td>Jeżeli Termin został wcześniej zainicjalizowany. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Zwraca:</b></dt><dd>Ten sam strumień. </dd></dl>
+
+<p>Definicja w linii <a class="el" href="term_8cpp_source.html#l00010">10</a> pliku <a class="el" href="term_8cpp_source.html">term.cpp</a>.</p>
+
+<p>Odwołuje się do <a class="el" href="event_8cpp_source.html#l00016">operator&gt;&gt;()</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00011"></a>00011 {
+<a name="l00012"></a>00012     term.<a class="code" href="classInitializable.html#a87f5a7bd9ab84a142b7e6b8fd2175aa8" title="Ustawia niezainicjalizowany obiekt w stan zainicjalizowany.">makeInitialized</a>();
+<a name="l00013"></a>00013     <a class="code" href="event_8h.html#a055427e98ad131966edb6fb652add004" title="Odczytuje informacje o danym wydarzeniu z danego strumienia.">operator&gt;&gt;</a>(stream,static_cast&lt;QDate&amp;&gt;(term));
+<a name="l00014"></a>00014     <span class="keywordflow">return</span> stream&gt;&gt;term.<a class="code" href="classTerm.html#acc86c9d25865449a551947aa1597dec5" title="Identyfikator wydarzenia.">eventID</a>&gt;&gt;term.<a class="code" href="classTerm.html#a59508892d24fb82de0db91a377c690fb" title="Identyfikator oceny - skutku egzekucji wydarzenia.">markID</a>&gt;&gt;term.<a class="code" href="classTerm.html#a58a815dca7217ba0e9e4e084d7c91648" title="Czy jest odwołany.">revoke</a>;
+<a name="l00015"></a>00015 }
+</pre></div></p>
+
+<p><div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dynsection">
+<div class="center"><img src="term_8h_ad3ecfcfe45e8df9b765a1b06be05a457_cgraph.png" border="0" usemap="#term_8h_ad3ecfcfe45e8df9b765a1b06be05a457_cgraph_map" alt=""></div>
+<map name="term_8h_ad3ecfcfe45e8df9b765a1b06be05a457_cgraph_map" id="term_8h_ad3ecfcfe45e8df9b765a1b06be05a457_cgraph">
+<area shape="rect" id="node3" href="event_8h.html#a055427e98ad131966edb6fb652add004" title="Odczytuje informacje o danym wydarzeniu z danego strumienia." alt="" coords="159,5,260,38"/></map>
+</div>
+</p>
+
+</div>
+</div>
+</div>
+<hr class="footer"/><address style="text-align: right;"><small>Wygenerowano Sat Jul 10 18:45:17 2010 dla SchoolTools - Schedule programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>

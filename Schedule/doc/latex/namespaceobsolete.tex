@@ -1,0 +1,75 @@
+\hypertarget{namespaceobsolete}{
+\section{Dokumentacja przestrzeni nazw obsolete}
+\label{namespaceobsolete}\index{obsolete@{obsolete}}
+}
+\subsection*{Komponenty}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classobsolete_1_1AbstractID}{AbstractID}
+\begin{DoxyCompactList}\small\item\em Klasa bazowa dla wszystkich typów identyfikatorowych. \item\end{DoxyCompactList}\item 
+class \hyperlink{classobsolete_1_1AbstractIDGenerator}{AbstractIDGenerator}
+\begin{DoxyCompactList}\small\item\em Klasa bazowa obiektów-\/generatorów identyfikatorów. \item\end{DoxyCompactList}\item 
+class \hyperlink{classobsolete_1_1AbstractIncrementalID}{AbstractIncrementalID}
+\begin{DoxyCompactList}\small\item\em Podstawa dla wszystkich klas identyfikatorów automatycznych. \item\end{DoxyCompactList}\item 
+class \hyperlink{classobsolete_1_1AbstractReservedID}{AbstractReservedID}
+\begin{DoxyCompactList}\small\item\em Klasa reprezentująca identyfikatory rezerwowane z góry. \item\end{DoxyCompactList}\item 
+class \hyperlink{classobsolete_1_1EventID}{EventID}
+\begin{DoxyCompactList}\small\item\em Klasa reprezentująca identyfikator zdarzenia. \item\end{DoxyCompactList}\item 
+class \hyperlink{classobsolete_1_1EventIDGenerator}{EventIDGenerator}
+\begin{DoxyCompactList}\small\item\em Klasa generatorów generatorów identyfikatorów wydarzeń. \item\end{DoxyCompactList}\item 
+class \hyperlink{classobsolete_1_1ID}{ID}
+\begin{DoxyCompactList}\small\item\em Korzeń nowej idei uniwersalnego \hyperlink{classobsolete_1_1ID}{ID}. \item\end{DoxyCompactList}\item 
+class \hyperlink{classobsolete_1_1MarkID}{MarkID}
+\begin{DoxyCompactList}\small\item\em Klasa reprezentująca identyfikator oceny. \item\end{DoxyCompactList}\item 
+class \hyperlink{classobsolete_1_1MarkIDGenerator}{MarkIDGenerator}
+\begin{DoxyCompactList}\small\item\em Klasa generatorów generatorów identyfikatorów skutków wydarzeń. \item\end{DoxyCompactList}\item 
+class \hyperlink{classobsolete_1_1State}{State}
+\begin{DoxyCompactList}\small\item\em Klasa przechowująca wszelkie informacje o stanie aplikacji, bazy danych i danych. \item\end{DoxyCompactList}\item 
+class \hyperlink{classobsolete_1_1SubjectID}{SubjectID}
+\begin{DoxyCompactList}\small\item\em Klasa reprezentująca identyfikator przedmiotu. \item\end{DoxyCompactList}\item 
+class \hyperlink{classobsolete_1_1SubjectIDGenerator}{SubjectIDGenerator}
+\begin{DoxyCompactList}\small\item\em Klasa generatorów generatorów identyfikatorów przedmiotów. \item\end{DoxyCompactList}\item 
+class \hyperlink{classobsolete_1_1TypeID}{TypeID}
+\begin{DoxyCompactList}\small\item\em Klasa reprezentująca identyfikator typu wydarzenia. \item\end{DoxyCompactList}\item 
+class \hyperlink{classobsolete_1_1TypeIDGenerator}{TypeIDGenerator}
+\begin{DoxyCompactList}\small\item\em Generator generatorów obiektów \hyperlink{classobsolete_1_1TypeID}{TypeID}. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+QDataStream \& \hyperlink{namespaceobsolete_ae67d47b6a22388897d176c4569da81d2}{operator$<$$<$} (QDataStream \&stream, const \hyperlink{classobsolete_1_1AbstractID}{AbstractID} \&\hyperlink{classobsolete_1_1ID}{ID})
+\begin{DoxyCompactList}\small\item\em Zapisuje dany identyfikator do danego strumienia. \item\end{DoxyCompactList}\item 
+QDataStream \& \hyperlink{namespaceobsolete_aa4c713ba2a42ffbb45bbeca0e2800a76}{operator$>$$>$} (QDataStream \&stream, \hyperlink{classobsolete_1_1AbstractID}{AbstractID} \&\hyperlink{classobsolete_1_1ID}{ID})
+\begin{DoxyCompactList}\small\item\em Odczytuje dany identyfikator z danego strumienia. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Dokumentacja funkcji}
+\hypertarget{namespaceobsolete_ae67d47b6a22388897d176c4569da81d2}{
+\index{obsolete@{obsolete}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!obsolete@{obsolete}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& obsolete::operator$<$$<$ (QDataStream \& {\em stream}, \/  const AbstractID \& {\em ID})}}
+\label{namespaceobsolete_ae67d47b6a22388897d176c4569da81d2}
+
+
+Zapisuje dany identyfikator do danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień do którego będzie zapisany identyfikator. \item[{\em \hyperlink{classobsolete_1_1ID}{ID}}]Identyfikator który zostanie zapisany. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+\hypertarget{namespaceobsolete_aa4c713ba2a42ffbb45bbeca0e2800a76}{
+\index{obsolete@{obsolete}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!obsolete@{obsolete}}
+\subsubsection[{operator$>$$>$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& obsolete::operator$>$$>$ (QDataStream \& {\em stream}, \/  AbstractID \& {\em ID})}}
+\label{namespaceobsolete_aa4c713ba2a42ffbb45bbeca0e2800a76}
+
+
+Odczytuje dany identyfikator z danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień z którego będzie odczytany identyfikator. \item[{\em \hyperlink{classobsolete_1_1ID}{ID}}]Identyfikator który zostanie zainicjalizowany odczytanymi danymi. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}

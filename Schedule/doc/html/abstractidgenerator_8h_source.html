@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>SchoolTools - Schedule: Plik źródłowy include/obsolete/abstractidgenerator.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.3 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li><a href="dirs.html"><span>Katalogi</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="dir_d86edb86472748ce3b9447a9e360126c.html">include</a>&nbsp;&raquo;&nbsp;<a class="el" href="dir_7a951694f1b7ff6e69b4126eb6966017.html">obsolete</a>
+  </div>
+</div>
+<div class="contents">
+<h1>abstractidgenerator.h</h1><a href="abstractidgenerator_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#ifndef ABSTRACTIDGENERATOR_H</span>
+<a name="l00002"></a>00002 <span class="preprocessor"></span><span class="preprocessor">#define ABSTRACTIDGENERATOR_H</span>
+<a name="l00003"></a>00003 <span class="preprocessor"></span>
+<a name="l00004"></a>00004 <span class="preprocessor">#include &quot;<a class="code" href="abstractid_8h.html">abstractid.h</a>&quot;</span>
+<a name="l00005"></a>00005 <span class="preprocessor">#include &quot;<a class="code" href="id_8h.html">id.h</a>&quot;</span>
+<a name="l00006"></a>00006 
+<a name="l00007"></a>00007 <span class="keyword">namespace </span>obsolete
+<a name="l00008"></a><a class="code" href="classobsolete_1_1AbstractIDGenerator.html#a99b8f2659b2f0120f5601789ea89edc1">00008</a> {
+<a name="l00009"></a><a class="code" href="classobsolete_1_1AbstractIDGenerator.html">00009</a> 
+<a name="l00011"></a>00011 <span class="keyword">class </span><a class="code" href="classobsolete_1_1AbstractIDGenerator.html" title="Klasa bazowa obiektów-generatorów identyfikatorów.">AbstractIDGenerator</a> : <span class="keyword">public</span> <a class="code" href="classobsolete_1_1AbstractID.html" title="Klasa bazowa dla wszystkich typów identyfikatorowych.">AbstractID</a>
+<a name="l00012"></a>00012 {
+<a name="l00013"></a>00013 <span class="keyword">public</span>:
+<a name="l00014"></a>00014     <span class="keyword">inline</span> <a class="code" href="classobsolete_1_1AbstractIDGenerator.html#a99b8f2659b2f0120f5601789ea89edc1" title="Inicjalizuje wartość początkową generatora identyfikatorów.">AbstractIDGenerator</a>(uint <a class="code" href="classobsolete_1_1ID.html" title="Korzeń nowej idei uniwersalnego ID.">ID</a>=1) : <a class="code" href="classobsolete_1_1AbstractID.html#aff6a5e33261e36af0dcf9b38d99f0056" title="Inicjalizuje nowy obiekt.">AbstractID</a>(<a class="code" href="classobsolete_1_1ID.html" title="Korzeń nowej idei uniwersalnego ID.">ID</a>) {}   
+<a name="l00015"></a>00015     <span class="keyword">virtual</span> <a class="code" href="classobsolete_1_1ID.html" title="Korzeń nowej idei uniwersalnego ID.">ID</a> <a class="code" href="classobsolete_1_1AbstractIDGenerator.html#a39d2f0147e3a028fef8299770e23db90" title="Tworzy nowy identyfikator.">createID</a>();                       
+<a name="l00016"></a>00016     <span class="keyword">static</span> <a class="code" href="classobsolete_1_1ID.html" title="Korzeń nowej idei uniwersalnego ID.">ID</a> <a class="code" href="classobsolete_1_1AbstractIDGenerator.html#a330da88ba80820ca6ce0a29cbbab9e1b" title="Tworzy niezainicjowany identyfikator.">createVoidID</a>();                    
+<a name="l00017"></a>00017 <span class="keyword">private</span>:
+<a name="l00018"></a>00018 };
+<a name="l00019"></a>00019 
+<a name="l00020"></a>00020 }
+<a name="l00021"></a>00021 
+<a name="l00022"></a>00022 <span class="preprocessor">#endif // ABSTRACTIDGENERATOR_H</span>
+</pre></div></div>
+<hr class="footer"/><address style="text-align: right;"><small>Wygenerowano Sat Jul 10 18:45:14 2010 dla SchoolTools - Schedule programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>

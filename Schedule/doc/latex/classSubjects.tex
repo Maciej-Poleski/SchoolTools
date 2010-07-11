@@ -1,0 +1,158 @@
+\hypertarget{classSubjects}{
+\section{Dokumentacja klasy Subjects}
+\label{classSubjects}\index{Subjects@{Subjects}}
+}
+
+
+Obiekt klasy reprezentuje wszystkie przedmioty.  
+
+
+
+
+{\ttfamily \#include $<$subjects.h$>$}
+
+
+
+Diagram współpracy dla Subjects:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classSubjects__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Statyczne metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classSubjects}{Subjects} \hyperlink{classSubjects_aec561b25eff855874861326e29efb743}{create} () private  throw (char$\ast$)
+\begin{DoxyCompactList}\small\item\em Tworzy instancje klasy. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classIDGenerator}{IDGenerator} \hyperlink{classSubjects_a31677c61fa2c31db7b8d17ac96ddd83e}{subjectIDGenerator}
+\begin{DoxyCompactList}\small\item\em Generator identyfikatorów przedmiotów. \item\end{DoxyCompactList}\item 
+QList$<$ \hyperlink{classSubject}{Subject} $>$ \hyperlink{classSubjects_a8e97b147f9bdef32d49612c04b87e348}{subjects}
+\begin{DoxyCompactList}\small\item\em Lista przedmiotów. \item\end{DoxyCompactList}\item 
+QList$<$ \hyperlink{classIDGenerator_1_1ID}{IDGenerator::ID} $>$ \hyperlink{classSubjects_ac97553ca1a09d08d019ae1bd2f017615}{subjectMapping}
+\begin{DoxyCompactList}\small\item\em Lista odnośników \mbox{[}pozycja w ComboBox\mbox{]}-\/-\/$>$\mbox{[}pozycja w subjects\mbox{]}. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classSubjects_aa7ef99d4c5a3e333205fab3733176f17}{initialized}
+\begin{DoxyCompactList}\small\item\em Czy obiekt tej klasy został zainicjalizowany. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Statyczne atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+static bool \hyperlink{classSubjects_ae5f842f095e3091ce71261dc415435f8}{existOne} = false
+\begin{DoxyCompactList}\small\item\em Czy istnieje jakiś obiekt tej klasy. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Obiekt klasy reprezentuje wszystkie przedmioty. 
+
+Definicja w linii 10 pliku subjects.h.
+
+
+
+\subsection{Dokumentacja funkcji składowych}
+\hypertarget{classSubjects_aec561b25eff855874861326e29efb743}{
+\index{Subjects@{Subjects}!create@{create}}
+\index{create@{create}!Subjects@{Subjects}}
+\subsubsection[{create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Subjects} Subjects::create ()  throw (char$\ast$)\hspace{0.3cm}{\ttfamily  \mbox{[}inline, static\mbox{]}}}}
+\label{classSubjects_aec561b25eff855874861326e29efb743}
+
+
+Tworzy instancje klasy. 
+
+
+\begin{DoxyExceptions}{Wyjątki}
+\item[{\em char$\ast$}]Jeżeli już wywołano tę metodę \end{DoxyExceptions}
+\begin{DoxyReturn}{Zwraca}
+Nowy obiekt tej klasy Oznacza nowy obiekt jako niezainicjalizowany. 
+\end{DoxyReturn}
+
+
+Definicja w linii 23 pliku subjects.h.
+
+
+
+
+\begin{DoxyCode}
+29        :
+\end{DoxyCode}
+
+
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{classSubjects_ae5f842f095e3091ce71261dc415435f8}{
+\index{Subjects@{Subjects}!existOne@{existOne}}
+\index{existOne@{existOne}!Subjects@{Subjects}}
+\subsubsection[{existOne}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf Subjects::existOne} = false\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classSubjects_ae5f842f095e3091ce71261dc415435f8}
+
+
+Czy istnieje jakiś obiekt tej klasy. 
+
+
+
+Definicja w linii 16 pliku subjects.h.
+
+\hypertarget{classSubjects_aa7ef99d4c5a3e333205fab3733176f17}{
+\index{Subjects@{Subjects}!initialized@{initialized}}
+\index{initialized@{initialized}!Subjects@{Subjects}}
+\subsubsection[{initialized}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf Subjects::initialized}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classSubjects_aa7ef99d4c5a3e333205fab3733176f17}
+
+
+Czy obiekt tej klasy został zainicjalizowany. 
+
+
+
+Definicja w linii 15 pliku subjects.h.
+
+\hypertarget{classSubjects_a31677c61fa2c31db7b8d17ac96ddd83e}{
+\index{Subjects@{Subjects}!subjectIDGenerator@{subjectIDGenerator}}
+\index{subjectIDGenerator@{subjectIDGenerator}!Subjects@{Subjects}}
+\subsubsection[{subjectIDGenerator}]{\setlength{\rightskip}{0pt plus 5cm}{\bf IDGenerator} {\bf Subjects::subjectIDGenerator}}}
+\label{classSubjects_a31677c61fa2c31db7b8d17ac96ddd83e}
+
+
+Generator identyfikatorów przedmiotów. 
+
+
+
+Definicja w linii 10 pliku subjects.h.
+
+\hypertarget{classSubjects_ac97553ca1a09d08d019ae1bd2f017615}{
+\index{Subjects@{Subjects}!subjectMapping@{subjectMapping}}
+\index{subjectMapping@{subjectMapping}!Subjects@{Subjects}}
+\subsubsection[{subjectMapping}]{\setlength{\rightskip}{0pt plus 5cm}QList$<${\bf IDGenerator::ID}$>$ {\bf Subjects::subjectMapping}}}
+\label{classSubjects_ac97553ca1a09d08d019ae1bd2f017615}
+
+
+Lista odnośników \mbox{[}pozycja w ComboBox\mbox{]}-\/-\/$>$\mbox{[}pozycja w subjects\mbox{]}. 
+
+
+
+Definicja w linii 12 pliku subjects.h.
+
+\hypertarget{classSubjects_a8e97b147f9bdef32d49612c04b87e348}{
+\index{Subjects@{Subjects}!subjects@{subjects}}
+\index{subjects@{subjects}!Subjects@{Subjects}}
+\subsubsection[{subjects}]{\setlength{\rightskip}{0pt plus 5cm}QList$<${\bf Subject}$>$ {\bf Subjects::subjects}}}
+\label{classSubjects_a8e97b147f9bdef32d49612c04b87e348}
+
+
+Lista przedmiotów. 
+
+
+
+Definicja w linii 11 pliku subjects.h.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{subjects_8h}{subjects.h}\item 
+src/\hyperlink{events_8cpp}{events.cpp}\item 
+src/\hyperlink{subjects_8cpp}{subjects.cpp}\end{DoxyCompactItemize}

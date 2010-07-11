@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>SchoolTools - Schedule: Plik źródłowy src/mark.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.3 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li><a href="dirs.html"><span>Katalogi</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="dir_0ffeab24d93772fbe098d1cc681459a6.html">src</a>
+  </div>
+</div>
+<div class="contents">
+<h1>mark.cpp</h1><a href="mark_8cpp.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#include &quot;../include/mark.h&quot;</span>
+<a name="l00002"></a>00002 
+<a name="l00003"></a><a class="code" href="mark_8cpp.html#aca6a3ced8f56642a23521b6bbd6b2b79">00003</a> QDataStream &amp; <a class="code" href="event_8h.html#a62e8730ab4dc16e3d456b527a12635b3" title="Zapisuje informacje o danym wydarzeniu do danego strumienia.">operator&lt;&lt; </a>(QDataStream&amp; stream, <span class="keyword">const</span> <a class="code" href="classMark.html" title="Klasa przechowująca informacje o pojedyńczym skutku wydarzenia.">Mark</a>&amp; mark) <span class="keywordflow">throw</span>(QString)
+<a name="l00004"></a>00004 {
+<a name="l00005"></a>00005     mark.checkInitialized();
+<a name="l00006"></a>00006     <span class="keywordflow">return</span> stream&lt;&lt;mark.top&lt;&lt;mark.sign&lt;&lt;mark.termID;
+<a name="l00007"></a>00007 }
+<a name="l00008"></a>00008 
+<a name="l00009"></a><a class="code" href="mark_8cpp.html#a393b3ad61666e9120a3ed85b50074bc7">00009</a> QDataStream &amp; <a class="code" href="event_8h.html#a055427e98ad131966edb6fb652add004" title="Odczytuje informacje o danym wydarzeniu z danego strumienia.">operator&gt;&gt; </a>(QDataStream&amp; stream, <a class="code" href="classMark.html" title="Klasa przechowująca informacje o pojedyńczym skutku wydarzenia.">Mark</a>&amp; mark) <span class="keywordflow">throw</span>(QString)
+<a name="l00010"></a>00010 {
+<a name="l00011"></a>00011     mark.makeInitialized();
+<a name="l00012"></a>00012     <span class="keywordflow">return</span> stream&gt;&gt;mark.top&gt;&gt;mark.sign&gt;&gt;mark.termID;
+<a name="l00013"></a>00013 }
+</pre></div></div>
+<hr class="footer"/><address style="text-align: right;"><small>Wygenerowano Sat Jul 10 18:45:14 2010 dla SchoolTools - Schedule programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>

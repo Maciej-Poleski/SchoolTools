@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>SchoolTools - Schedule: Plik źródłowy src/subjects.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.3 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li><a href="dirs.html"><span>Katalogi</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="dir_0ffeab24d93772fbe098d1cc681459a6.html">src</a>
+  </div>
+</div>
+<div class="contents">
+<h1>subjects.cpp</h1><a href="subjects_8cpp.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#include &quot;../include/subjects.h&quot;</span>
+<a name="l00002"></a>00002 
+<a name="l00003"></a>00003 <span class="keywordtype">bool</span> <a class="code" href="classSubjects.html#ae5f842f095e3091ce71261dc415435f8" title="Czy istnieje jakiś obiekt tej klasy.">Subjects::existOne</a>=<span class="keyword">false</span>;
+<a name="l00004"></a>00004 
+<a name="l00005"></a><a class="code" href="classSubjects.html#a0cd717f05a3c48e7c975d2382bd9a476">00005</a> <a class="code" href="classSubjects.html" title="Obiekt klasy reprezentuje wszystkie przedmioty.">Subjects</a> <a class="code" href="classSubjects.html#a0cd717f05a3c48e7c975d2382bd9a476" title="Tworzy instancje klasy.">Subjects::create</a>() throw(<span class="keywordtype">char</span>*)
+<a name="l00006"></a>00006 {
+<a name="l00007"></a>00007     <span class="keywordflow">if</span> (<a class="code" href="classSubjects.html#ae5f842f095e3091ce71261dc415435f8" title="Czy istnieje jakiś obiekt tej klasy.">existOne</a>)
+<a name="l00008"></a>00008         <span class="keywordflow">throw</span> <span class="stringliteral">&quot;Obiekt już istnieje!&quot;</span>;
+<a name="l00009"></a>00009     <a class="code" href="classSubjects.html#ae5f842f095e3091ce71261dc415435f8" title="Czy istnieje jakiś obiekt tej klasy.">existOne</a>=<span class="keyword">true</span>;
+<a name="l00010"></a>00010     <span class="keywordflow">return</span> <a class="code" href="classSubjects.html#a9c612fd91f35bc313a27abc8cb206804" title="Oznacza nowy obiekt jako niezainicjalizowany.">Subjects</a>();
+<a name="l00011"></a>00011 }
+<a name="l00012"></a>00012 
+<a name="l00013"></a><a class="code" href="classSubjects.html#af4479638d52ac8ec338a7bfb94df9dda">00013</a> <span class="keywordtype">bool</span> <a class="code" href="classSubjects.html#af4479638d52ac8ec338a7bfb94df9dda" title="Porównuje ze sobą obiekty pod kątem identyczności.">Subjects::operator==</a>(<span class="keyword">const</span> <a class="code" href="classSubjects.html" title="Obiekt klasy reprezentuje wszystkie przedmioty.">Subjects</a> &amp;o)<span class="keyword"> const</span>
+<a name="l00014"></a>00014 <span class="keyword"></span>{
+<a name="l00015"></a>00015     <span class="keywordflow">return</span> <a class="code" href="classInitializable.html#a0d9f25f381621c834296c8935119bc9f" title="Decyduje o tym, czy powstający obiekt jest zainicjalizowany.">Initializable</a>(*<span class="keyword">this</span>)==<a class="code" href="classInitializable.html#a0d9f25f381621c834296c8935119bc9f" title="Decyduje o tym, czy powstający obiekt jest zainicjalizowany.">Initializable</a>(o) &amp;&amp; <a class="code" href="classSubjects.html#a31677c61fa2c31db7b8d17ac96ddd83e" title="Generator identyfikatorów przedmiotów.">subjectIDGenerator</a>==o.<a class="code" href="classSubjects.html#a31677c61fa2c31db7b8d17ac96ddd83e" title="Generator identyfikatorów przedmiotów.">subjectIDGenerator</a> &amp;&amp; <a class="code" href="classSubjects.html#afa6a8c6a43a61d783e32856618acfeac" title="Lista przedmiotów.">subjects</a>==o.<a class="code" href="classSubjects.html#afa6a8c6a43a61d783e32856618acfeac" title="Lista przedmiotów.">subjects</a> &amp;&amp; <a class="code" href="classSubjects.html#ab78d427a313ec0b2d59d0d26d31251bd" title="Lista odnośników [pozycja w ComboBox]--&amp;gt;[pozycja w subjects].">subjectMapping</a>==o.<a class="code" href="classSubjects.html#ab78d427a313ec0b2d59d0d26d31251bd" title="Lista odnośników [pozycja w ComboBox]--&amp;gt;[pozycja w subjects].">subjectMapping</a>;
+<a name="l00016"></a>00016 }
+</pre></div></div>
+<hr class="footer"/><address style="text-align: right;"><small>Wygenerowano Sat Jul 10 18:45:14 2010 dla SchoolTools - Schedule programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>

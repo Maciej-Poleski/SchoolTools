@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>SchoolTools - Schedule: Dokumentacja klasy obsolete::State</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.3 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klasy</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+      <li><a href="dirs.html"><span>Katalogi</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="annotated.html"><span>Lista&nbsp;klas</span></a></li>
+      <li><a href="hierarchy.html"><span>Hierarchia&nbsp;klas</span></a></li>
+      <li><a href="functions.html"><span>Składowe&nbsp;klas</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="namespaceobsolete.html">obsolete</a>::<a class="el" href="classobsolete_1_1State.html">State</a>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja klasy obsolete::State</h1><!-- doxytag: class="obsolete::State" -->
+<p>Klasa przechowująca wszelkie informacje o stanie aplikacji, bazy danych i danych.  
+<a href="#_details">Więcej...</a></p>
+
+<p><code>#include &lt;<a class="el" href="state_8h_source.html">state.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagram współpracy dla obsolete::State:</div>
+<div class="dynsection">
+<div class="center"><img src="classobsolete_1_1State__coll__graph.png" border="0" usemap="#obsolete_1_1State_coll__map" alt="Collaboration graph"/></div>
+<map name="obsolete_1_1State_coll__map" id="obsolete_1_1State_coll__map">
+<area shape="rect" id="node2" href="classIDGenerator.html" title="Generator identyfikatorów określonego typu." alt="" coords="5,195,133,421"/></map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+
+<p><a href="classobsolete_1_1State-members.html">Lista wszystkich składowych.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Statyczne atrybuty publiczne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classIDGenerator.html">IDGenerator</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobsolete_1_1State.html#a79baf22dac86724b99d4b2b785e38875">subjectIDGenerator</a></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Generator identyfikatorów przedmiotów.  <a href="#a79baf22dac86724b99d4b2b785e38875"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static QStringList&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobsolete_1_1State.html#aeaa49570838d7cd7bb5585385df92b1c">subjects</a></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Lista przedmiotów. subjects[<a class="el" href="classobsolete_1_1SubjectID.html" title="Klasa reprezentująca identyfikator przedmiotu.">SubjectID</a>] = Przedmiot o zadanym identyfikatorze.  <a href="#aeaa49570838d7cd7bb5585385df92b1c"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classQList.html">QList</a>&lt; <a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a> &gt;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobsolete_1_1State.html#acbed5e9ef96a7bf365f2429e1384bd03">subjectMapping</a></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Lista odnośników [pozycja w ComboBox]--&gt;[pozycja w subjects].  <a href="#acbed5e9ef96a7bf365f2429e1384bd03"></a><br/></td></tr>
+<tr><td colspan="2"><h2>Metody prywatne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobsolete_1_1State.html#ac8dd10c3b5045899fc6095b1c79d27d1">State</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Nie wolno tworzyć obiektów tej klasy.  <a href="#ac8dd10c3b5045899fc6095b1c79d27d1"></a><br/></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Opis szczegółowy</h2>
+<p>Klasa przechowująca wszelkie informacje o stanie aplikacji, bazy danych i danych. </p>
+<p>Jest to kontener na informacje o przedmiotach.</p>
+<p>Nie wolno tworzyć obiektów tej klasy, wszystkie pola są statyczne. </p>
+
+<p>Definicja w linii <a class="el" href="state_8h_source.html#l00015">15</a> pliku <a class="el" href="state_8h_source.html">state.h</a>.</p>
+<hr/><h2>Dokumentacja konstruktora i destruktora</h2>
+<a class="anchor" id="ac8dd10c3b5045899fc6095b1c79d27d1"></a><!-- doxytag: member="obsolete::State::State" ref="ac8dd10c3b5045899fc6095b1c79d27d1" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obsolete::State::State </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline, private]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Nie wolno tworzyć obiektów tej klasy. </p>
+
+<p>Definicja w linii <a class="el" href="state_8h_source.html#l00023">23</a> pliku <a class="el" href="state_8h_source.html">state.h</a>.</p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja atrybutów składowych</h2>
+<a class="anchor" id="a79baf22dac86724b99d4b2b785e38875"></a><!-- doxytag: member="obsolete::State::subjectIDGenerator" ref="a79baf22dac86724b99d4b2b785e38875" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classIDGenerator.html">IDGenerator</a> <a class="el" href="classobsolete_1_1State.html#a79baf22dac86724b99d4b2b785e38875">obsolete::State::subjectIDGenerator</a><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Generator identyfikatorów przedmiotów. </p>
+
+<p>Definicja w linii <a class="el" href="state_8h_source.html#l00018">18</a> pliku <a class="el" href="state_8h_source.html">state.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acbed5e9ef96a7bf365f2429e1384bd03"></a><!-- doxytag: member="obsolete::State::subjectMapping" ref="acbed5e9ef96a7bf365f2429e1384bd03" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classQList.html">QList</a>&lt;<a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a>&gt; <a class="el" href="classobsolete_1_1State.html#acbed5e9ef96a7bf365f2429e1384bd03">obsolete::State::subjectMapping</a><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Lista odnośników [pozycja w ComboBox]--&gt;[pozycja w subjects]. </p>
+
+<p>Definicja w linii <a class="el" href="state_8h_source.html#l00020">20</a> pliku <a class="el" href="state_8h_source.html">state.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeaa49570838d7cd7bb5585385df92b1c"></a><!-- doxytag: member="obsolete::State::subjects" ref="aeaa49570838d7cd7bb5585385df92b1c" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList <a class="el" href="classobsolete_1_1State.html#aeaa49570838d7cd7bb5585385df92b1c">obsolete::State::subjects</a><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Lista przedmiotów. subjects[<a class="el" href="classobsolete_1_1SubjectID.html" title="Klasa reprezentująca identyfikator przedmiotu.">SubjectID</a>] = Przedmiot o zadanym identyfikatorze. </p>
+
+<p>Definicja w linii <a class="el" href="state_8h_source.html#l00019">19</a> pliku <a class="el" href="state_8h_source.html">state.h</a>.</p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z pliku:<ul>
+<li>include/obsolete/<a class="el" href="state_8h_source.html">state.h</a></li>
+</ul>
+</div>
+<hr class="footer"/><address style="text-align: right;"><small>Wygenerowano Sat Jul 10 18:45:26 2010 dla SchoolTools - Schedule programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>

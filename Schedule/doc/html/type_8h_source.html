@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>SchoolTools - Schedule: Plik źródłowy include/type.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.3 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li><a href="dirs.html"><span>Katalogi</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="dir_d86edb86472748ce3b9447a9e360126c.html">include</a>
+  </div>
+</div>
+<div class="contents">
+<h1>type.h</h1><a href="type_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#ifndef TYPE_H</span>
+<a name="l00002"></a>00002 <span class="preprocessor"></span><span class="preprocessor">#define TYPE_H</span>
+<a name="l00003"></a>00003 <span class="preprocessor"></span>
+<a name="l00004"></a>00004 <span class="preprocessor">#include &lt;QtCore/QString&gt;</span>
+<a name="l00005"></a>00005 
+<a name="l00006"></a>00006 <span class="preprocessor">#include &quot;<a class="code" href="initializable_8h.html">initializable.h</a>&quot;</span>
+<a name="l00007"></a>00007 <span class="preprocessor">#include &quot;<a class="code" href="deletable_8h.html">deletable.h</a>&quot;</span>
+<a name="l00008"></a>00008 
+<a name="l00016"></a><a class="code" href="classType.html">00016</a> <span class="keyword">class </span><a class="code" href="classType.html" title="Reprezentuje dany typ wydarzenia.">Type</a> : <span class="keyword">private</span> <a class="code" href="classInitializable.html" title="Określa klasy inicjalizowalne.">Initializable</a>, <span class="keyword">private</span> <a class="code" href="classDeletable.html" title="Reprezentuje klasy których obiekty są usuwalne.">Deletable</a>
+<a name="l00017"></a>00017 {
+<a name="l00018"></a>00018 <span class="keyword">public</span>:
+<a name="l00019"></a>00019 <span class="keyword">private</span>:
+<a name="l00020"></a><a class="code" href="classType.html#a6e24434e904a6dfd418c73f160460bac">00020</a>     QString <a class="code" href="classType.html#a6e24434e904a6dfd418c73f160460bac" title="Nazwa typu.">name</a>;               
+<a name="l00021"></a>00021 <span class="keyword">public</span>:
+<a name="l00025"></a><a class="code" href="classType.html#a7c47a365d99b366adfac28bf358a2677">00025</a>     <a class="code" href="classType.html#a7c47a365d99b366adfac28bf358a2677" title="Konstruktor.">Type</a>(QString <a class="code" href="classType.html#a6e24434e904a6dfd418c73f160460bac" title="Nazwa typu.">name</a>) : name(name), <a class="code" href="classInitializable.html" title="Określa klasy inicjalizowalne.">Initializable</a>(true), <a class="code" href="classDeletable.html" title="Reprezentuje klasy których obiekty są usuwalne.">Deletable</a>(false) {}
+<a name="l00026"></a>00026     
+<a name="l00028"></a><a class="code" href="classType.html#a78339313d36891f18427c431ea84e306">00028</a>     <a class="code" href="classType.html#a78339313d36891f18427c431ea84e306" title="Konstruktor.">Type</a>() : <a class="code" href="classInitializable.html" title="Określa klasy inicjalizowalne.">Initializable</a>(false), <a class="code" href="classDeletable.html" title="Reprezentuje klasy których obiekty są usuwalne.">Deletable</a>(false) {}
+<a name="l00029"></a>00029     
+<a name="l00034"></a><a class="code" href="classType.html#a66a783162b2d7b76c88bfcf116808c34">00034</a>     <span class="keywordtype">bool</span> <a class="code" href="classType.html#a66a783162b2d7b76c88bfcf116808c34" title="Porównuje ze sobą obiekty pod kątem identyczności.">operator==</a>(<span class="keyword">const</span> <a class="code" href="classType.html" title="Reprezentuje dany typ wydarzenia.">Type</a> &amp;o)<span class="keyword"> const</span>
+<a name="l00035"></a>00035 <span class="keyword">    </span>{
+<a name="l00036"></a>00036         <span class="keywordflow">return</span> <a class="code" href="classInitializable.html#a0d9f25f381621c834296c8935119bc9f" title="Decyduje o tym, czy powstający obiekt jest zainicjalizowany.">Initializable</a>(*<span class="keyword">this</span>)==<a class="code" href="classInitializable.html#a0d9f25f381621c834296c8935119bc9f" title="Decyduje o tym, czy powstający obiekt jest zainicjalizowany.">Initializable</a>(o) &amp;&amp; <a class="code" href="classDeletable.html#a0f7c43f5e6ff5b97884fad16e95cfc97" title="Decyduje o tym, czy powstający obiekt istnieje.">Deletable</a>(*<span class="keyword">this</span>)==<a class="code" href="classDeletable.html#a0f7c43f5e6ff5b97884fad16e95cfc97" title="Decyduje o tym, czy powstający obiekt istnieje.">Deletable</a>(o) &amp;&amp; <a class="code" href="classType.html#a6e24434e904a6dfd418c73f160460bac" title="Nazwa typu.">name</a>==o.<a class="code" href="classType.html#a6e24434e904a6dfd418c73f160460bac" title="Nazwa typu.">name</a>;
+<a name="l00037"></a>00037     }
+<a name="l00038"></a>00038     
+<a name="l00039"></a>00039 <span class="keyword">private</span>:
+<a name="l00040"></a>00040 };
+<a name="l00041"></a>00041 
+<a name="l00042"></a>00042 <span class="preprocessor">#endif // TYPE_H</span>
+</pre></div></div>
+<hr class="footer"/><address style="text-align: right;"><small>Wygenerowano Sat Jul 10 18:45:14 2010 dla SchoolTools - Schedule programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>

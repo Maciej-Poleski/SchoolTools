@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>SchoolTools - Schedule: Plik źródłowy src/events.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.3 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li><a href="dirs.html"><span>Katalogi</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="dir_0ffeab24d93772fbe098d1cc681459a6.html">src</a>
+  </div>
+</div>
+<div class="contents">
+<h1>events.cpp</h1><a href="events_8cpp.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#include &quot;../include/events.h&quot;</span>
+<a name="l00002"></a>00002 
+<a name="l00003"></a>00003 <span class="keywordtype">bool</span> <a class="code" href="classEvents.html#a5b2f7b7d038ce9447080499b0736c4fe" title="Czy istnieje jakiś obiekt tej klasy.">Events::existOne</a>=<span class="keyword">false</span>;
+<a name="l00004"></a>00004 
+<a name="l00005"></a><a class="code" href="events_8cpp.html#a560f3fdc9b76a9fe9146335122ecda39">00005</a> QDataStream &amp; <a class="code" href="event_8h.html#a62e8730ab4dc16e3d456b527a12635b3" title="Zapisuje informacje o danym wydarzeniu do danego strumienia.">operator&lt;&lt; </a>(QDataStream&amp; stream, <span class="keyword">const</span> <a class="code" href="classEvents.html" title="Klasa przechowuje wszystkie wydarzenia i zarządza nimi.">Events</a>&amp; events)
+<a name="l00006"></a>00006 {
+<a name="l00007"></a>00007     <span class="keywordflow">return</span> stream&lt;&lt;events.<a class="code" href="classEvents.html#aee8768258412e3f8d298a539e038169c" title="Generator identyfikatorów wydarzeń.">eventIDGenerator</a>&lt;&lt;events.<a class="code" href="classEvents.html#a5356edbf1b04707635693988919f5457" title="Lista wszystkich wydarzeń. Będzie się powiększać.">events</a>;
+<a name="l00008"></a>00008 }
+<a name="l00009"></a>00009 
+<a name="l00010"></a><a class="code" href="events_8cpp.html#a9e3a2b909c5dcbc9519365ccafc4a96f">00010</a> QDataStream &amp; <a class="code" href="event_8h.html#a055427e98ad131966edb6fb652add004" title="Odczytuje informacje o danym wydarzeniu z danego strumienia.">operator&gt;&gt; </a>(QDataStream&amp; stream, <a class="code" href="classEvents.html" title="Klasa przechowuje wszystkie wydarzenia i zarządza nimi.">Events</a>&amp; events)
+<a name="l00011"></a>00011 {
+<a name="l00012"></a>00012     <span class="keywordflow">return</span> stream&gt;&gt;events.<a class="code" href="classEvents.html#aee8768258412e3f8d298a539e038169c" title="Generator identyfikatorów wydarzeń.">eventIDGenerator</a>&gt;&gt;events.<a class="code" href="classEvents.html#a5356edbf1b04707635693988919f5457" title="Lista wszystkich wydarzeń. Będzie się powiększać.">events</a>;
+<a name="l00013"></a>00013 }
+<a name="l00014"></a>00014 
+<a name="l00015"></a><a class="code" href="classEvents.html#afb346fb0339e89dd2093dec8f0620da7">00015</a> <span class="keywordtype">void</span> <a class="code" href="classEvents.html#afb346fb0339e89dd2093dec8f0620da7" title="Dodaje nowe wydarzenie.">Events::addEvent</a>(<a class="code" href="classEvent.html" title="Reprezentuje zdarzenie w postaci zdefiniowanej przez użytkownika.">Event</a> newEvent)
+<a name="l00016"></a>00016 {
+<a name="l00017"></a>00017     <a class="code" href="classEvents.html#a5356edbf1b04707635693988919f5457" title="Lista wszystkich wydarzeń. Będzie się powiększać.">Events::events</a>&lt;&lt;newEvent;
+<a name="l00018"></a>00018 }
+<a name="l00019"></a>00019 
+<a name="l00020"></a><a class="code" href="classEvents.html#ac4ccb0fd05c7bc876b95cf6cdd549666">00020</a> <a class="code" href="classEvents.html" title="Klasa przechowuje wszystkie wydarzenia i zarządza nimi.">Events</a> <a class="code" href="classEvents.html#ac4ccb0fd05c7bc876b95cf6cdd549666" title="Tworzy instancje klasy.">Events::create</a>() throw(QString)
+<a name="l00021"></a>00021 {
+<a name="l00022"></a>00022     <span class="keywordflow">if</span> (<a class="code" href="classEvents.html#a5b2f7b7d038ce9447080499b0736c4fe" title="Czy istnieje jakiś obiekt tej klasy.">existOne</a>)
+<a name="l00023"></a>00023         <span class="keywordflow">throw</span> <span class="stringliteral">&quot;Obiekt już istnieje!&quot;</span>;
+<a name="l00024"></a>00024     <a class="code" href="classEvents.html#a5b2f7b7d038ce9447080499b0736c4fe" title="Czy istnieje jakiś obiekt tej klasy.">existOne</a>=<span class="keyword">true</span>;
+<a name="l00025"></a>00025     <span class="keywordflow">return</span> <a class="code" href="classEvents.html#aab651428bab6b09db3564753afb225a6" title="Oznacza nowy obiekt jako niezainicjalizowany.">Events</a>();
+<a name="l00026"></a>00026 }
+<a name="l00027"></a>00027 
+<a name="l00028"></a><a class="code" href="classEvents.html#ad6467bc04bf41ee2857f6ab114a4ce57">00028</a> <span class="keywordtype">bool</span> <a class="code" href="classEvents.html#ad6467bc04bf41ee2857f6ab114a4ce57" title="Porównuje ze sobą obiekty pod kątem identyczności.">Events::operator==</a>(<span class="keyword">const</span> <a class="code" href="classEvents.html" title="Klasa przechowuje wszystkie wydarzenia i zarządza nimi.">Events</a>&amp; o)<span class="keyword"> const</span>
+<a name="l00029"></a>00029 <span class="keyword"></span>{
+<a name="l00030"></a>00030     <span class="keywordflow">return</span> <a class="code" href="classInitializable.html#a0d9f25f381621c834296c8935119bc9f" title="Decyduje o tym, czy powstający obiekt jest zainicjalizowany.">Initializable</a>(*<span class="keyword">this</span>)==<a class="code" href="classInitializable.html#a0d9f25f381621c834296c8935119bc9f" title="Decyduje o tym, czy powstający obiekt jest zainicjalizowany.">Initializable</a>(o) &amp;&amp; <a class="code" href="classEvents.html#aee8768258412e3f8d298a539e038169c" title="Generator identyfikatorów wydarzeń.">eventIDGenerator</a>==o.<a class="code" href="classEvents.html#aee8768258412e3f8d298a539e038169c" title="Generator identyfikatorów wydarzeń.">eventIDGenerator</a> &amp;&amp; <a class="code" href="classEvents.html#a5356edbf1b04707635693988919f5457" title="Lista wszystkich wydarzeń. Będzie się powiększać.">events</a>==o.<a class="code" href="classEvents.html#a5356edbf1b04707635693988919f5457" title="Lista wszystkich wydarzeń. Będzie się powiększać.">events</a>;
+<a name="l00031"></a>00031 }
+</pre></div></div>
+<hr class="footer"/><address style="text-align: right;"><small>Wygenerowano Sat Jul 10 18:45:14 2010 dla SchoolTools - Schedule programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>

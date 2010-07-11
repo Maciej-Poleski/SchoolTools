@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classDeletable.html" title="Reprezentuje klasy których obiekty są usuwalne." alt="" coords="9,33,100,66"/>
+<area shape="rect" id="node3" href="$classSubject.html" title="Reprezentuje informacje o pojedyńczym przedmiocie." alt="" coords="157,61,232,94"/>
+<area shape="rect" id="node5" href="$classType.html" title="Reprezentuje dany typ wydarzenia." alt="" coords="165,5,224,38"/>
+<area shape="rect" id="node6" href="$classInitializable.html" title="Określa klasy inicjalizowalne." alt="" coords="5,173,104,206"/>
+<area shape="rect" id="node8" href="$classEvent.html" title="Reprezentuje zdarzenie w postaci zdefiniowanej przez użytkownika." alt="" coords="164,173,225,206"/>
+<area shape="rect" id="node10" href="$classEvents.html" title="Klasa przechowuje wszystkie wydarzenia i zarządza nimi." alt="" coords="160,229,229,262"/>
+<area shape="rect" id="node12" href="$classMark.html" title="Klasa przechowująca informacje o pojedyńczym skutku wydarzenia." alt="" coords="167,285,223,318"/>
+<area shape="rect" id="node15" href="$classSubjects.html" title="Obiekt klasy reprezentuje wszystkie przedmioty." alt="" coords="153,117,236,150"/>
+<area shape="rect" id="node17" href="$classTerm.html" title="Reprezentacja egzekucji wydarzenia." alt="" coords="165,341,224,374"/>
+<area shape="rect" id="node19" href="$classQDate.html" title="QDate" alt="" coords="20,341,89,374"/>
+</map>

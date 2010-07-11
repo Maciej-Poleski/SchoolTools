@@ -1,0 +1,151 @@
+\hypertarget{idgenerator_8cpp}{
+\section{Dokumentacja pliku src/idgenerator.cpp}
+\label{idgenerator_8cpp}\index{src/idgenerator.cpp@{src/idgenerator.cpp}}
+}
+{\ttfamily \#include \char`\"{}../include/idgenerator.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}generatoridgenerator.h\char`\"{}}\par
+Wykres zależności załączania dla idgenerator.cpp:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=198pt]{idgenerator_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+QDataStream \& \hyperlink{idgenerator_8cpp_a4eb9e946c558bb876ce7b8fa462bfd5e}{operator$<$$<$} (QDataStream \&stream, const \hyperlink{classIDGenerator_1_1ID}{IDGenerator::ID} \&id)
+\begin{DoxyCompactList}\small\item\em Zapisuje dany identyfikator do danego strumienia. \item\end{DoxyCompactList}\item 
+QDataStream \& \hyperlink{idgenerator_8cpp_aeca67851b2c46cd46266ca668e8dc63c}{operator$>$$>$} (QDataStream \&stream, \hyperlink{classIDGenerator_1_1ID}{IDGenerator::ID} \&id)
+\begin{DoxyCompactList}\small\item\em Odczytuje dany identyfikator z danego strumienia. \item\end{DoxyCompactList}\item 
+QDataStream \& \hyperlink{idgenerator_8cpp_a244688be6d84ec73612ddd66ab376bd1}{operator$<$$<$} (QDataStream \&stream, const \hyperlink{classIDGenerator}{IDGenerator} \&generator)
+\begin{DoxyCompactList}\small\item\em Zapisuje dany generator identyfikatorów do danego strumienia. \item\end{DoxyCompactList}\item 
+QDataStream \& \hyperlink{idgenerator_8cpp_a4f86069b5b5ede60ff2e613fbcf10de4}{operator$>$$>$} (QDataStream \&stream, \hyperlink{classIDGenerator}{IDGenerator} \&generator)
+\begin{DoxyCompactList}\small\item\em Odczytuje dany generator identyfikatorów z danego strumienia. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Dokumentacja funkcji}
+\hypertarget{idgenerator_8cpp_a244688be6d84ec73612ddd66ab376bd1}{
+\index{idgenerator.cpp@{idgenerator.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!idgenerator.cpp@{idgenerator.cpp}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$<$$<$ (QDataStream \& {\em stream}, \/  const {\bf IDGenerator} \& {\em generator})}}
+\label{idgenerator_8cpp_a244688be6d84ec73612ddd66ab376bd1}
+
+
+Zapisuje dany generator identyfikatorów do danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień do którego będzie zapisany generator identyfikatorów. \item[{\em generator}]Generator identyfikatorów który zostanie zapisany. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+
+
+Definicja w linii 30 pliku idgenerator.cpp.
+
+
+
+Odwołuje się do IDGenerator::freeID i IDGenerator::type.
+
+
+
+
+\begin{DoxyCode}
+31 {
+32     return stream<<generator.type<<generator.freeID;
+33 }
+\end{DoxyCode}
+
+
+\hypertarget{idgenerator_8cpp_a4eb9e946c558bb876ce7b8fa462bfd5e}{
+\index{idgenerator.cpp@{idgenerator.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!idgenerator.cpp@{idgenerator.cpp}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$<$$<$ (QDataStream \& {\em stream}, \/  const {\bf IDGenerator::ID} \& {\em id})}}
+\label{idgenerator_8cpp_a4eb9e946c558bb876ce7b8fa462bfd5e}
+
+
+Zapisuje dany identyfikator do danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień do którego będzie zapisany identyfikator. \item[{\em id}]Identyfikator który zostanie zapisany. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+
+
+Definicja w linii 20 pliku idgenerator.cpp.
+
+
+
+
+\begin{DoxyCode}
+21 {
+22     return stream<<id.type<<id.id;
+23 }
+\end{DoxyCode}
+
+
+\hypertarget{idgenerator_8cpp_a4f86069b5b5ede60ff2e613fbcf10de4}{
+\index{idgenerator.cpp@{idgenerator.cpp}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!idgenerator.cpp@{idgenerator.cpp}}
+\subsubsection[{operator$>$$>$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$>$$>$ (QDataStream \& {\em stream}, \/  {\bf IDGenerator} \& {\em generator})}}
+\label{idgenerator_8cpp_a4f86069b5b5ede60ff2e613fbcf10de4}
+
+
+Odczytuje dany generator identyfikatorów z danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień z którego będzie odczytany generator identyfikatorów. \item[{\em generator}]Generator identyfikatorów który zostanie zainicjalizowany odczytanymi danymi. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+
+
+Definicja w linii 35 pliku idgenerator.cpp.
+
+
+
+Odwołuje się do IDGenerator::freeID i IDGenerator::type.
+
+
+
+
+\begin{DoxyCode}
+36 {
+37     return stream>>generator.type>>generator.freeID;
+38 }
+\end{DoxyCode}
+
+
+\hypertarget{idgenerator_8cpp_aeca67851b2c46cd46266ca668e8dc63c}{
+\index{idgenerator.cpp@{idgenerator.cpp}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!idgenerator.cpp@{idgenerator.cpp}}
+\subsubsection[{operator$>$$>$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$>$$>$ (QDataStream \& {\em stream}, \/  {\bf IDGenerator::ID} \& {\em id})}}
+\label{idgenerator_8cpp_aeca67851b2c46cd46266ca668e8dc63c}
+
+
+Odczytuje dany identyfikator z danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień z którego będzie odczytany identyfikator. \item[{\em id}]Identyfikator który zostanie zainicjalizowany odczytanymi danymi. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+
+
+Definicja w linii 25 pliku idgenerator.cpp.
+
+
+
+
+\begin{DoxyCode}
+26 {
+27     return stream>>id.type>>id.id;
+28 }
+\end{DoxyCode}
+
+

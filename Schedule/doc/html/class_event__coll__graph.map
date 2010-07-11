@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_type_i_d.html" title="Klasa reprezentująca identyfikator typu wydarzenie." alt="" coords="17,369,92,466"/>
+<area shape="rect" id="node4" href="$class_abstract_reserved_i_d.html" title="Klasa reprezentująca identyfikatory rezerwowane z góry." alt="" coords="5,219,173,317"/>
+<area shape="rect" id="node8" href="$class_subject_i_d.html" title="Klasa reprezentująca identyfikator przedmiotu." alt="" coords="116,369,207,466"/>
+<area shape="rect" id="node6" href="$class_abstract_i_d.html" title="Podstawa dla wszystkich klas identyfikatorów." alt="" coords="20,6,159,167"/>
+</map>

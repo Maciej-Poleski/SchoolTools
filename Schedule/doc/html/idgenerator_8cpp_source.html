@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>SchoolTools - Schedule: Plik źródłowy src/idgenerator.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.3 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li><a href="dirs.html"><span>Katalogi</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="dir_0ffeab24d93772fbe098d1cc681459a6.html">src</a>
+  </div>
+</div>
+<div class="contents">
+<h1>idgenerator.cpp</h1><a href="idgenerator_8cpp.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#include &quot;../include/idgenerator.h&quot;</span>
+<a name="l00002"></a>00002 <span class="preprocessor">#include &quot;<a class="code" href="generatoridgenerator_8h.html">generatoridgenerator.h</a>&quot;</span>
+<a name="l00003"></a>00003 
+<a name="l00004"></a><a class="code" href="classIDGenerator.html#a16c5cba9a30dc95d05b72a1253fb54b2">00004</a> <span class="keywordtype">void</span> <a class="code" href="classIDGenerator.html#a16c5cba9a30dc95d05b72a1253fb54b2" title="Inicjalizuje dany generator identyfikatorów.">IDGenerator::initialize</a>() throw(<span class="keywordtype">char</span>*)
+<a name="l00005"></a>00005 {
+<a name="l00006"></a>00006     <span class="keywordflow">if</span> (<a class="code" href="classIDGenerator.html#aa32e8737179aa306290f3aafed377de2" title="Typ identyfikatorów generowanych przez dany generator.">type</a>!=0LL)
+<a name="l00007"></a>00007         <span class="keywordflow">throw</span> <span class="stringliteral">&quot;Error&quot;</span>;
+<a name="l00008"></a>00008     *<span class="keyword">this</span>=<a class="code" href="classGeneratorIDGenerator.html#ac6dd43ecbbe2ed1647855e72156dbcb2" title="Generuje następny generator identyfikatorów.">GeneratorIDGenerator::nextIDGenerator</a>();
+<a name="l00009"></a>00009 }
+<a name="l00010"></a>00010 
+<a name="l00011"></a><a class="code" href="classIDGenerator.html#a1cead736be7f5fae000fe1c5f225234b">00011</a> <a class="code" href="classIDGenerator.html" title="Generator identyfikatorów określonego typu.">IDGenerator</a>&amp; <a class="code" href="classIDGenerator.html#a1cead736be7f5fae000fe1c5f225234b" title="Przeładowany operator przypisania dla upewnienia się, że żaden generator nie...">IDGenerator::operator=</a>(<span class="keyword">const</span> <a class="code" href="classIDGenerator.html" title="Generator identyfikatorów określonego typu.">IDGenerator</a>&amp; o) <span class="keywordflow">throw</span>(<span class="keywordtype">char</span>*)
+<a name="l00012"></a>00012 {
+<a name="l00013"></a>00013     <span class="keywordflow">if</span> (type!=0LL)
+<a name="l00014"></a>00014         <span class="keywordflow">throw</span> <span class="stringliteral">&quot;Error&quot;</span>;
+<a name="l00015"></a>00015     type=o.<a class="code" href="classIDGenerator.html#aa32e8737179aa306290f3aafed377de2" title="Typ identyfikatorów generowanych przez dany generator.">type</a>;
+<a name="l00016"></a>00016     freeID=o.freeID;
+<a name="l00017"></a>00017     <span class="keywordflow">return</span> *<span class="keyword">this</span>;
+<a name="l00018"></a>00018 }
+<a name="l00019"></a>00019 
+<a name="l00020"></a><a class="code" href="idgenerator_8cpp.html#a4eb9e946c558bb876ce7b8fa462bfd5e">00020</a> QDataStream &amp; <a class="code" href="event_8h.html#a62e8730ab4dc16e3d456b527a12635b3" title="Zapisuje informacje o danym wydarzeniu do danego strumienia.">operator&lt;&lt; </a>(QDataStream&amp; stream, <span class="keyword">const</span> <a class="code" href="classIDGenerator_1_1ID.html" title="Obiekt reprezentuje dany identyfikator określonego typu.">IDGenerator::ID</a>&amp; <span class="keywordtype">id</span>)
+<a name="l00021"></a>00021 {
+<a name="l00022"></a>00022     <span class="keywordflow">return</span> stream&lt;&lt;<span class="keywordtype">id</span>.type&lt;&lt;<span class="keywordtype">id</span>.id;
+<a name="l00023"></a>00023 }
+<a name="l00024"></a>00024 
+<a name="l00025"></a><a class="code" href="idgenerator_8cpp.html#aeca67851b2c46cd46266ca668e8dc63c">00025</a> QDataStream &amp; <a class="code" href="event_8h.html#a055427e98ad131966edb6fb652add004" title="Odczytuje informacje o danym wydarzeniu z danego strumienia.">operator&gt;&gt; </a>(QDataStream&amp; stream, <a class="code" href="classIDGenerator_1_1ID.html" title="Obiekt reprezentuje dany identyfikator określonego typu.">IDGenerator::ID</a>&amp; <span class="keywordtype">id</span>)
+<a name="l00026"></a>00026 {
+<a name="l00027"></a>00027     <span class="keywordflow">return</span> stream&gt;&gt;<span class="keywordtype">id</span>.type&gt;&gt;<span class="keywordtype">id</span>.id;
+<a name="l00028"></a>00028 }
+<a name="l00029"></a>00029 
+<a name="l00030"></a><a class="code" href="idgenerator_8cpp.html#a244688be6d84ec73612ddd66ab376bd1">00030</a> QDataStream &amp; <a class="code" href="event_8h.html#a62e8730ab4dc16e3d456b527a12635b3" title="Zapisuje informacje o danym wydarzeniu do danego strumienia.">operator&lt;&lt; </a>(QDataStream&amp; stream, <span class="keyword">const</span> <a class="code" href="classIDGenerator.html" title="Generator identyfikatorów określonego typu.">IDGenerator</a>&amp; generator)
+<a name="l00031"></a>00031 {
+<a name="l00032"></a>00032     <span class="keywordflow">return</span> stream&lt;&lt;generator.<a class="code" href="classIDGenerator.html#aa32e8737179aa306290f3aafed377de2" title="Typ identyfikatorów generowanych przez dany generator.">type</a>&lt;&lt;generator.<a class="code" href="classIDGenerator.html#a9a93dd456a6a6ce7c55c61e810849133" title="Pierwszy wolny ID.">freeID</a>;
+<a name="l00033"></a>00033 }
+<a name="l00034"></a>00034 
+<a name="l00035"></a><a class="code" href="idgenerator_8cpp.html#a4f86069b5b5ede60ff2e613fbcf10de4">00035</a> QDataStream &amp; <a class="code" href="event_8h.html#a055427e98ad131966edb6fb652add004" title="Odczytuje informacje o danym wydarzeniu z danego strumienia.">operator&gt;&gt; </a>(QDataStream&amp; stream, <a class="code" href="classIDGenerator.html" title="Generator identyfikatorów określonego typu.">IDGenerator</a>&amp; generator)
+<a name="l00036"></a>00036 {
+<a name="l00037"></a>00037     <span class="keywordflow">return</span> stream&gt;&gt;generator.<a class="code" href="classIDGenerator.html#aa32e8737179aa306290f3aafed377de2" title="Typ identyfikatorów generowanych przez dany generator.">type</a>&gt;&gt;generator.<a class="code" href="classIDGenerator.html#a9a93dd456a6a6ce7c55c61e810849133" title="Pierwszy wolny ID.">freeID</a>;
+<a name="l00038"></a>00038 }
+<a name="l00039"></a>00039 
+<a name="l00040"></a><a class="code" href="classIDGenerator_1_1ID.html#a239f6a12bb0b8ddf74bc5a8e2fdffdf4">00040</a> <a class="code" href="classIDGenerator_1_1ID.html" title="Obiekt reprezentuje dany identyfikator określonego typu.">IDGenerator::ID</a>&amp; <a class="code" href="classIDGenerator_1_1ID.html#a239f6a12bb0b8ddf74bc5a8e2fdffdf4" title="Przypisuje wartość identyfikatora do pustego identyfikatora.">IDGenerator::ID::operator=</a>(<span class="keyword">const</span> <a class="code" href="classIDGenerator_1_1ID.html" title="Obiekt reprezentuje dany identyfikator określonego typu.">ID</a>&amp; o) <span class="keywordflow">throw</span>(<span class="keywordtype">char</span>*)
+<a name="l00041"></a>00041 {
+<a name="l00042"></a>00042     <span class="keywordflow">if</span> (type!=0LL || (type==o.type &amp;&amp; o.id==0))
+<a name="l00043"></a>00043         <span class="keywordflow">throw</span> <span class="stringliteral">&quot;Nie wolno nadpisywać identyfikatorów!&quot;</span>;
+<a name="l00044"></a>00044     <span class="keywordtype">id</span>=o.<a class="code" href="classIDGenerator_1_1ID.html#a0a66ce38daf49be8f52204e65e3fe3db" title="Reprezentowany ID.">id</a>;
+<a name="l00045"></a>00045     type=o.type;
+<a name="l00046"></a>00046     <span class="keywordflow">return</span> *<span class="keyword">this</span>;
+<a name="l00047"></a>00047 }
+</pre></div></div>
+<hr class="footer"/><address style="text-align: right;"><small>Wygenerowano Sat Jul 10 18:45:14 2010 dla SchoolTools - Schedule programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>

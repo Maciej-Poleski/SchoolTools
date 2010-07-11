@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>SchoolTools - Schedule: Dokumentacja klasy TermList</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.3 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klasy</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+      <li><a href="dirs.html"><span>Katalogi</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="annotated.html"><span>Lista&nbsp;klas</span></a></li>
+      <li><a href="hierarchy.html"><span>Hierarchia&nbsp;klas</span></a></li>
+      <li><a href="functions.html"><span>Składowe&nbsp;klas</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja klasy TermList</h1><!-- doxytag: class="TermList" --><!-- doxytag: inherits="QList" -->
+<p>Klasa poszerzająca funkcjonalność QList&lt;Term&gt;  
+<a href="#_details">Więcej...</a></p>
+
+<p><code>#include &lt;<a class="el" href="termlist_8h_source.html">termlist.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagram dziedziczenia dla TermList</div>
+<div class="dynsection">
+<div class="center"><img src="classTermList__inherit__graph.png" border="0" usemap="#TermList_inherit__map" alt="Inheritance graph"/></div>
+<map name="TermList_inherit__map" id="TermList_inherit__map">
+<area shape="rect" id="node2" href="classQList.html" title="{QList\&lt;Term\&gt;\n||}" alt="" coords="9,6,127,103"/></map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<div class="dynheader">
+Diagram współpracy dla TermList:</div>
+<div class="dynsection">
+<div class="center"><img src="classTermList__coll__graph.png" border="0" usemap="#TermList_coll__map" alt="Collaboration graph"/></div>
+<map name="TermList_coll__map" id="TermList_coll__map">
+<area shape="rect" id="node2" href="classQList.html" title="{QList\&lt;Term\&gt;\n||}" alt="" coords="9,6,127,103"/></map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+
+<p><a href="classTermList-members.html">Lista wszystkich składowych.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Metody publiczne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTermList.html#a878ab59406d11d146a04b69a6b108adc">operator==</a> (const <a class="el" href="classTermList.html">TermList</a> &amp;o)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Porównuje ze sobą obiekty pod kątem reprezentacji identycznych danych.  <a href="#a878ab59406d11d146a04b69a6b108adc"></a><br/></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Opis szczegółowy</h2>
+<p>Klasa poszerzająca funkcjonalność QList&lt;Term&gt; </p>
+
+<p>Definicja w linii <a class="el" href="termlist_8h_source.html#l00009">9</a> pliku <a class="el" href="termlist_8h_source.html">termlist.h</a>.</p>
+<hr/><h2>Dokumentacja funkcji składowych</h2>
+<a class="anchor" id="a878ab59406d11d146a04b69a6b108adc"></a><!-- doxytag: member="TermList::operator==" ref="a878ab59406d11d146a04b69a6b108adc" args="(const TermList &amp;o)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TermList::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classTermList.html">TermList</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>o</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Porównuje ze sobą obiekty pod kątem reprezentacji identycznych danych. </p>
+<p>Wykorzystywane do kontroli spójności zapisu.</p>
+<p>Należy zoptymalizować tą metode </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>o</em>&nbsp;</td><td>Obiekt z którym zostanie porównany dany obiekt </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definicja w linii <a class="el" href="termlist_8cpp_source.html#l00003">3</a> pliku <a class="el" href="termlist_8cpp_source.html">termlist.cpp</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00004"></a>00004 {
+<a name="l00005"></a>00005     <span class="keywordflow">if</span>(size()!=o.size())
+<a name="l00006"></a>00006         <span class="keywordflow">return</span> <span class="keyword">false</span>;
+<a name="l00007"></a>00007     <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0;i&lt;size();++i)
+<a name="l00008"></a>00008         <span class="keywordflow">if</span>(this-&gt;<span class="keyword">operator</span>[](i)!=o.operator[](i))
+<a name="l00009"></a>00009             <span class="keywordflow">return</span> <span class="keyword">false</span>;
+<a name="l00010"></a>00010     <span class="keywordflow">return</span> <span class="keyword">true</span>;
+<a name="l00011"></a>00011 }</pre></div></p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li>include/<a class="el" href="termlist_8h_source.html">termlist.h</a></li>
+<li>src/<a class="el" href="termlist_8cpp_source.html">termlist.cpp</a></li>
+</ul>
+</div>
+<hr class="footer"/><address style="text-align: right;"><small>Wygenerowano Fri Jun 4 18:37:58 2010 dla SchoolTools - Schedule programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>

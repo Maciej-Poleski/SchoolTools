@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>SchoolTools - Schedule: Dokumentacja klasy State</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.3 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klasy</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+      <li><a href="dirs.html"><span>Katalogi</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="annotated.html"><span>Lista&nbsp;klas</span></a></li>
+      <li><a href="hierarchy.html"><span>Hierarchia&nbsp;klas</span></a></li>
+      <li><a href="functions.html"><span>Składowe&nbsp;klas</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja klasy State</h1><!-- doxytag: class="State" -->
+<p>Klasa przechowująca wszelkie informacje o stanie aplikacji, bazy danych i danych.  
+<a href="#_details">Więcej...</a></p>
+
+<p><code>#include &lt;<a class="el" href="state_8h_source.html">state.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagram współpracy dla State:</div>
+<div class="dynsection">
+<div class="center"><img src="classState__coll__graph.png" border="0" usemap="#State_coll__map" alt="Collaboration graph"/></div>
+<map name="State_coll__map" id="State_coll__map">
+<area shape="rect" id="node2" href="classIDGenerator.html" title="Generator identyfikatorów określonego typu." alt="" coords="5,195,136,399"/></map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+
+<p><a href="classState-members.html">Lista wszystkich składowych.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Statyczne atrybuty publiczne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classIDGenerator.html">IDGenerator</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classState.html#a01f4b5058c78bb31adf165bd0faa6344">subjectIDGenerator</a></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Generator identyfikatorów przedmiotów.  <a href="#a01f4b5058c78bb31adf165bd0faa6344"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static QStringList&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classState.html#af7ad063d772994bab9fd105827d004aa">subjects</a></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Lista przedmiotów. subjects[SubjectID] = Przedmiot o zadanym identyfikatorze.  <a href="#af7ad063d772994bab9fd105827d004aa"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static QList&lt; <a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a> &gt;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classState.html#a0cb497fc8d4e11237293b066b6651114">subjectMapping</a></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Lista odnośników [pozycja w ComboBox]--&gt;[pozycja w subjects].  <a href="#a0cb497fc8d4e11237293b066b6651114"></a><br/></td></tr>
+<tr><td colspan="2"><h2>Metody prywatne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classState.html#ab91bb1dd5aa6260ab2a456581daf9ec2">State</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Nie wolno tworzyć obiektów tej klasy.  <a href="#ab91bb1dd5aa6260ab2a456581daf9ec2"></a><br/></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Opis szczegółowy</h2>
+<p>Klasa przechowująca wszelkie informacje o stanie aplikacji, bazy danych i danych. </p>
+<p>Jest to kontener na informacje o przedmiotach.</p>
+<p>Nie wolno tworzyć obiektów tej klasy, wszystkie pola są statyczne. </p>
+
+<p>Definicja w linii <a class="el" href="state_8h_source.html#l00012">12</a> pliku <a class="el" href="state_8h_source.html">state.h</a>.</p>
+<hr/><h2>Dokumentacja konstruktora i destruktora</h2>
+<a class="anchor" id="ab91bb1dd5aa6260ab2a456581daf9ec2"></a><!-- doxytag: member="State::State" ref="ab91bb1dd5aa6260ab2a456581daf9ec2" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">State::State </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline, private]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Nie wolno tworzyć obiektów tej klasy. </p>
+
+<p>Definicja w linii <a class="el" href="state_8h_source.html#l00020">20</a> pliku <a class="el" href="state_8h_source.html">state.h</a>.</p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja atrybutów składowych</h2>
+<a class="anchor" id="a01f4b5058c78bb31adf165bd0faa6344"></a><!-- doxytag: member="State::subjectIDGenerator" ref="a01f4b5058c78bb31adf165bd0faa6344" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classIDGenerator.html">IDGenerator</a> <a class="el" href="classState.html#a01f4b5058c78bb31adf165bd0faa6344">State::subjectIDGenerator</a><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Generator identyfikatorów przedmiotów. </p>
+
+<p>Definicja w linii <a class="el" href="state_8h_source.html#l00015">15</a> pliku <a class="el" href="state_8h_source.html">state.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0cb497fc8d4e11237293b066b6651114"></a><!-- doxytag: member="State::subjectMapping" ref="a0cb497fc8d4e11237293b066b6651114" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a>&gt; <a class="el" href="classState.html#a0cb497fc8d4e11237293b066b6651114">State::subjectMapping</a><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Lista odnośników [pozycja w ComboBox]--&gt;[pozycja w subjects]. </p>
+
+<p>Definicja w linii <a class="el" href="state_8h_source.html#l00017">17</a> pliku <a class="el" href="state_8h_source.html">state.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af7ad063d772994bab9fd105827d004aa"></a><!-- doxytag: member="State::subjects" ref="af7ad063d772994bab9fd105827d004aa" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList <a class="el" href="classState.html#af7ad063d772994bab9fd105827d004aa">State::subjects</a><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Lista przedmiotów. subjects[SubjectID] = Przedmiot o zadanym identyfikatorze. </p>
+
+<p>Definicja w linii <a class="el" href="state_8h_source.html#l00016">16</a> pliku <a class="el" href="state_8h_source.html">state.h</a>.</p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z pliku:<ul>
+<li>include/<a class="el" href="state_8h_source.html">state.h</a></li>
+</ul>
+</div>
+<hr class="footer"/><address style="text-align: right;"><small>Wygenerowano Sat May 29 16:33:20 2010 dla SchoolTools - Schedule programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>

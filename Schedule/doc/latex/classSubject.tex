@@ -1,0 +1,115 @@
+\hypertarget{classSubject}{
+\section{Dokumentacja klasy Subject}
+\label{classSubject}\index{Subject@{Subject}}
+}
+
+
+Reprezentuje informacje o pojedyńczym przedmiocie.  
+
+
+
+
+{\ttfamily \#include $<$subject.h$>$}
+
+
+
+Diagram współpracy dla Subject:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classSubject__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classSubject_a94220ae4e81cef6a54b3ad00c5189213}{exist}
+\begin{DoxyCompactList}\small\item\em Czy ten obiekt reprezentuje dane. \item\end{DoxyCompactList}\item 
+QString \hyperlink{classSubject_a816225e2744f102877f713f3123a6ba4}{name}
+\begin{DoxyCompactList}\small\item\em Nazwa przedmiotu. \item\end{DoxyCompactList}\item 
+\hyperlink{classIDGenerator}{IDGenerator} \hyperlink{classSubject_aab207d1dd2076df8de622c54d80fd8cd}{typeIDGenerator}
+\begin{DoxyCompactList}\small\item\em Generator identyfikatorów typów wydarzeń. \item\end{DoxyCompactList}\item 
+QList$<$ \hyperlink{classType}{Type} $>$ \hyperlink{classSubject_a05041c1516b065f1fb5f2c74c731a0a7}{types}
+\begin{DoxyCompactList}\small\item\em Typy wydarzeń. Indeksowane types\mbox{[}TypeID\mbox{]} = wydarzenie TypeID. \item\end{DoxyCompactList}\item 
+QList$<$ \hyperlink{classIDGenerator_1_1ID}{IDGenerator::ID} $>$ \hyperlink{classSubject_a986e6137767b698f8bdef30f24c32178}{typesMapping}
+\begin{DoxyCompactList}\small\item\em Lista odnośników \mbox{[}pozycja w ComboBox\mbox{]}-\/-\/$>$\mbox{[}pozycja w types\mbox{]}. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Reprezentuje informacje o pojedyńczym przedmiocie. 
+
+Definicja w linii 11 pliku subject.h.
+
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{classSubject_a94220ae4e81cef6a54b3ad00c5189213}{
+\index{Subject@{Subject}!exist@{exist}}
+\index{exist@{exist}!Subject@{Subject}}
+\subsubsection[{exist}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf Subject::exist}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classSubject_a94220ae4e81cef6a54b3ad00c5189213}
+
+
+Czy ten obiekt reprezentuje dane. 
+
+
+
+Definicja w linii 12 pliku subject.h.
+
+\hypertarget{classSubject_a816225e2744f102877f713f3123a6ba4}{
+\index{Subject@{Subject}!name@{name}}
+\index{name@{name}!Subject@{Subject}}
+\subsubsection[{name}]{\setlength{\rightskip}{0pt plus 5cm}QString {\bf Subject::name}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classSubject_a816225e2744f102877f713f3123a6ba4}
+
+
+Nazwa przedmiotu. 
+
+
+
+Definicja w linii 13 pliku subject.h.
+
+\hypertarget{classSubject_aab207d1dd2076df8de622c54d80fd8cd}{
+\index{Subject@{Subject}!typeIDGenerator@{typeIDGenerator}}
+\index{typeIDGenerator@{typeIDGenerator}!Subject@{Subject}}
+\subsubsection[{typeIDGenerator}]{\setlength{\rightskip}{0pt plus 5cm}{\bf IDGenerator} {\bf Subject::typeIDGenerator}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classSubject_aab207d1dd2076df8de622c54d80fd8cd}
+
+
+Generator identyfikatorów typów wydarzeń. 
+
+
+
+Definicja w linii 14 pliku subject.h.
+
+\hypertarget{classSubject_a05041c1516b065f1fb5f2c74c731a0a7}{
+\index{Subject@{Subject}!types@{types}}
+\index{types@{types}!Subject@{Subject}}
+\subsubsection[{types}]{\setlength{\rightskip}{0pt plus 5cm}QList$<${\bf Type}$>$ {\bf Subject::types}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classSubject_a05041c1516b065f1fb5f2c74c731a0a7}
+
+
+Typy wydarzeń. Indeksowane types\mbox{[}TypeID\mbox{]} = wydarzenie TypeID. 
+
+
+
+Definicja w linii 15 pliku subject.h.
+
+\hypertarget{classSubject_a986e6137767b698f8bdef30f24c32178}{
+\index{Subject@{Subject}!typesMapping@{typesMapping}}
+\index{typesMapping@{typesMapping}!Subject@{Subject}}
+\subsubsection[{typesMapping}]{\setlength{\rightskip}{0pt plus 5cm}QList$<${\bf IDGenerator::ID}$>$ {\bf Subject::typesMapping}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classSubject_a986e6137767b698f8bdef30f24c32178}
+
+
+Lista odnośników \mbox{[}pozycja w ComboBox\mbox{]}-\/-\/$>$\mbox{[}pozycja w types\mbox{]}. 
+
+
+
+Definicja w linii 16 pliku subject.h.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{subject_8h}{subject.h}\end{DoxyCompactItemize}

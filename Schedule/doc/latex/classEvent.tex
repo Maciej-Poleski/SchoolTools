@@ -1,0 +1,201 @@
+\hypertarget{classEvent}{
+\section{Dokumentacja klasy Event}
+\label{classEvent}\index{Event@{Event}}
+}
+
+
+Reprezentuje zdarzenie w postaci zdefiniowanej przez użytkownika.  
+
+
+
+
+{\ttfamily \#include $<$event.h$>$}
+
+
+
+Diagram współpracy dla Event:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=400pt]{classEvent__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classEvent_acd3992dc833e31573a209ba44910b57f}{Event} (\hyperlink{classIDGenerator_1_1ID}{IDGenerator::ID} \hyperlink{classEvent_a584a3fce37eaa31ee45c202a538f59b6}{subjectID}, \hyperlink{classIDGenerator_1_1ID}{IDGenerator::ID} \hyperlink{classEvent_a8abdf6e037043e6d6d761de593d33807}{typeID}, QList$<$ \hyperlink{classTerm}{Term} $>$ term=QList$<$ \hyperlink{classTerm}{Term} $>$())
+\begin{DoxyCompactList}\small\item\em Inicjalizuje dane wydarzenie niezbędnymi informacjami. \item\end{DoxyCompactList}\item 
+\hyperlink{classEvent_a5a40dd4708297f7031e29b39e039ae10}{Event} ()
+\begin{DoxyCompactList}\small\item\em Umożliwia tworzenie niezainicjalizowanych obiektów. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classIDGenerator_1_1ID}{IDGenerator::ID} \hyperlink{classEvent_a584a3fce37eaa31ee45c202a538f59b6}{subjectID}
+\begin{DoxyCompactList}\small\item\em Identyfikator przedmiotu skojarzonego z wydarzeniem. \item\end{DoxyCompactList}\item 
+\hyperlink{classIDGenerator_1_1ID}{IDGenerator::ID} \hyperlink{classEvent_a8abdf6e037043e6d6d761de593d33807}{typeID}
+\begin{DoxyCompactList}\small\item\em Identyfikator typu wydarzenia. \item\end{DoxyCompactList}\item 
+QList$<$ \hyperlink{classTerm}{Term} $>$ \hyperlink{classEvent_aff6cf909022d62edc3b633281d3121a6}{terms}
+\begin{DoxyCompactList}\small\item\em Lista terminów danego wydarzenia. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Przyjaciele}
+\begin{DoxyCompactItemize}
+\item 
+QDataStream \& \hyperlink{classEvent_a62e8730ab4dc16e3d456b527a12635b3}{operator$<$$<$} (QDataStream \&stream, const \hyperlink{classEvent}{Event} \&event)
+\begin{DoxyCompactList}\small\item\em Zapisuje informacje o danym wydarzeniu do danego strumienia. \item\end{DoxyCompactList}\item 
+QDataStream \& \hyperlink{classEvent_a055427e98ad131966edb6fb652add004}{operator$>$$>$} (QDataStream \&stream, \hyperlink{classEvent}{Event} \&event)
+\begin{DoxyCompactList}\small\item\em Odczytuje informacje o danym wydarzeniu z danego strumienia. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Reprezentuje zdarzenie w postaci zdefiniowanej przez użytkownika. Posiada określony typ (zdefiniowany przez użytkownika z dostępnych możliwości (zdefiniowanych przez użytkownika)). Powiązane z terminami.
+
+Pozwala ustawić ocenę. 
+
+Definicja w linii 15 pliku event.h.
+
+
+
+\subsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{classEvent_acd3992dc833e31573a209ba44910b57f}{
+\index{Event@{Event}!Event@{Event}}
+\index{Event@{Event}!Event@{Event}}
+\subsubsection[{Event}]{\setlength{\rightskip}{0pt plus 5cm}Event::Event ({\bf IDGenerator::ID} {\em subjectID}, \/  {\bf IDGenerator::ID} {\em typeID}, \/  QList$<$ {\bf Term} $>$ {\em term} = {\ttfamily QList$<${\bf Term}$>$()})\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{classEvent_acd3992dc833e31573a209ba44910b57f}
+
+
+Inicjalizuje dane wydarzenie niezbędnymi informacjami. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em subjectID}]Identyfikator przedmiotu związanego z wydarzeniem \item[{\em typeID}]Identyfikator typu wydarzenia \item[{\em term}]Lista terminów tego wydarzenia. Może być pusta. \end{DoxyParams}
+
+
+Definicja w linii 30 pliku event.h.
+
+
+
+
+\begin{DoxyCode}
+31 :\end{DoxyCode}
+
+
+\hypertarget{classEvent_a5a40dd4708297f7031e29b39e039ae10}{
+\index{Event@{Event}!Event@{Event}}
+\index{Event@{Event}!Event@{Event}}
+\subsubsection[{Event}]{\setlength{\rightskip}{0pt plus 5cm}Event::Event ()\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{classEvent_a5a40dd4708297f7031e29b39e039ae10}
+
+
+Umożliwia tworzenie niezainicjalizowanych obiektów. 
+
+
+
+Definicja w linii 33 pliku event.h.
+
+
+
+\subsection{Dokumentacja przyjaciół i funkcji związanych}
+\hypertarget{classEvent_a62e8730ab4dc16e3d456b527a12635b3}{
+\index{Event@{Event}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Event@{Event}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$<$$<$ (QDataStream \& {\em stream}, \/  const {\bf Event} \& {\em event})\hspace{0.3cm}{\ttfamily  \mbox{[}friend\mbox{]}}}}
+\label{classEvent_a62e8730ab4dc16e3d456b527a12635b3}
+
+
+Zapisuje informacje o danym wydarzeniu do danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień do którego będą zapisywane dane. \item[{\em event}]Wydarzenie które będzie zapisywane. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+
+
+Definicja w linii 3 pliku event.cpp.
+
+
+
+
+\begin{DoxyCode}
+4 {
+5     return stream<<event.subjectID<<event.typeID<<event.terms;
+6 }
+\end{DoxyCode}
+
+
+\hypertarget{classEvent_a055427e98ad131966edb6fb652add004}{
+\index{Event@{Event}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Event@{Event}}
+\subsubsection[{operator$>$$>$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$>$$>$ (QDataStream \& {\em stream}, \/  {\bf Event} \& {\em event})\hspace{0.3cm}{\ttfamily  \mbox{[}friend\mbox{]}}}}
+\label{classEvent_a055427e98ad131966edb6fb652add004}
+
+
+Odczytuje informacje o danym wydarzeniu z danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień z którego będą odczytywane dane. \item[{\em event}]Wydarzenie które zostanie zainicjalizowane wczytanymi danymi. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+
+
+Definicja w linii 8 pliku event.cpp.
+
+
+
+
+\begin{DoxyCode}
+9 {
+10     return stream>>event.subjectID<<event.typeID<<event.terms;
+11 }
+\end{DoxyCode}
+
+
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{classEvent_a584a3fce37eaa31ee45c202a538f59b6}{
+\index{Event@{Event}!subjectID@{subjectID}}
+\index{subjectID@{subjectID}!Event@{Event}}
+\subsubsection[{subjectID}]{\setlength{\rightskip}{0pt plus 5cm}{\bf IDGenerator::ID} {\bf Event::subjectID}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classEvent_a584a3fce37eaa31ee45c202a538f59b6}
+
+
+Identyfikator przedmiotu skojarzonego z wydarzeniem. 
+
+
+
+Definicja w linii 35 pliku event.h.
+
+\hypertarget{classEvent_aff6cf909022d62edc3b633281d3121a6}{
+\index{Event@{Event}!terms@{terms}}
+\index{terms@{terms}!Event@{Event}}
+\subsubsection[{terms}]{\setlength{\rightskip}{0pt plus 5cm}QList$<${\bf Term}$>$ {\bf Event::terms}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classEvent_aff6cf909022d62edc3b633281d3121a6}
+
+
+Lista terminów danego wydarzenia. 
+
+
+
+Definicja w linii 37 pliku event.h.
+
+\hypertarget{classEvent_a8abdf6e037043e6d6d761de593d33807}{
+\index{Event@{Event}!typeID@{typeID}}
+\index{typeID@{typeID}!Event@{Event}}
+\subsubsection[{typeID}]{\setlength{\rightskip}{0pt plus 5cm}{\bf IDGenerator::ID} {\bf Event::typeID}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classEvent_a8abdf6e037043e6d6d761de593d33807}
+
+
+Identyfikator typu wydarzenia. 
+
+
+
+Definicja w linii 36 pliku event.h.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{event_8h}{event.h}\end{DoxyCompactItemize}

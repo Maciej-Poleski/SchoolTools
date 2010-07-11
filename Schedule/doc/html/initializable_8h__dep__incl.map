@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$event_8h.html" title="include/event.h" alt="" coords="5,89,131,122"/>
+<area shape="rect" id="node8" href="$events_8cpp.html" title="src/events.cpp" alt="" coords="129,171,255,205"/>
+<area shape="rect" id="node11" href="$events_8h.html" title="include/events.h" alt="" coords="347,171,480,205"/>
+<area shape="rect" id="node14" href="$mark_8h.html" title="include/mark.h" alt="" coords="280,89,403,122"/>
+<area shape="rect" id="node16" href="$subject_8h.html" title="include/subject.h" alt="" coords="571,89,709,122"/>
+<area shape="rect" id="node19" href="$subjects_8cpp.html" title="src/subjects.cpp" alt="" coords="593,171,729,205"/>
+<area shape="rect" id="node22" href="$subjects_8h.html" title="include/subjects.h" alt="" coords="821,171,968,205"/>
+<area shape="rect" id="node25" href="$term_8h.html" title="include/term.h" alt="" coords="427,89,547,122"/>
+<area shape="rect" id="node28" href="$type_8h.html" title="include/type.h" alt="" coords="859,89,976,122"/>
+<area shape="rect" id="node32" href="$mark_8cpp.html" title="src/mark.cpp" alt="" coords="1000,89,1112,122"/>
+<area shape="rect" id="node6" href="$main_8cpp.html" title="main.cpp" alt="" coords="20,171,105,205"/>
+</map>

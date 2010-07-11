@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>SchoolTools - Schedule: Dokumentacja pliku main.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.3 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li><a href="dirs.html"><span>Katalogi</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja pliku main.cpp</h1><code>#include &lt;QtCore/QCoreApplication&gt;</code><br/>
+<code>#include &lt;QtCore/QFile&gt;</code><br/>
+<code>#include &lt;QtCore/QDebug&gt;</code><br/>
+<code>#include &lt;cstdio&gt;</code><br/>
+<code>#include &lt;QtCore/QTextCodec&gt;</code><br/>
+<code>#include &lt;QtCore/QList&gt;</code><br/>
+<code>#include &quot;<a class="el" href="generatoridgenerator_8h_source.html">generatoridgenerator.h</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="event_8h_source.html">event.h</a>&quot;</code><br/>
+<div class="dynheader">
+Wykres zależności załączania dla main.cpp:</div>
+<div class="dynsection">
+<div class="center"><img src="main_8cpp__incl.png" border="0" usemap="#main_8cpp_map" alt=""/></div>
+<map name="main_8cpp_map" id="main_8cpp">
+<area shape="rect" id="node15" href="generatoridgenerator_8h.html" title="generatoridgenerator.h" alt="" coords="1039,89,1223,122"/><area shape="rect" id="node23" href="event_8h.html" title="event.h" alt="" coords="859,89,933,122"/><area shape="rect" id="node17" href="idgenerator_8h.html" title="idgenerator.h" alt="" coords="1131,171,1245,205"/><area shape="rect" id="node32" href="initializable_8h.html" title="initializable.h" alt="" coords="693,171,808,205"/></map>
+</div>
+
+<p><a href="main_8cpp_source.html">Idź do kodu źródłowego tego pliku.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Funkcje</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a> (int argc, char **argv)</td></tr>
+</table>
+<hr/><h2>Dokumentacja funkcji</h2>
+<a class="anchor" id="a3c04138a5bfe5d72780bb7e82a18e627"></a><!-- doxytag: member="main.cpp::main" ref="a3c04138a5bfe5d72780bb7e82a18e627" args="(int argc, char **argv)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char **&nbsp;</td>
+          <td class="paramname"> <em>argv</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Definicja w linii <a class="el" href="main_8cpp_source.html#l00011">11</a> pliku <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+
+<p>Odwołuje się do <a class="el" href="idgenerator_8h_source.html#l00090">IDGenerator::nextID()</a> i <a class="el" href="generatoridgenerator_8cpp_source.html#l00005">GeneratorIDGenerator::nextIDGenerator()</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00012"></a>00012 {
+<a name="l00013"></a>00013     QTextCodec::setCodecForCStrings(QTextCodec::codecForName(<span class="stringliteral">&quot;UTF-8&quot;</span>));
+<a name="l00014"></a>00014     <span class="keywordflow">try</span> {
+<a name="l00015"></a>00015         QCoreApplication app(argc,argv);
+<a name="l00016"></a>00016         QFile file(<span class="stringliteral">&quot;/tmp/tmpfile.txt&quot;</span>);
+<a name="l00017"></a>00017         QFile file2(<span class="stringliteral">&quot;/tmp/tmpfile2.txt&quot;</span>);
+<a name="l00018"></a>00018 
+<a name="l00019"></a>00019         <a class="code" href="classIDGenerator.html" title="Generator identyfikatorów określonego typu.">IDGenerator</a> gen1=<a class="code" href="classGeneratorIDGenerator.html#ac6dd43ecbbe2ed1647855e72156dbcb2" title="Generuje następny generator identyfikatorów.">GeneratorIDGenerator::nextIDGenerator</a>();
+<a name="l00020"></a>00020         <a class="code" href="classIDGenerator.html" title="Generator identyfikatorów określonego typu.">IDGenerator</a> gen2=<a class="code" href="classGeneratorIDGenerator.html#ac6dd43ecbbe2ed1647855e72156dbcb2" title="Generuje następny generator identyfikatorów.">GeneratorIDGenerator::nextIDGenerator</a>();
+<a name="l00021"></a>00021         <a class="code" href="classIDGenerator.html" title="Generator identyfikatorów określonego typu.">IDGenerator</a> gen3=<a class="code" href="classGeneratorIDGenerator.html#ac6dd43ecbbe2ed1647855e72156dbcb2" title="Generuje następny generator identyfikatorów.">GeneratorIDGenerator::nextIDGenerator</a>();
+<a name="l00022"></a>00022         
+<a name="l00023"></a>00023         <a class="code" href="classIDGenerator_1_1ID.html" title="Obiekt reprezentuje dany identyfikator określonego typu.">IDGenerator::ID</a> eventID=gen1.<a class="code" href="classIDGenerator.html#a5e7eba106b14d8d09974bb6330476926" title="Generuje następny identyfikator.">nextID</a>();
+<a name="l00024"></a>00024         
+<a name="l00025"></a>00025         <a class="code" href="classCompList.html">CompList&lt;Term&gt;</a> terms;
+<a name="l00026"></a>00026         
+<a name="l00027"></a>00027         terms&lt;&lt;<a class="code" href="classTerm.html" title="Reprezentacja egzekucji wydarzenia.">Term</a>(eventID,QDate::currentDate());
+<a name="l00028"></a>00028         terms&lt;&lt;<a class="code" href="classTerm.html" title="Reprezentacja egzekucji wydarzenia.">Term</a>(eventID,QDate::currentDate());
+<a name="l00029"></a>00029         terms&lt;&lt;<a class="code" href="classTerm.html" title="Reprezentacja egzekucji wydarzenia.">Term</a>(eventID,QDate::currentDate());
+<a name="l00030"></a>00030 
+<a name="l00031"></a>00031         <a class="code" href="classEvent.html" title="Reprezentuje zdarzenie w postaci zdefiniowanej przez użytkownika.">Event</a> e1(eventID,gen2.<a class="code" href="classIDGenerator.html#a5e7eba106b14d8d09974bb6330476926" title="Generuje następny identyfikator.">nextID</a>(),gen3.<a class="code" href="classIDGenerator.html#a5e7eba106b14d8d09974bb6330476926" title="Generuje następny identyfikator.">nextID</a>(),terms);
+<a name="l00032"></a>00032 
+<a name="l00033"></a>00033         file.open(QIODevice::WriteOnly);
+<a name="l00034"></a>00034         QDataStream output(&amp;file);
+<a name="l00035"></a>00035 
+<a name="l00036"></a>00036         output&lt;&lt;e1;
+<a name="l00037"></a>00037         
+<a name="l00038"></a>00038         file.close();
+<a name="l00039"></a>00039         file.open(QIODevice::ReadOnly);
+<a name="l00040"></a>00040         QDataStream input(&amp;file);
+<a name="l00041"></a>00041         
+<a name="l00042"></a>00042         <a class="code" href="classEvent.html" title="Reprezentuje zdarzenie w postaci zdefiniowanej przez użytkownika.">Event</a> e2;
+<a name="l00043"></a>00043         input&gt;&gt;e2;
+<a name="l00044"></a>00044         
+<a name="l00045"></a>00045         file.close();
+<a name="l00046"></a>00046         file2.open(QIODevice::WriteOnly);
+<a name="l00047"></a>00047         QDataStream output2(&amp;file2);
+<a name="l00048"></a>00048         
+<a name="l00049"></a>00049         output2&lt;&lt;e2;
+<a name="l00050"></a>00050         
+<a name="l00051"></a>00051         <span class="keywordflow">if</span>(!(e1==e2))
+<a name="l00052"></a>00052             printf(<span class="stringliteral">&quot;Zapis jest niespójny!&quot;</span>);
+<a name="l00053"></a>00053     }
+<a name="l00054"></a>00054     <span class="keywordflow">catch</span> (<span class="keywordtype">char</span> <span class="keyword">const</span>* e)
+<a name="l00055"></a>00055     {
+<a name="l00056"></a>00056         printf(<span class="stringliteral">&quot;%s\n&quot;</span>,e);
+<a name="l00057"></a>00057     }
+<a name="l00058"></a>00058     <span class="keywordflow">catch</span>(QString e)
+<a name="l00059"></a>00059     {
+<a name="l00060"></a>00060         qDebug()&lt;&lt;e;
+<a name="l00061"></a>00061     }
+<a name="l00062"></a>00062 
+<a name="l00063"></a>00063     <span class="keywordflow">return</span> 0;
+<a name="l00064"></a>00064 }
+</pre></div></p>
+
+<p><div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dynsection">
+<div class="center"><img src="main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph.png" border="0" usemap="#main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph_map" alt=""></div>
+<map name="main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph_map" id="main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph">
+<area shape="rect" id="node3" href="classIDGenerator.html#a5e7eba106b14d8d09974bb6330476926" title="Generuje następny identyfikator." alt="" coords="181,5,347,38"/><area shape="rect" id="node5" href="classGeneratorIDGenerator.html#ac6dd43ecbbe2ed1647855e72156dbcb2" title="Generuje następny generator identyfikatorów." alt="" coords="109,61,419,94"/></map>
+</div>
+</p>
+
+</div>
+</div>
+</div>
+<hr class="footer"/><address style="text-align: right;"><small>Wygenerowano Sat Jul 10 18:45:17 2010 dla SchoolTools - Schedule programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>

@@ -1,0 +1,449 @@
+\begin{theindex}
+
+  \item {AbstractID}
+    \subitem {obsolete::AbstractID}, \hyperpage{23}
+  \item {abstractid.cpp}
+    \subitem {operator$<$$<$}, \hyperpage{138}
+    \subitem {operator$>$$>$}, \hyperpage{138}
+  \item {AbstractIDGenerator}
+    \subitem {obsolete::AbstractIDGenerator}, \hyperpage{26}
+  \item {AbstractIncrementalID}
+    \subitem {obsolete::AbstractIncrementalID}, \hyperpage{29}
+  \item {AbstractReservedID}
+    \subitem {obsolete::AbstractReservedID}, \hyperpage{32}
+  \item {addEvent}
+    \subitem {Events}, \hyperpage{45}
+  \item {ARCHITECTURE\_\discretionary {-}{}{}ID}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{97}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{99}
+
+  \indexspace
+
+  \item {build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c}, 
+		\hyperpage{97}
+  \item {build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp}, 
+		\hyperpage{99}
+
+  \indexspace
+
+  \item {CMakeCCompilerId.c}
+    \subitem {ARCHITECTURE\_\discretionary {-}{}{}ID}, \hyperpage{97}
+    \subitem {COMPILER\_\discretionary {-}{}{}ID}, \hyperpage{97}
+    \subitem {info\_\discretionary {-}{}{}arch}, \hyperpage{98}
+    \subitem {info\_\discretionary {-}{}{}compiler}, \hyperpage{98}
+    \subitem {info\_\discretionary {-}{}{}platform}, \hyperpage{98}
+    \subitem {main}, \hyperpage{98}
+    \subitem {PLATFORM\_\discretionary {-}{}{}ID}, \hyperpage{97}
+  \item {CMakeCXXCompilerId.cpp}
+    \subitem {ARCHITECTURE\_\discretionary {-}{}{}ID}, \hyperpage{99}
+    \subitem {COMPILER\_\discretionary {-}{}{}ID}, \hyperpage{99}
+    \subitem {info\_\discretionary {-}{}{}arch}, \hyperpage{100}
+    \subitem {info\_\discretionary {-}{}{}compiler}, \hyperpage{100}
+    \subitem {info\_\discretionary {-}{}{}platform}, \hyperpage{100}
+    \subitem {main}, \hyperpage{99}
+    \subitem {PLATFORM\_\discretionary {-}{}{}ID}, \hyperpage{99}
+  \item {COMPILER\_\discretionary {-}{}{}ID}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{97}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{99}
+  \item {create}
+    \subitem {Events}, \hyperpage{45}
+    \subitem {Subjects}, \hyperpage{82}
+  \item {createID}
+    \subitem {obsolete::AbstractIDGenerator}, \hyperpage{26}
+    \subitem {obsolete::AbstractReservedID}, \hyperpage{32}
+    \subitem {obsolete::EventIDGenerator}, \hyperpage{42}
+    \subitem {obsolete::ID}, \hyperpage{57}
+    \subitem {obsolete::MarkIDGenerator}, \hyperpage{69}
+    \subitem {obsolete::SubjectID}, \hyperpage{77}
+    \subitem {obsolete::SubjectIDGenerator}, \hyperpage{80}
+    \subitem {obsolete::TypeID}, \hyperpage{92}
+    \subitem {obsolete::TypeIDGenerator}, \hyperpage{95}
+  \item {createVoidID}
+    \subitem {obsolete::AbstractIDGenerator}, \hyperpage{26}
+    \subitem {obsolete::EventIDGenerator}, \hyperpage{42}
+    \subitem {obsolete::MarkIDGenerator}, \hyperpage{69}
+    \subitem {obsolete::SubjectIDGenerator}, \hyperpage{80}
+    \subitem {obsolete::TypeIDGenerator}, \hyperpage{95}
+
+  \indexspace
+
+  \item {Dokumentacja katalogu build/}, \hyperpage{11}
+  \item {Dokumentacja katalogu build/CMakeFiles/}, \hyperpage{12}
+  \item {Dokumentacja katalogu build/CMakeFiles/CompilerIdC/}, 
+		\hyperpage{13}
+  \item {Dokumentacja katalogu build/CMakeFiles/CompilerIdCXX/}, 
+		\hyperpage{14}
+  \item {Dokumentacja katalogu include/}, \hyperpage{15}
+  \item {Dokumentacja katalogu include/obsolete/}, \hyperpage{17}
+  \item {Dokumentacja katalogu src/}, \hyperpage{18}
+  \item {Dokumentacja katalogu src/obsolete/}, \hyperpage{16}
+
+  \indexspace
+
+  \item {Event}, \hyperpage{33}
+    \subitem {Event}, \hyperpage{34}
+    \subitem {operator$<$$<$}, \hyperpage{35}
+    \subitem {operator$>$$>$}, \hyperpage{35}
+    \subitem {subjectID}, \hyperpage{35}
+    \subitem {terms}, \hyperpage{35}
+    \subitem {typeID}, \hyperpage{36}
+  \item {event.cpp}
+    \subitem {operator$<$$<$}, \hyperpage{130}
+    \subitem {operator$>$$>$}, \hyperpage{130}
+  \item {event.h}
+    \subitem {operator$<$$<$}, \hyperpage{101}
+    \subitem {operator$>$$>$}, \hyperpage{102}
+  \item {EventID}
+    \subitem {obsolete::EventID}, \hyperpage{39}
+  \item {eventID}
+    \subitem {Term}, \hyperpage{87}
+  \item {eventIDGenerator}
+    \subitem {Events}, \hyperpage{46}
+  \item {Events}, \hyperpage{43}
+    \subitem {addEvent}, \hyperpage{45}
+    \subitem {create}, \hyperpage{45}
+    \subitem {eventIDGenerator}, \hyperpage{46}
+    \subitem {Events}, \hyperpage{45}
+    \subitem {events}, \hyperpage{46}
+    \subitem {existOne}, \hyperpage{47}
+    \subitem {initialized}, \hyperpage{47}
+    \subitem {operator$<$$<$}, \hyperpage{46}
+    \subitem {operator$>$$>$}, \hyperpage{46}
+  \item {events}
+    \subitem {Events}, \hyperpage{46}
+  \item {events.cpp}
+    \subitem {operator$<$$<$}, \hyperpage{132}
+    \subitem {operator$>$$>$}, \hyperpage{133}
+  \item {events.h}
+    \subitem {operator$<$$<$}, \hyperpage{104}
+    \subitem {operator$>$$>$}, \hyperpage{104}
+  \item {exist}
+    \subitem {Subject}, \hyperpage{74}
+    \subitem {Type}, \hyperpage{88}
+  \item {existOne}
+    \subitem {Events}, \hyperpage{47}
+    \subitem {Subjects}, \hyperpage{83}
+
+  \indexspace
+
+  \item {freeID}
+    \subitem {IDGenerator}, \hyperpage{63}
+  \item {freeIDGenerator}
+    \subitem {GeneratorIDGenerator}, \hyperpage{50}
+
+  \indexspace
+
+  \item {GeneratorIDGenerator}, \hyperpage{48}
+    \subitem {freeIDGenerator}, \hyperpage{50}
+    \subitem {GeneratorIDGenerator}, \hyperpage{49}
+    \subitem {IDGenerator}, \hyperpage{62}
+    \subitem {nextIDGenerator}, \hyperpage{49}
+    \subitem {voidIDGenerator}, \hyperpage{49}
+
+  \indexspace
+
+  \item {ID}
+    \subitem {IDGenerator::ID}, \hyperpage{52}
+    \subitem {obsolete::AbstractID}, \hyperpage{23}
+    \subitem {obsolete::AbstractIDGenerator}, \hyperpage{26}
+    \subitem {obsolete::AbstractIncrementalID}, \hyperpage{29}
+    \subitem {obsolete::AbstractReservedID}, \hyperpage{32}
+    \subitem {obsolete::EventID}, \hyperpage{39}
+    \subitem {obsolete::EventIDGenerator}, \hyperpage{42}
+    \subitem {obsolete::ID}, \hyperpage{57, 58}
+    \subitem {obsolete::MarkID}, \hyperpage{66}
+    \subitem {obsolete::MarkIDGenerator}, \hyperpage{69}
+    \subitem {obsolete::SubjectID}, \hyperpage{77}
+    \subitem {obsolete::SubjectIDGenerator}, \hyperpage{80}
+    \subitem {obsolete::TypeID}, \hyperpage{92}
+    \subitem {obsolete::TypeIDGenerator}, \hyperpage{95}
+  \item {id}
+    \subitem {IDGenerator::ID}, \hyperpage{54}
+  \item {IDGenerator}, \hyperpage{59}
+    \subitem {freeID}, \hyperpage{63}
+    \subitem {GeneratorIDGenerator}, \hyperpage{62}
+    \subitem {IDGenerator}, \hyperpage{61}
+    \subitem {IDGenerator::ID}, \hyperpage{53}
+    \subitem {initialize}, \hyperpage{61}
+    \subitem {nextID}, \hyperpage{61}
+    \subitem {operator$<$$<$}, \hyperpage{62}
+    \subitem {operator$>$$>$}, \hyperpage{62}
+    \subitem {operator=}, \hyperpage{61}
+    \subitem {type}, \hyperpage{63}
+    \subitem {voidID}, \hyperpage{62}
+  \item {idgenerator.cpp}
+    \subitem {operator$<$$<$}, \hyperpage{135, 136}
+    \subitem {operator$>$$>$}, \hyperpage{136}
+  \item {idgenerator.h}
+    \subitem {operator$<$$<$}, \hyperpage{107}
+    \subitem {operator$>$$>$}, \hyperpage{107, 108}
+  \item {IDGenerator::ID}, \hyperpage{51}
+    \subitem {ID}, \hyperpage{52}
+    \subitem {id}, \hyperpage{54}
+    \subitem {IDGenerator}, \hyperpage{53}
+    \subitem {operator$<$$<$}, \hyperpage{53}
+    \subitem {operator$>$$>$}, \hyperpage{53}
+    \subitem {operator=}, \hyperpage{53}
+    \subitem {type}, \hyperpage{54}
+  \item {include/event.h}, \hyperpage{101}
+  \item {include/events.h}, \hyperpage{103}
+  \item {include/generatoridgenerator.h}, \hyperpage{105}
+  \item {include/idgenerator.h}, \hyperpage{106}
+  \item {include/obsolete/abstractid.h}, \hyperpage{109}
+  \item {include/obsolete/abstractidgenerator.h}, \hyperpage{110}
+  \item {include/obsolete/abstractincrementalid.h}, \hyperpage{111}
+  \item {include/obsolete/abstractreservedid.h}, \hyperpage{112}
+  \item {include/obsolete/eventid.h}, \hyperpage{113}
+  \item {include/obsolete/eventidgenerator.h}, \hyperpage{114}
+  \item {include/obsolete/id.h}, \hyperpage{115}
+  \item {include/obsolete/markid.h}, \hyperpage{116}
+  \item {include/obsolete/markidgenerator.h}, \hyperpage{117}
+  \item {include/obsolete/state.h}, \hyperpage{118}
+  \item {include/obsolete/subjectid.h}, \hyperpage{119}
+  \item {include/obsolete/subjectidgenerator.h}, \hyperpage{120}
+  \item {include/obsolete/typeid.h}, \hyperpage{121}
+  \item {include/obsolete/typeidgenerator.h}, \hyperpage{122}
+  \item {include/subject.h}, \hyperpage{123}
+  \item {include/subjects.h}, \hyperpage{124}
+  \item {include/term.h}, \hyperpage{125}
+  \item {include/type.h}, \hyperpage{127}
+  \item {info\_\discretionary {-}{}{}arch}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{98}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{100}
+  \item {info\_\discretionary {-}{}{}compiler}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{98}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{100}
+  \item {info\_\discretionary {-}{}{}platform}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{98}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{100}
+  \item {initialize}
+    \subitem {IDGenerator}, \hyperpage{61}
+  \item {initialized}
+    \subitem {Events}, \hyperpage{47}
+    \subitem {Subjects}, \hyperpage{83}
+
+  \indexspace
+
+  \item {main}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{98}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{99}
+    \subitem {main.cpp}, \hyperpage{128}
+  \item {main.cpp}, \hyperpage{128}
+    \subitem {main}, \hyperpage{128}
+  \item {MarkID}
+    \subitem {obsolete::MarkID}, \hyperpage{66}
+  \item {markID}
+    \subitem {Term}, \hyperpage{87}
+
+  \indexspace
+
+  \item {name}
+    \subitem {Subject}, \hyperpage{74}
+    \subitem {Type}, \hyperpage{88}
+  \item {nextID}
+    \subitem {IDGenerator}, \hyperpage{61}
+  \item {nextIDGenerator}
+    \subitem {GeneratorIDGenerator}, \hyperpage{49}
+
+  \indexspace
+
+  \item {obsolete}, \hyperpage{19}
+    \subitem {operator$<$$<$}, \hyperpage{20}
+    \subitem {operator$>$$>$}, \hyperpage{20}
+  \item {obsolete::AbstractID}, \hyperpage{21}
+    \subitem {AbstractID}, \hyperpage{23}
+    \subitem {ID}, \hyperpage{23}
+    \subitem {operator$<$$<$}, \hyperpage{23}
+    \subitem {operator$>$$>$}, \hyperpage{23}
+  \item {obsolete::AbstractIDGenerator}, \hyperpage{24}
+    \subitem {AbstractIDGenerator}, \hyperpage{26}
+    \subitem {createID}, \hyperpage{26}
+    \subitem {createVoidID}, \hyperpage{26}
+    \subitem {ID}, \hyperpage{26}
+  \item {obsolete::AbstractIncrementalID}, \hyperpage{27}
+    \subitem {AbstractIncrementalID}, \hyperpage{29}
+    \subitem {ID}, \hyperpage{29}
+  \item {obsolete::AbstractReservedID}, \hyperpage{30}
+    \subitem {AbstractReservedID}, \hyperpage{32}
+    \subitem {createID}, \hyperpage{32}
+    \subitem {ID}, \hyperpage{32}
+  \item {obsolete::EventID}, \hyperpage{37}
+    \subitem {EventID}, \hyperpage{39}
+    \subitem {ID}, \hyperpage{39}
+  \item {obsolete::EventIDGenerator}, \hyperpage{40}
+    \subitem {createID}, \hyperpage{42}
+    \subitem {createVoidID}, \hyperpage{42}
+    \subitem {ID}, \hyperpage{42}
+  \item {obsolete::ID}, \hyperpage{55}
+    \subitem {createID}, \hyperpage{57}
+    \subitem {ID}, \hyperpage{57, 58}
+  \item {obsolete::MarkID}, \hyperpage{64}
+    \subitem {ID}, \hyperpage{66}
+    \subitem {MarkID}, \hyperpage{66}
+  \item {obsolete::MarkIDGenerator}, \hyperpage{67}
+    \subitem {createID}, \hyperpage{69}
+    \subitem {createVoidID}, \hyperpage{69}
+    \subitem {ID}, \hyperpage{69}
+  \item {obsolete::State}, \hyperpage{71}
+    \subitem {State}, \hyperpage{72}
+    \subitem {subjectIDGenerator}, \hyperpage{72}
+    \subitem {subjectMapping}, \hyperpage{72}
+    \subitem {subjects}, \hyperpage{72}
+  \item {obsolete::SubjectID}, \hyperpage{75}
+    \subitem {createID}, \hyperpage{77}
+    \subitem {ID}, \hyperpage{77}
+  \item {obsolete::SubjectIDGenerator}, \hyperpage{78}
+    \subitem {createID}, \hyperpage{80}
+    \subitem {createVoidID}, \hyperpage{80}
+    \subitem {ID}, \hyperpage{80}
+  \item {obsolete::TypeID}, \hyperpage{90}
+    \subitem {createID}, \hyperpage{92}
+    \subitem {ID}, \hyperpage{92}
+  \item {obsolete::TypeIDGenerator}, \hyperpage{93}
+    \subitem {createID}, \hyperpage{95}
+    \subitem {createVoidID}, \hyperpage{95}
+    \subitem {ID}, \hyperpage{95}
+  \item {operator$<$$<$}
+    \subitem {abstractid.cpp}, \hyperpage{138}
+    \subitem {Event}, \hyperpage{35}
+    \subitem {event.cpp}, \hyperpage{130}
+    \subitem {event.h}, \hyperpage{101}
+    \subitem {Events}, \hyperpage{46}
+    \subitem {events.cpp}, \hyperpage{132}
+    \subitem {events.h}, \hyperpage{104}
+    \subitem {IDGenerator}, \hyperpage{62}
+    \subitem {idgenerator.cpp}, \hyperpage{135, 136}
+    \subitem {idgenerator.h}, \hyperpage{107}
+    \subitem {IDGenerator::ID}, \hyperpage{53}
+    \subitem {obsolete}, \hyperpage{20}
+    \subitem {obsolete::AbstractID}, \hyperpage{23}
+    \subitem {Term}, \hyperpage{86}
+    \subitem {term.cpp}, \hyperpage{154}
+    \subitem {term.h}, \hyperpage{125}
+  \item {operator$>$$>$}
+    \subitem {abstractid.cpp}, \hyperpage{138}
+    \subitem {Event}, \hyperpage{35}
+    \subitem {event.cpp}, \hyperpage{130}
+    \subitem {event.h}, \hyperpage{102}
+    \subitem {Events}, \hyperpage{46}
+    \subitem {events.cpp}, \hyperpage{133}
+    \subitem {events.h}, \hyperpage{104}
+    \subitem {IDGenerator}, \hyperpage{62}
+    \subitem {idgenerator.cpp}, \hyperpage{136}
+    \subitem {idgenerator.h}, \hyperpage{107, 108}
+    \subitem {IDGenerator::ID}, \hyperpage{53}
+    \subitem {obsolete}, \hyperpage{20}
+    \subitem {obsolete::AbstractID}, \hyperpage{23}
+    \subitem {Term}, \hyperpage{87}
+    \subitem {term.cpp}, \hyperpage{154}
+    \subitem {term.h}, \hyperpage{126}
+  \item {operator=}
+    \subitem {IDGenerator}, \hyperpage{61}
+    \subitem {IDGenerator::ID}, \hyperpage{53}
+
+  \indexspace
+
+  \item {PLATFORM\_\discretionary {-}{}{}ID}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{97}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{99}
+
+  \indexspace
+
+  \item {QDate}, \hyperpage{70}
+
+  \indexspace
+
+  \item {revoke}
+    \subitem {Term}, \hyperpage{87}
+
+  \indexspace
+
+  \item {src/event.cpp}, \hyperpage{130}
+  \item {src/events.cpp}, \hyperpage{132}
+  \item {src/generatoridgenerator.cpp}, \hyperpage{134}
+  \item {src/idgenerator.cpp}, \hyperpage{135}
+  \item {src/obsolete/abstractid.cpp}, \hyperpage{138}
+  \item {src/obsolete/abstractidgenerator.cpp}, \hyperpage{139}
+  \item {src/obsolete/abstractincrementalid.cpp}, \hyperpage{140}
+  \item {src/obsolete/abstractreservedid.cpp}, \hyperpage{141}
+  \item {src/obsolete/eventid.cpp}, \hyperpage{142}
+  \item {src/obsolete/eventidgenerator.cpp}, \hyperpage{143}
+  \item {src/obsolete/id.cpp}, \hyperpage{144}
+  \item {src/obsolete/markid.cpp}, \hyperpage{145}
+  \item {src/obsolete/markidgenerator.cpp}, \hyperpage{146}
+  \item {src/obsolete/state.cpp}, \hyperpage{147}
+  \item {src/obsolete/subjectid.cpp}, \hyperpage{148}
+  \item {src/obsolete/subjectidgenerator.cpp}, \hyperpage{149}
+  \item {src/obsolete/typeid.cpp}, \hyperpage{150}
+  \item {src/obsolete/typeidgenerator.cpp}, \hyperpage{151}
+  \item {src/subject.cpp}, \hyperpage{152}
+  \item {src/subjects.cpp}, \hyperpage{153}
+  \item {src/term.cpp}, \hyperpage{154}
+  \item {src/type.cpp}, \hyperpage{156}
+  \item {State}
+    \subitem {obsolete::State}, \hyperpage{72}
+  \item {Subject}, \hyperpage{73}
+    \subitem {exist}, \hyperpage{74}
+    \subitem {name}, \hyperpage{74}
+    \subitem {typeIDGenerator}, \hyperpage{74}
+    \subitem {types}, \hyperpage{74}
+    \subitem {typesMapping}, \hyperpage{74}
+  \item {subjectID}
+    \subitem {Event}, \hyperpage{35}
+  \item {subjectIDGenerator}
+    \subitem {obsolete::State}, \hyperpage{72}
+    \subitem {Subjects}, \hyperpage{83}
+  \item {subjectMapping}
+    \subitem {obsolete::State}, \hyperpage{72}
+    \subitem {Subjects}, \hyperpage{83}
+  \item {Subjects}, \hyperpage{81}
+    \subitem {create}, \hyperpage{82}
+    \subitem {existOne}, \hyperpage{83}
+    \subitem {initialized}, \hyperpage{83}
+    \subitem {subjectIDGenerator}, \hyperpage{83}
+    \subitem {subjectMapping}, \hyperpage{83}
+    \subitem {subjects}, \hyperpage{83}
+  \item {subjects}
+    \subitem {obsolete::State}, \hyperpage{72}
+    \subitem {Subjects}, \hyperpage{83}
+
+  \indexspace
+
+  \item {Term}, \hyperpage{84}
+    \subitem {eventID}, \hyperpage{87}
+    \subitem {markID}, \hyperpage{87}
+    \subitem {operator$<$$<$}, \hyperpage{86}
+    \subitem {operator$>$$>$}, \hyperpage{87}
+    \subitem {revoke}, \hyperpage{87}
+    \subitem {Term}, \hyperpage{86}
+  \item {term.cpp}
+    \subitem {operator$<$$<$}, \hyperpage{154}
+    \subitem {operator$>$$>$}, \hyperpage{154}
+  \item {term.h}
+    \subitem {operator$<$$<$}, \hyperpage{125}
+    \subitem {operator$>$$>$}, \hyperpage{126}
+  \item {terms}
+    \subitem {Event}, \hyperpage{35}
+  \item {Type}, \hyperpage{88}
+    \subitem {exist}, \hyperpage{88}
+    \subitem {name}, \hyperpage{88}
+  \item {type}
+    \subitem {IDGenerator}, \hyperpage{63}
+    \subitem {IDGenerator::ID}, \hyperpage{54}
+  \item {typeID}
+    \subitem {Event}, \hyperpage{36}
+  \item {typeIDGenerator}
+    \subitem {Subject}, \hyperpage{74}
+  \item {types}
+    \subitem {Subject}, \hyperpage{74}
+  \item {typesMapping}
+    \subitem {Subject}, \hyperpage{74}
+
+  \indexspace
+
+  \item {voidID}
+    \subitem {IDGenerator}, \hyperpage{62}
+  \item {voidIDGenerator}
+    \subitem {GeneratorIDGenerator}, \hyperpage{49}
+
+\end{theindex}

@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>SchoolTools - Schedule: Plik źródłowy include/obsolete/state.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.3 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li><a href="dirs.html"><span>Katalogi</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="dir_d86edb86472748ce3b9447a9e360126c.html">include</a>&nbsp;&raquo;&nbsp;<a class="el" href="dir_7a951694f1b7ff6e69b4126eb6966017.html">obsolete</a>
+  </div>
+</div>
+<div class="contents">
+<h1>state.h</h1><a href="state_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#ifndef STATE_H</span>
+<a name="l00002"></a>00002 <span class="preprocessor"></span><span class="preprocessor">#define STATE_H</span>
+<a name="l00003"></a>00003 <span class="preprocessor"></span>
+<a name="l00004"></a>00004 <span class="preprocessor">#include &lt;QtCore/QStringList&gt;</span>
+<a name="l00005"></a>00005 <span class="preprocessor">#include &lt;QtCore/QList&gt;</span>
+<a name="l00006"></a>00006 <span class="preprocessor">#include &quot;<a class="code" href="generatoridgenerator_8h.html">generatoridgenerator.h</a>&quot;</span>
+<a name="l00007"></a>00007 
+<a name="l00008"></a>00008 <span class="keyword">namespace </span>obsolete
+<a name="l00009"></a>00009 {
+<a name="l00010"></a>00010 
+<a name="l00015"></a><a class="code" href="classobsolete_1_1State.html">00015</a> <span class="keyword">class </span><a class="code" href="classobsolete_1_1State.html" title="Klasa przechowująca wszelkie informacje o stanie aplikacji, bazy danych i danych...">State</a>
+<a name="l00016"></a>00016 {
+<a name="l00017"></a>00017 <span class="keyword">public</span>:
+<a name="l00018"></a><a class="code" href="classobsolete_1_1State.html#a79baf22dac86724b99d4b2b785e38875">00018</a>     <span class="keyword">static</span> <a class="code" href="classIDGenerator.html" title="Generator identyfikatorów określonego typu.">IDGenerator</a>                      <a class="code" href="classobsolete_1_1State.html#a79baf22dac86724b99d4b2b785e38875" title="Generator identyfikatorów przedmiotów.">subjectIDGenerator</a>; 
+<a name="l00019"></a><a class="code" href="classobsolete_1_1State.html#aeaa49570838d7cd7bb5585385df92b1c">00019</a>     <span class="keyword">static</span> QStringList                      <a class="code" href="classobsolete_1_1State.html#aeaa49570838d7cd7bb5585385df92b1c" title="Lista przedmiotów. subjects[SubjectID] = Przedmiot o zadanym identyfikatorze.">subjects</a>;           
+<a name="l00020"></a><a class="code" href="classobsolete_1_1State.html#acbed5e9ef96a7bf365f2429e1384bd03">00020</a>     <span class="keyword">static</span> <a class="code" href="classQList.html">QList&lt;IDGenerator::ID&gt;</a>           <a class="code" href="classobsolete_1_1State.html#acbed5e9ef96a7bf365f2429e1384bd03" title="Lista odnośników [pozycja w ComboBox]--&amp;gt;[pozycja w subjects].">subjectMapping</a>;     
+<a name="l00021"></a>00021 
+<a name="l00022"></a>00022 <span class="keyword">private</span>:
+<a name="l00023"></a><a class="code" href="classobsolete_1_1State.html#ac8dd10c3b5045899fc6095b1c79d27d1">00023</a>     <a class="code" href="classobsolete_1_1State.html#ac8dd10c3b5045899fc6095b1c79d27d1" title="Nie wolno tworzyć obiektów tej klasy.">State</a>() {}                                       
+<a name="l00024"></a>00024 };
+<a name="l00025"></a>00025 
+<a name="l00026"></a>00026 }
+<a name="l00027"></a>00027 
+<a name="l00028"></a>00028 <span class="preprocessor">#endif // STATE_H</span>
+</pre></div></div>
+<hr class="footer"/><address style="text-align: right;"><small>Wygenerowano Sat Jul 10 18:45:14 2010 dla SchoolTools - Schedule programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>

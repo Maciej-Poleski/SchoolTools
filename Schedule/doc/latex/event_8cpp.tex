@@ -1,0 +1,80 @@
+\hypertarget{event_8cpp}{
+\section{Dokumentacja pliku src/event.cpp}
+\label{event_8cpp}\index{src/event.cpp@{src/event.cpp}}
+}
+{\ttfamily \#include \char`\"{}../include/event.h\char`\"{}}\par
+Wykres zależności załączania dla event.cpp:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=73pt]{event_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+QDataStream \& \hyperlink{event_8cpp_a62e8730ab4dc16e3d456b527a12635b3}{operator$<$$<$} (QDataStream \&stream, const \hyperlink{classEvent}{Event} \&event)
+\begin{DoxyCompactList}\small\item\em Zapisuje informacje o danym wydarzeniu do danego strumienia. \item\end{DoxyCompactList}\item 
+QDataStream \& \hyperlink{event_8cpp_a055427e98ad131966edb6fb652add004}{operator$>$$>$} (QDataStream \&stream, \hyperlink{classEvent}{Event} \&event)
+\begin{DoxyCompactList}\small\item\em Odczytuje informacje o danym wydarzeniu z danego strumienia. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Dokumentacja funkcji}
+\hypertarget{event_8cpp_a62e8730ab4dc16e3d456b527a12635b3}{
+\index{event.cpp@{event.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!event.cpp@{event.cpp}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$<$$<$ (QDataStream \& {\em stream}, \/  const {\bf Event} \& {\em event})}}
+\label{event_8cpp_a62e8730ab4dc16e3d456b527a12635b3}
+
+
+Zapisuje informacje o danym wydarzeniu do danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień do którego będą zapisywane dane. \item[{\em event}]Wydarzenie które będzie zapisywane. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+
+
+Definicja w linii 3 pliku event.cpp.
+
+
+
+
+\begin{DoxyCode}
+4 {
+5     return stream<<event.subjectID<<event.typeID<<event.terms;
+6 }
+\end{DoxyCode}
+
+
+\hypertarget{event_8cpp_a055427e98ad131966edb6fb652add004}{
+\index{event.cpp@{event.cpp}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!event.cpp@{event.cpp}}
+\subsubsection[{operator$>$$>$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$>$$>$ (QDataStream \& {\em stream}, \/  {\bf Event} \& {\em event})}}
+\label{event_8cpp_a055427e98ad131966edb6fb652add004}
+
+
+Odczytuje informacje o danym wydarzeniu z danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień z którego będą odczytywane dane. \item[{\em event}]Wydarzenie które zostanie zainicjalizowane wczytanymi danymi. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+
+
+Definicja w linii 8 pliku event.cpp.
+
+
+
+
+\begin{DoxyCode}
+9 {
+10     return stream>>event.subjectID<<event.typeID<<event.terms;
+11 }
+\end{DoxyCode}
+
+

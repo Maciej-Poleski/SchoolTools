@@ -1,0 +1,333 @@
+\contentsline {chapter}{\numberline {1}Struktura katalog\IeC {\'o}w}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Katalogi}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Indeks przestrzeni nazw}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Lista przestrzeni nazw}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Indeks klas}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Hierarchia klas}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}Indeks klas}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}Lista klas}{7}{section.4.1}
+\contentsline {chapter}{\numberline {5}Indeks plik\IeC {\'o}w}{9}{chapter.5}
+\contentsline {section}{\numberline {5.1}Lista plik\IeC {\'o}w}{9}{section.5.1}
+\contentsline {chapter}{\numberline {6}Dokumentacja katalog\IeC {\'o}w}{11}{chapter.6}
+\contentsline {section}{\numberline {6.1}Dokumentacja katalogu build/}{11}{section.6.1}
+\contentsline {section}{\numberline {6.2}Dokumentacja katalogu build/CMakeFiles/}{12}{section.6.2}
+\contentsline {section}{\numberline {6.3}Dokumentacja katalogu build/CMakeFiles/CompilerIdC/}{13}{section.6.3}
+\contentsline {section}{\numberline {6.4}Dokumentacja katalogu build/CMakeFiles/CompilerIdCXX/}{14}{section.6.4}
+\contentsline {section}{\numberline {6.5}Dokumentacja katalogu include/}{15}{section.6.5}
+\contentsline {section}{\numberline {6.6}Dokumentacja katalogu src/obsolete/}{16}{section.6.6}
+\contentsline {section}{\numberline {6.7}Dokumentacja katalogu include/obsolete/}{17}{section.6.7}
+\contentsline {section}{\numberline {6.8}Dokumentacja katalogu src/}{18}{section.6.8}
+\contentsline {chapter}{\numberline {7}Dokumentacja przestrzeni nazw}{19}{chapter.7}
+\contentsline {section}{\numberline {7.1}Dokumentacja przestrzeni nazw obsolete}{19}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Dokumentacja funkcji}{20}{subsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.1.1}operator$<$$<$}{20}{subsubsection.7.1.1.1}
+\contentsline {subsubsection}{\numberline {7.1.1.2}operator$>$$>$}{20}{subsubsection.7.1.1.2}
+\contentsline {chapter}{\numberline {8}Dokumentacja klas}{21}{chapter.8}
+\contentsline {section}{\numberline {8.1}Dokumentacja klasy obsolete::AbstractID}{21}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{22}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Dokumentacja konstruktora i destruktora}{23}{subsection.8.1.2}
+\contentsline {subsubsection}{\numberline {8.1.2.1}AbstractID}{23}{subsubsection.8.1.2.1}
+\contentsline {subsection}{\numberline {8.1.3}Dokumentacja przyjaci\IeC {\'o}\IeC {\l } i funkcji zwi\IeC {\k a}zanych}{23}{subsection.8.1.3}
+\contentsline {subsubsection}{\numberline {8.1.3.1}operator$<$$<$}{23}{subsubsection.8.1.3.1}
+\contentsline {subsubsection}{\numberline {8.1.3.2}operator$>$$>$}{23}{subsubsection.8.1.3.2}
+\contentsline {subsection}{\numberline {8.1.4}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{23}{subsection.8.1.4}
+\contentsline {subsubsection}{\numberline {8.1.4.1}ID}{23}{subsubsection.8.1.4.1}
+\contentsline {section}{\numberline {8.2}Dokumentacja klasy obsolete::AbstractIDGenerator}{24}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{26}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Dokumentacja konstruktora i destruktora}{26}{subsection.8.2.2}
+\contentsline {subsubsection}{\numberline {8.2.2.1}AbstractIDGenerator}{26}{subsubsection.8.2.2.1}
+\contentsline {subsection}{\numberline {8.2.3}Dokumentacja funkcji sk\IeC {\l }adowych}{26}{subsection.8.2.3}
+\contentsline {subsubsection}{\numberline {8.2.3.1}createID}{26}{subsubsection.8.2.3.1}
+\contentsline {subsubsection}{\numberline {8.2.3.2}createVoidID}{26}{subsubsection.8.2.3.2}
+\contentsline {subsection}{\numberline {8.2.4}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{26}{subsection.8.2.4}
+\contentsline {subsubsection}{\numberline {8.2.4.1}ID}{26}{subsubsection.8.2.4.1}
+\contentsline {section}{\numberline {8.3}Dokumentacja klasy obsolete::AbstractIncrementalID}{27}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{29}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Dokumentacja konstruktora i destruktora}{29}{subsection.8.3.2}
+\contentsline {subsubsection}{\numberline {8.3.2.1}AbstractIncrementalID}{29}{subsubsection.8.3.2.1}
+\contentsline {subsubsection}{\numberline {8.3.2.2}AbstractIncrementalID}{29}{subsubsection.8.3.2.2}
+\contentsline {subsection}{\numberline {8.3.3}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{29}{subsection.8.3.3}
+\contentsline {subsubsection}{\numberline {8.3.3.1}ID}{29}{subsubsection.8.3.3.1}
+\contentsline {section}{\numberline {8.4}Dokumentacja klasy obsolete::AbstractReservedID}{30}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{32}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}Dokumentacja konstruktora i destruktora}{32}{subsection.8.4.2}
+\contentsline {subsubsection}{\numberline {8.4.2.1}AbstractReservedID}{32}{subsubsection.8.4.2.1}
+\contentsline {subsubsection}{\numberline {8.4.2.2}AbstractReservedID}{32}{subsubsection.8.4.2.2}
+\contentsline {subsection}{\numberline {8.4.3}Dokumentacja funkcji sk\IeC {\l }adowych}{32}{subsection.8.4.3}
+\contentsline {subsubsection}{\numberline {8.4.3.1}createID}{32}{subsubsection.8.4.3.1}
+\contentsline {subsection}{\numberline {8.4.4}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{32}{subsection.8.4.4}
+\contentsline {subsubsection}{\numberline {8.4.4.1}ID}{32}{subsubsection.8.4.4.1}
+\contentsline {section}{\numberline {8.5}Dokumentacja klasy Event}{33}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{34}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}Dokumentacja konstruktora i destruktora}{34}{subsection.8.5.2}
+\contentsline {subsubsection}{\numberline {8.5.2.1}Event}{34}{subsubsection.8.5.2.1}
+\contentsline {subsubsection}{\numberline {8.5.2.2}Event}{35}{subsubsection.8.5.2.2}
+\contentsline {subsection}{\numberline {8.5.3}Dokumentacja przyjaci\IeC {\'o}\IeC {\l } i funkcji zwi\IeC {\k a}zanych}{35}{subsection.8.5.3}
+\contentsline {subsubsection}{\numberline {8.5.3.1}operator$<$$<$}{35}{subsubsection.8.5.3.1}
+\contentsline {subsubsection}{\numberline {8.5.3.2}operator$>$$>$}{35}{subsubsection.8.5.3.2}
+\contentsline {subsection}{\numberline {8.5.4}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{35}{subsection.8.5.4}
+\contentsline {subsubsection}{\numberline {8.5.4.1}subjectID}{35}{subsubsection.8.5.4.1}
+\contentsline {subsubsection}{\numberline {8.5.4.2}terms}{36}{subsubsection.8.5.4.2}
+\contentsline {subsubsection}{\numberline {8.5.4.3}typeID}{36}{subsubsection.8.5.4.3}
+\contentsline {section}{\numberline {8.6}Dokumentacja klasy obsolete::EventID}{37}{section.8.6}
+\contentsline {subsection}{\numberline {8.6.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{39}{subsection.8.6.1}
+\contentsline {subsection}{\numberline {8.6.2}Dokumentacja konstruktora i destruktora}{39}{subsection.8.6.2}
+\contentsline {subsubsection}{\numberline {8.6.2.1}EventID}{39}{subsubsection.8.6.2.1}
+\contentsline {subsubsection}{\numberline {8.6.2.2}EventID}{39}{subsubsection.8.6.2.2}
+\contentsline {subsection}{\numberline {8.6.3}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{39}{subsection.8.6.3}
+\contentsline {subsubsection}{\numberline {8.6.3.1}ID}{39}{subsubsection.8.6.3.1}
+\contentsline {section}{\numberline {8.7}Dokumentacja klasy obsolete::EventIDGenerator}{40}{section.8.7}
+\contentsline {subsection}{\numberline {8.7.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{42}{subsection.8.7.1}
+\contentsline {subsection}{\numberline {8.7.2}Dokumentacja funkcji sk\IeC {\l }adowych}{42}{subsection.8.7.2}
+\contentsline {subsubsection}{\numberline {8.7.2.1}createID}{42}{subsubsection.8.7.2.1}
+\contentsline {subsubsection}{\numberline {8.7.2.2}createVoidID}{42}{subsubsection.8.7.2.2}
+\contentsline {subsection}{\numberline {8.7.3}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{42}{subsection.8.7.3}
+\contentsline {subsubsection}{\numberline {8.7.3.1}ID}{42}{subsubsection.8.7.3.1}
+\contentsline {section}{\numberline {8.8}Dokumentacja klasy Events}{43}{section.8.8}
+\contentsline {subsection}{\numberline {8.8.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{44}{subsection.8.8.1}
+\contentsline {subsection}{\numberline {8.8.2}Dokumentacja konstruktora i destruktora}{45}{subsection.8.8.2}
+\contentsline {subsubsection}{\numberline {8.8.2.1}Events}{45}{subsubsection.8.8.2.1}
+\contentsline {subsection}{\numberline {8.8.3}Dokumentacja funkcji sk\IeC {\l }adowych}{45}{subsection.8.8.3}
+\contentsline {subsubsection}{\numberline {8.8.3.1}addEvent}{45}{subsubsection.8.8.3.1}
+\contentsline {subsubsection}{\numberline {8.8.3.2}create}{45}{subsubsection.8.8.3.2}
+\contentsline {subsection}{\numberline {8.8.4}Dokumentacja przyjaci\IeC {\'o}\IeC {\l } i funkcji zwi\IeC {\k a}zanych}{46}{subsection.8.8.4}
+\contentsline {subsubsection}{\numberline {8.8.4.1}operator$<$$<$}{46}{subsubsection.8.8.4.1}
+\contentsline {subsubsection}{\numberline {8.8.4.2}operator$>$$>$}{46}{subsubsection.8.8.4.2}
+\contentsline {subsection}{\numberline {8.8.5}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{46}{subsection.8.8.5}
+\contentsline {subsubsection}{\numberline {8.8.5.1}eventIDGenerator}{46}{subsubsection.8.8.5.1}
+\contentsline {subsubsection}{\numberline {8.8.5.2}events}{47}{subsubsection.8.8.5.2}
+\contentsline {subsubsection}{\numberline {8.8.5.3}existOne}{47}{subsubsection.8.8.5.3}
+\contentsline {subsubsection}{\numberline {8.8.5.4}initialized}{47}{subsubsection.8.8.5.4}
+\contentsline {section}{\numberline {8.9}Dokumentacja klasy GeneratorIDGenerator}{48}{section.8.9}
+\contentsline {subsection}{\numberline {8.9.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{49}{subsection.8.9.1}
+\contentsline {subsection}{\numberline {8.9.2}Dokumentacja konstruktora i destruktora}{49}{subsection.8.9.2}
+\contentsline {subsubsection}{\numberline {8.9.2.1}GeneratorIDGenerator}{49}{subsubsection.8.9.2.1}
+\contentsline {subsection}{\numberline {8.9.3}Dokumentacja funkcji sk\IeC {\l }adowych}{49}{subsection.8.9.3}
+\contentsline {subsubsection}{\numberline {8.9.3.1}nextIDGenerator}{49}{subsubsection.8.9.3.1}
+\contentsline {subsubsection}{\numberline {8.9.3.2}voidIDGenerator}{49}{subsubsection.8.9.3.2}
+\contentsline {subsection}{\numberline {8.9.4}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{50}{subsection.8.9.4}
+\contentsline {subsubsection}{\numberline {8.9.4.1}freeIDGenerator}{50}{subsubsection.8.9.4.1}
+\contentsline {section}{\numberline {8.10}Dokumentacja klasy IDGenerator::ID}{51}{section.8.10}
+\contentsline {subsection}{\numberline {8.10.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{52}{subsection.8.10.1}
+\contentsline {subsection}{\numberline {8.10.2}Dokumentacja konstruktora i destruktora}{52}{subsection.8.10.2}
+\contentsline {subsubsection}{\numberline {8.10.2.1}ID}{52}{subsubsection.8.10.2.1}
+\contentsline {subsubsection}{\numberline {8.10.2.2}ID}{52}{subsubsection.8.10.2.2}
+\contentsline {subsection}{\numberline {8.10.3}Dokumentacja funkcji sk\IeC {\l }adowych}{53}{subsection.8.10.3}
+\contentsline {subsubsection}{\numberline {8.10.3.1}operator=}{53}{subsubsection.8.10.3.1}
+\contentsline {subsection}{\numberline {8.10.4}Dokumentacja przyjaci\IeC {\'o}\IeC {\l } i funkcji zwi\IeC {\k a}zanych}{53}{subsection.8.10.4}
+\contentsline {subsubsection}{\numberline {8.10.4.1}IDGenerator}{53}{subsubsection.8.10.4.1}
+\contentsline {subsubsection}{\numberline {8.10.4.2}operator$<$$<$}{53}{subsubsection.8.10.4.2}
+\contentsline {subsubsection}{\numberline {8.10.4.3}operator$>$$>$}{53}{subsubsection.8.10.4.3}
+\contentsline {subsection}{\numberline {8.10.5}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{54}{subsection.8.10.5}
+\contentsline {subsubsection}{\numberline {8.10.5.1}id}{54}{subsubsection.8.10.5.1}
+\contentsline {subsubsection}{\numberline {8.10.5.2}type}{54}{subsubsection.8.10.5.2}
+\contentsline {section}{\numberline {8.11}Dokumentacja klasy obsolete::ID}{55}{section.8.11}
+\contentsline {subsection}{\numberline {8.11.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{57}{subsection.8.11.1}
+\contentsline {subsection}{\numberline {8.11.2}Dokumentacja funkcji sk\IeC {\l }adowych}{57}{subsection.8.11.2}
+\contentsline {subsubsection}{\numberline {8.11.2.1}createID}{57}{subsubsection.8.11.2.1}
+\contentsline {subsubsection}{\numberline {8.11.2.2}createID}{57}{subsubsection.8.11.2.2}
+\contentsline {subsection}{\numberline {8.11.3}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{57}{subsection.8.11.3}
+\contentsline {subsubsection}{\numberline {8.11.3.1}ID}{57}{subsubsection.8.11.3.1}
+\contentsline {subsubsection}{\numberline {8.11.3.2}ID}{57}{subsubsection.8.11.3.2}
+\contentsline {subsubsection}{\numberline {8.11.3.3}ID}{58}{subsubsection.8.11.3.3}
+\contentsline {subsubsection}{\numberline {8.11.3.4}ID}{58}{subsubsection.8.11.3.4}
+\contentsline {section}{\numberline {8.12}Dokumentacja klasy IDGenerator}{59}{section.8.12}
+\contentsline {subsection}{\numberline {8.12.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{60}{subsection.8.12.1}
+\contentsline {subsection}{\numberline {8.12.2}Dokumentacja konstruktora i destruktora}{61}{subsection.8.12.2}
+\contentsline {subsubsection}{\numberline {8.12.2.1}IDGenerator}{61}{subsubsection.8.12.2.1}
+\contentsline {subsection}{\numberline {8.12.3}Dokumentacja funkcji sk\IeC {\l }adowych}{61}{subsection.8.12.3}
+\contentsline {subsubsection}{\numberline {8.12.3.1}initialize}{61}{subsubsection.8.12.3.1}
+\contentsline {subsubsection}{\numberline {8.12.3.2}nextID}{61}{subsubsection.8.12.3.2}
+\contentsline {subsubsection}{\numberline {8.12.3.3}operator=}{62}{subsubsection.8.12.3.3}
+\contentsline {subsubsection}{\numberline {8.12.3.4}voidID}{62}{subsubsection.8.12.3.4}
+\contentsline {subsection}{\numberline {8.12.4}Dokumentacja przyjaci\IeC {\'o}\IeC {\l } i funkcji zwi\IeC {\k a}zanych}{62}{subsection.8.12.4}
+\contentsline {subsubsection}{\numberline {8.12.4.1}GeneratorIDGenerator}{62}{subsubsection.8.12.4.1}
+\contentsline {subsubsection}{\numberline {8.12.4.2}operator$<$$<$}{62}{subsubsection.8.12.4.2}
+\contentsline {subsubsection}{\numberline {8.12.4.3}operator$>$$>$}{63}{subsubsection.8.12.4.3}
+\contentsline {subsection}{\numberline {8.12.5}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{63}{subsection.8.12.5}
+\contentsline {subsubsection}{\numberline {8.12.5.1}freeID}{63}{subsubsection.8.12.5.1}
+\contentsline {subsubsection}{\numberline {8.12.5.2}type}{63}{subsubsection.8.12.5.2}
+\contentsline {section}{\numberline {8.13}Dokumentacja klasy obsolete::MarkID}{64}{section.8.13}
+\contentsline {subsection}{\numberline {8.13.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{66}{subsection.8.13.1}
+\contentsline {subsection}{\numberline {8.13.2}Dokumentacja konstruktora i destruktora}{66}{subsection.8.13.2}
+\contentsline {subsubsection}{\numberline {8.13.2.1}MarkID}{66}{subsubsection.8.13.2.1}
+\contentsline {subsubsection}{\numberline {8.13.2.2}MarkID}{66}{subsubsection.8.13.2.2}
+\contentsline {subsection}{\numberline {8.13.3}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{66}{subsection.8.13.3}
+\contentsline {subsubsection}{\numberline {8.13.3.1}ID}{66}{subsubsection.8.13.3.1}
+\contentsline {section}{\numberline {8.14}Dokumentacja klasy obsolete::MarkIDGenerator}{67}{section.8.14}
+\contentsline {subsection}{\numberline {8.14.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{69}{subsection.8.14.1}
+\contentsline {subsection}{\numberline {8.14.2}Dokumentacja funkcji sk\IeC {\l }adowych}{69}{subsection.8.14.2}
+\contentsline {subsubsection}{\numberline {8.14.2.1}createID}{69}{subsubsection.8.14.2.1}
+\contentsline {subsubsection}{\numberline {8.14.2.2}createVoidID}{69}{subsubsection.8.14.2.2}
+\contentsline {subsection}{\numberline {8.14.3}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{69}{subsection.8.14.3}
+\contentsline {subsubsection}{\numberline {8.14.3.1}ID}{69}{subsubsection.8.14.3.1}
+\contentsline {section}{\numberline {8.15}Dokumentacja klasy QDate}{70}{section.8.15}
+\contentsline {section}{\numberline {8.16}Dokumentacja klasy obsolete::State}{71}{section.8.16}
+\contentsline {subsection}{\numberline {8.16.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{72}{subsection.8.16.1}
+\contentsline {subsection}{\numberline {8.16.2}Dokumentacja konstruktora i destruktora}{72}{subsection.8.16.2}
+\contentsline {subsubsection}{\numberline {8.16.2.1}State}{72}{subsubsection.8.16.2.1}
+\contentsline {subsection}{\numberline {8.16.3}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{72}{subsection.8.16.3}
+\contentsline {subsubsection}{\numberline {8.16.3.1}subjectIDGenerator}{72}{subsubsection.8.16.3.1}
+\contentsline {subsubsection}{\numberline {8.16.3.2}subjectMapping}{72}{subsubsection.8.16.3.2}
+\contentsline {subsubsection}{\numberline {8.16.3.3}subjects}{72}{subsubsection.8.16.3.3}
+\contentsline {section}{\numberline {8.17}Dokumentacja klasy Subject}{73}{section.8.17}
+\contentsline {subsection}{\numberline {8.17.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{74}{subsection.8.17.1}
+\contentsline {subsection}{\numberline {8.17.2}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{74}{subsection.8.17.2}
+\contentsline {subsubsection}{\numberline {8.17.2.1}exist}{74}{subsubsection.8.17.2.1}
+\contentsline {subsubsection}{\numberline {8.17.2.2}name}{74}{subsubsection.8.17.2.2}
+\contentsline {subsubsection}{\numberline {8.17.2.3}typeIDGenerator}{74}{subsubsection.8.17.2.3}
+\contentsline {subsubsection}{\numberline {8.17.2.4}types}{74}{subsubsection.8.17.2.4}
+\contentsline {subsubsection}{\numberline {8.17.2.5}typesMapping}{74}{subsubsection.8.17.2.5}
+\contentsline {section}{\numberline {8.18}Dokumentacja klasy obsolete::SubjectID}{75}{section.8.18}
+\contentsline {subsection}{\numberline {8.18.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{77}{subsection.8.18.1}
+\contentsline {subsection}{\numberline {8.18.2}Dokumentacja funkcji sk\IeC {\l }adowych}{77}{subsection.8.18.2}
+\contentsline {subsubsection}{\numberline {8.18.2.1}createID}{77}{subsubsection.8.18.2.1}
+\contentsline {subsection}{\numberline {8.18.3}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{77}{subsection.8.18.3}
+\contentsline {subsubsection}{\numberline {8.18.3.1}ID}{77}{subsubsection.8.18.3.1}
+\contentsline {section}{\numberline {8.19}Dokumentacja klasy obsolete::SubjectIDGenerator}{78}{section.8.19}
+\contentsline {subsection}{\numberline {8.19.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{80}{subsection.8.19.1}
+\contentsline {subsection}{\numberline {8.19.2}Dokumentacja funkcji sk\IeC {\l }adowych}{80}{subsection.8.19.2}
+\contentsline {subsubsection}{\numberline {8.19.2.1}createID}{80}{subsubsection.8.19.2.1}
+\contentsline {subsubsection}{\numberline {8.19.2.2}createVoidID}{80}{subsubsection.8.19.2.2}
+\contentsline {subsection}{\numberline {8.19.3}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{80}{subsection.8.19.3}
+\contentsline {subsubsection}{\numberline {8.19.3.1}ID}{80}{subsubsection.8.19.3.1}
+\contentsline {section}{\numberline {8.20}Dokumentacja klasy Subjects}{81}{section.8.20}
+\contentsline {subsection}{\numberline {8.20.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{82}{subsection.8.20.1}
+\contentsline {subsection}{\numberline {8.20.2}Dokumentacja funkcji sk\IeC {\l }adowych}{82}{subsection.8.20.2}
+\contentsline {subsubsection}{\numberline {8.20.2.1}create}{82}{subsubsection.8.20.2.1}
+\contentsline {subsection}{\numberline {8.20.3}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{83}{subsection.8.20.3}
+\contentsline {subsubsection}{\numberline {8.20.3.1}existOne}{83}{subsubsection.8.20.3.1}
+\contentsline {subsubsection}{\numberline {8.20.3.2}initialized}{83}{subsubsection.8.20.3.2}
+\contentsline {subsubsection}{\numberline {8.20.3.3}subjectIDGenerator}{83}{subsubsection.8.20.3.3}
+\contentsline {subsubsection}{\numberline {8.20.3.4}subjectMapping}{83}{subsubsection.8.20.3.4}
+\contentsline {subsubsection}{\numberline {8.20.3.5}subjects}{83}{subsubsection.8.20.3.5}
+\contentsline {section}{\numberline {8.21}Dokumentacja klasy Term}{84}{section.8.21}
+\contentsline {subsection}{\numberline {8.21.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{86}{subsection.8.21.1}
+\contentsline {subsection}{\numberline {8.21.2}Dokumentacja konstruktora i destruktora}{86}{subsection.8.21.2}
+\contentsline {subsubsection}{\numberline {8.21.2.1}Term}{86}{subsubsection.8.21.2.1}
+\contentsline {subsection}{\numberline {8.21.3}Dokumentacja przyjaci\IeC {\'o}\IeC {\l } i funkcji zwi\IeC {\k a}zanych}{86}{subsection.8.21.3}
+\contentsline {subsubsection}{\numberline {8.21.3.1}operator$<$$<$}{86}{subsubsection.8.21.3.1}
+\contentsline {subsubsection}{\numberline {8.21.3.2}operator$>$$>$}{87}{subsubsection.8.21.3.2}
+\contentsline {subsection}{\numberline {8.21.4}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{87}{subsection.8.21.4}
+\contentsline {subsubsection}{\numberline {8.21.4.1}eventID}{87}{subsubsection.8.21.4.1}
+\contentsline {subsubsection}{\numberline {8.21.4.2}markID}{87}{subsubsection.8.21.4.2}
+\contentsline {subsubsection}{\numberline {8.21.4.3}revoke}{87}{subsubsection.8.21.4.3}
+\contentsline {section}{\numberline {8.22}Dokumentacja klasy Type}{88}{section.8.22}
+\contentsline {subsection}{\numberline {8.22.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{88}{subsection.8.22.1}
+\contentsline {subsection}{\numberline {8.22.2}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{88}{subsection.8.22.2}
+\contentsline {subsubsection}{\numberline {8.22.2.1}exist}{88}{subsubsection.8.22.2.1}
+\contentsline {subsubsection}{\numberline {8.22.2.2}name}{89}{subsubsection.8.22.2.2}
+\contentsline {section}{\numberline {8.23}Dokumentacja klasy obsolete::TypeID}{90}{section.8.23}
+\contentsline {subsection}{\numberline {8.23.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{92}{subsection.8.23.1}
+\contentsline {subsection}{\numberline {8.23.2}Dokumentacja funkcji sk\IeC {\l }adowych}{92}{subsection.8.23.2}
+\contentsline {subsubsection}{\numberline {8.23.2.1}createID}{92}{subsubsection.8.23.2.1}
+\contentsline {subsection}{\numberline {8.23.3}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{92}{subsection.8.23.3}
+\contentsline {subsubsection}{\numberline {8.23.3.1}ID}{92}{subsubsection.8.23.3.1}
+\contentsline {section}{\numberline {8.24}Dokumentacja klasy obsolete::TypeIDGenerator}{93}{section.8.24}
+\contentsline {subsection}{\numberline {8.24.1}Opis szczeg\IeC {\'o}\IeC {\l }owy}{95}{subsection.8.24.1}
+\contentsline {subsection}{\numberline {8.24.2}Dokumentacja funkcji sk\IeC {\l }adowych}{95}{subsection.8.24.2}
+\contentsline {subsubsection}{\numberline {8.24.2.1}createID}{95}{subsubsection.8.24.2.1}
+\contentsline {subsubsection}{\numberline {8.24.2.2}createVoidID}{95}{subsubsection.8.24.2.2}
+\contentsline {subsection}{\numberline {8.24.3}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{95}{subsection.8.24.3}
+\contentsline {subsubsection}{\numberline {8.24.3.1}ID}{95}{subsubsection.8.24.3.1}
+\contentsline {chapter}{\numberline {9}Dokumentacja plik\IeC {\'o}w}{97}{chapter.9}
+\contentsline {section}{\numberline {9.1}Dokumentacja pliku build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c}{97}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Dokumentacja definicji}{97}{subsection.9.1.1}
+\contentsline {subsubsection}{\numberline {9.1.1.1}ARCHITECTURE\_\discretionary {-}{}{}ID}{97}{subsubsection.9.1.1.1}
+\contentsline {subsubsection}{\numberline {9.1.1.2}COMPILER\_\discretionary {-}{}{}ID}{97}{subsubsection.9.1.1.2}
+\contentsline {subsubsection}{\numberline {9.1.1.3}PLATFORM\_\discretionary {-}{}{}ID}{97}{subsubsection.9.1.1.3}
+\contentsline {subsection}{\numberline {9.1.2}Dokumentacja funkcji}{98}{subsection.9.1.2}
+\contentsline {subsubsection}{\numberline {9.1.2.1}main}{98}{subsubsection.9.1.2.1}
+\contentsline {subsection}{\numberline {9.1.3}Dokumentacja zmiennych}{98}{subsection.9.1.3}
+\contentsline {subsubsection}{\numberline {9.1.3.1}info\_\discretionary {-}{}{}arch}{98}{subsubsection.9.1.3.1}
+\contentsline {subsubsection}{\numberline {9.1.3.2}info\_\discretionary {-}{}{}compiler}{98}{subsubsection.9.1.3.2}
+\contentsline {subsubsection}{\numberline {9.1.3.3}info\_\discretionary {-}{}{}platform}{98}{subsubsection.9.1.3.3}
+\contentsline {section}{\numberline {9.2}Dokumentacja pliku build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp}{99}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Dokumentacja definicji}{99}{subsection.9.2.1}
+\contentsline {subsubsection}{\numberline {9.2.1.1}ARCHITECTURE\_\discretionary {-}{}{}ID}{99}{subsubsection.9.2.1.1}
+\contentsline {subsubsection}{\numberline {9.2.1.2}COMPILER\_\discretionary {-}{}{}ID}{99}{subsubsection.9.2.1.2}
+\contentsline {subsubsection}{\numberline {9.2.1.3}PLATFORM\_\discretionary {-}{}{}ID}{99}{subsubsection.9.2.1.3}
+\contentsline {subsection}{\numberline {9.2.2}Dokumentacja funkcji}{99}{subsection.9.2.2}
+\contentsline {subsubsection}{\numberline {9.2.2.1}main}{99}{subsubsection.9.2.2.1}
+\contentsline {subsection}{\numberline {9.2.3}Dokumentacja zmiennych}{100}{subsection.9.2.3}
+\contentsline {subsubsection}{\numberline {9.2.3.1}info\_\discretionary {-}{}{}arch}{100}{subsubsection.9.2.3.1}
+\contentsline {subsubsection}{\numberline {9.2.3.2}info\_\discretionary {-}{}{}compiler}{100}{subsubsection.9.2.3.2}
+\contentsline {subsubsection}{\numberline {9.2.3.3}info\_\discretionary {-}{}{}platform}{100}{subsubsection.9.2.3.3}
+\contentsline {section}{\numberline {9.3}Dokumentacja pliku include/event.h}{101}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Dokumentacja funkcji}{101}{subsection.9.3.1}
+\contentsline {subsubsection}{\numberline {9.3.1.1}operator$<$$<$}{101}{subsubsection.9.3.1.1}
+\contentsline {subsubsection}{\numberline {9.3.1.2}operator$>$$>$}{102}{subsubsection.9.3.1.2}
+\contentsline {section}{\numberline {9.4}Dokumentacja pliku include/events.h}{103}{section.9.4}
+\contentsline {subsection}{\numberline {9.4.1}Dokumentacja funkcji}{104}{subsection.9.4.1}
+\contentsline {subsubsection}{\numberline {9.4.1.1}operator$<$$<$}{104}{subsubsection.9.4.1.1}
+\contentsline {subsubsection}{\numberline {9.4.1.2}operator$>$$>$}{104}{subsubsection.9.4.1.2}
+\contentsline {section}{\numberline {9.5}Dokumentacja pliku include/generatoridgenerator.h}{105}{section.9.5}
+\contentsline {section}{\numberline {9.6}Dokumentacja pliku include/idgenerator.h}{106}{section.9.6}
+\contentsline {subsection}{\numberline {9.6.1}Dokumentacja funkcji}{107}{subsection.9.6.1}
+\contentsline {subsubsection}{\numberline {9.6.1.1}operator$<$$<$}{107}{subsubsection.9.6.1.1}
+\contentsline {subsubsection}{\numberline {9.6.1.2}operator$<$$<$}{107}{subsubsection.9.6.1.2}
+\contentsline {subsubsection}{\numberline {9.6.1.3}operator$>$$>$}{107}{subsubsection.9.6.1.3}
+\contentsline {subsubsection}{\numberline {9.6.1.4}operator$>$$>$}{108}{subsubsection.9.6.1.4}
+\contentsline {section}{\numberline {9.7}Dokumentacja pliku include/obsolete/abstractid.h}{109}{section.9.7}
+\contentsline {section}{\numberline {9.8}Dokumentacja pliku include/obsolete/abstractidgenerator.h}{110}{section.9.8}
+\contentsline {section}{\numberline {9.9}Dokumentacja pliku include/obsolete/abstractincrementalid.h}{111}{section.9.9}
+\contentsline {section}{\numberline {9.10}Dokumentacja pliku include/obsolete/abstractreservedid.h}{112}{section.9.10}
+\contentsline {section}{\numberline {9.11}Dokumentacja pliku include/obsolete/eventid.h}{113}{section.9.11}
+\contentsline {section}{\numberline {9.12}Dokumentacja pliku include/obsolete/eventidgenerator.h}{114}{section.9.12}
+\contentsline {section}{\numberline {9.13}Dokumentacja pliku include/obsolete/id.h}{115}{section.9.13}
+\contentsline {section}{\numberline {9.14}Dokumentacja pliku include/obsolete/markid.h}{116}{section.9.14}
+\contentsline {section}{\numberline {9.15}Dokumentacja pliku include/obsolete/markidgenerator.h}{117}{section.9.15}
+\contentsline {section}{\numberline {9.16}Dokumentacja pliku include/obsolete/state.h}{118}{section.9.16}
+\contentsline {section}{\numberline {9.17}Dokumentacja pliku include/obsolete/subjectid.h}{119}{section.9.17}
+\contentsline {section}{\numberline {9.18}Dokumentacja pliku include/obsolete/subjectidgenerator.h}{120}{section.9.18}
+\contentsline {section}{\numberline {9.19}Dokumentacja pliku include/obsolete/typeid.h}{121}{section.9.19}
+\contentsline {section}{\numberline {9.20}Dokumentacja pliku include/obsolete/typeidgenerator.h}{122}{section.9.20}
+\contentsline {section}{\numberline {9.21}Dokumentacja pliku include/subject.h}{123}{section.9.21}
+\contentsline {section}{\numberline {9.22}Dokumentacja pliku include/subjects.h}{124}{section.9.22}
+\contentsline {section}{\numberline {9.23}Dokumentacja pliku include/term.h}{125}{section.9.23}
+\contentsline {subsection}{\numberline {9.23.1}Dokumentacja funkcji}{125}{subsection.9.23.1}
+\contentsline {subsubsection}{\numberline {9.23.1.1}operator$<$$<$}{125}{subsubsection.9.23.1.1}
+\contentsline {subsubsection}{\numberline {9.23.1.2}operator$>$$>$}{126}{subsubsection.9.23.1.2}
+\contentsline {section}{\numberline {9.24}Dokumentacja pliku include/type.h}{127}{section.9.24}
+\contentsline {section}{\numberline {9.25}Dokumentacja pliku main.cpp}{128}{section.9.25}
+\contentsline {subsection}{\numberline {9.25.1}Dokumentacja funkcji}{128}{subsection.9.25.1}
+\contentsline {subsubsection}{\numberline {9.25.1.1}main}{128}{subsubsection.9.25.1.1}
+\contentsline {section}{\numberline {9.26}Dokumentacja pliku src/event.cpp}{130}{section.9.26}
+\contentsline {subsection}{\numberline {9.26.1}Dokumentacja funkcji}{130}{subsection.9.26.1}
+\contentsline {subsubsection}{\numberline {9.26.1.1}operator$<$$<$}{130}{subsubsection.9.26.1.1}
+\contentsline {subsubsection}{\numberline {9.26.1.2}operator$>$$>$}{130}{subsubsection.9.26.1.2}
+\contentsline {section}{\numberline {9.27}Dokumentacja pliku src/events.cpp}{132}{section.9.27}
+\contentsline {subsection}{\numberline {9.27.1}Dokumentacja funkcji}{132}{subsection.9.27.1}
+\contentsline {subsubsection}{\numberline {9.27.1.1}operator$<$$<$}{132}{subsubsection.9.27.1.1}
+\contentsline {subsubsection}{\numberline {9.27.1.2}operator$>$$>$}{133}{subsubsection.9.27.1.2}
+\contentsline {section}{\numberline {9.28}Dokumentacja pliku src/generatoridgenerator.cpp}{134}{section.9.28}
+\contentsline {section}{\numberline {9.29}Dokumentacja pliku src/idgenerator.cpp}{135}{section.9.29}
+\contentsline {subsection}{\numberline {9.29.1}Dokumentacja funkcji}{135}{subsection.9.29.1}
+\contentsline {subsubsection}{\numberline {9.29.1.1}operator$<$$<$}{135}{subsubsection.9.29.1.1}
+\contentsline {subsubsection}{\numberline {9.29.1.2}operator$<$$<$}{136}{subsubsection.9.29.1.2}
+\contentsline {subsubsection}{\numberline {9.29.1.3}operator$>$$>$}{136}{subsubsection.9.29.1.3}
+\contentsline {subsubsection}{\numberline {9.29.1.4}operator$>$$>$}{136}{subsubsection.9.29.1.4}
+\contentsline {section}{\numberline {9.30}Dokumentacja pliku src/obsolete/abstractid.cpp}{138}{section.9.30}
+\contentsline {subsection}{\numberline {9.30.1}Dokumentacja funkcji}{138}{subsection.9.30.1}
+\contentsline {subsubsection}{\numberline {9.30.1.1}operator$<$$<$}{138}{subsubsection.9.30.1.1}
+\contentsline {subsubsection}{\numberline {9.30.1.2}operator$>$$>$}{138}{subsubsection.9.30.1.2}
+\contentsline {section}{\numberline {9.31}Dokumentacja pliku src/obsolete/abstractidgenerator.cpp}{139}{section.9.31}
+\contentsline {section}{\numberline {9.32}Dokumentacja pliku src/obsolete/abstractincrementalid.cpp}{140}{section.9.32}
+\contentsline {section}{\numberline {9.33}Dokumentacja pliku src/obsolete/abstractreservedid.cpp}{141}{section.9.33}
+\contentsline {section}{\numberline {9.34}Dokumentacja pliku src/obsolete/eventid.cpp}{142}{section.9.34}
+\contentsline {section}{\numberline {9.35}Dokumentacja pliku src/obsolete/eventidgenerator.cpp}{143}{section.9.35}
+\contentsline {section}{\numberline {9.36}Dokumentacja pliku src/obsolete/id.cpp}{144}{section.9.36}
+\contentsline {section}{\numberline {9.37}Dokumentacja pliku src/obsolete/markid.cpp}{145}{section.9.37}
+\contentsline {section}{\numberline {9.38}Dokumentacja pliku src/obsolete/markidgenerator.cpp}{146}{section.9.38}
+\contentsline {section}{\numberline {9.39}Dokumentacja pliku src/obsolete/state.cpp}{147}{section.9.39}
+\contentsline {section}{\numberline {9.40}Dokumentacja pliku src/obsolete/subjectid.cpp}{148}{section.9.40}
+\contentsline {section}{\numberline {9.41}Dokumentacja pliku src/obsolete/subjectidgenerator.cpp}{149}{section.9.41}
+\contentsline {section}{\numberline {9.42}Dokumentacja pliku src/obsolete/typeid.cpp}{150}{section.9.42}
+\contentsline {section}{\numberline {9.43}Dokumentacja pliku src/obsolete/typeidgenerator.cpp}{151}{section.9.43}
+\contentsline {section}{\numberline {9.44}Dokumentacja pliku src/subject.cpp}{152}{section.9.44}
+\contentsline {section}{\numberline {9.45}Dokumentacja pliku src/subjects.cpp}{153}{section.9.45}
+\contentsline {section}{\numberline {9.46}Dokumentacja pliku src/term.cpp}{154}{section.9.46}
+\contentsline {subsection}{\numberline {9.46.1}Dokumentacja funkcji}{154}{subsection.9.46.1}
+\contentsline {subsubsection}{\numberline {9.46.1.1}operator$<$$<$}{154}{subsubsection.9.46.1.1}
+\contentsline {subsubsection}{\numberline {9.46.1.2}operator$>$$>$}{154}{subsubsection.9.46.1.2}
+\contentsline {section}{\numberline {9.47}Dokumentacja pliku src/type.cpp}{156}{section.9.47}

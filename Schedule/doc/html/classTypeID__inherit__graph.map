@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$classID.html" title="Korzeń nowej idei uniwersalnego ID." alt="" coords="83,489,120,586"/>
+<area shape="rect" id="node2" href="$classAbstractReservedID.html" title="Klasa reprezentująca identyfikatory rezerwowane z góry." alt="" coords="5,153,197,293"/>
+<area shape="rect" id="node4" href="$classAbstractID.html" title="Klasa bazowa dla wszystkich typów identyfikatorowych." alt="" coords="40,6,163,103"/>
+</map>

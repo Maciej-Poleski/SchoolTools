@@ -1,0 +1,60 @@
+\hypertarget{abstractid_8cpp}{
+\section{Dokumentacja pliku src/obsolete/abstractid.cpp}
+\label{abstractid_8cpp}\index{src/obsolete/abstractid.cpp@{src/obsolete/abstractid.cpp}}
+}
+{\ttfamily \#include \char`\"{}../include/abstractid.h\char`\"{}}\par
+Wykres zależności załączania dla abstractid.cpp:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=101pt]{abstractid_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+QDataStream \& \hyperlink{abstractid_8cpp_ae018346f525245975a90a561d3cffccd}{operator$<$$<$} (QDataStream \&stream, const AbstractID \&ID)
+\item 
+QDataStream \& \hyperlink{abstractid_8cpp_ae2290b15582443d09db5f4963e546920}{operator$>$$>$} (QDataStream \&stream, AbstractID \&ID)
+\end{DoxyCompactItemize}
+
+
+\subsection{Dokumentacja funkcji}
+\hypertarget{abstractid_8cpp_ae018346f525245975a90a561d3cffccd}{
+\index{abstractid.cpp@{abstractid.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!abstractid.cpp@{abstractid.cpp}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$<$$<$ (QDataStream \& {\em stream}, \/  const AbstractID \& {\em ID})}}
+\label{abstractid_8cpp_ae018346f525245975a90a561d3cffccd}
+
+
+Definicja w linii 3 pliku abstractid.cpp.
+
+
+
+
+\begin{DoxyCode}
+4 {
+5     return stream<<ID.ID;
+6 }
+\end{DoxyCode}
+
+
+\hypertarget{abstractid_8cpp_ae2290b15582443d09db5f4963e546920}{
+\index{abstractid.cpp@{abstractid.cpp}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!abstractid.cpp@{abstractid.cpp}}
+\subsubsection[{operator$>$$>$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$>$$>$ (QDataStream \& {\em stream}, \/  AbstractID \& {\em ID})}}
+\label{abstractid_8cpp_ae2290b15582443d09db5f4963e546920}
+
+
+Definicja w linii 8 pliku abstractid.cpp.
+
+
+
+
+\begin{DoxyCode}
+9 {
+10     return stream>>ID.ID;
+11 }
+\end{DoxyCode}
+
+

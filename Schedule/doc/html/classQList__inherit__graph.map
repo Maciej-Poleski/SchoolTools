@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classCompList.html" title="Klasa poszerzająca funkcjonalność QList&lt;T&gt;" alt="" coords="481,155,607,253"/>
+<area shape="rect" id="node5" href="$classCompList.html" title="{CompList\&lt; Event \&gt;\n||+ operator==()\l}" alt="" coords="256,323,411,421"/>
+<area shape="rect" id="node7" href="$classCompList.html" title="{CompList\&lt; IDGenerator::ID \&gt;\n||+ operator==()\l}" alt="" coords="5,323,232,421"/>
+<area shape="rect" id="node9" href="$classCompList.html" title="{CompList\&lt; Type \&gt;\n||+ operator==()\l}" alt="" coords="435,323,587,421"/>
+<area shape="rect" id="node11" href="$classCompList.html" title="{CompList\&lt; Term \&gt;\n||+ operator==()\l}" alt="" coords="805,323,957,421"/>
+<area shape="rect" id="node13" href="$classCompList.html" title="{CompList\&lt; Subject \&gt;\n||+ operator==()\l}" alt="" coords="611,323,781,421"/>
+</map>

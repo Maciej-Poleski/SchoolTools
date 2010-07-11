@@ -1,0 +1,164 @@
+\hypertarget{classGeneratorIDGenerator}{
+\section{Dokumentacja klasy GeneratorIDGenerator}
+\label{classGeneratorIDGenerator}\index{GeneratorIDGenerator@{GeneratorIDGenerator}}
+}
+
+
+Ta klasa odpowiada za generowanie generatorów identyfikatorów.  
+
+
+
+
+{\ttfamily \#include $<$generatoridgenerator.h$>$}
+
+
+
+Diagram współpracy dla GeneratorIDGenerator:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{classGeneratorIDGenerator__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Statyczne metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classIDGenerator}{IDGenerator} \hyperlink{classGeneratorIDGenerator_ac6dd43ecbbe2ed1647855e72156dbcb2}{nextIDGenerator} ()
+\begin{DoxyCompactList}\small\item\em Generuje następny generator identyfikatorów. \item\end{DoxyCompactList}\item 
+static \hyperlink{classIDGenerator}{IDGenerator} \hyperlink{classGeneratorIDGenerator_af0d8b94b08eac9bfbeea41ef974d8745}{voidIDGenerator} ()
+\begin{DoxyCompactList}\small\item\em Generuje niezainicjalizowany (błędny) generator identyfikatorów. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Metody prywatne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classGeneratorIDGenerator_a659b541be9156e0ad96561c7f2a4cbd6}{GeneratorIDGenerator} ()
+\begin{DoxyCompactList}\small\item\em Nie pozwalam na tworzenie obiektów tej klasy. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Statyczne atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+static uint \hyperlink{classGeneratorIDGenerator_a6df8dcb43ce1c7e5f2d4610dfaf1d19e}{freeIDGenerator} = 1
+\begin{DoxyCompactList}\small\item\em Pierwszy dostępny typ Generatora identyfikatorów. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Ta klasa odpowiada za generowanie generatorów identyfikatorów. 
+
+Definicja w linii 7 pliku generatoridgenerator.h.
+
+
+
+\subsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{classGeneratorIDGenerator_a659b541be9156e0ad96561c7f2a4cbd6}{
+\index{GeneratorIDGenerator@{GeneratorIDGenerator}!GeneratorIDGenerator@{GeneratorIDGenerator}}
+\index{GeneratorIDGenerator@{GeneratorIDGenerator}!GeneratorIDGenerator@{GeneratorIDGenerator}}
+\subsubsection[{GeneratorIDGenerator}]{\setlength{\rightskip}{0pt plus 5cm}GeneratorIDGenerator::GeneratorIDGenerator ()\hspace{0.3cm}{\ttfamily  \mbox{[}inline, private\mbox{]}}}}
+\label{classGeneratorIDGenerator_a659b541be9156e0ad96561c7f2a4cbd6}
+
+
+Nie pozwalam na tworzenie obiektów tej klasy. 
+
+
+
+Definicja w linii 20 pliku generatoridgenerator.h.
+
+
+
+
+\begin{DoxyCode}
+20 {}
+\end{DoxyCode}
+
+
+
+
+\subsection{Dokumentacja funkcji składowych}
+\hypertarget{classGeneratorIDGenerator_ac6dd43ecbbe2ed1647855e72156dbcb2}{
+\index{GeneratorIDGenerator@{GeneratorIDGenerator}!nextIDGenerator@{nextIDGenerator}}
+\index{nextIDGenerator@{nextIDGenerator}!GeneratorIDGenerator@{GeneratorIDGenerator}}
+\subsubsection[{nextIDGenerator}]{\setlength{\rightskip}{0pt plus 5cm}{\bf IDGenerator} GeneratorIDGenerator::nextIDGenerator ()\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classGeneratorIDGenerator_ac6dd43ecbbe2ed1647855e72156dbcb2}
+
+
+Generuje następny generator identyfikatorów. 
+
+
+
+Definicja w linii 5 pliku generatoridgenerator.cpp.
+
+
+
+Odwołuje się do freeIDGenerator.
+
+
+
+Odwołania w IDGenerator::initialize() i main().
+
+
+
+
+\begin{DoxyCode}
+6 {
+7     return IDGenerator(freeIDGenerator++);
+8 }
+\end{DoxyCode}
+
+
+
+
+Oto graf wywoływań tej funkcji:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{classGeneratorIDGenerator_ac6dd43ecbbe2ed1647855e72156dbcb2_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classGeneratorIDGenerator_af0d8b94b08eac9bfbeea41ef974d8745}{
+\index{GeneratorIDGenerator@{GeneratorIDGenerator}!voidIDGenerator@{voidIDGenerator}}
+\index{voidIDGenerator@{voidIDGenerator}!GeneratorIDGenerator@{GeneratorIDGenerator}}
+\subsubsection[{voidIDGenerator}]{\setlength{\rightskip}{0pt plus 5cm}{\bf IDGenerator} GeneratorIDGenerator::voidIDGenerator ()\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classGeneratorIDGenerator_af0d8b94b08eac9bfbeea41ef974d8745}
+
+
+Generuje niezainicjalizowany (błędny) generator identyfikatorów. 
+
+
+
+Definicja w linii 10 pliku generatoridgenerator.cpp.
+
+
+
+
+\begin{DoxyCode}
+11 {
+12     return IDGenerator(0);
+13 }
+\end{DoxyCode}
+
+
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{classGeneratorIDGenerator_a6df8dcb43ce1c7e5f2d4610dfaf1d19e}{
+\index{GeneratorIDGenerator@{GeneratorIDGenerator}!freeIDGenerator@{freeIDGenerator}}
+\index{freeIDGenerator@{freeIDGenerator}!GeneratorIDGenerator@{GeneratorIDGenerator}}
+\subsubsection[{freeIDGenerator}]{\setlength{\rightskip}{0pt plus 5cm}uint {\bf GeneratorIDGenerator::freeIDGenerator} = 1\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classGeneratorIDGenerator_a6df8dcb43ce1c7e5f2d4610dfaf1d19e}
+
+
+Pierwszy dostępny typ Generatora identyfikatorów. 
+
+
+
+Definicja w linii 11 pliku generatoridgenerator.h.
+
+
+
+Odwołania w nextIDGenerator().
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{generatoridgenerator_8h}{generatoridgenerator.h}\item 
+src/\hyperlink{generatoridgenerator_8cpp}{generatoridgenerator.cpp}\end{DoxyCompactItemize}

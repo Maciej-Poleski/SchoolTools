@@ -1,0 +1,151 @@
+\documentclass[a4paper]{book}
+\usepackage{a4wide}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{textcomp}
+\usepackage{alltt}
+\usepackage{times}
+\usepackage{ifpdf}
+\ifpdf
+\usepackage[pdftex,
+            pagebackref=true,
+            colorlinks=true,
+            linkcolor=blue,
+            unicode
+           ]{hyperref}
+\else
+\usepackage[ps2pdf,
+            pagebackref=true,
+            colorlinks=true,
+            linkcolor=blue,
+            unicode
+           ]{hyperref}
+\usepackage{pspicture}
+\fi
+\usepackage[utf8]{inputenc}
+\usepackage{polski}
+\usepackage[T1]{fontenc}
+
+\usepackage{doxygen}
+\lstset{language=C++,inputencoding=utf8,basicstyle=\footnotesize,breaklines=true,breakatwhitespace=true,tabsize=8,numbers=left }
+\makeindex
+\setcounter{tocdepth}{3}
+\renewcommand{\footrulewidth}{0.4pt}
+\begin{document}
+\hypersetup{pageanchor=false}
+\begin{titlepage}
+\vspace*{7cm}
+\begin{center}
+{\Large SchoolTools -\/ Schedule \\[1ex]\large live }\\
+\vspace*{1cm}
+{\large Wygenerowano przez Doxygen 1.6.3}\\
+\vspace*{0.5cm}
+{\small Tue Jun 1 22:11:29 2010}\\
+\end{center}
+\end{titlepage}
+\clearemptydoublepage
+\pagenumbering{roman}
+\tableofcontents
+\clearemptydoublepage
+\pagenumbering{arabic}
+\hypersetup{pageanchor=true}
+\chapter{Struktura katalogów}
+\input{dirs}
+\chapter{Indeks przestrzeni nazw}
+\input{namespaces}
+\chapter{Indeks klas}
+\input{hierarchy}
+\chapter{Indeks klas}
+\input{annotated}
+\chapter{Indeks plików}
+\input{files}
+\chapter{Dokumentacja katalogów}
+\input{dir_a50e2293424e8ba4588dbff3037b1cfa}
+\include{dir_b0f82b84220ac304b6594771ef01efab}
+\include{dir_538678a9a76e9afe11e981eb762a272a}
+\include{dir_f8e189cbe3d07fc073ca928a078e2bca}
+\include{dir_d86edb86472748ce3b9447a9e360126c}
+\include{dir_a105a2b3280028ece2ad4a6c30255087}
+\include{dir_7a951694f1b7ff6e69b4126eb6966017}
+\include{dir_0ffeab24d93772fbe098d1cc681459a6}
+\chapter{Dokumentacja przestrzeni nazw}
+\input{namespaceobsolete}
+\chapter{Dokumentacja klas}
+\input{classobsolete_1_1AbstractID}
+\include{classobsolete_1_1AbstractIDGenerator}
+\include{classobsolete_1_1AbstractIncrementalID}
+\include{classobsolete_1_1AbstractReservedID}
+\include{classEvent}
+\include{classobsolete_1_1EventID}
+\include{classobsolete_1_1EventIDGenerator}
+\include{classEvents}
+\include{classGeneratorIDGenerator}
+\include{classIDGenerator_1_1ID}
+\include{classobsolete_1_1ID}
+\include{classIDGenerator}
+\include{classobsolete_1_1MarkID}
+\include{classobsolete_1_1MarkIDGenerator}
+\include{classQDate}
+\include{classobsolete_1_1State}
+\include{classSubject}
+\include{classobsolete_1_1SubjectID}
+\include{classobsolete_1_1SubjectIDGenerator}
+\include{classSubjects}
+\include{classTerm}
+\include{classType}
+\include{classobsolete_1_1TypeID}
+\include{classobsolete_1_1TypeIDGenerator}
+\chapter{Dokumentacja plików}
+\input{CMakeCCompilerId_8c}
+\include{CMakeCXXCompilerId_8cpp}
+\include{event_8h}
+\include{events_8h}
+\include{generatoridgenerator_8h}
+\include{idgenerator_8h}
+\include{abstractid_8h}
+\include{abstractidgenerator_8h}
+\include{abstractincrementalid_8h}
+\include{abstractreservedid_8h}
+\include{eventid_8h}
+\include{eventidgenerator_8h}
+\include{id_8h}
+\include{markid_8h}
+\include{markidgenerator_8h}
+\include{state_8h}
+\include{subjectid_8h}
+\include{subjectidgenerator_8h}
+\include{typeid_8h}
+\include{typeidgenerator_8h}
+\include{subject_8h}
+\include{subjects_8h}
+\include{term_8h}
+\include{type_8h}
+\include{main_8cpp}
+\include{event_8cpp}
+\include{events_8cpp}
+\include{generatoridgenerator_8cpp}
+\include{idgenerator_8cpp}
+\include{abstractid_8cpp}
+\include{abstractidgenerator_8cpp}
+\include{abstractincrementalid_8cpp}
+\include{abstractreservedid_8cpp}
+\include{eventid_8cpp}
+\include{eventidgenerator_8cpp}
+\include{id_8cpp}
+\include{markid_8cpp}
+\include{markidgenerator_8cpp}
+\include{state_8cpp}
+\include{subjectid_8cpp}
+\include{subjectidgenerator_8cpp}
+\include{typeid_8cpp}
+\include{typeidgenerator_8cpp}
+\include{subject_8cpp}
+\include{subjects_8cpp}
+\include{term_8cpp}
+\include{type_8cpp}
+\printindex
+\end{document}

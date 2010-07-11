@@ -1,0 +1,103 @@
+\hypertarget{term_8h}{
+\section{Dokumentacja pliku include/term.h}
+\label{term_8h}\index{include/term.h@{include/term.h}}
+}
+{\ttfamily \#include $<$QDate$>$}\par
+{\ttfamily \#include \char`\"{}idgenerator.h\char`\"{}}\par
+Wykres zależności załączania dla term.h:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=148pt]{term_8h__incl}
+\end{center}
+\end{figure}
+Ten wykres pokazuje, które pliki bezpośrednio lub pośrednio załączają ten plik:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=80pt]{term_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Komponenty}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classTerm}{Term}
+\begin{DoxyCompactList}\small\item\em Reprezentacja egzekucji wydarzenia. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+QDataStream \& \hyperlink{term_8h_a607138da9b016f91528f99ab09407712}{operator$<$$<$} (QDataStream \&stream, const \hyperlink{classTerm}{Term} \&term)
+\begin{DoxyCompactList}\small\item\em Zapisuje dany termin do danego strumienia. \item\end{DoxyCompactList}\item 
+QDataStream \& \hyperlink{term_8h_ad3ecfcfe45e8df9b765a1b06be05a457}{operator$>$$>$} (QDataStream \&stream, \hyperlink{classTerm}{Term} \&term)
+\begin{DoxyCompactList}\small\item\em Odczytuje dany termin z danego strumienia. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Dokumentacja funkcji}
+\hypertarget{term_8h_a607138da9b016f91528f99ab09407712}{
+\index{term.h@{term.h}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!term.h@{term.h}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$<$$<$ (QDataStream \& {\em stream}, \/  const {\bf Term} \& {\em term})}}
+\label{term_8h_a607138da9b016f91528f99ab09407712}
+
+
+Zapisuje dany termin do danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień do którego będzie zapisany termin. \item[{\em term}]Termin który zostanie zapisany. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+
+
+Definicja w linii 3 pliku term.cpp.
+
+
+
+Odwołuje się do Term::eventID i Term::markID.
+
+
+
+
+\begin{DoxyCode}
+4 {
+5     const QDate &date=term;
+6     return stream<<date<<term.eventID<<term.markID;
+7 }
+\end{DoxyCode}
+
+
+\hypertarget{term_8h_ad3ecfcfe45e8df9b765a1b06be05a457}{
+\index{term.h@{term.h}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!term.h@{term.h}}
+\subsubsection[{operator$>$$>$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$>$$>$ (QDataStream \& {\em stream}, \/  {\bf Term} \& {\em term})}}
+\label{term_8h_ad3ecfcfe45e8df9b765a1b06be05a457}
+
+
+Odczytuje dany termin z danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień z którego będzie odczytany termin. \item[{\em term}]Termin który zostanie zainicjalizowany odczytanymi danymi. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+
+
+Definicja w linii 9 pliku term.cpp.
+
+
+
+Odwołuje się do Term::eventID i Term::markID.
+
+
+
+
+\begin{DoxyCode}
+10 {
+11     QDate &date=term;
+12     return stream>>date>>term.eventID>>term.markID;
+13 }
+\end{DoxyCode}
+
+

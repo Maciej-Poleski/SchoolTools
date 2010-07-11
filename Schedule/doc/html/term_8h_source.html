@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>SchoolTools - Schedule: Plik źródłowy include/term.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.3 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li><a href="dirs.html"><span>Katalogi</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="dir_d86edb86472748ce3b9447a9e360126c.html">include</a>
+  </div>
+</div>
+<div class="contents">
+<h1>term.h</h1><a href="term_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#ifndef TERM_H</span>
+<a name="l00002"></a>00002 <span class="preprocessor"></span><span class="preprocessor">#define TERM_H</span>
+<a name="l00003"></a>00003 <span class="preprocessor"></span>
+<a name="l00004"></a>00004 <span class="preprocessor">#include &lt;QtCore/QDate&gt;</span>
+<a name="l00005"></a>00005 
+<a name="l00006"></a>00006 <span class="preprocessor">#include &quot;<a class="code" href="initializable_8h.html">initializable.h</a>&quot;</span>
+<a name="l00007"></a>00007 <span class="preprocessor">#include &quot;<a class="code" href="idgenerator_8h.html">idgenerator.h</a>&quot;</span>
+<a name="l00008"></a>00008 
+<a name="l00017"></a><a class="code" href="classTerm.html">00017</a> <span class="keyword">class </span><a class="code" href="classTerm.html" title="Reprezentacja egzekucji wydarzenia.">Term</a> : <span class="keyword">public</span> <a class="code" href="classQDate.html">QDate</a>, <span class="keyword">private</span> <a class="code" href="classInitializable.html" title="Określa klasy inicjalizowalne.">Initializable</a>
+<a name="l00018"></a>00018 {
+<a name="l00025"></a>00025     <span class="keyword">friend</span> QDataStream &amp; <a class="code" href="classTerm.html#a607138da9b016f91528f99ab09407712" title="Zapisuje dany termin do danego strumienia.">operator&lt;&lt; </a>(QDataStream&amp; stream, <span class="keyword">const</span> <a class="code" href="classTerm.html" title="Reprezentacja egzekucji wydarzenia.">Term</a>&amp; term) <span class="keywordflow">throw</span>(<span class="keywordtype">char</span>*);
+<a name="l00026"></a>00026 
+<a name="l00033"></a>00033     <span class="keyword">friend</span> QDataStream &amp; <a class="code" href="classTerm.html#ad3ecfcfe45e8df9b765a1b06be05a457" title="Odczytuje dany termin z danego strumienia.">operator&gt;&gt; </a>(QDataStream&amp; stream, <a class="code" href="classTerm.html" title="Reprezentacja egzekucji wydarzenia.">Term</a>&amp; term) <span class="keywordflow">throw</span>(<span class="keywordtype">char</span>*);
+<a name="l00034"></a>00034 <span class="keyword">public</span>:
+<a name="l00035"></a>00035 <span class="keyword">private</span>:
+<a name="l00036"></a><a class="code" href="classTerm.html#acc86c9d25865449a551947aa1597dec5">00036</a>     <a class="code" href="classIDGenerator_1_1ID.html" title="Obiekt reprezentuje dany identyfikator określonego typu.">IDGenerator::ID</a>                 <a class="code" href="classTerm.html#acc86c9d25865449a551947aa1597dec5" title="Identyfikator wydarzenia.">eventID</a>;        
+<a name="l00037"></a><a class="code" href="classTerm.html#a59508892d24fb82de0db91a377c690fb">00037</a>     <a class="code" href="classIDGenerator_1_1ID.html" title="Obiekt reprezentuje dany identyfikator określonego typu.">IDGenerator::ID</a>                 <a class="code" href="classTerm.html#a59508892d24fb82de0db91a377c690fb" title="Identyfikator oceny - skutku egzekucji wydarzenia.">markID</a>;         
+<a name="l00038"></a><a class="code" href="classTerm.html#a58a815dca7217ba0e9e4e084d7c91648">00038</a>     <span class="keywordtype">bool</span>                            <a class="code" href="classTerm.html#a58a815dca7217ba0e9e4e084d7c91648" title="Czy jest odwołany.">revoke</a>;         
+<a name="l00039"></a>00039 
+<a name="l00040"></a>00040 <span class="keyword">public</span>:
+<a name="l00043"></a><a class="code" href="classTerm.html#a6943005db5b7e5ca84afcb54a5862d42">00043</a>     <a class="code" href="classTerm.html#a6943005db5b7e5ca84afcb54a5862d42" title="Tworzy niezainicjalizowany obiekt reprezentujący termin jakiegoś wydarzenia.">Term</a>() : <a class="code" href="classInitializable.html" title="Określa klasy inicjalizowalne.">Initializable</a>(false) {}
+<a name="l00044"></a>00044 
+<a name="l00050"></a><a class="code" href="classTerm.html#af4311581345f3cbacb74da1b78690148">00050</a>     <a class="code" href="classTerm.html#af4311581345f3cbacb74da1b78690148" title="Inicjalizuje obiekt reprezentujący termin danego wydarzenia.">Term</a>(<a class="code" href="classIDGenerator_1_1ID.html" title="Obiekt reprezentuje dany identyfikator określonego typu.">IDGenerator::ID</a> event,<a class="code" href="classQDate.html">QDate</a> date=<a class="code" href="classQDate.html">QDate</a>()) : <a class="code" href="classQDate.html">QDate</a>(date), <a class="code" href="classTerm.html#acc86c9d25865449a551947aa1597dec5" title="Identyfikator wydarzenia.">eventID</a>(event), <a class="code" href="classInitializable.html" title="Określa klasy inicjalizowalne.">Initializable</a>(true) {}
+<a name="l00051"></a>00051     
+<a name="l00056"></a><a class="code" href="classTerm.html#a7518878553baaa3c45233677fc16e67e">00056</a>     <span class="keywordtype">bool</span> <a class="code" href="classTerm.html#a7518878553baaa3c45233677fc16e67e" title="Porównuje ze sobą obiekty pod kątem identyczności.">operator==</a>(<span class="keyword">const</span> <a class="code" href="classTerm.html" title="Reprezentacja egzekucji wydarzenia.">Term</a> &amp;o)<span class="keyword"> const</span>
+<a name="l00057"></a>00057 <span class="keyword">    </span>{
+<a name="l00058"></a>00058         <span class="keywordflow">return</span> <a class="code" href="classInitializable.html#a0d9f25f381621c834296c8935119bc9f" title="Decyduje o tym, czy powstający obiekt jest zainicjalizowany.">Initializable</a>(*<span class="keyword">this</span>)==<a class="code" href="classInitializable.html#a0d9f25f381621c834296c8935119bc9f" title="Decyduje o tym, czy powstający obiekt jest zainicjalizowany.">Initializable</a>(o) &amp;&amp; <a class="code" href="classQDate.html">QDate</a>(*<span class="keyword">this</span>)==<a class="code" href="classQDate.html">QDate</a>(o) &amp;&amp; <a class="code" href="classTerm.html#acc86c9d25865449a551947aa1597dec5" title="Identyfikator wydarzenia.">eventID</a>==o.<a class="code" href="classTerm.html#acc86c9d25865449a551947aa1597dec5" title="Identyfikator wydarzenia.">eventID</a> &amp;&amp; <a class="code" href="classTerm.html#a59508892d24fb82de0db91a377c690fb" title="Identyfikator oceny - skutku egzekucji wydarzenia.">markID</a>==o.<a class="code" href="classTerm.html#a59508892d24fb82de0db91a377c690fb" title="Identyfikator oceny - skutku egzekucji wydarzenia.">markID</a> &amp;&amp; <a class="code" href="classTerm.html#a58a815dca7217ba0e9e4e084d7c91648" title="Czy jest odwołany.">revoke</a>==o.<a class="code" href="classTerm.html#a58a815dca7217ba0e9e4e084d7c91648" title="Czy jest odwołany.">revoke</a>;
+<a name="l00059"></a>00059     }
+<a name="l00060"></a>00060 <span class="keyword">private</span>:
+<a name="l00061"></a>00061 };
+<a name="l00062"></a>00062 
+<a name="l00069"></a>00069 QDataStream &amp; <a class="code" href="event_8h.html#a62e8730ab4dc16e3d456b527a12635b3" title="Zapisuje informacje o danym wydarzeniu do danego strumienia.">operator&lt;&lt; </a>(QDataStream&amp; stream, <span class="keyword">const</span> <a class="code" href="classTerm.html" title="Reprezentacja egzekucji wydarzenia.">Term</a>&amp; term) <span class="keywordflow">throw</span>(<span class="keywordtype">char</span>*);
+<a name="l00070"></a>00070 
+<a name="l00077"></a>00077 QDataStream &amp; <a class="code" href="event_8h.html#a055427e98ad131966edb6fb652add004" title="Odczytuje informacje o danym wydarzeniu z danego strumienia.">operator&gt;&gt; </a>(QDataStream&amp; stream, <a class="code" href="classTerm.html" title="Reprezentacja egzekucji wydarzenia.">Term</a>&amp; term) <span class="keywordflow">throw</span>(<span class="keywordtype">char</span>*);
+<a name="l00078"></a>00078 
+<a name="l00079"></a>00079 <span class="preprocessor">#endif // TERM_H</span>
+</pre></div></div>
+<hr class="footer"/><address style="text-align: right;"><small>Wygenerowano Sat Jul 10 18:45:14 2010 dla SchoolTools - Schedule programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>

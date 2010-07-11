@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$classSubjectID.html" title="Klasa reprezentująca identyfikator przedmiotu." alt="" coords="5,342,96,439"/>
+<area shape="rect" id="node9" href="$classTypeID.html" title="Klasa reprezentująca identyfikator typu wydarzenia." alt="" coords="120,342,195,439"/>
+<area shape="rect" id="node2" href="$classAbstractID.html" title="Klasa bazowa dla wszystkich typów identyfikatorowych." alt="" coords="43,6,165,103"/>
+<area shape="rect" id="node7" href="$classID.html" title="Korzeń nowej idei uniwersalnego ID." alt="" coords="85,489,123,586"/>
+</map>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EventWidget</class>
+ <widget class="QWidget" name="EventWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>838</width>
+    <height>492</height>
+   </rect>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="2" column="0">
+    <widget class="QGroupBox" name="currentEventsGroupBox">
+     <property name="title">
+      <string>Obecne zadania</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="0">
+       <widget class="QTableWidget" name="currentEventsWidget"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="addEventGroupBox">
+     <property name="title">
+      <string>Dodaj nowe wydarzenie</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="dateLabel">
+        <property name="text">
+         <string>Data</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="subjectLabel">
+        <property name="text">
+         <string>Przedmiot</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="scaleLabel">
+        <property name="text">
+         <string>Waga</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="subjectComboBox">
+        <property name="editable">
+         <bool>false</bool>
+        </property>
+        <item>
+         <property name="text">
+          <string>Algorytmika</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Matematyka</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Historia</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>j. Polski</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>j. Niemiecki</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>j. Angielski</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QComboBox" name="scaleComboBox">
+        <item>
+         <property name="text">
+          <string>Sprawdzian</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kartkówka</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Egzamin</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Odpowiedź ustna</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Zadanie domowe</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Inne</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QPushButton" name="addButton">
+        <property name="text">
+         <string>Dodaj</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QDateEdit" name="dateEdit">
+        <property name="displayFormat">
+         <string>yyyy-MM-dd</string>
+        </property>
+        <property name="calendarPopup">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

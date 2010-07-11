@@ -1,0 +1,321 @@
+\hypertarget{classEvents}{
+\section{Dokumentacja klasy Events}
+\label{classEvents}\index{Events@{Events}}
+}
+
+
+Klasa przechowuje wszystkie wydarzenia i zarządza nimi.  
+
+
+
+
+{\ttfamily \#include $<$events.h$>$}
+
+
+
+Diagram współpracy dla Events:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=400pt]{classEvents__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classEvents_afb346fb0339e89dd2093dec8f0620da7}{addEvent} (\hyperlink{classEvent}{Event} newEvent)
+\begin{DoxyCompactList}\small\item\em Dodaje nowe wydarzenie. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Statyczne metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classEvents}{Events} \hyperlink{classEvents_ac4ccb0fd05c7bc876b95cf6cdd549666}{create} ()  throw (char$\ast$)
+\begin{DoxyCompactList}\small\item\em Tworzy instancje klasy. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classIDGenerator}{IDGenerator} \hyperlink{classEvents_aee8768258412e3f8d298a539e038169c}{eventIDGenerator}
+\begin{DoxyCompactList}\small\item\em Generator identyfikatorów wydarzeń. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Metody prywatne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classEvents_aab651428bab6b09db3564753afb225a6}{Events} ()
+\begin{DoxyCompactList}\small\item\em Oznacza nowy obiekt jako niezainicjalizowany. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+QList$<$ \hyperlink{classEvent}{Event} $>$ \hyperlink{classEvents_a38bc398f90e69e671e7411bf73cf3fc0}{events}
+\begin{DoxyCompactList}\small\item\em Lista wszystkich wydarzeń. Będzie się powiększać. \item\end{DoxyCompactList}\item 
+bool \hyperlink{classEvents_a155926e71d11323e83ceb574177b01cb}{initialized}
+\begin{DoxyCompactList}\small\item\em Czy obiekt tej klasy został zainicjalizowany. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Statyczne atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+static bool \hyperlink{classEvents_a5b2f7b7d038ce9447080499b0736c4fe}{existOne}
+\begin{DoxyCompactList}\small\item\em Czy istnieje jakiś obiekt tej klasy. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Przyjaciele}
+\begin{DoxyCompactItemize}
+\item 
+QDataStream \& \hyperlink{classEvents_a560f3fdc9b76a9fe9146335122ecda39}{operator$<$$<$} (QDataStream \&stream, const \hyperlink{classEvents}{Events} \&\hyperlink{classEvents_a38bc398f90e69e671e7411bf73cf3fc0}{events})
+\begin{DoxyCompactList}\small\item\em Zapisuje informacje o wydarzeniach do danego strumienia. \item\end{DoxyCompactList}\item 
+QDataStream \& \hyperlink{classEvents_a9e3a2b909c5dcbc9519365ccafc4a96f}{operator$>$$>$} (QDataStream \&stream, \hyperlink{classEvents}{Events} \&\hyperlink{classEvents_a38bc398f90e69e671e7411bf73cf3fc0}{events})
+\begin{DoxyCompactList}\small\item\em Odczytuje informacje o wydarzeniach z danego strumienia. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Klasa przechowuje wszystkie wydarzenia i zarządza nimi. 
+
+Definicja w linii 11 pliku events.h.
+
+
+
+\subsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{classEvents_aab651428bab6b09db3564753afb225a6}{
+\index{Events@{Events}!Events@{Events}}
+\index{Events@{Events}!Events@{Events}}
+\subsubsection[{Events}]{\setlength{\rightskip}{0pt plus 5cm}Events::Events ()\hspace{0.3cm}{\ttfamily  \mbox{[}inline, private\mbox{]}}}}
+\label{classEvents_aab651428bab6b09db3564753afb225a6}
+
+
+Oznacza nowy obiekt jako niezainicjalizowany. 
+
+
+
+Definicja w linii 47 pliku events.h.
+
+
+
+Odwołania w create().
+
+
+
+
+\begin{DoxyCode}
+50 :
+\end{DoxyCode}
+
+
+
+
+Oto graf wywoływań tej funkcji:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=133pt]{classEvents_aab651428bab6b09db3564753afb225a6_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Dokumentacja funkcji składowych}
+\hypertarget{classEvents_afb346fb0339e89dd2093dec8f0620da7}{
+\index{Events@{Events}!addEvent@{addEvent}}
+\index{addEvent@{addEvent}!Events@{Events}}
+\subsubsection[{addEvent}]{\setlength{\rightskip}{0pt plus 5cm}void Events::addEvent ({\bf Event} {\em newEvent})}}
+\label{classEvents_afb346fb0339e89dd2093dec8f0620da7}
+
+
+Dodaje nowe wydarzenie. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em newEvent}]Wydarzenie które ma zostać dodane do bazy danych. \end{DoxyParams}
+
+
+Definicja w linii 15 pliku events.cpp.
+
+
+
+Odwołuje się do events.
+
+
+
+
+\begin{DoxyCode}
+16 {
+17     Events::events<<newEvent;
+18 }
+\end{DoxyCode}
+
+
+\hypertarget{classEvents_ac4ccb0fd05c7bc876b95cf6cdd549666}{
+\index{Events@{Events}!create@{create}}
+\index{create@{create}!Events@{Events}}
+\subsubsection[{create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Events} Events::create ()  throw (char$\ast$)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classEvents_ac4ccb0fd05c7bc876b95cf6cdd549666}
+
+
+Tworzy instancje klasy. 
+
+
+\begin{DoxyExceptions}{Wyjątki}
+\item[{\em char$\ast$}]Jeżeli już wywołano tę metodę \end{DoxyExceptions}
+\begin{DoxyReturn}{Zwraca}
+Nowy obiekt tej klasy 
+\end{DoxyReturn}
+
+
+Definicja w linii 20 pliku events.cpp.
+
+
+
+Odwołuje się do Events() i existOne.
+
+
+
+
+\begin{DoxyCode}
+21 {
+22     if (existOne)
+23         throw "Obiekt już istnieje!";
+24     existOne=true;
+25     return Events();
+26 }
+\end{DoxyCode}
+
+
+
+
+Oto graf wywołań dla tej funkcji:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=133pt]{classEvents_ac4ccb0fd05c7bc876b95cf6cdd549666_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Dokumentacja przyjaciół i funkcji związanych}
+\hypertarget{classEvents_a560f3fdc9b76a9fe9146335122ecda39}{
+\index{Events@{Events}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Events@{Events}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$<$$<$ (QDataStream \& {\em stream}, \/  const {\bf Events} \& {\em events})\hspace{0.3cm}{\ttfamily  \mbox{[}friend\mbox{]}}}}
+\label{classEvents_a560f3fdc9b76a9fe9146335122ecda39}
+
+
+Zapisuje informacje o wydarzeniach do danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień do którego będą zapisywane dane. \item[{\em events}]Wydarzenia które będzie zapisywane. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+
+
+Definicja w linii 5 pliku events.cpp.
+
+
+
+
+\begin{DoxyCode}
+6 {
+7     return stream<<events.eventIDGenerator<<events.events;
+8 }
+\end{DoxyCode}
+
+
+\hypertarget{classEvents_a9e3a2b909c5dcbc9519365ccafc4a96f}{
+\index{Events@{Events}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Events@{Events}}
+\subsubsection[{operator$>$$>$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$>$$>$ (QDataStream \& {\em stream}, \/  {\bf Events} \& {\em events})\hspace{0.3cm}{\ttfamily  \mbox{[}friend\mbox{]}}}}
+\label{classEvents_a9e3a2b909c5dcbc9519365ccafc4a96f}
+
+
+Odczytuje informacje o wydarzeniach z danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień z którego będą odczytywane dane. \item[{\em events}]Obiekt klasy \hyperlink{classEvents}{Events} który zostanie zainicjalizowany wczytanymi danymi. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+
+
+Definicja w linii 10 pliku events.cpp.
+
+
+
+
+\begin{DoxyCode}
+11 {
+12     return stream>>events.eventIDGenerator>>events.events;
+13 }
+\end{DoxyCode}
+
+
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{classEvents_aee8768258412e3f8d298a539e038169c}{
+\index{Events@{Events}!eventIDGenerator@{eventIDGenerator}}
+\index{eventIDGenerator@{eventIDGenerator}!Events@{Events}}
+\subsubsection[{eventIDGenerator}]{\setlength{\rightskip}{0pt plus 5cm}{\bf IDGenerator} {\bf Events::eventIDGenerator}}}
+\label{classEvents_aee8768258412e3f8d298a539e038169c}
+
+
+Generator identyfikatorów wydarzeń. 
+
+
+
+Definicja w linii 24 pliku events.h.
+
+
+
+Odwołania w operator$<$$<$() i operator$>$$>$().
+
+\hypertarget{classEvents_a38bc398f90e69e671e7411bf73cf3fc0}{
+\index{Events@{Events}!events@{events}}
+\index{events@{events}!Events@{Events}}
+\subsubsection[{events}]{\setlength{\rightskip}{0pt plus 5cm}QList$<${\bf Event}$>$ {\bf Events::events}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classEvents_a38bc398f90e69e671e7411bf73cf3fc0}
+
+
+Lista wszystkich wydarzeń. Będzie się powiększać. 
+
+
+
+Definicja w linii 26 pliku events.h.
+
+
+
+Odwołania w addEvent(), operator$<$$<$() i operator$>$$>$().
+
+\hypertarget{classEvents_a5b2f7b7d038ce9447080499b0736c4fe}{
+\index{Events@{Events}!existOne@{existOne}}
+\index{existOne@{existOne}!Events@{Events}}
+\subsubsection[{existOne}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf Events::existOne}\hspace{0.3cm}{\ttfamily  \mbox{[}static, private\mbox{]}}}}
+\label{classEvents_a5b2f7b7d038ce9447080499b0736c4fe}
+
+
+Czy istnieje jakiś obiekt tej klasy. 
+
+
+
+Definicja w linii 29 pliku events.h.
+
+
+
+Odwołania w create().
+
+\hypertarget{classEvents_a155926e71d11323e83ceb574177b01cb}{
+\index{Events@{Events}!initialized@{initialized}}
+\index{initialized@{initialized}!Events@{Events}}
+\subsubsection[{initialized}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf Events::initialized}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classEvents_a155926e71d11323e83ceb574177b01cb}
+
+
+Czy obiekt tej klasy został zainicjalizowany. 
+
+
+
+Definicja w linii 28 pliku events.h.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{events_8h}{events.h}\item 
+src/\hyperlink{events_8cpp}{events.cpp}\end{DoxyCompactItemize}

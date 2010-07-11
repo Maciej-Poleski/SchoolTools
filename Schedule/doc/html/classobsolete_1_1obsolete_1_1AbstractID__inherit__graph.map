@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classobsolete_1_1AbstractIDGenerator.html" title="Klasa bazowa obiektów&#45;generatorów identyfikatorów." alt="" coords="5,195,248,335"/>
+<area shape="rect" id="node5" href="$classobsolete_1_1AbstractIncrementalID.html" title="Podstawa dla wszystkich klas identyfikatorów automatycznych." alt="" coords="272,206,523,325"/>
+<area shape="rect" id="node7" href="$classobsolete_1_1AbstractReservedID.html" title="Klasa reprezentująca identyfikatory rezerwowane z góry." alt="" coords="547,195,784,335"/>
+</map>

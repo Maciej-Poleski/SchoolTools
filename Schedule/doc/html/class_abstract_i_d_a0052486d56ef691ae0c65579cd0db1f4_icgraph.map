@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_abstract_i_d.html#a680d246f3e0df961e30a71ea99cdcb7a" title="Tworzy nowy obiekt identyfikatorowy." alt="" coords="256,5,427,38"/>
+<area shape="rect" id="node7" href="$class_abstract_i_d.html#aaa7a1ac4b007d68a3f450cc13f47d4d4" title="Tworzy niezainicjowany identyfikator." alt="" coords="241,61,441,94"/>
+<area shape="rect" id="node5" href="$class_abstract_reserved_i_d.html#a741ca7121f73e8e41cd614d9a54f230c" title="Opakowuje numer porządkowy zadaną liczbą." alt="" coords="492,5,729,38"/>
+</map>

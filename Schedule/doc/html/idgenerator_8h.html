@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>SchoolTools - Schedule: Dokumentacja pliku include/idgenerator.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.3 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+      <li><a href="dirs.html"><span>Katalogi</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="files.html"><span>Lista&nbsp;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&nbsp;plików</span></a></li>
+    </ul>
+  </div>
+  <div class="navpath"><a class="el" href="dir_d86edb86472748ce3b9447a9e360126c.html">include</a>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja pliku idgenerator.h</h1><code>#include &lt;QtCore/QtGlobal&gt;</code><br/>
+<code>#include &lt;QtCore/QDataStream&gt;</code><br/>
+<div class="dynheader">
+Wykres zależności załączania dla idgenerator.h:</div>
+<div class="dynsection">
+<div class="center"><img src="idgenerator_8h__incl.png" border="0" usemap="#include_2idgenerator_8h_map" alt=""/></div>
+</div>
+<div class="dynheader">
+Ten wykres pokazuje, które pliki bezpośrednio lub pośrednio załączają ten plik:</div>
+<div class="dynsection">
+<div class="center"><img src="idgenerator_8h__dep__incl.png" border="0" usemap="#include_2idgenerator_8hdep_map" alt=""/></div>
+<map name="include_2idgenerator_8hdep_map" id="include_2idgenerator_8hdep">
+<area shape="rect" id="node3" href="event_8h.html" title="include/event.h" alt="" coords="159,89,284,122"/><area shape="rect" id="node11" href="generatoridgenerator_8h.html" title="include/generatoridgenerator.h" alt="" coords="633,89,871,122"/><area shape="rect" id="node21" href="subjects_8cpp.html" title="src/subjects.cpp" alt="" coords="815,254,951,287"/><area shape="rect" id="node24" href="subjects_8h.html" title="include/subjects.h" alt="" coords="920,171,1067,205"/><area shape="rect" id="node32" href="mark_8h.html" title="include/mark.h" alt="" coords="1149,89,1272,122"/><area shape="rect" id="node35" href="term_8h.html" title="include/term.h" alt="" coords="1005,89,1125,122"/><area shape="rect" id="node38" href="mark_8cpp.html" title="src/mark.cpp" alt="" coords="1347,89,1459,122"/><area shape="rect" id="node6" href="main_8cpp.html" title="main.cpp" alt="" coords="179,171,264,205"/><area shape="rect" id="node8" href="events_8cpp.html" title="src/events.cpp" alt="" coords="5,171,131,205"/><area shape="rect" id="node13" href="events_8h.html" title="include/events.h" alt="" coords="1115,171,1248,205"/><area shape="rect" id="node16" href="state_8h.html" title="include/obsolete/state.h" alt="" coords="469,171,659,205"/><area shape="rect" id="node18" href="subject_8h.html" title="include/subject.h" alt="" coords="683,171,821,205"/><area shape="rect" id="node29" href="idgenerator_8cpp.html" title="src/idgenerator.cpp" alt="" coords="288,171,445,205"/></map>
+</div>
+
+<p><a href="idgenerator_8h_source.html">Idź do kodu źródłowego tego pliku.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Komponenty</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">class &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDGenerator.html">IDGenerator</a></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Generator identyfikatorów określonego typu.  <a href="classIDGenerator.html#_details">Więcej...</a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">class &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Obiekt reprezentuje dany identyfikator określonego typu.  <a href="classIDGenerator_1_1ID.html#_details">Więcej...</a><br/></td></tr>
+<tr><td colspan="2"><h2>Funkcje</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="idgenerator_8h.html#a4eb9e946c558bb876ce7b8fa462bfd5e">operator&lt;&lt;</a> (QDataStream &amp;stream, const <a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a> &amp;id)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Zapisuje dany identyfikator do danego strumienia.  <a href="#a4eb9e946c558bb876ce7b8fa462bfd5e"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="idgenerator_8h.html#aeca67851b2c46cd46266ca668e8dc63c">operator&gt;&gt;</a> (QDataStream &amp;stream, <a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a> &amp;id)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Odczytuje dany identyfikator z danego strumienia.  <a href="#aeca67851b2c46cd46266ca668e8dc63c"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="idgenerator_8h.html#a244688be6d84ec73612ddd66ab376bd1">operator&lt;&lt;</a> (QDataStream &amp;stream, const <a class="el" href="classIDGenerator.html">IDGenerator</a> &amp;generator)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Zapisuje dany generator identyfikatorów do danego strumienia.  <a href="#a244688be6d84ec73612ddd66ab376bd1"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="idgenerator_8h.html#a4f86069b5b5ede60ff2e613fbcf10de4">operator&gt;&gt;</a> (QDataStream &amp;stream, <a class="el" href="classIDGenerator.html">IDGenerator</a> &amp;generator)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Odczytuje dany generator identyfikatorów z danego strumienia.  <a href="#a4f86069b5b5ede60ff2e613fbcf10de4"></a><br/></td></tr>
+</table>
+<hr/><h2>Dokumentacja funkcji</h2>
+<a class="anchor" id="a244688be6d84ec73612ddd66ab376bd1"></a><!-- doxytag: member="idgenerator.h::operator&lt;&lt;" ref="a244688be6d84ec73612ddd66ab376bd1" args="(QDataStream &amp;stream, const IDGenerator &amp;generator)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDataStream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">QDataStream &amp;&nbsp;</td>
+          <td class="paramname"> <em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classIDGenerator.html">IDGenerator</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>generator</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Zapisuje dany generator identyfikatorów do danego strumienia. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>stream</em>&nbsp;</td><td>Strumień do którego będzie zapisany generator identyfikatorów. </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>generator</em>&nbsp;</td><td>Generator identyfikatorów który zostanie zapisany. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Zwraca:</b></dt><dd>Ten sam strumień. </dd></dl>
+
+<p>Definicja w linii <a class="el" href="idgenerator_8cpp_source.html#l00030">30</a> pliku <a class="el" href="idgenerator_8cpp_source.html">idgenerator.cpp</a>.</p>
+
+<p>Odwołuje się do <a class="el" href="idgenerator_8h_source.html#l00074">IDGenerator::freeID</a> i <a class="el" href="idgenerator_8h_source.html#l00073">IDGenerator::type</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00031"></a>00031 {
+<a name="l00032"></a>00032     <span class="keywordflow">return</span> stream&lt;&lt;generator.<a class="code" href="classIDGenerator.html#aa32e8737179aa306290f3aafed377de2" title="Typ identyfikatorów generowanych przez dany generator.">type</a>&lt;&lt;generator.<a class="code" href="classIDGenerator.html#a9a93dd456a6a6ce7c55c61e810849133" title="Pierwszy wolny ID.">freeID</a>;
+<a name="l00033"></a>00033 }
+</pre></div></p>
+
+</div>
+</div>
+<a class="anchor" id="a4eb9e946c558bb876ce7b8fa462bfd5e"></a><!-- doxytag: member="idgenerator.h::operator&lt;&lt;" ref="a4eb9e946c558bb876ce7b8fa462bfd5e" args="(QDataStream &amp;stream, const IDGenerator::ID &amp;id)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDataStream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">QDataStream &amp;&nbsp;</td>
+          <td class="paramname"> <em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>id</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Zapisuje dany identyfikator do danego strumienia. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>stream</em>&nbsp;</td><td>Strumień do którego będzie zapisany identyfikator. </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>id</em>&nbsp;</td><td>Identyfikator który zostanie zapisany. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Zwraca:</b></dt><dd>Ten sam strumień. </dd></dl>
+
+<p>Definicja w linii <a class="el" href="idgenerator_8cpp_source.html#l00020">20</a> pliku <a class="el" href="idgenerator_8cpp_source.html">idgenerator.cpp</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00021"></a>00021 {
+<a name="l00022"></a>00022     <span class="keywordflow">return</span> stream&lt;&lt;<span class="keywordtype">id</span>.type&lt;&lt;<span class="keywordtype">id</span>.id;
+<a name="l00023"></a>00023 }
+</pre></div></p>
+
+</div>
+</div>
+<a class="anchor" id="a4f86069b5b5ede60ff2e613fbcf10de4"></a><!-- doxytag: member="idgenerator.h::operator&gt;&gt;" ref="a4f86069b5b5ede60ff2e613fbcf10de4" args="(QDataStream &amp;stream, IDGenerator &amp;generator)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDataStream&amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype">QDataStream &amp;&nbsp;</td>
+          <td class="paramname"> <em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classIDGenerator.html">IDGenerator</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>generator</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Odczytuje dany generator identyfikatorów z danego strumienia. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>stream</em>&nbsp;</td><td>Strumień z którego będzie odczytany generator identyfikatorów. </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>generator</em>&nbsp;</td><td>Generator identyfikatorów który zostanie zainicjalizowany odczytanymi danymi. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Zwraca:</b></dt><dd>Ten sam strumień. </dd></dl>
+
+<p>Definicja w linii <a class="el" href="idgenerator_8cpp_source.html#l00035">35</a> pliku <a class="el" href="idgenerator_8cpp_source.html">idgenerator.cpp</a>.</p>
+
+<p>Odwołuje się do <a class="el" href="idgenerator_8h_source.html#l00074">IDGenerator::freeID</a> i <a class="el" href="idgenerator_8h_source.html#l00073">IDGenerator::type</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00036"></a>00036 {
+<a name="l00037"></a>00037     <span class="keywordflow">return</span> stream&gt;&gt;generator.<a class="code" href="classIDGenerator.html#aa32e8737179aa306290f3aafed377de2" title="Typ identyfikatorów generowanych przez dany generator.">type</a>&gt;&gt;generator.<a class="code" href="classIDGenerator.html#a9a93dd456a6a6ce7c55c61e810849133" title="Pierwszy wolny ID.">freeID</a>;
+<a name="l00038"></a>00038 }
+</pre></div></p>
+
+</div>
+</div>
+<a class="anchor" id="aeca67851b2c46cd46266ca668e8dc63c"></a><!-- doxytag: member="idgenerator.h::operator&gt;&gt;" ref="aeca67851b2c46cd46266ca668e8dc63c" args="(QDataStream &amp;stream, IDGenerator::ID &amp;id)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDataStream&amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype">QDataStream &amp;&nbsp;</td>
+          <td class="paramname"> <em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>id</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Odczytuje dany identyfikator z danego strumienia. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>stream</em>&nbsp;</td><td>Strumień z którego będzie odczytany identyfikator. </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>id</em>&nbsp;</td><td>Identyfikator który zostanie zainicjalizowany odczytanymi danymi. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Zwraca:</b></dt><dd>Ten sam strumień. </dd></dl>
+
+<p>Definicja w linii <a class="el" href="idgenerator_8cpp_source.html#l00025">25</a> pliku <a class="el" href="idgenerator_8cpp_source.html">idgenerator.cpp</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00026"></a>00026 {
+<a name="l00027"></a>00027     <span class="keywordflow">return</span> stream&gt;&gt;<span class="keywordtype">id</span>.type&gt;&gt;<span class="keywordtype">id</span>.id;
+<a name="l00028"></a>00028 }
+</pre></div></p>
+
+</div>
+</div>
+</div>
+<hr class="footer"/><address style="text-align: right;"><small>Wygenerowano Sat Jul 10 18:45:16 2010 dla SchoolTools - Schedule programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>

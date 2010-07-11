@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classEvent.html" title="Reprezentuje zdarzenie w postaci zdefiniowanej przez użytkownika." alt="" coords="5,259,128,463"/>
+<area shape="rect" id="node5" href="$classEvents.html" title="Klasa przechowuje wszystkie wydarzenia i zarządza nimi." alt="" coords="152,259,312,463"/>
+<area shape="rect" id="node7" href="$classMark.html" title="Klasa przechowująca informacje o pojedyńczym skutku wydarzenia." alt="" coords="336,238,459,485"/>
+<area shape="rect" id="node9" href="$classSubject.html" title="Reprezentuje informacje o pojedyńczym przedmiocie." alt="" coords="483,249,629,474"/>
+<area shape="rect" id="node11" href="$classSubjects.html" title="Obiekt klasy reprezentuje wszystkie przedmioty." alt="" coords="653,259,827,463"/>
+<area shape="rect" id="node13" href="$classTerm.html" title="Reprezentacja egzekucji wydarzenia." alt="" coords="851,270,973,453"/>
+<area shape="rect" id="node15" href="$classType.html" title="Reprezentuje dany typ wydarzenia." alt="" coords="997,291,1120,431"/>
+</map>

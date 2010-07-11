@@ -1,0 +1,249 @@
+\hypertarget{classIDGenerator_1_1ID}{
+\section{Dokumentacja klasy IDGenerator::ID}
+\label{classIDGenerator_1_1ID}\index{IDGenerator::ID@{IDGenerator::ID}}
+}
+
+
+Obiekt reprezentuje dany identyfikator określonego typu.  
+
+
+
+
+{\ttfamily \#include $<$idgenerator.h$>$}
+
+
+
+Diagram współpracy dla IDGenerator::ID:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=142pt]{classIDGenerator_1_1ID__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classIDGenerator_1_1ID_aadc91850d9ea6ba775aa07b7f214a7a5}{ID} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor domyślny. \item\end{DoxyCompactList}\item 
+\hyperlink{classIDGenerator_1_1ID}{ID} \& \hyperlink{classIDGenerator_1_1ID_a239f6a12bb0b8ddf74bc5a8e2fdffdf4}{operator=} (const \hyperlink{classIDGenerator_1_1ID}{ID} \&o)  throw (char$\ast$)
+\begin{DoxyCompactList}\small\item\em Przypisuje wartość identyfikatora do pustego identyfikatora. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Metody prywatne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classIDGenerator_1_1ID_af7801ab8a1caefa26b551274e5e0530b}{ID} (uint \hyperlink{classIDGenerator_1_1ID_a284b4a6d5b96b758a3ba11b5539d0878}{id}, uint \hyperlink{classIDGenerator_1_1ID_a336d735ce48e2bca744bc7d77c6792af}{type})
+\begin{DoxyCompactList}\small\item\em Inicjalizuje identyfikator. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+uint \hyperlink{classIDGenerator_1_1ID_a284b4a6d5b96b758a3ba11b5539d0878}{id}
+\begin{DoxyCompactList}\small\item\em Reprezentowany \hyperlink{classIDGenerator_1_1ID}{ID}. \item\end{DoxyCompactList}\item 
+uint \hyperlink{classIDGenerator_1_1ID_a336d735ce48e2bca744bc7d77c6792af}{type}
+\begin{DoxyCompactList}\small\item\em Typ tego identyfikatora. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Przyjaciele}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classIDGenerator_1_1ID_a85bc66475d72826ee03d9f388d7fcd0f}{IDGenerator}
+\begin{DoxyCompactList}\small\item\em Identyfikator jest zaprzyjaźniony ze swoim stwórcą. \item\end{DoxyCompactList}\item 
+QDataStream \& \hyperlink{classIDGenerator_1_1ID_ac7c84abfa059c0c94c7a0c53ffe2b4fc}{operator$<$$<$} (QDataStream \&stream, const \hyperlink{classIDGenerator_1_1ID}{ID} \&\hyperlink{classIDGenerator_1_1ID_a284b4a6d5b96b758a3ba11b5539d0878}{id})
+\begin{DoxyCompactList}\small\item\em Zapisuje dany identyfikator do danego strumienia. \item\end{DoxyCompactList}\item 
+QDataStream \& \hyperlink{classIDGenerator_1_1ID_a30f4c9e493a25817666bb64ce4fd1168}{operator$>$$>$} (QDataStream \&stream, \hyperlink{classIDGenerator_1_1ID}{ID} \&\hyperlink{classIDGenerator_1_1ID_a284b4a6d5b96b758a3ba11b5539d0878}{id})
+\begin{DoxyCompactList}\small\item\em Odczytuje dany identyfikator z danego strumienia. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Obiekt reprezentuje dany identyfikator określonego typu. 
+
+Definicja w linii 29 pliku idgenerator.h.
+
+
+
+\subsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{classIDGenerator_1_1ID_aadc91850d9ea6ba775aa07b7f214a7a5}{
+\index{IDGenerator::ID@{IDGenerator::ID}!ID@{ID}}
+\index{ID@{ID}!IDGenerator::ID@{IDGenerator::ID}}
+\subsubsection[{ID}]{\setlength{\rightskip}{0pt plus 5cm}IDGenerator::ID::ID ()\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{classIDGenerator_1_1ID_aadc91850d9ea6ba775aa07b7f214a7a5}
+
+
+Konstruktor domyślny. 
+
+
+
+Definicja w linii 54 pliku idgenerator.h.
+
+
+
+
+\begin{DoxyCode}
+54 : id(0),type(0) {}
+\end{DoxyCode}
+
+
+\hypertarget{classIDGenerator_1_1ID_af7801ab8a1caefa26b551274e5e0530b}{
+\index{IDGenerator::ID@{IDGenerator::ID}!ID@{ID}}
+\index{ID@{ID}!IDGenerator::ID@{IDGenerator::ID}}
+\subsubsection[{ID}]{\setlength{\rightskip}{0pt plus 5cm}IDGenerator::ID::ID (uint {\em id}, \/  uint {\em type})\hspace{0.3cm}{\ttfamily  \mbox{[}inline, private\mbox{]}}}}
+\label{classIDGenerator_1_1ID_af7801ab8a1caefa26b551274e5e0530b}
+
+
+Inicjalizuje identyfikator. 
+
+
+
+Definicja w linii 61 pliku idgenerator.h.
+
+
+
+
+\begin{DoxyCode}
+61 : id(id), type(type) {}
+\end{DoxyCode}
+
+
+
+
+\subsection{Dokumentacja funkcji składowych}
+\hypertarget{classIDGenerator_1_1ID_a239f6a12bb0b8ddf74bc5a8e2fdffdf4}{
+\index{IDGenerator::ID@{IDGenerator::ID}!operator=@{operator=}}
+\index{operator=@{operator=}!IDGenerator::ID@{IDGenerator::ID}}
+\subsubsection[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}{\bf IDGenerator::ID} \& IDGenerator::ID::operator= (const {\bf ID} \& {\em o})  throw (char$\ast$)}}
+\label{classIDGenerator_1_1ID_a239f6a12bb0b8ddf74bc5a8e2fdffdf4}
+
+
+Przypisuje wartość identyfikatora do pustego identyfikatora. 
+
+
+
+Definicja w linii 40 pliku idgenerator.cpp.
+
+
+
+Odwołuje się do id.
+
+
+
+
+\begin{DoxyCode}
+41 {
+42     if (type!=0 || (type==o.type && o.id==0))
+43         throw "Nie wolno nadpisywać identyfikatorów!";
+44     id=o.id;
+45     type=o.type;
+46     return *this;
+47 }
+\end{DoxyCode}
+
+
+
+
+\subsection{Dokumentacja przyjaciół i funkcji związanych}
+\hypertarget{classIDGenerator_1_1ID_a85bc66475d72826ee03d9f388d7fcd0f}{
+\index{IDGenerator::ID@{IDGenerator::ID}!IDGenerator@{IDGenerator}}
+\index{IDGenerator@{IDGenerator}!IDGenerator::ID@{IDGenerator::ID}}
+\subsubsection[{IDGenerator}]{\setlength{\rightskip}{0pt plus 5cm}friend class {\bf IDGenerator}\hspace{0.3cm}{\ttfamily  \mbox{[}friend\mbox{]}}}}
+\label{classIDGenerator_1_1ID_a85bc66475d72826ee03d9f388d7fcd0f}
+
+
+Identyfikator jest zaprzyjaźniony ze swoim stwórcą. 
+
+
+
+Definicja w linii 32 pliku idgenerator.h.
+
+\hypertarget{classIDGenerator_1_1ID_ac7c84abfa059c0c94c7a0c53ffe2b4fc}{
+\index{IDGenerator::ID@{IDGenerator::ID}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!IDGenerator::ID@{IDGenerator::ID}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$<$$<$ (QDataStream \& {\em stream}, \/  const {\bf ID} \& {\em id})\hspace{0.3cm}{\ttfamily  \mbox{[}friend\mbox{]}}}}
+\label{classIDGenerator_1_1ID_ac7c84abfa059c0c94c7a0c53ffe2b4fc}
+
+
+Zapisuje dany identyfikator do danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień do którego będzie zapisany identyfikator. \item[{\em id}]Identyfikator który zostanie zapisany. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+
+
+Definicja w linii 20 pliku idgenerator.cpp.
+
+
+
+
+\begin{DoxyCode}
+21 {
+22     return stream<<id.type<<id.id;
+23 }
+\end{DoxyCode}
+
+
+\hypertarget{classIDGenerator_1_1ID_a30f4c9e493a25817666bb64ce4fd1168}{
+\index{IDGenerator::ID@{IDGenerator::ID}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!IDGenerator::ID@{IDGenerator::ID}}
+\subsubsection[{operator$>$$>$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$>$$>$ (QDataStream \& {\em stream}, \/  {\bf IDGenerator::ID} \& {\em id})\hspace{0.3cm}{\ttfamily  \mbox{[}friend\mbox{]}}}}
+\label{classIDGenerator_1_1ID_a30f4c9e493a25817666bb64ce4fd1168}
+
+
+Odczytuje dany identyfikator z danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień z którego będzie odczytany identyfikator. \item[{\em id}]Identyfikator który zostanie zainicjalizowany odczytanymi danymi. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+
+
+Definicja w linii 25 pliku idgenerator.cpp.
+
+
+
+
+\begin{DoxyCode}
+26 {
+27     return stream>>id.type>>id.id;
+28 }
+\end{DoxyCode}
+
+
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{classIDGenerator_1_1ID_a284b4a6d5b96b758a3ba11b5539d0878}{
+\index{IDGenerator::ID@{IDGenerator::ID}!id@{id}}
+\index{id@{id}!IDGenerator::ID@{IDGenerator::ID}}
+\subsubsection[{id}]{\setlength{\rightskip}{0pt plus 5cm}uint {\bf IDGenerator::ID::id}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classIDGenerator_1_1ID_a284b4a6d5b96b758a3ba11b5539d0878}
+
+
+Reprezentowany \hyperlink{classIDGenerator_1_1ID}{ID}. 
+
+
+
+Definicja w linii 50 pliku idgenerator.h.
+
+
+
+Odwołania w operator=().
+
+\hypertarget{classIDGenerator_1_1ID_a336d735ce48e2bca744bc7d77c6792af}{
+\index{IDGenerator::ID@{IDGenerator::ID}!type@{type}}
+\index{type@{type}!IDGenerator::ID@{IDGenerator::ID}}
+\subsubsection[{type}]{\setlength{\rightskip}{0pt plus 5cm}uint {\bf IDGenerator::ID::type}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classIDGenerator_1_1ID_a336d735ce48e2bca744bc7d77c6792af}
+
+
+Typ tego identyfikatora. 
+
+
+
+Definicja w linii 51 pliku idgenerator.h.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{idgenerator_8h}{idgenerator.h}\item 
+src/\hyperlink{idgenerator_8cpp}{idgenerator.cpp}\end{DoxyCompactItemize}

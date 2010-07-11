@@ -1,0 +1,133 @@
+\hypertarget{classobsolete_1_1AbstractID}{
+\section{Dokumentacja klasy obsolete::AbstractID}
+\label{classobsolete_1_1AbstractID}\index{obsolete::AbstractID@{obsolete::AbstractID}}
+}
+
+
+Klasa bazowa dla wszystkich typów identyfikatorowych.  
+
+
+
+
+{\ttfamily \#include $<$abstractid.h$>$}
+
+
+
+Diagram dziedziczenia dla obsolete::AbstractID\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=400pt]{classobsolete_1_1AbstractID__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagram współpracy dla obsolete::AbstractID:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{classobsolete_1_1AbstractID__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classobsolete_1_1AbstractID_aff6a5e33261e36af0dcf9b38d99f0056}{AbstractID} (uint \hyperlink{classobsolete_1_1ID}{ID}=0)
+\begin{DoxyCompactList}\small\item\em Inicjalizuje nowy obiekt. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty chronione}
+\begin{DoxyCompactItemize}
+\item 
+uint \hyperlink{classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef41193b60b570c}{ID}
+\begin{DoxyCompactList}\small\item\em Reprezentowany \hyperlink{classobsolete_1_1ID}{ID}. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Przyjaciele}
+\begin{DoxyCompactItemize}
+\item 
+QDataStream \& \hyperlink{classobsolete_1_1AbstractID_ae018346f525245975a90a561d3cffccd}{operator$<$$<$} (QDataStream \&stream, const \hyperlink{classobsolete_1_1AbstractID}{AbstractID} \&\hyperlink{classobsolete_1_1ID}{ID})
+\begin{DoxyCompactList}\small\item\em Zapisuje dany identyfikator do danego strumienia. \item\end{DoxyCompactList}\item 
+QDataStream \& \hyperlink{classobsolete_1_1AbstractID_ae2290b15582443d09db5f4963e546920}{operator$>$$>$} (QDataStream \&stream, \hyperlink{classobsolete_1_1AbstractID}{AbstractID} \&\hyperlink{classobsolete_1_1ID}{ID})
+\begin{DoxyCompactList}\small\item\em Odczytuje dany identyfikator z danego strumienia. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Klasa bazowa dla wszystkich typów identyfikatorowych. 
+
+Definicja w linii 11 pliku abstractid.h.
+
+
+
+\subsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{classobsolete_1_1AbstractID_aff6a5e33261e36af0dcf9b38d99f0056}{
+\index{obsolete::AbstractID@{obsolete::AbstractID}!AbstractID@{AbstractID}}
+\index{AbstractID@{AbstractID}!obsolete::AbstractID@{obsolete::AbstractID}}
+\subsubsection[{AbstractID}]{\setlength{\rightskip}{0pt plus 5cm}obsolete::AbstractID::AbstractID (uint {\em ID} = {\ttfamily 0})\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{classobsolete_1_1AbstractID_aff6a5e33261e36af0dcf9b38d99f0056}
+
+
+Inicjalizuje nowy obiekt. 
+
+Użytkownik powinien użyć metody createdID(). 
+
+Definicja w linii 31 pliku abstractid.h.
+
+
+
+
+\begin{DoxyCode}
+31 : ID ( ID ) {}
+\end{DoxyCode}
+
+
+
+
+\subsection{Dokumentacja przyjaciół i funkcji związanych}
+\hypertarget{classobsolete_1_1AbstractID_ae018346f525245975a90a561d3cffccd}{
+\index{obsolete::AbstractID@{obsolete::AbstractID}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!obsolete::AbstractID@{obsolete::AbstractID}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$<$$<$ (QDataStream \& {\em stream}, \/  const {\bf AbstractID} \& {\em ID})\hspace{0.3cm}{\ttfamily  \mbox{[}friend\mbox{]}}}}
+\label{classobsolete_1_1AbstractID_ae018346f525245975a90a561d3cffccd}
+
+
+Zapisuje dany identyfikator do danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień do którego będzie zapisany identyfikator. \item[{\em \hyperlink{classobsolete_1_1ID}{ID}}]Identyfikator który zostanie zapisany. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+\hypertarget{classobsolete_1_1AbstractID_ae2290b15582443d09db5f4963e546920}{
+\index{obsolete::AbstractID@{obsolete::AbstractID}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!obsolete::AbstractID@{obsolete::AbstractID}}
+\subsubsection[{operator$>$$>$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$>$$>$ (QDataStream \& {\em stream}, \/  {\bf AbstractID} \& {\em ID})\hspace{0.3cm}{\ttfamily  \mbox{[}friend\mbox{]}}}}
+\label{classobsolete_1_1AbstractID_ae2290b15582443d09db5f4963e546920}
+
+
+Odczytuje dany identyfikator z danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień z którego będzie odczytany identyfikator. \item[{\em \hyperlink{classobsolete_1_1ID}{ID}}]Identyfikator który zostanie zainicjalizowany odczytanymi danymi. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef41193b60b570c}{
+\index{obsolete::AbstractID@{obsolete::AbstractID}!ID@{ID}}
+\index{ID@{ID}!obsolete::AbstractID@{obsolete::AbstractID}}
+\subsubsection[{ID}]{\setlength{\rightskip}{0pt plus 5cm}uint {\bf obsolete::AbstractID::ID}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef41193b60b570c}
+
+
+Reprezentowany \hyperlink{classobsolete_1_1ID}{ID}. 
+
+
+
+Definicja w linii 34 pliku abstractid.h.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku:\begin{DoxyCompactItemize}
+\item 
+include/obsolete/\hyperlink{abstractid_8h}{abstractid.h}\end{DoxyCompactItemize}

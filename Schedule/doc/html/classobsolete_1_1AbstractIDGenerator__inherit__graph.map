@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$classobsolete_1_1EventIDGenerator.html" title="Klasa generatorów generatorów identyfikatorów wydarzeń." alt="" coords="5,342,227,439"/>
+<area shape="rect" id="node7" href="$classobsolete_1_1MarkIDGenerator.html" title="Klasa generatorów generatorów identyfikatorów skutków wydarzeń." alt="" coords="251,342,464,439"/>
+<area shape="rect" id="node9" href="$classobsolete_1_1SubjectIDGenerator.html" title="Klasa generatorów generatorów identyfikatorów przedmiotów." alt="" coords="488,342,723,439"/>
+<area shape="rect" id="node11" href="$classobsolete_1_1TypeIDGenerator.html" title="Generator generatorów obiektów TypeID." alt="" coords="747,342,963,439"/>
+<area shape="rect" id="node2" href="$classobsolete_1_1AbstractID.html" title="Klasa bazowa dla wszystkich typów identyfikatorowych." alt="" coords="396,6,567,103"/>
+</map>

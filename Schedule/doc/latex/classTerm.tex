@@ -1,0 +1,204 @@
+\hypertarget{classTerm}{
+\section{Dokumentacja klasy Term}
+\label{classTerm}\index{Term@{Term}}
+}
+
+
+Reprezentacja egzekucji wydarzenia.  
+
+
+
+
+{\ttfamily \#include $<$term.h$>$}
+
+
+
+Diagram dziedziczenia dla Term\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=106pt]{classTerm__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagram współpracy dla Term:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=400pt]{classTerm__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classTerm_a8621decf6499e1b597de930add62240a}{Term} (\hyperlink{classIDGenerator_1_1ID}{IDGenerator::ID} event)
+\begin{DoxyCompactList}\small\item\em Inicjalizuje obiekt reprezentujący termin danego wydarzenia. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classIDGenerator_1_1ID}{IDGenerator::ID} \hyperlink{classTerm_acc86c9d25865449a551947aa1597dec5}{eventID}
+\begin{DoxyCompactList}\small\item\em Identyfikator wydarzenia. \item\end{DoxyCompactList}\item 
+\hyperlink{classIDGenerator_1_1ID}{IDGenerator::ID} \hyperlink{classTerm_a59508892d24fb82de0db91a377c690fb}{markID}
+\begin{DoxyCompactList}\small\item\em Identyfikator oceny -\/ skutku egzekucji wydarzenia. \item\end{DoxyCompactList}\item 
+bool \hyperlink{classTerm_a58a815dca7217ba0e9e4e084d7c91648}{revoke}
+\begin{DoxyCompactList}\small\item\em Czy jest odwołany. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Przyjaciele}
+\begin{DoxyCompactItemize}
+\item 
+QDataStream \& \hyperlink{classTerm_a607138da9b016f91528f99ab09407712}{operator$<$$<$} (QDataStream \&stream, const \hyperlink{classTerm}{Term} \&term)
+\begin{DoxyCompactList}\small\item\em Zapisuje dany termin do danego strumienia. \item\end{DoxyCompactList}\item 
+QDataStream \& \hyperlink{classTerm_ad3ecfcfe45e8df9b765a1b06be05a457}{operator$>$$>$} (QDataStream \&stream, \hyperlink{classTerm}{Term} \&term)
+\begin{DoxyCompactList}\small\item\em Odczytuje dany termin z danego strumienia. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Reprezentacja egzekucji wydarzenia. Jest również odnośnikiem do danego wydarzenia. 
+
+Definicja w linii 9 pliku term.h.
+
+
+
+\subsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{classTerm_a8621decf6499e1b597de930add62240a}{
+\index{Term@{Term}!Term@{Term}}
+\index{Term@{Term}!Term@{Term}}
+\subsubsection[{Term}]{\setlength{\rightskip}{0pt plus 5cm}Term::Term ({\bf IDGenerator::ID} {\em event})\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{classTerm_a8621decf6499e1b597de930add62240a}
+
+
+Inicjalizuje obiekt reprezentujący termin danego wydarzenia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em event}]Identyfikator wydarzenia związanego z tym terminem \end{DoxyParams}
+
+
+Definicja w linii 29 pliku term.h.
+
+
+
+
+\begin{DoxyCode}
+29 : eventID(event) {}
+\end{DoxyCode}
+
+
+
+
+\subsection{Dokumentacja przyjaciół i funkcji związanych}
+\hypertarget{classTerm_a607138da9b016f91528f99ab09407712}{
+\index{Term@{Term}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Term@{Term}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$<$$<$ (QDataStream \& {\em stream}, \/  const {\bf Term} \& {\em term})\hspace{0.3cm}{\ttfamily  \mbox{[}friend\mbox{]}}}}
+\label{classTerm_a607138da9b016f91528f99ab09407712}
+
+
+Zapisuje dany termin do danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień do którego będzie zapisany termin. \item[{\em term}]Termin który zostanie zapisany. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+
+
+Definicja w linii 3 pliku term.cpp.
+
+
+
+
+\begin{DoxyCode}
+4 {
+5     const QDate &date=term;
+6     return stream<<date<<term.eventID<<term.markID;
+7 }
+\end{DoxyCode}
+
+
+\hypertarget{classTerm_ad3ecfcfe45e8df9b765a1b06be05a457}{
+\index{Term@{Term}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Term@{Term}}
+\subsubsection[{operator$>$$>$}]{\setlength{\rightskip}{0pt plus 5cm}QDataStream\& operator$>$$>$ (QDataStream \& {\em stream}, \/  {\bf Term} \& {\em term})\hspace{0.3cm}{\ttfamily  \mbox{[}friend\mbox{]}}}}
+\label{classTerm_ad3ecfcfe45e8df9b765a1b06be05a457}
+
+
+Odczytuje dany termin z danego strumienia. 
+
+
+\begin{DoxyParams}{Parametry}
+\item[{\em stream}]Strumień z którego będzie odczytany termin. \item[{\em term}]Termin który zostanie zainicjalizowany odczytanymi danymi. \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Ten sam strumień. 
+\end{DoxyReturn}
+
+
+Definicja w linii 9 pliku term.cpp.
+
+
+
+
+\begin{DoxyCode}
+10 {
+11     QDate &date=term;
+12     return stream>>date>>term.eventID>>term.markID;
+13 }
+\end{DoxyCode}
+
+
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{classTerm_acc86c9d25865449a551947aa1597dec5}{
+\index{Term@{Term}!eventID@{eventID}}
+\index{eventID@{eventID}!Term@{Term}}
+\subsubsection[{eventID}]{\setlength{\rightskip}{0pt plus 5cm}{\bf IDGenerator::ID} {\bf Term::eventID}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classTerm_acc86c9d25865449a551947aa1597dec5}
+
+
+Identyfikator wydarzenia. 
+
+
+
+Definicja w linii 31 pliku term.h.
+
+
+
+Odwołania w operator$<$$<$() i operator$>$$>$().
+
+\hypertarget{classTerm_a59508892d24fb82de0db91a377c690fb}{
+\index{Term@{Term}!markID@{markID}}
+\index{markID@{markID}!Term@{Term}}
+\subsubsection[{markID}]{\setlength{\rightskip}{0pt plus 5cm}{\bf IDGenerator::ID} {\bf Term::markID}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classTerm_a59508892d24fb82de0db91a377c690fb}
+
+
+Identyfikator oceny -\/ skutku egzekucji wydarzenia. 
+
+
+
+Definicja w linii 32 pliku term.h.
+
+
+
+Odwołania w operator$<$$<$() i operator$>$$>$().
+
+\hypertarget{classTerm_a58a815dca7217ba0e9e4e084d7c91648}{
+\index{Term@{Term}!revoke@{revoke}}
+\index{revoke@{revoke}!Term@{Term}}
+\subsubsection[{revoke}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf Term::revoke}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classTerm_a58a815dca7217ba0e9e4e084d7c91648}
+
+
+Czy jest odwołany. 
+
+
+
+Definicja w linii 33 pliku term.h.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z pliku:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{term_8h}{term.h}\end{DoxyCompactItemize}

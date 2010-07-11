@@ -1,0 +1,440 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>SchoolTools - Schedule: Dokumentacja klasy IDGenerator</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.3 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klasy</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+      <li><a href="dirs.html"><span>Katalogi</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="annotated.html"><span>Lista&nbsp;klas</span></a></li>
+      <li><a href="hierarchy.html"><span>Hierarchia&nbsp;klas</span></a></li>
+      <li><a href="functions.html"><span>Składowe&nbsp;klas</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja klasy IDGenerator</h1><!-- doxytag: class="IDGenerator" -->
+<p>Generator identyfikatorów określonego typu.  
+<a href="#_details">Więcej...</a></p>
+
+<p><code>#include &lt;<a class="el" href="idgenerator_8h_source.html">idgenerator.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagram współpracy dla IDGenerator:</div>
+<div class="dynsection">
+<div class="center"><img src="classIDGenerator__coll__graph.png" border="0" usemap="#IDGenerator_coll__map" alt="Collaboration graph"/></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+
+<p><a href="classIDGenerator-members.html">Lista wszystkich składowych.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Komponenty</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">class &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDGenerator_1_1ID.html">ID</a></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Obiekt reprezentuje dany identyfikator określonego typu.  <a href="classIDGenerator_1_1ID.html#_details">Więcej...</a><br/></td></tr>
+<tr><td colspan="2"><h2>Metody publiczne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIDGenerator.html">IDGenerator</a> &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDGenerator.html#a1cead736be7f5fae000fe1c5f225234b">operator=</a> (const <a class="el" href="classIDGenerator.html">IDGenerator</a> &amp;o)  throw (char*)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Przeładowany operator przypisania dla upewnienia się, że żaden generator nie zostanie zniszczony.  <a href="#a1cead736be7f5fae000fe1c5f225234b"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDGenerator.html#aa8de50b28596dafe0e13f34c9c9a0514">operator==</a> (const <a class="el" href="classIDGenerator.html">IDGenerator</a> &amp;o) const </td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Porównuje ze sobą obiekty pod kątem identyczności.  <a href="#aa8de50b28596dafe0e13f34c9c9a0514"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIDGenerator_1_1ID.html">ID</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDGenerator.html#a5e7eba106b14d8d09974bb6330476926">nextID</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Generuje następny identyfikator.  <a href="#a5e7eba106b14d8d09974bb6330476926"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIDGenerator_1_1ID.html">ID</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDGenerator.html#ad5c8d7b639350d1f19dd990d850179c1">voidID</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Generuje niezainicjalizowany identyfikator.  <a href="#ad5c8d7b639350d1f19dd990d850179c1"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDGenerator.html#a16c5cba9a30dc95d05b72a1253fb54b2">initialize</a> ()  throw (char*)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Inicjalizuje dany generator identyfikatorów.  <a href="#a16c5cba9a30dc95d05b72a1253fb54b2"></a><br/></td></tr>
+<tr><td colspan="2"><h2>Metody prywatne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDGenerator.html#acc54ee4913307e3ad93ef3b55e861481">IDGenerator</a> (quint64 T)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Inicjalizuje dany generator.  <a href="#acc54ee4913307e3ad93ef3b55e861481"></a><br/></td></tr>
+<tr><td colspan="2"><h2>Atrybuty prywatne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">quint64&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDGenerator.html#aa32e8737179aa306290f3aafed377de2">type</a></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Typ identyfikatorów generowanych przez dany generator.  <a href="#aa32e8737179aa306290f3aafed377de2"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">quint64&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDGenerator.html#a9a93dd456a6a6ce7c55c61e810849133">freeID</a></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Pierwszy wolny <a class="el" href="classIDGenerator_1_1ID.html" title="Obiekt reprezentuje dany identyfikator określonego typu.">ID</a>.  <a href="#a9a93dd456a6a6ce7c55c61e810849133"></a><br/></td></tr>
+<tr><td colspan="2"><h2>Przyjaciele</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">class&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDGenerator.html#ab840f4c248c2a91409f520e48e774cfb">GeneratorIDGenerator</a></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Każdy generator identyfikatorów jest zaprzyjaźniony ze swoim stwórcą.  <a href="#ab840f4c248c2a91409f520e48e774cfb"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDGenerator.html#a244688be6d84ec73612ddd66ab376bd1">operator&lt;&lt;</a> (QDataStream &amp;stream, const <a class="el" href="classIDGenerator.html">IDGenerator</a> &amp;generator)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Zapisuje dany generator identyfikatorów do danego strumienia.  <a href="#a244688be6d84ec73612ddd66ab376bd1"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIDGenerator.html#a4f86069b5b5ede60ff2e613fbcf10de4">operator&gt;&gt;</a> (QDataStream &amp;stream, <a class="el" href="classIDGenerator.html">IDGenerator</a> &amp;generator)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Odczytuje dany generator identyfikatorów z danego strumienia.  <a href="#a4f86069b5b5ede60ff2e613fbcf10de4"></a><br/></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Opis szczegółowy</h2>
+<p>Generator identyfikatorów określonego typu. </p>
+
+<p>Definicja w linii <a class="el" href="idgenerator_8h_source.html#l00008">8</a> pliku <a class="el" href="idgenerator_8h_source.html">idgenerator.h</a>.</p>
+<hr/><h2>Dokumentacja konstruktora i destruktora</h2>
+<a class="anchor" id="acc54ee4913307e3ad93ef3b55e861481"></a><!-- doxytag: member="IDGenerator::IDGenerator" ref="acc54ee4913307e3ad93ef3b55e861481" args="(quint64 T)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IDGenerator::IDGenerator </td>
+          <td>(</td>
+          <td class="paramtype">quint64&nbsp;</td>
+          <td class="paramname"> <em>T</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline, private]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Inicjalizuje dany generator. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>T</em>&nbsp;</td><td>Typ identyfikatorów generowanych przez ten generator. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definicja w linii <a class="el" href="idgenerator_8h_source.html#l00109">109</a> pliku <a class="el" href="idgenerator_8h_source.html">idgenerator.h</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00109"></a>00109 : <a class="code" href="classIDGenerator.html#aa32e8737179aa306290f3aafed377de2" title="Typ identyfikatorów generowanych przez dany generator.">type</a>(T), <a class="code" href="classIDGenerator.html#a9a93dd456a6a6ce7c55c61e810849133" title="Pierwszy wolny ID.">freeID</a>(1LL) {}
+</pre></div></p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja funkcji składowych</h2>
+<a class="anchor" id="a16c5cba9a30dc95d05b72a1253fb54b2"></a><!-- doxytag: member="IDGenerator::initialize" ref="a16c5cba9a30dc95d05b72a1253fb54b2" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IDGenerator::initialize </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td>  throw (char*)</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Inicjalizuje dany generator identyfikatorów. </p>
+<p>Inicjalizowany identyfikator MUSI być niezainicjalizowany! </p>
+
+<p>Definicja w linii <a class="el" href="idgenerator_8cpp_source.html#l00004">4</a> pliku <a class="el" href="idgenerator_8cpp_source.html">idgenerator.cpp</a>.</p>
+
+<p>Odwołuje się do <a class="el" href="generatoridgenerator_8cpp_source.html#l00005">GeneratorIDGenerator::nextIDGenerator()</a> i <a class="el" href="idgenerator_8h_source.html#l00073">type</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00005"></a>00005 {
+<a name="l00006"></a>00006     <span class="keywordflow">if</span> (<a class="code" href="classIDGenerator.html#aa32e8737179aa306290f3aafed377de2" title="Typ identyfikatorów generowanych przez dany generator.">type</a>!=0LL)
+<a name="l00007"></a>00007         <span class="keywordflow">throw</span> <span class="stringliteral">&quot;Error&quot;</span>;
+<a name="l00008"></a>00008     *<span class="keyword">this</span>=<a class="code" href="classGeneratorIDGenerator.html#ac6dd43ecbbe2ed1647855e72156dbcb2" title="Generuje następny generator identyfikatorów.">GeneratorIDGenerator::nextIDGenerator</a>();
+<a name="l00009"></a>00009 }
+</pre></div></p>
+
+<p><div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dynsection">
+<div class="center"><img src="classIDGenerator_a16c5cba9a30dc95d05b72a1253fb54b2_cgraph.png" border="0" usemap="#classIDGenerator_a16c5cba9a30dc95d05b72a1253fb54b2_cgraph_map" alt=""></div>
+<map name="classIDGenerator_a16c5cba9a30dc95d05b72a1253fb54b2_cgraph_map" id="classIDGenerator_a16c5cba9a30dc95d05b72a1253fb54b2_cgraph">
+<area shape="rect" id="node3" href="classGeneratorIDGenerator.html#ac6dd43ecbbe2ed1647855e72156dbcb2" title="Generuje następny generator identyfikatorów." alt="" coords="227,5,536,38"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a5e7eba106b14d8d09974bb6330476926"></a><!-- doxytag: member="IDGenerator::nextID" ref="a5e7eba106b14d8d09974bb6330476926" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classIDGenerator_1_1ID.html">ID</a> IDGenerator::nextID </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Generuje następny identyfikator. </p>
+
+<p>Definicja w linii <a class="el" href="idgenerator_8h_source.html#l00090">90</a> pliku <a class="el" href="idgenerator_8h_source.html">idgenerator.h</a>.</p>
+
+<p>Odwołuje się do <a class="el" href="idgenerator_8h_source.html#l00074">freeID</a> i <a class="el" href="idgenerator_8h_source.html#l00073">type</a>.</p>
+
+<p>Odwołania w <a class="el" href="main_8cpp_source.html#l00011">main()</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00091"></a>00091     {
+<a name="l00092"></a>00092         <span class="keywordflow">return</span> ID(<a class="code" href="classIDGenerator.html#a9a93dd456a6a6ce7c55c61e810849133" title="Pierwszy wolny ID.">freeID</a>++,<a class="code" href="classIDGenerator.html#aa32e8737179aa306290f3aafed377de2" title="Typ identyfikatorów generowanych przez dany generator.">type</a>);
+<a name="l00093"></a>00093     }
+</pre></div></p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dynsection">
+<div class="center"><img src="classIDGenerator_a5e7eba106b14d8d09974bb6330476926_icgraph.png" border="0" usemap="#classIDGenerator_a5e7eba106b14d8d09974bb6330476926_icgraph_map" alt=""></div>
+<map name="classIDGenerator_a5e7eba106b14d8d09974bb6330476926_icgraph_map" id="classIDGenerator_a5e7eba106b14d8d09974bb6330476926_icgraph">
+<area shape="rect" id="node3" href="main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="220,5,273,38"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a1cead736be7f5fae000fe1c5f225234b"></a><!-- doxytag: member="IDGenerator::operator=" ref="a1cead736be7f5fae000fe1c5f225234b" args="(const IDGenerator &amp;o)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classIDGenerator.html">IDGenerator</a> &amp; IDGenerator::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classIDGenerator.html">IDGenerator</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>o</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td>  throw (char*)</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Przeładowany operator przypisania dla upewnienia się, że żaden generator nie zostanie zniszczony. </p>
+
+<p>Definicja w linii <a class="el" href="idgenerator_8cpp_source.html#l00011">11</a> pliku <a class="el" href="idgenerator_8cpp_source.html">idgenerator.cpp</a>.</p>
+
+<p>Odwołuje się do <a class="el" href="idgenerator_8h_source.html#l00073">type</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00012"></a>00012 {
+<a name="l00013"></a>00013     <span class="keywordflow">if</span> (<a class="code" href="classIDGenerator.html#aa32e8737179aa306290f3aafed377de2" title="Typ identyfikatorów generowanych przez dany generator.">type</a>!=0LL)
+<a name="l00014"></a>00014         <span class="keywordflow">throw</span> <span class="stringliteral">&quot;Error&quot;</span>;
+<a name="l00015"></a>00015     <a class="code" href="classIDGenerator.html#aa32e8737179aa306290f3aafed377de2" title="Typ identyfikatorów generowanych przez dany generator.">type</a>=o.<a class="code" href="classIDGenerator.html#aa32e8737179aa306290f3aafed377de2" title="Typ identyfikatorów generowanych przez dany generator.">type</a>;
+<a name="l00016"></a>00016     <a class="code" href="classIDGenerator.html#a9a93dd456a6a6ce7c55c61e810849133" title="Pierwszy wolny ID.">freeID</a>=o.<a class="code" href="classIDGenerator.html#a9a93dd456a6a6ce7c55c61e810849133" title="Pierwszy wolny ID.">freeID</a>;
+<a name="l00017"></a>00017     <span class="keywordflow">return</span> *<span class="keyword">this</span>;
+<a name="l00018"></a>00018 }
+</pre></div></p>
+
+</div>
+</div>
+<a class="anchor" id="aa8de50b28596dafe0e13f34c9c9a0514"></a><!-- doxytag: member="IDGenerator::operator==" ref="aa8de50b28596dafe0e13f34c9c9a0514" args="(const IDGenerator &amp;o) const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IDGenerator::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classIDGenerator.html">IDGenerator</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>o</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const<code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Porównuje ze sobą obiekty pod kątem identyczności. </p>
+<p>Wykorzystywane do kontroli spójności zapisu. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>o</em>&nbsp;</td><td>Obiekt z którym zostanie porównany dany obiekt </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definicja w linii <a class="el" href="idgenerator_8h_source.html#l00084">84</a> pliku <a class="el" href="idgenerator_8h_source.html">idgenerator.h</a>.</p>
+
+<p>Odwołuje się do <a class="el" href="idgenerator_8h_source.html#l00074">freeID</a> i <a class="el" href="idgenerator_8h_source.html#l00073">type</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00085"></a>00085     {
+<a name="l00086"></a>00086         <span class="keywordflow">return</span> <a class="code" href="classIDGenerator.html#aa32e8737179aa306290f3aafed377de2" title="Typ identyfikatorów generowanych przez dany generator.">type</a>==o.<a class="code" href="classIDGenerator.html#aa32e8737179aa306290f3aafed377de2" title="Typ identyfikatorów generowanych przez dany generator.">type</a> &amp;&amp; <a class="code" href="classIDGenerator.html#a9a93dd456a6a6ce7c55c61e810849133" title="Pierwszy wolny ID.">freeID</a>==o.<a class="code" href="classIDGenerator.html#a9a93dd456a6a6ce7c55c61e810849133" title="Pierwszy wolny ID.">freeID</a>;
+<a name="l00087"></a>00087     }
+</pre></div></p>
+
+</div>
+</div>
+<a class="anchor" id="ad5c8d7b639350d1f19dd990d850179c1"></a><!-- doxytag: member="IDGenerator::voidID" ref="ad5c8d7b639350d1f19dd990d850179c1" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classIDGenerator_1_1ID.html">ID</a> IDGenerator::voidID </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Generuje niezainicjalizowany identyfikator. </p>
+
+<p>Definicja w linii <a class="el" href="idgenerator_8h_source.html#l00096">96</a> pliku <a class="el" href="idgenerator_8h_source.html">idgenerator.h</a>.</p>
+
+<p>Odwołuje się do <a class="el" href="idgenerator_8h_source.html#l00073">type</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00097"></a>00097     {
+<a name="l00098"></a>00098         <span class="keywordflow">return</span> ID(0,<a class="code" href="classIDGenerator.html#aa32e8737179aa306290f3aafed377de2" title="Typ identyfikatorów generowanych przez dany generator.">type</a>);
+<a name="l00099"></a>00099     }
+</pre></div></p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja przyjaciół i funkcji związanych</h2>
+<a class="anchor" id="ab840f4c248c2a91409f520e48e774cfb"></a><!-- doxytag: member="IDGenerator::GeneratorIDGenerator" ref="ab840f4c248c2a91409f520e48e774cfb" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classGeneratorIDGenerator.html">GeneratorIDGenerator</a><code> [friend]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Każdy generator identyfikatorów jest zaprzyjaźniony ze swoim stwórcą. </p>
+
+<p>Definicja w linii <a class="el" href="idgenerator_8h_source.html#l00011">11</a> pliku <a class="el" href="idgenerator_8h_source.html">idgenerator.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a244688be6d84ec73612ddd66ab376bd1"></a><!-- doxytag: member="IDGenerator::operator&lt;&lt;" ref="a244688be6d84ec73612ddd66ab376bd1" args="(QDataStream &amp;stream, const IDGenerator &amp;generator)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDataStream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">QDataStream &amp;&nbsp;</td>
+          <td class="paramname"> <em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classIDGenerator.html">IDGenerator</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>generator</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [friend]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Zapisuje dany generator identyfikatorów do danego strumienia. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>stream</em>&nbsp;</td><td>Strumień do którego będzie zapisany generator identyfikatorów. </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>generator</em>&nbsp;</td><td>Generator identyfikatorów który zostanie zapisany. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Zwraca:</b></dt><dd>Ten sam strumień. </dd></dl>
+
+<p>Definicja w linii <a class="el" href="idgenerator_8cpp_source.html#l00030">30</a> pliku <a class="el" href="idgenerator_8cpp_source.html">idgenerator.cpp</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00031"></a>00031 {
+<a name="l00032"></a>00032     <span class="keywordflow">return</span> stream&lt;&lt;generator.<a class="code" href="classIDGenerator.html#aa32e8737179aa306290f3aafed377de2" title="Typ identyfikatorów generowanych przez dany generator.">type</a>&lt;&lt;generator.<a class="code" href="classIDGenerator.html#a9a93dd456a6a6ce7c55c61e810849133" title="Pierwszy wolny ID.">freeID</a>;
+<a name="l00033"></a>00033 }
+</pre></div></p>
+
+</div>
+</div>
+<a class="anchor" id="a4f86069b5b5ede60ff2e613fbcf10de4"></a><!-- doxytag: member="IDGenerator::operator&gt;&gt;" ref="a4f86069b5b5ede60ff2e613fbcf10de4" args="(QDataStream &amp;stream, IDGenerator &amp;generator)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDataStream&amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype">QDataStream &amp;&nbsp;</td>
+          <td class="paramname"> <em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classIDGenerator.html">IDGenerator</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>generator</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [friend]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Odczytuje dany generator identyfikatorów z danego strumienia. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>stream</em>&nbsp;</td><td>Strumień z którego będzie odczytany generator identyfikatorów. </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>generator</em>&nbsp;</td><td>Generator identyfikatorów który zostanie zainicjalizowany odczytanymi danymi. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Zwraca:</b></dt><dd>Ten sam strumień. </dd></dl>
+
+<p>Definicja w linii <a class="el" href="idgenerator_8cpp_source.html#l00035">35</a> pliku <a class="el" href="idgenerator_8cpp_source.html">idgenerator.cpp</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00036"></a>00036 {
+<a name="l00037"></a>00037     <span class="keywordflow">return</span> stream&gt;&gt;generator.<a class="code" href="classIDGenerator.html#aa32e8737179aa306290f3aafed377de2" title="Typ identyfikatorów generowanych przez dany generator.">type</a>&gt;&gt;generator.<a class="code" href="classIDGenerator.html#a9a93dd456a6a6ce7c55c61e810849133" title="Pierwszy wolny ID.">freeID</a>;
+<a name="l00038"></a>00038 }
+</pre></div></p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja atrybutów składowych</h2>
+<a class="anchor" id="a9a93dd456a6a6ce7c55c61e810849133"></a><!-- doxytag: member="IDGenerator::freeID" ref="a9a93dd456a6a6ce7c55c61e810849133" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">quint64 <a class="el" href="classIDGenerator.html#a9a93dd456a6a6ce7c55c61e810849133">IDGenerator::freeID</a><code> [private]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Pierwszy wolny <a class="el" href="classIDGenerator_1_1ID.html" title="Obiekt reprezentuje dany identyfikator określonego typu.">ID</a>. </p>
+
+<p>Definicja w linii <a class="el" href="idgenerator_8h_source.html#l00074">74</a> pliku <a class="el" href="idgenerator_8h_source.html">idgenerator.h</a>.</p>
+
+<p>Odwołania w <a class="el" href="idgenerator_8h_source.html#l00090">nextID()</a>, <a class="el" href="idgenerator_8cpp_source.html#l00030">operator&lt;&lt;()</a>, <a class="el" href="idgenerator_8h_source.html#l00084">operator==()</a> i <a class="el" href="idgenerator_8cpp_source.html#l00035">operator&gt;&gt;()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa32e8737179aa306290f3aafed377de2"></a><!-- doxytag: member="IDGenerator::type" ref="aa32e8737179aa306290f3aafed377de2" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">quint64 <a class="el" href="classIDGenerator.html#aa32e8737179aa306290f3aafed377de2">IDGenerator::type</a><code> [private]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Typ identyfikatorów generowanych przez dany generator. </p>
+
+<p>Definicja w linii <a class="el" href="idgenerator_8h_source.html#l00073">73</a> pliku <a class="el" href="idgenerator_8h_source.html">idgenerator.h</a>.</p>
+
+<p>Odwołania w <a class="el" href="idgenerator_8cpp_source.html#l00004">initialize()</a>, <a class="el" href="idgenerator_8h_source.html#l00090">nextID()</a>, <a class="el" href="idgenerator_8cpp_source.html#l00030">operator&lt;&lt;()</a>, <a class="el" href="idgenerator_8cpp_source.html#l00011">operator=()</a>, <a class="el" href="idgenerator_8h_source.html#l00084">operator==()</a>, <a class="el" href="idgenerator_8cpp_source.html#l00035">operator&gt;&gt;()</a> i <a class="el" href="idgenerator_8h_source.html#l00096">voidID()</a>.</p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li>include/<a class="el" href="idgenerator_8h_source.html">idgenerator.h</a></li>
+<li>src/<a class="el" href="idgenerator_8cpp_source.html">idgenerator.cpp</a></li>
+</ul>
+</div>
+<hr class="footer"/><address style="text-align: right;"><small>Wygenerowano Sat Jul 10 18:45:21 2010 dla SchoolTools - Schedule programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>

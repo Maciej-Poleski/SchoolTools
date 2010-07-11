@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classobsolete_1_1obsolete_1_1AbstractIDGenerator.html" title="Klasa bazowa obiektów&#45;generatorów identyfikatorów." alt="" coords="565,217,877,549"/>
+<area shape="rect" id="node16" href="$classobsolete_1_1obsolete_1_1AbstractIncrementalID.html" title="Podstawa dla wszystkich klas identyfikatorów automatycznych." alt="" coords="901,302,1224,463"/>
+<area shape="rect" id="node23" href="$classobsolete_1_1obsolete_1_1AbstractReservedID.html" title="Klasa reprezentująca identyfikatory rezerwowane z góry." alt="" coords="1251,281,1557,485"/>
+<area shape="rect" id="node5" href="$classobsolete_1_1EventIDGenerator.html" title="Klasa generatorów generatorów identyfikatorów wydarzeń." alt="" coords="5,609,227,706"/>
+<area shape="rect" id="node7" href="$classobsolete_1_1MarkIDGenerator.html" title="Klasa generatorów generatorów identyfikatorów skutków wydarzeń." alt="" coords="251,609,464,706"/>
+<area shape="rect" id="node9" href="$classobsolete_1_1SubjectIDGenerator.html" title="Klasa generatorów generatorów identyfikatorów przedmiotów." alt="" coords="488,609,723,706"/>
+<area shape="rect" id="node11" href="$classobsolete_1_1TypeIDGenerator.html" title="Generator generatorów obiektów TypeID." alt="" coords="747,609,963,706"/>
+<area shape="rect" id="node18" href="$classobsolete_1_1EventID.html" title="Klasa reprezentująca identyfikator zdarzenia." alt="" coords="987,598,1136,717"/>
+<area shape="rect" id="node20" href="$classobsolete_1_1MarkID.html" title="Klasa reprezentująca identyfikator oceny." alt="" coords="1160,598,1301,717"/>
+<area shape="rect" id="node25" href="$classobsolete_1_1SubjectID.html" title="Klasa reprezentująca identyfikator przedmiotu." alt="" coords="1325,609,1488,706"/>
+<area shape="rect" id="node27" href="$classobsolete_1_1TypeID.html" title="Klasa reprezentująca identyfikator typu wydarzenia." alt="" coords="1512,609,1656,706"/>
+</map>

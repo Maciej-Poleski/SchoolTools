@@ -1,0 +1,37 @@
+\hypertarget{abstractid_8h}{
+\section{Dokumentacja pliku include/obsolete/abstractid.h}
+\label{abstractid_8h}\index{include/obsolete/abstractid.h@{include/obsolete/abstractid.h}}
+}
+{\ttfamily \#include $<$QtCore/QtGlobal$>$}\par
+{\ttfamily \#include $<$QtCore/QDataStream$>$}\par
+Wykres zależności załączania dla abstractid.h:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=148pt]{abstractid_8h__incl}
+\end{center}
+\end{figure}
+Ten wykres pokazuje, które pliki bezpośrednio lub pośrednio załączają ten plik:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=420pt]{abstractid_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Komponenty}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classobsolete_1_1AbstractID}{obsolete::AbstractID}
+\begin{DoxyCompactList}\small\item\em Klasa bazowa dla wszystkich typów identyfikatorowych. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Przestrzenie nazw}
+\begin{DoxyCompactItemize}
+\item 
+namespace \hyperlink{namespaceobsolete}{obsolete}
+\end{DoxyCompactItemize}
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+QDataStream \& \hyperlink{namespaceobsolete_ae67d47b6a22388897d176c4569da81d2}{obsolete::operator$<$$<$} (QDataStream \&stream, const AbstractID \&ID)
+\begin{DoxyCompactList}\small\item\em Zapisuje dany identyfikator do danego strumienia. \item\end{DoxyCompactList}\item 
+QDataStream \& \hyperlink{namespaceobsolete_aa4c713ba2a42ffbb45bbeca0e2800a76}{obsolete::operator$>$$>$} (QDataStream \&stream, AbstractID \&ID)
+\begin{DoxyCompactList}\small\item\em Odczytuje dany identyfikator z danego strumienia. \item\end{DoxyCompactList}\end{DoxyCompactItemize}

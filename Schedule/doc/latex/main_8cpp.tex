@@ -1,0 +1,74 @@
+\hypertarget{main_8cpp}{
+\section{Dokumentacja pliku main.cpp}
+\label{main_8cpp}\index{main.cpp@{main.cpp}}
+}
+{\ttfamily \#include $<$QtCore/QCoreApplication$>$}\par
+{\ttfamily \#include \char`\"{}events.h\char`\"{}}\par
+Wykres zależności załączania dla main.cpp:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=245pt]{main_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+
+
+\subsection{Dokumentacja funkcji}
+\hypertarget{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (int {\em argc}, \/  char $\ast$$\ast$ {\em argv})}}
+\label{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}
+
+
+Definicja w linii 4 pliku main.cpp.
+
+
+
+Odwołuje się do IDGenerator::nextID() i GeneratorIDGenerator::nextIDGenerator().
+
+
+
+
+\begin{DoxyCode}
+5 {
+6     QCoreApplication app(argc,argv);
+7     QFile file("/tmp/tmpfile.txt");
+8     
+9     Events::saveToFile(file);
+10     
+11     IDGenerator eventIDGenerator=GeneratorIDGenerator::nextIDGenerator();
+12     IDGenerator markIDGenerator=GeneratorIDGenerator::nextIDGenerator();
+13     
+14     IDGenerator::ID id1=eventIDGenerator.nextID();
+15     IDGenerator::ID id2=eventIDGenerator.nextID();
+16     
+17     IDGenerator::ID id3=markIDGenerator.nextID();
+18     IDGenerator::ID id4=markIDGenerator.nextID();
+19     
+20     //file.open(QIODevice::WriteOnly);
+21     //QDataStream output(&file);
+22     
+23     //output<<id1<<id2<<id3<<id4;
+24 
+25     return 0;
+26 }
+\end{DoxyCode}
+
+
+
+
+Oto graf wywołań dla tej funkcji:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=173pt]{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph}
+\end{center}
+\end{figure}
+
+

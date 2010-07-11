@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classInitializable.html" title="Określa klasy inicjalizowalne." alt="" coords="165,366,320,549"/>
+<area shape="rect" id="node6" href="$classDeletable.html" title="Reprezentuje klasy których obiekty są usuwalne." alt="" coords="5,377,141,538"/>
+<area shape="rect" id="node9" href="$classCompList.html" title="{CompList\&lt; Type \&gt;\n||+ operator==()\l}" alt="" coords="344,409,496,506"/>
+<area shape="rect" id="node11" href="$classQList.html" title="{QList\&lt; Type \&gt;\n||}" alt="" coords="285,155,405,253"/>
+<area shape="rect" id="node13" href="$classCompList.html" title="Klasa poszerzająca funkcjonalność QList&lt;T&gt;" alt="" coords="429,155,555,253"/>
+<area shape="rect" id="node23" href="$classCompList.html" title="{CompList\&lt; IDGenerator::ID \&gt;\n||+ operator==()\l}" alt="" coords="520,409,747,506"/>
+<area shape="rect" id="node15" href="$classQList.html" title="{QList\&lt; T \&gt;\n||}" alt="" coords="445,6,539,103"/>
+<area shape="rect" id="node17" href="$classIDGenerator.html" title="Generator identyfikatorów określonego typu." alt="" coords="771,345,899,570"/>
+<area shape="rect" id="node25" href="$classQList.html" title="{QList\&lt; IDGenerator::ID \&gt;\n||}" alt="" coords="579,155,773,253"/>
+</map>

@@ -1,0 +1,3018 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/openSUSE) (format=pdflatex 2010.5.20)  1 JUN 2010 22:05
+entering extended mode
+ %&-line parsing enabled.
+**refman.tex
+(./refman.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, german-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, ar
+abic, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutc
+h, esperanto, estonian, farsi, finnish, french, galician, german, ngerman, mono
+greek, greek, hungarian, icelandic, indonesian, interlingua, irish, italian, ku
+rmanji, latin, latvian, lithuanian, mongolian, mongolian2a, bokmal, nynorsk, po
+lish, portuguese, romanian, russian, sanskrit, serbian, slovak, slovenian, span
+ish, swedish, turkish, ukenglish, ukrainian, uppersorbian, welsh, loaded.
+(/usr/share/texmf/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/bk10.clo
+File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/latex/ltxmisc/a4wide.sty
+Package: a4wide 1994/08/30
+
+(/usr/share/texmf/tex/latex/ntgclass/a4.sty
+Package: a4 2004/04/15 v1.2g A4 based page layout
+))
+(/usr/share/texmf/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf/tex/latex/tools/multicol.sty
+Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
+\c@tracingmulticols=\count89
+\mult@box=\box26
+\multicol@leftmargin=\dimen105
+\c@unbalance=\count90
+\c@collectmore=\count91
+\doublecol@number=\count92
+\multicoltolerance=\count93
+\multicolpretolerance=\count94
+\full@width=\dimen106
+\page@free=\dimen107
+\premulticols=\dimen108
+\postmulticols=\dimen109
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count95
+\c@finalcolumnbadness=\count96
+\last@try=\dimen110
+\multicolovershoot=\dimen111
+\multicolundershoot=\dimen112
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+)
+(/usr/share/texmf/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count97
+\float@exts=\toks15
+\float@box=\box52
+\@float@everytoks=\toks16
+\@floatcapt=\box53
+)
+(/usr/share/texmf/tex/latex/listings/listings.sty
+\lst@mode=\count98
+\lst@gtempboxa=\box54
+\lst@token=\toks17
+\lst@length=\count99
+\lst@currlwidth=\dimen113
+\lst@column=\count100
+\lst@pos=\count101
+\lst@lostspace=\dimen114
+\lst@width=\dimen115
+\lst@newlines=\count102
+\lst@lineno=\count103
+\lst@maxwidth=\dimen116
+
+(/usr/share/texmf/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count104
+\lst@skipnumbers=\count105
+\lst@framebox=\box55
+)
+(/usr/share/texmf/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texmf/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/share/texmf/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/share/texmf/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 311.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 312.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 313.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 314.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 315.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 316.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 317.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 318.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 319.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 320.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 321.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 322.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 323.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
+)
+(/usr/share/texmf/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/usr/share/texmf/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/share/texmf/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
+
+(/usr/share/texmf/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+(/usr/share/texmf/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
+O)
+
+(/usr/share/texmf/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2009/10/02 xcolor patch
+))
+\@linkdim=\dimen117
+\Hy@linkcounter=\count106
+\Hy@pagecounter=\count107
+
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+
+(/usr/share/texmf/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)
+(/usr/share/texmf/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+(/usr/share/texmf/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 2864.
+Package hyperref Info: Option `unicode' set `true' on input line 2864.
+
+(/usr/share/texmf/tex/latex/hyperref/puenc.def
+File: puenc.def 2009/10/09 v6.79a Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 2975.
+Package hyperref Info: Link nesting OFF on input line 2980.
+Package hyperref Info: Hyper index ON on input line 2983.
+Package hyperref Info: Plain pages OFF on input line 2990.
+Package hyperref Info: Backreferencing ON on input line 2993.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3191.
+(/usr/share/texmf/tex/latex/hyperref/backref.sty
+Package: backref 2006/09/05 v1.28 Bibliographical back referencing
+)
+(/usr/share/texmf/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3428.
+
+(/usr/share/texmf/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(/usr/share/texmf/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(/usr/share/texmf/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+
+(/usr/share/texmf/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+(/usr/share/texmf/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)))
+\Fld@menulength=\count108
+\Field@Width=\dimen118
+\Fld@charsize=\dimen119
+\Field@toks=\toks18
+Package hyperref Info: Hyper figures OFF on input line 4377.
+Package hyperref Info: Link nesting OFF on input line 4382.
+Package hyperref Info: Hyper index ON on input line 4385.
+Package hyperref Info: backreferencing ON on input line 4390.
+Package hyperref Info: Link coloring ON on input line 4395.
+Package hyperref Info: Link coloring with OCG OFF on input line 4402.
+Package hyperref Info: PDF/A mode OFF on input line 4407.
+
+(/usr/share/texmf/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count109
+\c@Item=\count110
+\c@Hfootnote=\count111
+)
+*hyperref using driver hpdftex*
+(/usr/share/texmf/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
+\Fld@listcount=\count112
+)
+(/usr/share/texmf/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+
+(/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texmf/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texmf/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texmf/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/share/texmf/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texmf/tex/latex/polski/polski.sty
+Package: polski 2008/02/24 v1.3.3 Polish language package
+
+Document language package `polski' v1.3.3 <2008/02/24>
+   Inputenc package detected. Catcodes not changed.
+   Switching to Polish text encoding and Polish maths fonts.
+(/usr/share/texmf/tex/latex/base/ot4enc.def
+File: ot4enc.def 2005/09/27 v1.99g Standard LaTeX file
+Now handling font encoding OT4 ...
+... no UTF-8 mapping file for font encoding OT4
+)
+LaTeX Font Info:    Try loading font information for OT4+cmr on input line 346.
+
+
+(/usr/share/texmf/tex/latex/polski/ot4cmr.fd
+File: ot4cmr.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT4/cmr/bx/n on input line 346.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT4/cmss/m/n on input line 346.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT4/cmr/m/it on input line 346.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT4/cmtt/m/n on input line 346.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT4/cmss/bx/n on input line 346.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT4/cmr/bx/it on input line 346.
+LaTeX Font Info:    Encoding `OT1' has changed to `OT4' for symbol font
+(Font)              `operators' in the math version `normal' on input line 346.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT4/cmr/m/n on input line 346.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/plm/m/it on input line 346.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/plsy/m/n on input line 346.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/plex/m/n on input line 346.
+LaTeX Font Info:    Encoding `OT1' has changed to `OT4' for symbol font
+(Font)              `operators' in the math version `bold' on input line 346.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT4/cmr/bx/n on input line 346.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/plm/b/it on input line 346.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/plsy/b/n on input line 346.
+)
+(/usr/share/texmf/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texmf/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)) (./doxygen.sty
+Package: doxygen 
+
+(/usr/share/texmf/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen120
+\extrarowheight=\dimen121
+\NC@list=\toks21
+\extratabsurround=\skip45
+\backup@length=\skip46
+)
+(/usr/share/texmf/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count113
+\calc@Bcount=\count114
+\calc@Adimen=\dimen122
+\calc@Bdimen=\dimen123
+\calc@Askip=\skip47
+\calc@Bskip=\skip48
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count115
+\calc@Cskip=\skip49
+)
+(/usr/share/texmf/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip50
+\f@ncyO@elh=\skip51
+\f@ncyO@erh=\skip52
+\f@ncyO@olh=\skip53
+\f@ncyO@orh=\skip54
+\f@ncyO@elf=\skip55
+\f@ncyO@erf=\skip56
+\f@ncyO@olf=\skip57
+\f@ncyO@orf=\skip58
+)
+(/usr/share/texmf/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks22
+\verbatim@line=\toks23
+\verbatim@in@stream=\read1
+)
+\tmplength=\skip59
+
+(/usr/share/texmf/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texmf/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)))
+(/usr/share/texmf/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/share/texmf/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/share/texmf/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+)
+\@indexfile=\write3
+\openout3 = `refman.idx'.
+
+
+Writing index file refman.idx
+(./refman.aux (./dir_b0f82b84220ac304b6594771ef01efab.aux)
+(./dir_538678a9a76e9afe11e981eb762a272a.aux)
+(./dir_f8e189cbe3d07fc073ca928a078e2bca.aux)
+(./dir_d86edb86472748ce3b9447a9e360126c.aux)
+(./dir_a105a2b3280028ece2ad4a6c30255087.aux)
+(./dir_7a951694f1b7ff6e69b4126eb6966017.aux)
+(./dir_0ffeab24d93772fbe098d1cc681459a6.aux)
+(./classobsolete_1_1AbstractIDGenerator.aux
+
+LaTeX Warning: Label `classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef41193b60b
+570c' multiply defined.
+
+) (./classobsolete_1_1AbstractIncrementalID.aux
+
+LaTeX Warning: Label `classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef41193b60b
+570c' multiply defined.
+
+) (./classobsolete_1_1AbstractReservedID.aux
+
+LaTeX Warning: Label `classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef41193b60b
+570c' multiply defined.
+
+) (./classEvent.aux) (./classobsolete_1_1EventID.aux
+
+LaTeX Warning: Label `classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef41193b60b
+570c' multiply defined.
+
+) (./classobsolete_1_1EventIDGenerator.aux
+
+LaTeX Warning: Label `classobsolete_1_1AbstractIDGenerator_a39d2f0147e3a028fef8
+299770e23db90' multiply defined.
+
+
+LaTeX Warning: Label `classobsolete_1_1AbstractIDGenerator_a330da88ba80820ca6ce
+0a29cbbab9e1b' multiply defined.
+
+
+LaTeX Warning: Label `classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef41193b60b
+570c' multiply defined.
+
+) (./classEvents.aux) (./classGeneratorIDGenerator.aux)
+(./classIDGenerator_1_1ID.aux) (./classobsolete_1_1ID.aux
+
+LaTeX Warning: Label `classobsolete_1_1AbstractReservedID_a38fa00bf6097ab9cff28
+5c8480c8097e' multiply defined.
+
+
+LaTeX Warning: Label `classobsolete_1_1AbstractReservedID_a38fa00bf6097ab9cff28
+5c8480c8097e' multiply defined.
+
+
+LaTeX Warning: Label `classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef41193b60b
+570c' multiply defined.
+
+
+LaTeX Warning: Label `classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef41193b60b
+570c' multiply defined.
+
+
+LaTeX Warning: Label `classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef41193b60b
+570c' multiply defined.
+
+
+LaTeX Warning: Label `classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef41193b60b
+570c' multiply defined.
+
+) (./classIDGenerator.aux) (./classobsolete_1_1MarkID.aux
+
+LaTeX Warning: Label `classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef41193b60b
+570c' multiply defined.
+
+) (./classobsolete_1_1MarkIDGenerator.aux
+
+LaTeX Warning: Label `classobsolete_1_1AbstractIDGenerator_a39d2f0147e3a028fef8
+299770e23db90' multiply defined.
+
+
+LaTeX Warning: Label `classobsolete_1_1AbstractIDGenerator_a330da88ba80820ca6ce
+0a29cbbab9e1b' multiply defined.
+
+
+LaTeX Warning: Label `classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef41193b60b
+570c' multiply defined.
+
+) (./classQDate.aux) (./classobsolete_1_1State.aux) (./classSubject.aux)
+(./classobsolete_1_1SubjectID.aux
+
+LaTeX Warning: Label `classobsolete_1_1AbstractReservedID_a38fa00bf6097ab9cff28
+5c8480c8097e' multiply defined.
+
+
+LaTeX Warning: Label `classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef41193b60b
+570c' multiply defined.
+
+) (./classobsolete_1_1SubjectIDGenerator.aux
+
+LaTeX Warning: Label `classobsolete_1_1AbstractIDGenerator_a39d2f0147e3a028fef8
+299770e23db90' multiply defined.
+
+
+LaTeX Warning: Label `classobsolete_1_1AbstractIDGenerator_a330da88ba80820ca6ce
+0a29cbbab9e1b' multiply defined.
+
+
+LaTeX Warning: Label `classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef41193b60b
+570c' multiply defined.
+
+) (./classSubjects.aux) (./classTerm.aux) (./classType.aux)
+(./classobsolete_1_1TypeID.aux
+
+LaTeX Warning: Label `classobsolete_1_1AbstractReservedID_a38fa00bf6097ab9cff28
+5c8480c8097e' multiply defined.
+
+
+LaTeX Warning: Label `classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef41193b60b
+570c' multiply defined.
+
+) (./classobsolete_1_1TypeIDGenerator.aux
+
+LaTeX Warning: Label `classobsolete_1_1AbstractIDGenerator_a39d2f0147e3a028fef8
+299770e23db90' multiply defined.
+
+
+LaTeX Warning: Label `classobsolete_1_1AbstractIDGenerator_a330da88ba80820ca6ce
+0a29cbbab9e1b' multiply defined.
+
+
+LaTeX Warning: Label `classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef41193b60b
+570c' multiply defined.
+
+) (./CMakeCXXCompilerId_8cpp.aux) (./event_8h.aux) (./events_8h.aux)
+(./generatoridgenerator_8h.aux) (./idgenerator_8h.aux) (./abstractid_8h.aux)
+(./abstractidgenerator_8h.aux) (./abstractincrementalid_8h.aux)
+(./abstractreservedid_8h.aux) (./eventid_8h.aux) (./eventidgenerator_8h.aux)
+(./id_8h.aux) (./markid_8h.aux) (./markidgenerator_8h.aux) (./state_8h.aux)
+(./subjectid_8h.aux) (./subjectidgenerator_8h.aux) (./typeid_8h.aux)
+(./typeidgenerator_8h.aux) (./subject_8h.aux) (./subjects_8h.aux)
+(./term_8h.aux) (./type_8h.aux) (./main_8cpp.aux) (./event_8cpp.aux)
+(./events_8cpp.aux) (./generatoridgenerator_8cpp.aux) (./idgenerator_8cpp.aux)
+(./abstractid_8cpp.aux) (./abstractidgenerator_8cpp.aux)
+(./abstractincrementalid_8cpp.aux) (./abstractreservedid_8cpp.aux)
+(./eventid_8cpp.aux) (./eventidgenerator_8cpp.aux) (./id_8cpp.aux)
+(./markid_8cpp.aux) (./markidgenerator_8cpp.aux) (./state_8cpp.aux)
+(./subjectid_8cpp.aux) (./subjectidgenerator_8cpp.aux) (./typeid_8cpp.aux)
+(./typeidgenerator_8cpp.aux) (./subject_8cpp.aux) (./subjects_8cpp.aux)
+(./term_8cpp.aux) (./type_8cpp.aux))
+\openout1 = `refman.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 38.
+ (/usr/share/texmf/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 38.
+ (/usr/share/texmf/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+(/usr/share/texmf/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count116
+\scratchdimen=\dimen124
+\scratchbox=\box56
+\nofMPsegments=\count117
+\nofMParguments=\count118
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count119
+\MPscratchDim=\dimen125
+\MPnumerator=\count120
+\everyMPtoPDFconversion=\toks25
+)
+\c@lstlisting=\count121
+Package hyperref Info: Link coloring ON on input line 38.
+ (/usr/share/texmf/tex/latex/hyperref/nameref.sty
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+
+(/usr/share/texmf/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+\c@section@level=\count122
+)
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+ (./refman.out)
+(./refman.out)
+\@outlinefile=\write4
+\openout4 = `refman.out'.
+
+\AtBeginShipoutBox=\box57
+Package hyperref Info: Option `pageanchor' set `false' on input line 39.
+ [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 52.
+
+(./refman.toc
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Try loading font information for OML+plm on input line 2.
+ (/usr/share/texmf/tex/latex/polski/omlplm.fd
+File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    Try loading font information for OMS+plsy on input line 2.
+
+(/usr/share/texmf/tex/latex/polski/omsplsy.fd
+File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    Try loading font information for OMX+plex on input line 2.
+
+(/usr/share/texmf/tex/latex/polski/omxplex.fd
+File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <10> on input line 2.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <5> on input line 2.
+ [1
+
+]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.96997pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
+[2]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.96997pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.96997pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.96997pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.96997pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.96997pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.96997pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.96997pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9])
+\tf@toc=\write5
+\openout5 = `refman.toc'.
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.96997pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
+Package hyperref Info: Option `pageanchor' set `true' on input line 55.
+
+Rozdzia\PlPrIeC {\l } 1.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 56.
+(./dirs.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+) [1
+
+
+] [2
+
+]
+Rozdzia\PlPrIeC {\l } 2.
+(./namespaces.tex) [3] [4
+
+]
+Rozdzia\PlPrIeC {\l } 3.
+(./hierarchy.tex) [5] [6
+
+]
+Rozdzia\PlPrIeC {\l } 4.
+(./annotated.tex) [7] [8
+
+]
+Rozdzia\PlPrIeC {\l } 5.
+(./files.tex [9]) [10]
+Rozdzia\PlPrIeC {\l } 6.
+(./dir_a50e2293424e8ba4588dbff3037b1cfa.tex
+<dir_a50e2293424e8ba4588dbff3037b1cfa_dep.pdf, id=2005, 192.72pt x 76.285pt>
+File: dir_a50e2293424e8ba4588dbff3037b1cfa_dep.pdf Graphic file (type pdf)
+
+<use dir_a50e2293424e8ba4588dbff3037b1cfa_dep.pdf>
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 16.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 19.
+
+(/usr/share/texmf/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)) [11
+
+ <./dir_a50e2293424e8ba4588dbff3037b1cfa_dep.pdf>]
+\openout2 = `dir_b0f82b84220ac304b6594771ef01efab.aux'.
+
+ (./dir_b0f82b84220ac304b6594771ef01efab.tex
+<dir_b0f82b84220ac304b6594771ef01efab_dep.pdf, id=2019, 353.32pt x 115.43124pt>
+File: dir_b0f82b84220ac304b6594771ef01efab_dep.pdf Graphic file (type pdf)
+<use dir_b0f82b84220ac304b6594771ef01efab_dep.pdf>) [12
+
+ <./dir_b0f82b84220ac304b6594771ef01efab_dep.pdf>]
+\openout2 = `dir_538678a9a76e9afe11e981eb762a272a.aux'.
+
+ (./dir_538678a9a76e9afe11e981eb762a272a.tex
+<dir_538678a9a76e9afe11e981eb762a272a_dep.pdf, id=2034, 122.4575pt x 99.37125pt
+>
+File: dir_538678a9a76e9afe11e981eb762a272a_dep.pdf Graphic file (type pdf)
+ <use dir_538678a9a76e9afe11e981eb762a272a_dep.pdf>) [13
+
+
+ <./dir_538678a9a76e9afe11e981eb762a272a_dep.pdf>]
+\openout2 = `dir_f8e189cbe3d07fc073ca928a078e2bca.aux'.
+
+ (./dir_f8e189cbe3d07fc073ca928a078e2bca.tex
+<dir_f8e189cbe3d07fc073ca928a078e2bca_dep.pdf, id=2047, 138.5175pt x 99.37125pt
+>
+File: dir_f8e189cbe3d07fc073ca928a078e2bca_dep.pdf Graphic file (type pdf)
+ <use dir_f8e189cbe3d07fc073ca928a078e2bca_dep.pdf>) [14
+
+
+ <./dir_f8e189cbe3d07fc073ca928a078e2bca_dep.pdf>]
+\openout2 = `dir_d86edb86472748ce3b9447a9e360126c.aux'.
+
+ (./dir_d86edb86472748ce3b9447a9e360126c.tex
+<dir_d86edb86472748ce3b9447a9e360126c_dep.pdf, id=2059, 174.6525pt x 76.285pt>
+File: dir_d86edb86472748ce3b9447a9e360126c_dep.pdf Graphic file (type pdf)
+
+<use dir_d86edb86472748ce3b9447a9e360126c_dep.pdf>) [15
+
+
+ <./dir_d86edb86472748ce3b9447a9e360126c_dep.pdf>]
+\openout2 = `dir_a105a2b3280028ece2ad4a6c30255087.aux'.
+
+ (./dir_a105a2b3280028ece2ad4a6c30255087.tex
+<dir_a105a2b3280028ece2ad4a6c30255087_dep.pdf, id=2082, 102.3825pt x 155.58125p
+t>
+File: dir_a105a2b3280028ece2ad4a6c30255087_dep.pdf Graphic file (type pdf)
+ <use dir_a105a2b3280028ece2ad4a6c30255087_dep.pdf>) [16
+
+
+ <./dir_a105a2b3280028ece2ad4a6c30255087_dep.pdf>]
+\openout2 = `dir_7a951694f1b7ff6e69b4126eb6966017.aux'.
+
+ (./dir_7a951694f1b7ff6e69b4126eb6966017.tex
+<dir_7a951694f1b7ff6e69b4126eb6966017_dep.pdf, id=2108, 102.3825pt x 99.37125pt
+>
+File: dir_7a951694f1b7ff6e69b4126eb6966017_dep.pdf Graphic file (type pdf)
+ <use dir_7a951694f1b7ff6e69b4126eb6966017_dep.pdf>) [17
+
+
+ <./dir_7a951694f1b7ff6e69b4126eb6966017_dep.pdf>]
+\openout2 = `dir_0ffeab24d93772fbe098d1cc681459a6.aux'.
+
+ (./dir_0ffeab24d93772fbe098d1cc681459a6.tex
+<dir_0ffeab24d93772fbe098d1cc681459a6_dep.pdf, id=2133, 174.6525pt x 132.495pt>
+File: dir_0ffeab24d93772fbe098d1cc681459a6_dep.pdf Graphic file (type pdf)
+<use dir_0ffeab24d93772fbe098d1cc681459a6_dep.pdf>) [18
+
+
+ <./dir_0ffeab24d93772fbe098d1cc681459a6_dep.pdf>]
+Rozdzia\PlPrIeC {\l } 7.
+(./namespaceobsolete.tex [19
+
+
+]
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 49.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 64.
+
+) [20]
+Rozdzia\PlPrIeC {\l } 8.
+(./classobsolete_1_1AbstractID.tex
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 12.
+ (/usr/share/texmf/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+<classobsolete_1_1AbstractID__inherit__graph.pdf, id=2194, 1216.545pt x 443.657
+5pt>
+File: classobsolete_1_1AbstractID__inherit__graph.pdf Graphic file (type pdf)
+ <use classobsolete_1_1AbstractID__inherit__graph.pdf>
+<classobsolete_1_1AbstractID__coll__graph.pdf, id=2195, 130.4875pt x 200.75pt>
+File: classobsolete_1_1AbstractID__coll__graph.pdf Graphic file (type pdf)
+
+<use classobsolete_1_1AbstractID__coll__graph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21
+
+ <./classobsolete_1_1AbstractID__inherit__graph.pdf>]
+LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 62.
+ [22 <./classobsolete_1_1AbstractID__coll__graph.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 86.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 86.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 86.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 86.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 101.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 101.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 101.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 101.
+
+) [23]
+\openout2 = `classobsolete_1_1AbstractIDGenerator.aux'.
+
+ (./classobsolete_1_1AbstractIDGenerator.tex
+<classobsolete_1_1AbstractIDGenerator__inherit__graph.pdf, id=2241, 708.6475pt 
+x 321.2pt>
+File: classobsolete_1_1AbstractIDGenerator__inherit__graph.pdf Graphic file (ty
+pe pdf)
+ <use classobsolete_1_1AbstractIDGenerator__inherit__graph.pdf>
+<classobsolete_1_1AbstractIDGenerator__coll__graph.pdf, id=2242, 182.6825pt x 3
+39.2675pt>
+File: classobsolete_1_1AbstractIDGenerator__coll__graph.pdf Graphic file (type 
+pdf)
+ <use classobsolete_1_1AbstractIDGenerator__coll__graph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24
+
+ <./classobsolete_1_1AbstractIDGenerator__inherit__graph.pdf>] [25 <./classobso
+lete_1_1AbstractIDGenerator__coll__graph.pdf>]pdfTeX warning (ext4): destinatio
+n with the same identifier (name{classobsolete_1_1AbstractID_a5f67fa1c7d96085f0
+ef41193b60b570c}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.99 ...y  \mbox{[}protected, inherited\mbox{]}}}}
+                                                  ) [26]
+\openout2 = `classobsolete_1_1AbstractIncrementalID.aux'.
+
+
+(./classobsolete_1_1AbstractIncrementalID.tex
+<classobsolete_1_1AbstractIncrementalID__inherit__graph.pdf, id=2282, 238.8925p
+t x 429.605pt>
+File: classobsolete_1_1AbstractIncrementalID__inherit__graph.pdf Graphic file (
+type pdf)
+
+<use classobsolete_1_1AbstractIncrementalID__inherit__graph.pdf>
+<classobsolete_1_1AbstractIncrementalID__coll__graph.pdf, id=2283, 190.7125pt x
+ 325.215pt>
+File: classobsolete_1_1AbstractIncrementalID__coll__graph.pdf Graphic file (typ
+e pdf)
+ <use classobsolete_1_1AbstractIncrementalID__coll__graph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27
+
+
+ <./classobsolete_1_1AbstractIncrementalID__inherit__graph.pdf>] [28 <./classob
+solete_1_1AbstractIncrementalID__coll__graph.pdf>]pdfTeX warning (ext4): destin
+ation with the same identifier (name{classobsolete_1_1AbstractID_a5f67fa1c7d960
+85f0ef41193b60b570c}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.86 ...y  \mbox{[}protected, inherited\mbox{]}}}}
+                                                  ) [29]
+\openout2 = `classobsolete_1_1AbstractReservedID.aux'.
+
+
+(./classobsolete_1_1AbstractReservedID.tex
+<classobsolete_1_1AbstractReservedID__inherit__graph.pdf, id=2317, 248.93pt x 4
+27.5975pt>
+File: classobsolete_1_1AbstractReservedID__inherit__graph.pdf Graphic file (typ
+e pdf)
+ <use classobsolete_1_1AbstractReservedID__inherit__graph.pdf>
+<classobsolete_1_1AbstractReservedID__coll__graph.pdf, id=2318, 180.675pt x 339
+.2675pt>
+File: classobsolete_1_1AbstractReservedID__coll__graph.pdf Graphic file (type p
+df)
+ <use classobsolete_1_1AbstractReservedID__coll__graph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30
+
+
+ <./classobsolete_1_1AbstractReservedID__inherit__graph.pdf>] [31 <./classobsol
+ete_1_1AbstractReservedID__coll__graph.pdf>]pdfTeX warning (ext4): destination 
+with the same identifier (name{classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef
+41193b60b570c}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.103 ...  \mbox{[}protected, inherited\mbox{]}}}}
+                                                  ) [32]
+\openout2 = `classEvent.aux'.
+
+ (./classEvent.tex
+<classEvent__coll__graph.pdf, id=2358, 214.8025pt x 443.6575pt>
+File: classEvent__coll__graph.pdf Graphic file (type pdf)
+
+<use classEvent__coll__graph.pdf> [33
+
+
+ <./classEvent__coll__graph.pdf>] [34]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 100.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 100.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 100.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 100.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 129.
+
+[35]) [36]
+\openout2 = `classobsolete_1_1EventID.aux'.
+
+ (./classobsolete_1_1EventID.tex
+<classobsolete_1_1EventID__inherit__graph.pdf, id=2409, 190.7125pt x 429.605pt>
+File: classobsolete_1_1EventID__inherit__graph.pdf Graphic file (type pdf)
+<use classobsolete_1_1EventID__inherit__graph.pdf>
+<classobsolete_1_1EventID__coll__graph.pdf, id=2410, 190.7125pt x 449.68pt>
+File: classobsolete_1_1EventID__coll__graph.pdf Graphic file (type pdf)
+
+<use classobsolete_1_1EventID__coll__graph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37
+
+
+ <./classobsolete_1_1EventID__inherit__graph.pdf>] [38 <./classobsolete_1_1Even
+tID__coll__graph.pdf>]pdfTeX warning (ext4): destination with the same identifi
+er (name{classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef41193b60b570c}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.86 ...y  \mbox{[}protected, inherited\mbox{]}}}}
+                                                  ) [39]
+\openout2 = `classobsolete_1_1EventIDGenerator.aux'.
+
+
+(./classobsolete_1_1EventIDGenerator.tex
+<classobsolete_1_1EventIDGenerator__inherit__graph.pdf, id=2445, 182.6825pt x 3
+21.2pt>
+File: classobsolete_1_1EventIDGenerator__inherit__graph.pdf Graphic file (type 
+pdf)
+ <use classobsolete_1_1EventIDGenerator__inherit__graph.pdf>
+<classobsolete_1_1EventIDGenerator__coll__graph.pdf, id=2446, 182.6825pt x 447.
+6725pt>
+File: classobsolete_1_1EventIDGenerator__coll__graph.pdf Graphic file (type pdf
+)
+ <use classobsolete_1_1EventIDGenerator__coll__graph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40
+
+
+ <./classobsolete_1_1EventIDGenerator__inherit__graph.pdf>] [41 <./classobsolet
+e_1_1EventIDGenerator__coll__graph.pdf>]pdfTeX warning (ext4): destination with
+ the same identifier (name{classobsolete_1_1AbstractIDGenerator_a39d2f0147e3a02
+8fef8299770e23db9\ETC.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.60 ...ily  \mbox{[}virtual, inherited\mbox{]}}}}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{classobsolete_1_1AbstractIDGenerator_a330d
+a88ba80820ca6ce0a29cbbab9e1\ETC.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.69 ...mily  \mbox{[}static, inherited\mbox{]}}}}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{classobsolete_1_1AbstractID_a5f67fa1c7d960
+85f0ef41193b60b570c}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.81 ...y  \mbox{[}protected, inherited\mbox{]}}}}
+                                                  ) [42]
+\openout2 = `classEvents.aux'.
+
+ (./classEvents.tex
+<classEvents__coll__graph.pdf, id=2480, 300.12125pt x 503.8825pt>
+File: classEvents__coll__graph.pdf Graphic file (type pdf)
+
+<use classEvents__coll__graph.pdf> [43
+
+
+ <./classEvents__coll__graph.pdf>]
+[44]
+<classEvents_aab651428bab6b09db3564753afb225a6_icgraph.pdf, id=2529, 230.8625pt
+ x 32.12pt>
+File: classEvents_aab651428bab6b09db3564753afb225a6_icgraph.pdf Graphic file (t
+ype pdf)
+ <use classEvents_aab651428bab6b09db3564753afb225a6_icgraph.pdf>
+<classEvents_ac4ccb0fd05c7bc876b95cf6cdd549666_cgraph.pdf, id=2530, 230.8625pt 
+x 32.12pt>
+File: classEvents_ac4ccb0fd05c7bc876b95cf6cdd549666_cgraph.pdf Graphic file (ty
+pe pdf)
+ <use classEvents_ac4ccb0fd05c7bc876b95cf6cdd549666_cgraph.pdf>
+[45 <./classEvents_aab651428bab6b09db3564753afb225a6_icgraph.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 194.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 194.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 194.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 194.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 223.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 223.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 223.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 223.
+
+[46 <./classEvents_ac4ccb0fd05c7bc876b95cf6cdd549666_cgraph.pdf>]) [47]
+\openout2 = `classGeneratorIDGenerator.aux'.
+
+
+(./classGeneratorIDGenerator.tex
+<classGeneratorIDGenerator__coll__graph.pdf, id=2556, 166.6225pt x 230.8625pt>
+File: classGeneratorIDGenerator__coll__graph.pdf Graphic file (type pdf)
+
+<use classGeneratorIDGenerator__coll__graph.pdf> [48
+
+
+ <./classGeneratorIDGenerator__coll__graph.pdf>]
+<classGeneratorIDGenerator_ac6dd43ecbbe2ed1647855e72156dbcb2_icgraph.pdf, id=25
+79, 397.485pt x 74.2775pt>
+File: classGeneratorIDGenerator_ac6dd43ecbbe2ed1647855e72156dbcb2_icgraph.pdf G
+raphic file (type pdf)
+
+<use classGeneratorIDGenerator_ac6dd43ecbbe2ed1647855e72156dbcb2_icgraph.pdf>
+[49 <./classGeneratorIDGenerator_ac6dd43ecbbe2ed1647855e72156dbcb2_icgraph.pdf>
+]) [50]
+\openout2 = `classIDGenerator_1_1ID.aux'.
+
+ (./classIDGenerator_1_1ID.tex
+<classIDGenerator_1_1ID__coll__graph.pdf, id=2596, 106.3975pt x 260.975pt>
+File: classIDGenerator_1_1ID__coll__graph.pdf Graphic file (type pdf)
+
+<use classIDGenerator_1_1ID__coll__graph.pdf> [51
+
+
+ <./classIDGenerator_1_1ID__coll__graph.pdf>] [52]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 156.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 156.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 156.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 156.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 185.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 185.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 185.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 185.
+
+[53]) [54]
+\openout2 = `classobsolete_1_1ID.aux'.
+
+ (./classobsolete_1_1ID.tex
+<classobsolete_1_1ID__inherit__graph.pdf, id=2651, 497.86pt x 443.6575pt>
+File: classobsolete_1_1ID__inherit__graph.pdf Graphic file (type pdf)
+
+<use classobsolete_1_1ID__inherit__graph.pdf>
+<classobsolete_1_1ID__coll__graph.pdf, id=2652, 497.86pt x 572.1375pt>
+File: classobsolete_1_1ID__coll__graph.pdf Graphic file (type pdf)
+
+<use classobsolete_1_1ID__coll__graph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55
+
+
+ <./classobsolete_1_1ID__inherit__graph.pdf>] [56 <./classobsolete_1_1ID__coll_
+_graph.pdf>]pdfTeX warning (ext4): destination with the same identifier (name{c
+lassobsolete_1_1AbstractReservedID_a38fa00bf6097ab9cff285c8480c8097e}) has been
+ already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 ...box{[}inline, static, inherited\mbox{]}}}}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{classobsolete_1_1AbstractReservedID_a38fa0
+0bf6097ab9cff285c8480c8097e}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.72 ...box{[}inline, static, inherited\mbox{]}}}}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{classobsolete_1_1AbstractID_a5f67fa1c7d960
+85f0ef41193b60b570c}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.84 ...y  \mbox{[}protected, inherited\mbox{]}}}}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{classobsolete_1_1AbstractID_a5f67fa1c7d960
+85f0ef41193b60b570c}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.97 ...y  \mbox{[}protected, inherited\mbox{]}}}}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{classobsolete_1_1AbstractID_a5f67fa1c7d960
+85f0ef41193b60b570c}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.110 ...  \mbox{[}protected, inherited\mbox{]}}}}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{classobsolete_1_1AbstractID_a5f67fa1c7d960
+85f0ef41193b60b570c}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.123 ...  \mbox{[}protected, inherited\mbox{]}}}}
+                                                   [57]) [58]
+\openout2 = `classIDGenerator.aux'.
+
+
+(./classIDGenerator.tex
+<classIDGenerator__coll__graph.pdf, id=2702, 102.3825pt x 291.0875pt>
+File: classIDGenerator__coll__graph.pdf Graphic file (type pdf)
+
+<use classIDGenerator__coll__graph.pdf> [59
+
+
+ <./classIDGenerator__coll__graph.pdf>] [60]
+<classIDGenerator_a16c5cba9a30dc95d05b72a1253fb54b2_cgraph.pdf, id=2749, 397.48
+5pt x 32.12pt>
+File: classIDGenerator_a16c5cba9a30dc95d05b72a1253fb54b2_cgraph.pdf Graphic fil
+e (type pdf)
+
+<use classIDGenerator_a16c5cba9a30dc95d05b72a1253fb54b2_cgraph.pdf>
+<classIDGenerator_a5e7eba106b14d8d09974bb6330476926_icgraph.pdf, id=2750, 206.7
+725pt x 32.12pt>
+File: classIDGenerator_a5e7eba106b14d8d09974bb6330476926_icgraph.pdf Graphic fi
+le (type pdf)
+
+<use classIDGenerator_a5e7eba106b14d8d09974bb6330476926_icgraph.pdf> [61 <./cla
+ssIDGenerator_a16c5cba9a30dc95d05b72a1253fb54b2_cgraph.pdf> <./classIDGenerator
+_a5e7eba106b14d8d09974bb6330476926_icgraph.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 256.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 256.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 256.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 256.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 285.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 285.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 285.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 285.
+
+[62]) [63]
+\openout2 = `classobsolete_1_1MarkID.aux'.
+
+ (./classobsolete_1_1MarkID.tex
+<classobsolete_1_1MarkID__inherit__graph.pdf, id=2777, 190.7125pt x 429.605pt>
+File: classobsolete_1_1MarkID__inherit__graph.pdf Graphic file (type pdf)
+
+<use classobsolete_1_1MarkID__inherit__graph.pdf>
+<classobsolete_1_1MarkID__coll__graph.pdf, id=2778, 190.7125pt x 449.68pt>
+File: classobsolete_1_1MarkID__coll__graph.pdf Graphic file (type pdf)
+
+<use classobsolete_1_1MarkID__coll__graph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64
+
+
+ <./classobsolete_1_1MarkID__inherit__graph.pdf>] [65 <./classobsolete_1_1MarkI
+D__coll__graph.pdf>]pdfTeX warning (ext4): destination with the same identifier
+ (name{classobsolete_1_1AbstractID_a5f67fa1c7d96085f0ef41193b60b570c}) has been
+ already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.86 ...y  \mbox{[}protected, inherited\mbox{]}}}}
+                                                  ) [66]
+\openout2 = `classobsolete_1_1MarkIDGenerator.aux'.
+
+
+(./classobsolete_1_1MarkIDGenerator.tex
+<classobsolete_1_1MarkIDGenerator__inherit__graph.pdf, id=2812, 182.6825pt x 32
+1.2pt>
+File: classobsolete_1_1MarkIDGenerator__inherit__graph.pdf Graphic file (type p
+df)
+ <use classobsolete_1_1MarkIDGenerator__inherit__graph.pdf>
+<classobsolete_1_1MarkIDGenerator__coll__graph.pdf, id=2813, 182.6825pt x 447.6
+725pt>
+File: classobsolete_1_1MarkIDGenerator__coll__graph.pdf Graphic file (type pdf)
+
+ <use classobsolete_1_1MarkIDGenerator__coll__graph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67
+
+
+ <./classobsolete_1_1MarkIDGenerator__inherit__graph.pdf>] [68 <./classobsolete
+_1_1MarkIDGenerator__coll__graph.pdf>]pdfTeX warning (ext4): destination with t
+he same identifier (name{classobsolete_1_1AbstractIDGenerator_a39d2f0147e3a028f
+ef8299770e23db9\ETC.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.60 ...ily  \mbox{[}virtual, inherited\mbox{]}}}}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{classobsolete_1_1AbstractIDGenerator_a330d
+a88ba80820ca6ce0a29cbbab9e1\ETC.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.69 ...mily  \mbox{[}static, inherited\mbox{]}}}}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{classobsolete_1_1AbstractID_a5f67fa1c7d960
+85f0ef41193b60b570c}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.81 ...y  \mbox{[}protected, inherited\mbox{]}}}}
+                                                  ) [69]
+\openout2 = `classQDate.aux'.
+
+ (./classQDate.tex
+<classQDate__inherit__graph.pdf, id=2848, 70.2625pt x 214.8025pt>
+File: classQDate__inherit__graph.pdf Graphic file (type pdf)
+
+<use classQDate__inherit__graph.pdf>) [70
+
+
+ <./classQDate__inherit__graph.pdf>]
+\openout2 = `classobsolete_1_1State.aux'.
+
+
+(./classobsolete_1_1State.tex
+<classobsolete_1_1State__coll__graph.pdf, id=2859, 427.5975pt x 443.6575pt>
+File: classobsolete_1_1State__coll__graph.pdf Graphic file (type pdf)
+
+<use classobsolete_1_1State__coll__graph.pdf>
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <9> on input line 31.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <6> on input line 31.
+ [71
+
+
+ <./classobsolete_1_1State__coll__graph.pdf>]) [72]
+\openout2 = `classSubject.aux'.
+
+ (./classSubject.tex
+<classSubject__coll__graph.pdf, id=2889, 509.905pt x 473.77pt>
+File: classSubject__coll__graph.pdf Graphic file (type pdf)
+
+<use classSubject__coll__graph.pdf> [73
+
+
+ <./classSubject__coll__graph.pdf>])
+[74]
+\openout2 = `classobsolete_1_1SubjectID.aux'.
+
+ (./classobsolete_1_1SubjectID.tex
+<classobsolete_1_1SubjectID__inherit__graph.pdf, id=2919, 180.675pt x 427.5975p
+t>
+File: classobsolete_1_1SubjectID__inherit__graph.pdf Graphic file (type pdf)
+ <use classobsolete_1_1SubjectID__inherit__graph.pdf>
+<classobsolete_1_1SubjectID__coll__graph.pdf, id=2920, 180.675pt x 447.6725pt>
+File: classobsolete_1_1SubjectID__coll__graph.pdf Graphic file (type pdf)
+
+<use classobsolete_1_1SubjectID__coll__graph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [75
+
+
+ <./classobsolete_1_1SubjectID__inherit__graph.pdf>] [76 <./classobsolete_1_1Su
+bjectID__coll__graph.pdf>]pdfTeX warning (ext4): destination with the same iden
+tifier (name{classobsolete_1_1AbstractReservedID_a38fa00bf6097ab9cff285c8480c80
+97e}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55 ...box{[}inline, static, inherited\mbox{]}}}}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{classobsolete_1_1AbstractID_a5f67fa1c7d960
+85f0ef41193b60b570c}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.67 ...y  \mbox{[}protected, inherited\mbox{]}}}}
+                                                  ) [77]
+\openout2 = `classobsolete_1_1SubjectIDGenerator.aux'.
+
+
+(./classobsolete_1_1SubjectIDGenerator.tex
+<classobsolete_1_1SubjectIDGenerator__inherit__graph.pdf, id=2952, 182.6825pt x
+ 321.2pt>
+File: classobsolete_1_1SubjectIDGenerator__inherit__graph.pdf Graphic file (typ
+e pdf)
+ <use classobsolete_1_1SubjectIDGenerator__inherit__graph.pdf>
+<classobsolete_1_1SubjectIDGenerator__coll__graph.pdf, id=2953, 182.6825pt x 44
+7.6725pt>
+File: classobsolete_1_1SubjectIDGenerator__coll__graph.pdf Graphic file (type p
+df)
+ <use classobsolete_1_1SubjectIDGenerator__coll__graph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78
+
+
+ <./classobsolete_1_1SubjectIDGenerator__inherit__graph.pdf>] [79 <./classobsol
+ete_1_1SubjectIDGenerator__coll__graph.pdf>]pdfTeX warning (ext4): destination 
+with the same identifier (name{classobsolete_1_1AbstractIDGenerator_a39d2f0147e
+3a028fef8299770e23db9\ETC.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.60 ...ily  \mbox{[}virtual, inherited\mbox{]}}}}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{classobsolete_1_1AbstractIDGenerator_a330d
+a88ba80820ca6ce0a29cbbab9e1\ETC.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.69 ...mily  \mbox{[}static, inherited\mbox{]}}}}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{classobsolete_1_1AbstractID_a5f67fa1c7d960
+85f0ef41193b60b570c}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.81 ...y  \mbox{[}protected, inherited\mbox{]}}}}
+                                                  ) [80]
+\openout2 = `classSubjects.aux'.
+
+ (./classSubjects.tex
+<classSubjects__coll__graph.pdf, id=2988, 445.665pt x 487.8225pt>
+File: classSubjects__coll__graph.pdf Graphic file (type pdf)
+
+<use classSubjects__coll__graph.pdf> [81
+
+
+ <./classSubjects__coll__graph.pdf>]
+[82]) [83]
+\openout2 = `classTerm.aux'.
+
+ (./classTerm.tex
+<classTerm__inherit__graph.pdf, id=3029, 70.2625pt x 214.8025pt>
+File: classTerm__inherit__graph.pdf Graphic file (type pdf)
+
+<use classTerm__inherit__graph.pdf>
+<classTerm__coll__graph.pdf, id=3030, 230.8625pt x 427.5975pt>
+File: classTerm__coll__graph.pdf Graphic file (type pdf)
+
+<use classTerm__coll__graph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84
+
+
+ <./classTerm__inherit__graph.pdf>] [85 <./classTerm__coll__graph.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 93.
+
+[86]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 123.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 123.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 123.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 123.
+
+) [87]
+\openout2 = `classType.aux'.
+
+ (./classType.tex
+<classType__coll__graph.pdf, id=3079, 120.45pt x 216.81pt>
+File: classType__coll__graph.pdf Graphic file (type pdf)
+
+<use classType__coll__graph.pdf> [88
+
+
+ <./classType__coll__graph.pdf>]) [89]
+\openout2 = `classobsolete_1_1TypeID.aux'.
+
+
+(./classobsolete_1_1TypeID.tex
+<classobsolete_1_1TypeID__inherit__graph.pdf, id=3099, 180.675pt x 427.5975pt>
+File: classobsolete_1_1TypeID__inherit__graph.pdf Graphic file (type pdf)
+
+<use classobsolete_1_1TypeID__inherit__graph.pdf>
+<classobsolete_1_1TypeID__coll__graph.pdf, id=3100, 180.675pt x 447.6725pt>
+File: classobsolete_1_1TypeID__coll__graph.pdf Graphic file (type pdf)
+
+<use classobsolete_1_1TypeID__coll__graph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [90
+
+
+ <./classobsolete_1_1TypeID__inherit__graph.pdf>] [91 <./classobsolete_1_1TypeI
+D__coll__graph.pdf>]pdfTeX warning (ext4): destination with the same identifier
+ (name{classobsolete_1_1AbstractReservedID_a38fa00bf6097ab9cff285c8480c8097e}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.55 ...box{[}inline, static, inherited\mbox{]}}}}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{classobsolete_1_1AbstractID_a5f67fa1c7d960
+85f0ef41193b60b570c}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.67 ...y  \mbox{[}protected, inherited\mbox{]}}}}
+                                                  ) [92]
+\openout2 = `classobsolete_1_1TypeIDGenerator.aux'.
+
+
+(./classobsolete_1_1TypeIDGenerator.tex
+<classobsolete_1_1TypeIDGenerator__inherit__graph.pdf, id=3134, 182.6825pt x 32
+1.2pt>
+File: classobsolete_1_1TypeIDGenerator__inherit__graph.pdf Graphic file (type p
+df)
+ <use classobsolete_1_1TypeIDGenerator__inherit__graph.pdf>
+<classobsolete_1_1TypeIDGenerator__coll__graph.pdf, id=3135, 182.6825pt x 447.6
+725pt>
+File: classobsolete_1_1TypeIDGenerator__coll__graph.pdf Graphic file (type pdf)
+
+ <use classobsolete_1_1TypeIDGenerator__coll__graph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [93
+
+
+ <./classobsolete_1_1TypeIDGenerator__inherit__graph.pdf>] [94 <./classobsolete
+_1_1TypeIDGenerator__coll__graph.pdf>]pdfTeX warning (ext4): destination with t
+he same identifier (name{classobsolete_1_1AbstractIDGenerator_a39d2f0147e3a028f
+ef8299770e23db9\ETC.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.60 ...ily  \mbox{[}virtual, inherited\mbox{]}}}}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{classobsolete_1_1AbstractIDGenerator_a330d
+a88ba80820ca6ce0a29cbbab9e1\ETC.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.69 ...mily  \mbox{[}static, inherited\mbox{]}}}}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{classobsolete_1_1AbstractID_a5f67fa1c7d960
+85f0ef41193b60b570c}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.81 ...y  \mbox{[}protected, inherited\mbox{]}}}}
+                                                  ) [95] [96
+
+
+]
+Rozdzia\PlPrIeC {\l } 9.
+(./CMakeCCompilerId_8c.tex [97]) [98]
+\openout2 = `CMakeCXXCompilerId_8cpp.aux'.
+
+ (./CMakeCXXCompilerId_8cpp.tex [99
+
+])
+[100]
+\openout2 = `event_8h.aux'.
+
+ (./event_8h.tex <event_8h__incl.pdf, id=3225, 348.30125pt x 152.57pt>
+File: event_8h__incl.pdf Graphic file (type pdf)
+
+<use event_8h__incl.pdf>
+<event_8h__dep__incl.pdf, id=3226, 118.4425pt x 92.345pt>
+File: event_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use event_8h__dep__incl.pdf>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 43.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 43.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 43.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 43.
+
+[101
+
+
+ <./event_8h__incl.pdf> <./event_8h__dep__incl.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 72.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 72.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 72.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 72.
+
+) [102]
+\openout2 = `events_8h.aux'.
+
+ (./events_8h.tex
+<events_8h__incl.pdf, id=3254, 455.7025pt x 212.795pt>
+File: events_8h__incl.pdf Graphic file (type pdf)
+
+<use events_8h__incl.pdf>
+<events_8h__dep__incl.pdf, id=3255, 124.465pt x 92.345pt>
+File: events_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use events_8h__dep__incl.pdf>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 43.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 43.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 43.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 43.
+
+[103
+
+
+ <./events_8h__incl.pdf> <./events_8h__dep__incl.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 76.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 76.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 76.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 76.
+
+) [104]
+\openout2 = `generatoridgenerator_8h.aux'.
+
+ (./generatoridgenerator_8h.tex
+<generatoridgenerator_8h__incl.pdf, id=3285, 260.975pt x 152.57pt>
+File: generatoridgenerator_8h__incl.pdf Graphic file (type pdf)
+
+<use generatoridgenerator_8h__incl.pdf>
+<generatoridgenerator_8h__dep__incl.pdf, id=3286, 827.09pt x 152.57pt>
+File: generatoridgenerator_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use generatoridgenerator_8h__dep__incl.pdf>) [105
+
+
+ <./generatoridgenerator_8h__incl.pdf> <./generatoridgenerator_8h__dep__incl.pd
+f>]
+\openout2 = `idgenerator_8h.aux'.
+
+ (./idgenerator_8h.tex
+<idgenerator_8h__incl.pdf, id=3303, 260.975pt x 92.345pt>
+File: idgenerator_8h__incl.pdf Graphic file (type pdf)
+
+<use idgenerator_8h__incl.pdf>
+<idgenerator_8h__dep__incl.pdf, id=3304, 842.14626pt x 212.795pt>
+File: idgenerator_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use idgenerator_8h__dep__incl.pdf>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 45.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 45.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 45.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 45.
+
+[106
+
+
+ <./idgenerator_8h__incl.pdf> <./idgenerator_8h__dep__incl.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 78.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 78.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 78.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 78.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 107.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 107.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 107.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 107.
+
+[107]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 140.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 140.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 140.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 140.
+
+) [108]
+\openout2 = `abstractid_8h.aux'.
+
+ (./abstractid_8h.tex
+<abstractid_8h__incl.pdf, id=3343, 260.975pt x 92.345pt>
+File: abstractid_8h__incl.pdf Graphic file (type pdf)
+
+<use abstractid_8h__incl.pdf>
+<abstractid_8h__dep__incl.pdf, id=3344, 1314.9125pt x 273.02pt>
+File: abstractid_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use abstractid_8h__dep__incl.pdf>) [109
+
+
+ <./abstractid_8h__incl.pdf> <./abstractid_8h__dep__incl.pdf>]
+\openout2 = `abstractidgenerator_8h.aux'.
+
+ (./abstractidgenerator_8h.tex
+<abstractidgenerator_8h__incl.pdf, id=3367, 370.38374pt x 212.795pt>
+File: abstractidgenerator_8h__incl.pdf Graphic file (type pdf)
+
+<use abstractidgenerator_8h__incl.pdf>
+<abstractidgenerator_8h__dep__incl.pdf, id=3368, 646.415pt x 92.345pt>
+File: abstractidgenerator_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use abstractidgenerator_8h__dep__incl.pdf>) [110
+
+
+ <./abstractidgenerator_8h__incl.pdf> <./abstractidgenerator_8h__dep__incl.pdf>
+]
+\openout2 = `abstractincrementalid_8h.aux'.
+
+
+(./abstractincrementalid_8h.tex
+<abstractincrementalid_8h__incl.pdf, id=3387, 260.975pt x 152.57pt>
+File: abstractincrementalid_8h__incl.pdf Graphic file (type pdf)
+
+<use abstractincrementalid_8h__incl.pdf>
+<abstractincrementalid_8h__dep__incl.pdf, id=3388, 1108.14pt x 212.795pt>
+File: abstractincrementalid_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use abstractincrementalid_8h__dep__incl.pdf>) [111
+
+
+ <./abstractincrementalid_8h__incl.pdf> <./abstractincrementalid_8h__dep__incl.
+pdf>]
+\openout2 = `abstractreservedid_8h.aux'.
+
+
+(./abstractreservedid_8h.tex
+<abstractreservedid_8h__incl.pdf, id=3407, 260.975pt x 152.57pt>
+File: abstractreservedid_8h__incl.pdf Graphic file (type pdf)
+
+<use abstractreservedid_8h__incl.pdf>
+<abstractreservedid_8h__dep__incl.pdf, id=3408, 844.15375pt x 212.795pt>
+File: abstractreservedid_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use abstractreservedid_8h__dep__incl.pdf>) [112
+
+
+ <./abstractreservedid_8h__incl.pdf> <./abstractreservedid_8h__dep__incl.pdf>]
+\openout2 = `eventid_8h.aux'.
+
+ (./eventid_8h.tex
+<eventid_8h__incl.pdf, id=3427, 260.975pt x 212.795pt>
+File: eventid_8h__incl.pdf Graphic file (type pdf)
+
+<use eventid_8h__incl.pdf>
+<eventid_8h__dep__incl.pdf, id=3428, 330.23375pt x 152.57pt>
+File: eventid_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use eventid_8h__dep__incl.pdf>) [113
+
+
+ <./eventid_8h__incl.pdf> <./eventid_8h__dep__incl.pdf>]
+\openout2 = `eventidgenerator_8h.aux'.
+
+ (./eventidgenerator_8h.tex
+<eventidgenerator_8h__incl.pdf, id=3447, 374.39874pt x 333.245pt>
+File: eventidgenerator_8h__incl.pdf Graphic file (type pdf)
+
+<use eventidgenerator_8h__incl.pdf>
+<eventidgenerator_8h__dep__incl.pdf, id=3448, 226.8475pt x 32.12pt>
+File: eventidgenerator_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use eventidgenerator_8h__dep__incl.pdf>) [114
+
+
+ <./eventidgenerator_8h__incl.pdf> <./eventidgenerator_8h__dep__incl.pdf>]
+\openout2 = `id_8h.aux'.
+
+ (./id_8h.tex
+<id_8h__incl.pdf, id=3467, 315.1775pt x 273.02pt>
+File: id_8h__incl.pdf Graphic file (type pdf)
+ <use id_8h__incl.pdf>
+<id_8h__dep__incl.pdf, id=3468, 226.8475pt x 92.345pt>
+File: id_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use id_8h__dep__incl.pdf>) [115
+
+
+ <./id_8h__incl.pdf> <./id_8h__dep__incl.pdf>]
+\openout2 = `markid_8h.aux'.
+
+
+(./markid_8h.tex <markid_8h__incl.pdf, id=3489, 260.975pt x 212.795pt>
+File: markid_8h__incl.pdf Graphic file (type pdf)
+
+<use markid_8h__incl.pdf>
+<markid_8h__dep__incl.pdf, id=3490, 330.23375pt x 152.57pt>
+File: markid_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use markid_8h__dep__incl.pdf>) [116
+
+
+ <./markid_8h__incl.pdf> <./markid_8h__dep__incl.pdf>]
+\openout2 = `markidgenerator_8h.aux'.
+
+ (./markidgenerator_8h.tex
+<markidgenerator_8h__incl.pdf, id=3509, 370.38374pt x 273.02pt>
+File: markidgenerator_8h__incl.pdf Graphic file (type pdf)
+
+<use markidgenerator_8h__incl.pdf>) [117
+
+
+ <./markidgenerator_8h__incl.pdf>]
+\openout2 = `state_8h.aux'.
+
+
+(./state_8h.tex <state_8h__incl.pdf, id=3523, 447.6725pt x 212.795pt>
+File: state_8h__incl.pdf Graphic file (type pdf)
+
+<use state_8h__incl.pdf>) [118
+
+
+ <./state_8h__incl.pdf>]
+\openout2 = `subjectid_8h.aux'.
+
+ (./subjectid_8h.tex
+<subjectid_8h__incl.pdf, id=3537, 260.975pt x 212.795pt>
+File: subjectid_8h__incl.pdf Graphic file (type pdf)
+
+<use subjectid_8h__incl.pdf>
+<subjectid_8h__dep__incl.pdf, id=3538, 226.8475pt x 152.57pt>
+File: subjectid_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use subjectid_8h__dep__incl.pdf>) [119
+
+
+ <./subjectid_8h__incl.pdf> <./subjectid_8h__dep__incl.pdf>]
+\openout2 = `subjectidgenerator_8h.aux'.
+
+ (./subjectidgenerator_8h.tex
+<subjectidgenerator_8h__incl.pdf, id=3557, 370.38374pt x 273.02pt>
+File: subjectidgenerator_8h__incl.pdf Graphic file (type pdf)
+
+<use subjectidgenerator_8h__incl.pdf>) [120
+
+
+ <./subjectidgenerator_8h__incl.pdf>]
+\openout2 = `typeid_8h.aux'.
+
+ (./typeid_8h.tex <typeid_8h__incl.pdf, id=3571, 260.975pt x 212.795pt>
+File: typeid_8h__incl.pdf Graphic file (type pdf)
+
+<use typeid_8h__incl.pdf>
+<typeid_8h__dep__incl.pdf, id=3572, 226.8475pt x 152.57pt>
+File: typeid_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use typeid_8h__dep__incl.pdf>) [121
+
+
+ <./typeid_8h__incl.pdf> <./typeid_8h__dep__incl.pdf>]
+\openout2 = `typeidgenerator_8h.aux'.
+
+ (./typeidgenerator_8h.tex
+<typeidgenerator_8h__incl.pdf, id=3592, 370.38374pt x 273.02pt>
+File: typeidgenerator_8h__incl.pdf Graphic file (type pdf)
+
+<use typeidgenerator_8h__incl.pdf>) [122
+
+
+ <./typeidgenerator_8h__incl.pdf>]
+\openout2 = `subject_8h.aux'.
+
+
+(./subject_8h.tex <subject_8h__incl.pdf, id=3607, 459.7175pt x 212.795pt>
+File: subject_8h__incl.pdf Graphic file (type pdf)
+
+<use subject_8h__incl.pdf>
+<subject_8h__dep__incl.pdf, id=3608, 128.48pt x 92.345pt>
+File: subject_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use subject_8h__dep__incl.pdf>) [123
+
+
+ <./subject_8h__incl.pdf> <./subject_8h__dep__incl.pdf>]
+\openout2 = `subjects_8h.aux'.
+
+ (./subjects_8h.tex
+<subjects_8h__incl.pdf, id=3625, 521.95pt x 212.795pt>
+File: subjects_8h__incl.pdf Graphic file (type pdf)
+
+<use subjects_8h__incl.pdf>
+<subjects_8h__dep__incl.pdf, id=3626, 134.5025pt x 32.12pt>
+File: subjects_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use subjects_8h__dep__incl.pdf>) [124
+
+
+ <./subjects_8h__incl.pdf> <./subjects_8h__dep__incl.pdf>]
+\openout2 = `term_8h.aux'.
+
+ (./term_8h.tex
+<term_8h__incl.pdf, id=3643, 260.975pt x 152.57pt>
+File: term_8h__incl.pdf Graphic file (type pdf)
+ <use term_8h__incl.pdf>
+<term_8h__dep__incl.pdf, id=3644, 124.465pt x 152.57pt>
+File: term_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use term_8h__dep__incl.pdf>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 39.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 39.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 39.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 39.
+
+[125
+
+
+ <./term_8h__incl.pdf> <./term_8h__dep__incl.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 73.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 73.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 73.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 73.
+
+) [126]
+\openout2 = `type_8h.aux'.
+
+ (./type_8h.tex <type_8h__incl.pdf, id=3672, 106.3975pt x 92.345pt>
+File: type_8h__incl.pdf Graphic file (type pdf)
+
+<use type_8h__incl.pdf>
+<type_8h__dep__incl.pdf, id=3673, 134.5025pt x 92.345pt>
+File: type_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use type_8h__dep__incl.pdf>) [127
+
+
+ <./type_8h__incl.pdf> <./type_8h__dep__incl.pdf>]
+\openout2 = `main_8cpp.aux'.
+
+ (./main_8cpp.tex <main_8cpp__incl.pdf, id=3691, 455.7025pt x 273.02pt>
+File: main_8cpp__incl.pdf Graphic file (type pdf)
+
+<use main_8cpp__incl.pdf>
+<main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph.pdf, id=3693, 311.1625pt x 
+74.2775pt>
+File: main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph.pdf Graphic file (type
+ pdf)
+ <use main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph.pdf>
+[128
+
+
+ <./main_8cpp__incl.pdf>]) [129 <./main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_
+cgraph.pdf>]
+\openout2 = `event_8cpp.aux'.
+
+ (./event_8cpp.tex
+<event_8cpp__incl.pdf, id=3714, 110.4125pt x 92.345pt>
+File: event_8cpp__incl.pdf Graphic file (type pdf)
+
+<use event_8cpp__incl.pdf>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 55.
+
+[130
+
+
+ <./event_8cpp__incl.pdf>]) [131]
+\openout2 = `events_8cpp.aux'.
+
+ (./events_8cpp.tex
+<events_8cpp__incl.pdf, id=3735, 470.75874pt x 212.795pt>
+File: events_8cpp__incl.pdf Graphic file (type pdf)
+
+<use events_8cpp__incl.pdf>
+<events_8cpp__dep__incl.pdf, id=3736, 118.4425pt x 32.12pt>
+File: events_8cpp__dep__incl.pdf Graphic file (type pdf)
+
+<use events_8cpp__dep__incl.pdf>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 37.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 37.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 37.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 37.
+
+[132
+
+
+ <./events_8cpp__incl.pdf> <./events_8cpp__dep__incl.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 70.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 70.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 70.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 70.
+
+) [133]
+\openout2 = `generatoridgenerator_8cpp.aux'.
+
+ (./generatoridgenerator_8cpp.tex
+<generatoridgenerator_8cpp__incl.pdf, id=3764, 192.72pt x 92.345pt>
+File: generatoridgenerator_8cpp__incl.pdf Graphic file (type pdf)
+
+<use generatoridgenerator_8cpp__incl.pdf>) [134
+
+
+ <./generatoridgenerator_8cpp__incl.pdf>]
+\openout2 = `idgenerator_8cpp.aux'.
+
+ (./idgenerator_8cpp.tex
+<idgenerator_8cpp__incl.pdf, id=3774, 361.35pt x 212.795pt>
+File: idgenerator_8cpp__incl.pdf Graphic file (type pdf)
+
+<use idgenerator_8cpp__incl.pdf>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 31.
+
+[135
+
+
+ <./idgenerator_8cpp__incl.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 126.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 126.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 126.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 126.
+
+[136]) [137]
+\openout2 = `abstractid_8cpp.aux'.
+
+ (./abstractid_8cpp.tex
+<abstractid_8cpp__incl.pdf, id=3805, 166.6225pt x 92.345pt>
+File: abstractid_8cpp__incl.pdf Graphic file (type pdf)
+
+<use abstractid_8cpp__incl.pdf>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 45.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 45.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 45.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 45.
+
+) [138
+
+
+ <./abstractid_8cpp__incl.pdf>]
+\openout2 = `abstractidgenerator_8cpp.aux'.
+
+ (./abstractidgenerator_8cpp.tex
+<abstractidgenerator_8cpp__incl.pdf, id=3820, 214.8025pt x 92.345pt>
+File: abstractidgenerator_8cpp__incl.pdf Graphic file (type pdf)
+
+<use abstractidgenerator_8cpp__incl.pdf>) [139
+
+
+ <./abstractidgenerator_8cpp__incl.pdf>]
+\openout2 = `abstractincrementalid_8cpp.aux'.
+
+ (./abstractincrementalid_8cpp.tex
+<abstractincrementalid_8cpp__incl.pdf, id=3831, 226.8475pt x 92.345pt>
+File: abstractincrementalid_8cpp__incl.pdf Graphic file (type pdf)
+
+<use abstractincrementalid_8cpp__incl.pdf>) [140
+
+
+ <./abstractincrementalid_8cpp__incl.pdf>]
+\openout2 = `abstractreservedid_8cpp.aux'.
+
+ (./abstractreservedid_8cpp.tex
+<abstractreservedid_8cpp__incl.pdf, id=3841, 210.7875pt x 92.345pt>
+File: abstractreservedid_8cpp__incl.pdf Graphic file (type pdf)
+
+<use abstractreservedid_8cpp__incl.pdf>) [141
+
+
+ <./abstractreservedid_8cpp__incl.pdf>]
+\openout2 = `eventid_8cpp.aux'.
+
+ (./eventid_8cpp.tex
+<eventid_8cpp__incl.pdf, id=3851, 260.975pt x 273.02pt>
+File: eventid_8cpp__incl.pdf Graphic file (type pdf)
+
+<use eventid_8cpp__incl.pdf>) [142
+
+
+ <./eventid_8cpp__incl.pdf>]
+\openout2 = `eventidgenerator_8cpp.aux'.
+
+
+(./eventidgenerator_8cpp.tex
+<eventidgenerator_8cpp__incl.pdf, id=3861, 200.75pt x 92.345pt>
+File: eventidgenerator_8cpp__incl.pdf Graphic file (type pdf)
+
+<use eventidgenerator_8cpp__incl.pdf>) [143
+
+
+ <./eventidgenerator_8cpp__incl.pdf>]
+\openout2 = `id_8cpp.aux'.
+
+ (./id_8cpp.tex <id_8cpp__incl.pdf, id=3871, 124.465pt x 92.345pt>
+File: id_8cpp__incl.pdf Graphic file (type pdf)
+
+<use id_8cpp__incl.pdf>) [144
+
+
+ <./id_8cpp__incl.pdf>]
+\openout2 = `markid_8cpp.aux'.
+
+ (./markid_8cpp.tex
+<markid_8cpp__incl.pdf, id=3881, 260.975pt x 273.02pt>
+File: markid_8cpp__incl.pdf Graphic file (type pdf)
+
+<use markid_8cpp__incl.pdf>) [145
+
+
+ <./markid_8cpp__incl.pdf>]
+\openout2 = `markidgenerator_8cpp.aux'.
+
+
+(./markidgenerator_8cpp.tex
+<markidgenerator_8cpp__incl.pdf, id=3892, 198.7425pt x 92.345pt>
+File: markidgenerator_8cpp__incl.pdf Graphic file (type pdf)
+
+<use markidgenerator_8cpp__incl.pdf>) [146
+
+
+ <./markidgenerator_8cpp__incl.pdf>]
+\openout2 = `state_8cpp.aux'.
+
+
+(./state_8cpp.tex <state_8cpp__incl.pdf, id=3902, 138.5175pt x 92.345pt>
+File: state_8cpp__incl.pdf Graphic file (type pdf)
+
+<use state_8cpp__incl.pdf>) [147
+
+
+ <./state_8cpp__incl.pdf>]
+\openout2 = `subjectid_8cpp.aux'.
+
+
+(./subjectid_8cpp.tex <subjectid_8cpp__incl.pdf, id=3912, 160.6pt x 92.345pt>
+File: subjectid_8cpp__incl.pdf Graphic file (type pdf)
+
+<use subjectid_8cpp__incl.pdf>) [148
+
+
+ <./subjectid_8cpp__incl.pdf>]
+\openout2 = `subjectidgenerator_8cpp.aux'.
+
+
+(./subjectidgenerator_8cpp.tex
+<subjectidgenerator_8cpp__incl.pdf, id=3922, 210.7875pt x 92.345pt>
+File: subjectidgenerator_8cpp__incl.pdf Graphic file (type pdf)
+
+<use subjectidgenerator_8cpp__incl.pdf>) [149
+
+
+ <./subjectidgenerator_8cpp__incl.pdf>]
+\openout2 = `typeid_8cpp.aux'.
+
+ (./typeid_8cpp.tex <typeid_8cpp__incl.pdf, id=3932, 144.54pt x 92.345pt>
+File: typeid_8cpp__incl.pdf Graphic file (type pdf)
+
+<use typeid_8cpp__incl.pdf>) [150
+
+
+ <./typeid_8cpp__incl.pdf>]
+\openout2 = `typeidgenerator_8cpp.aux'.
+
+
+(./typeidgenerator_8cpp.tex
+<typeidgenerator_8cpp__incl.pdf, id=3942, 194.7275pt x 92.345pt>
+File: typeidgenerator_8cpp__incl.pdf Graphic file (type pdf)
+
+<use typeidgenerator_8cpp__incl.pdf>) [151
+
+
+ <./typeidgenerator_8cpp__incl.pdf>]
+\openout2 = `subject_8cpp.aux'.
+
+
+(./subject_8cpp.tex <subject_8cpp__incl.pdf, id=3953, 118.4425pt x 92.345pt>
+File: subject_8cpp__incl.pdf Graphic file (type pdf)
+
+<use subject_8cpp__incl.pdf>) [152
+
+
+ <./subject_8cpp__incl.pdf>]
+\openout2 = `subjects_8cpp.aux'.
+
+
+(./subjects_8cpp.tex <subjects_8cpp__incl.pdf, id=3963, 536.0025pt x 273.02pt>
+File: subjects_8cpp__incl.pdf Graphic file (type pdf)
+
+<use subjects_8cpp__incl.pdf>
+<subjects_8cpp__dep__incl.pdf, id=3964, 126.4725pt x 32.12pt>
+File: subjects_8cpp__dep__incl.pdf Graphic file (type pdf)
+
+<use subjects_8cpp__dep__incl.pdf>) [153
+
+
+ <./subjects_8cpp__incl.pdf> <./subjects_8cpp__dep__incl.pdf>]
+\openout2 = `term_8cpp.aux'.
+
+ (./term_8cpp.tex
+<term_8cpp__incl.pdf, id=3979, 106.3975pt x 92.345pt>
+File: term_8cpp__incl.pdf Graphic file (type pdf)
+
+<use term_8cpp__incl.pdf>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 60.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 60.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 60.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 60.
+
+[154
+
+
+ <./term_8cpp__incl.pdf>]) [155]
+\openout2 = `type_8cpp.aux'.
+
+ (./type_8cpp.tex
+<type_8cpp__incl.pdf, id=4000, 104.39pt x 92.345pt>
+File: type_8cpp__incl.pdf Graphic file (type pdf)
+ <use type_8cpp__incl.pdf>)
+[156
+
+
+ <./type_8cpp__incl.pdf>] (./refman.ind
+Overfull \hbox (14.53404pt too wide) in paragraph at lines 22--24
+[]\T1/ptm/m/n/10 build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c,
+ []
+
+
+Overfull \hbox (53.41393pt too wide) in paragraph at lines 24--26
+[]\T1/ptm/m/n/10 build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp,
+ []
+
+[157
+
+
+] [158] [159] [160]) (./refman.aux
+(./dir_b0f82b84220ac304b6594771ef01efab.aux)
+(./dir_538678a9a76e9afe11e981eb762a272a.aux)
+(./dir_f8e189cbe3d07fc073ca928a078e2bca.aux)
+(./dir_d86edb86472748ce3b9447a9e360126c.aux)
+(./dir_a105a2b3280028ece2ad4a6c30255087.aux)
+(./dir_7a951694f1b7ff6e69b4126eb6966017.aux)
+(./dir_0ffeab24d93772fbe098d1cc681459a6.aux)
+(./classobsolete_1_1AbstractIDGenerator.aux)
+(./classobsolete_1_1AbstractIncrementalID.aux)
+(./classobsolete_1_1AbstractReservedID.aux) (./classEvent.aux)
+(./classobsolete_1_1EventID.aux) (./classobsolete_1_1EventIDGenerator.aux)
+(./classEvents.aux) (./classGeneratorIDGenerator.aux)
+(./classIDGenerator_1_1ID.aux) (./classobsolete_1_1ID.aux)
+(./classIDGenerator.aux) (./classobsolete_1_1MarkID.aux)
+(./classobsolete_1_1MarkIDGenerator.aux) (./classQDate.aux)
+(./classobsolete_1_1State.aux) (./classSubject.aux)
+(./classobsolete_1_1SubjectID.aux) (./classobsolete_1_1SubjectIDGenerator.aux)
+(./classSubjects.aux) (./classTerm.aux) (./classType.aux)
+(./classobsolete_1_1TypeID.aux) (./classobsolete_1_1TypeIDGenerator.aux)
+(./CMakeCXXCompilerId_8cpp.aux) (./event_8h.aux) (./events_8h.aux)
+(./generatoridgenerator_8h.aux) (./idgenerator_8h.aux) (./abstractid_8h.aux)
+(./abstractidgenerator_8h.aux) (./abstractincrementalid_8h.aux)
+(./abstractreservedid_8h.aux) (./eventid_8h.aux) (./eventidgenerator_8h.aux)
+(./id_8h.aux) (./markid_8h.aux) (./markidgenerator_8h.aux) (./state_8h.aux)
+(./subjectid_8h.aux) (./subjectidgenerator_8h.aux) (./typeid_8h.aux)
+(./typeidgenerator_8h.aux) (./subject_8h.aux) (./subjects_8h.aux)
+(./term_8h.aux) (./type_8h.aux) (./main_8cpp.aux) (./event_8cpp.aux)
+(./events_8cpp.aux) (./generatoridgenerator_8cpp.aux) (./idgenerator_8cpp.aux)
+(./abstractid_8cpp.aux) (./abstractidgenerator_8cpp.aux)
+(./abstractincrementalid_8cpp.aux) (./abstractreservedid_8cpp.aux)
+(./eventid_8cpp.aux) (./eventidgenerator_8cpp.aux) (./id_8cpp.aux)
+(./markid_8cpp.aux) (./markidgenerator_8cpp.aux) (./state_8cpp.aux)
+(./subjectid_8cpp.aux) (./subjectidgenerator_8cpp.aux) (./typeid_8cpp.aux)
+(./typeidgenerator_8cpp.aux) (./subject_8cpp.aux) (./subjects_8cpp.aux)
+(./term_8cpp.aux) (./type_8cpp.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 11059 strings out of 493848
+ 181702 string characters out of 3155814
+ 233209 words of memory out of 3500000
+ 12648 multiletter control sequences out of 15000+200000
+ 50816 words of font info for 65 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 38i,12n,58p,460b,492s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf/fonts/enc/dvips/pl/plmi.enc}{/usr/share/texmf/fonts/enc/dvi
+ps/pl/plms.enc}{/usr/share/texmf/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/
+fonts/type1/public/pl/plmi10.pfb></usr/share/texmf/fonts/type1/public/pl/plmi9.
+pfb></usr/share/texmf/fonts/type1/public/pl/plsy10.pfb></usr/share/texmf/fonts/
+type1/urw/courier/ucrb8a.pfb></usr/share/texmf/fonts/type1/urw/courier/ucrr8a.p
+fb></usr/share/texmf/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf/fonts/t
+ype1/urw/times/utmbi8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmr8a.pfb><
+/usr/share/texmf/fonts/type1/urw/times/utmri8a.pfb>
+Output written on refman.pdf (172 pages, 1287150 bytes).
+PDF statistics:
+ 4570 PDF objects out of 5155 (max. 8388607)
+ 822 named destinations out of 1000 (max. 500000)
+ 3250 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,573 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>SchoolTools - Schedule: Dokumentacja klasy Event</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.3 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Strona&nbsp;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&nbsp;nazw</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klasy</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+      <li><a href="dirs.html"><span>Katalogi</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="annotated.html"><span>Lista&nbsp;klas</span></a></li>
+      <li><a href="hierarchy.html"><span>Hierarchia&nbsp;klas</span></a></li>
+      <li><a href="functions.html"><span>Składowe&nbsp;klas</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja klasy Event</h1><!-- doxytag: class="Event" --><!-- doxytag: inherits="Initializable" -->
+<p>Reprezentuje zdarzenie w postaci zdefiniowanej przez użytkownika.  
+<a href="#_details">Więcej...</a></p>
+
+<p><code>#include &lt;<a class="el" href="event_8h_source.html">event.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagram dziedziczenia dla Event</div>
+<div class="dynsection">
+<div class="center"><img src="classEvent__inherit__graph.png" border="0" usemap="#Event_inherit__map" alt="Inheritance graph"/></div>
+<map name="Event_inherit__map" id="Event_inherit__map">
+<area shape="rect" id="node2" href="classInitializable.html" title="Określa klasy inicjalizowalne." alt="" coords="5,6,160,189"/></map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<div class="dynheader">
+Diagram współpracy dla Event:</div>
+<div class="dynsection">
+<div class="center"><img src="classEvent__coll__graph.png" border="0" usemap="#Event_coll__map" alt="Collaboration graph"/></div>
+<map name="Event_coll__map" id="Event_coll__map">
+<area shape="rect" id="node2" href="classInitializable.html" title="Określa klasy inicjalizowalne." alt="" coords="5,345,160,527"/><area shape="rect" id="node6" href="classCompList.html" title="{CompList\&lt; Term \&gt;\n||+ operator==()\l}" alt="" coords="203,387,355,485"/><area shape="rect" id="node8" href="classQList.html" title="{QList\&lt; Term \&gt;\n||}" alt="" coords="128,155,248,253"/><area shape="rect" id="node10" href="classCompList.html" title="Klasa poszerzająca funkcjonalność QList&lt;T&gt;" alt="" coords="272,155,397,253"/><area shape="rect" id="node12" href="classQList.html" title="{QList\&lt; T \&gt;\n||}" alt="" coords="288,6,381,103"/><area shape="rect" id="node14" href="classIDGenerator_1_1ID.html" title="Obiekt reprezentuje dany identyfikator określonego typu." alt="" coords="388,345,521,527"/></map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+
+<p><a href="classEvent-members.html">Lista wszystkich składowych.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Metody publiczne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEvent.html#a70e5f9b0ac19b3d98a27876de8fd4764">Event</a> (<a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a> <a class="el" href="classEvent.html#afea305d9a127746e4801a32e1b58b224">thisID</a>, <a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a> <a class="el" href="classEvent.html#a584a3fce37eaa31ee45c202a538f59b6">subjectID</a>, <a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a> <a class="el" href="classEvent.html#a8abdf6e037043e6d6d761de593d33807">typeID</a>, <a class="el" href="classCompList.html">CompList</a>&lt; <a class="el" href="classTerm.html">Term</a> &gt; term=<a class="el" href="classCompList.html">CompList</a>&lt; <a class="el" href="classTerm.html">Term</a> &gt;())</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Inicjalizuje dane wydarzenie niezbędnymi informacjami.  <a href="#a70e5f9b0ac19b3d98a27876de8fd4764"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEvent.html#a5a40dd4708297f7031e29b39e039ae10">Event</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Umożliwia tworzenie niezainicjalizowanych obiektów.  <a href="#a5a40dd4708297f7031e29b39e039ae10"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEvent.html#afec6a898272e6b49f975a7925281db6f">operator==</a> (const <a class="el" href="classEvent.html">Event</a> &amp;o) const </td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Porównuje ze sobą obiekty pod kątem identyczności.  <a href="#afec6a898272e6b49f975a7925281db6f"></a><br/></td></tr>
+<tr><td colspan="2"><h2>Metody prywatne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInitializable.html#ab2939a2d4e18079d5b6d083983d753a4">operator==</a> (const <a class="el" href="classInitializable.html">Initializable</a> &amp;o) const </td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Porównuje ze sobą obiekty pod kątem identyczności.  <a href="#ab2939a2d4e18079d5b6d083983d753a4"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInitializable.html#a66450e10ce53eaaa89d9daa23e356df5">isInitialized</a> () const </td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Sprawdza czy obiekt został zainicjalizowany.  <a href="#a66450e10ce53eaaa89d9daa23e356df5"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInitializable.html#a87f5a7bd9ab84a142b7e6b8fd2175aa8">makeInitialized</a> ()  throw (QString)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Ustawia niezainicjalizowany obiekt w stan zainicjalizowany.  <a href="#a87f5a7bd9ab84a142b7e6b8fd2175aa8"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInitializable.html#afdbe035143b09de69f5c45a05c1b332c">checkInitialized</a> () const   throw (QString)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Pozwala na dalsze wykonywanie kodu jeżeli dany obiekt jest zainicjalizowany.  <a href="#afdbe035143b09de69f5c45a05c1b332c"></a><br/></td></tr>
+<tr><td colspan="2"><h2>Atrybuty prywatne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEvent.html#a584a3fce37eaa31ee45c202a538f59b6">subjectID</a></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Identyfikator przedmiotu skojarzonego z wydarzeniem.  <a href="#a584a3fce37eaa31ee45c202a538f59b6"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEvent.html#a8abdf6e037043e6d6d761de593d33807">typeID</a></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Identyfikator typu wydarzenia.  <a href="#a8abdf6e037043e6d6d761de593d33807"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEvent.html#afea305d9a127746e4801a32e1b58b224">thisID</a></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Identyfikator tego wydarzenia.  <a href="#afea305d9a127746e4801a32e1b58b224"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCompList.html">CompList</a>&lt; <a class="el" href="classTerm.html">Term</a> &gt;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEvent.html#ad582587dbc808515daa7563431c3345f">terms</a></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Lista terminów danego wydarzenia.  <a href="#ad582587dbc808515daa7563431c3345f"></a><br/></td></tr>
+<tr><td colspan="2"><h2>Przyjaciele</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEvent.html#a62e8730ab4dc16e3d456b527a12635b3">operator&lt;&lt;</a> (QDataStream &amp;stream, const <a class="el" href="classEvent.html">Event</a> &amp;event)  throw (QString)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Zapisuje informacje o danym wydarzeniu do danego strumienia.  <a href="#a62e8730ab4dc16e3d456b527a12635b3"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEvent.html#a055427e98ad131966edb6fb652add004">operator&gt;&gt;</a> (QDataStream &amp;stream, <a class="el" href="classEvent.html">Event</a> &amp;event)  throw (QString)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Odczytuje informacje o danym wydarzeniu z danego strumienia.  <a href="#a055427e98ad131966edb6fb652add004"></a><br/></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Opis szczegółowy</h2>
+<p>Reprezentuje zdarzenie w postaci zdefiniowanej przez użytkownika. </p>
+<p>Posiada określony typ (zdefiniowany przez użytkownika z dostępnych możliwości (zdefiniowanych przez użytkownika)). Powiązane z terminami.</p>
+<p>Pozwala ustawić ocenę. Składa się między innymi z:</p>
+<ul>
+<li>Identyfikatora (ID) tego wydarzenia.</li>
+<li>Identyfikatora (ID) typu tego wydarzenia.</li>
+<li>Identyfikatora (ID) przedmiotu (<a class="el" href="classSubject.html" title="Reprezentuje informacje o pojedyńczym przedmiocie.">Subject</a>) związanego z tym wydarzeniem.</li>
+<li>Pojemnika na terminy (<a class="el" href="classTerm.html" title="Reprezentacja egzekucji wydarzenia.">Term</a>) tego wydarzenia.</li>
+<li>Skali ocen i zasad oceniania. </li>
+</ul>
+
+<p>Definicja w linii <a class="el" href="event_8h_source.html#l00024">24</a> pliku <a class="el" href="event_8h_source.html">event.h</a>.</p>
+<hr/><h2>Dokumentacja konstruktora i destruktora</h2>
+<a class="anchor" id="a70e5f9b0ac19b3d98a27876de8fd4764"></a><!-- doxytag: member="Event::Event" ref="a70e5f9b0ac19b3d98a27876de8fd4764" args="(IDGenerator::ID thisID, IDGenerator::ID subjectID, IDGenerator::ID typeID, CompList&lt; Term &gt; term=CompList&lt; Term &gt;())" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Event::Event </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a>&nbsp;</td>
+          <td class="paramname"> <em>thisID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a>&nbsp;</td>
+          <td class="paramname"> <em>subjectID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a>&nbsp;</td>
+          <td class="paramname"> <em>typeID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classCompList.html">CompList</a>&lt; <a class="el" href="classTerm.html">Term</a> &gt;&nbsp;</td>
+          <td class="paramname"> <em>term</em> = <code><a class="el" href="classCompList.html">CompList</a>&lt;<a class="el" href="classTerm.html">Term</a>&gt;()</code></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Inicjalizuje dane wydarzenie niezbędnymi informacjami. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>thisID</em>&nbsp;</td><td>Identyfikator tego wydarzenia </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>subjectID</em>&nbsp;</td><td>Identyfikator przedmiotu związanego z wydarzeniem </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>typeID</em>&nbsp;</td><td>Identyfikator typu wydarzenia </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>term</em>&nbsp;</td><td>Lista terminów tego wydarzenia. Może być pusta. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definicja w linii <a class="el" href="event_8h_source.html#l00041">41</a> pliku <a class="el" href="event_8h_source.html">event.h</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00042"></a>00042 :
+<span class="keyword">private</span>:
+</pre></div></p>
+
+</div>
+</div>
+<a class="anchor" id="a5a40dd4708297f7031e29b39e039ae10"></a><!-- doxytag: member="Event::Event" ref="a5a40dd4708297f7031e29b39e039ae10" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Event::Event </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Umożliwia tworzenie niezainicjalizowanych obiektów. </p>
+
+<p>Definicja w linii <a class="el" href="event_8h_source.html#l00044">44</a> pliku <a class="el" href="event_8h_source.html">event.h</a>.</p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja funkcji składowych</h2>
+<a class="anchor" id="afdbe035143b09de69f5c45a05c1b332c"></a><!-- doxytag: member="Event::checkInitialized" ref="afdbe035143b09de69f5c45a05c1b332c" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Initializable::checkInitialized </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const  throw (QString)<code> [inline, protected, inherited]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Pozwala na dalsze wykonywanie kodu jeżeli dany obiekt jest zainicjalizowany. </p>
+<dl><dt><b>Wyjątki:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>QString</em>&nbsp;</td><td>Jeżeli dany obiekt jest niezainicjalizowany. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definicja w linii <a class="el" href="initializable_8h_source.html#l00046">46</a> pliku <a class="el" href="initializable_8h_source.html">initializable.h</a>.</p>
+
+<p>Odwołuje się do <a class="el" href="initializable_8h_source.html#l00012">Initializable::initialized</a>.</p>
+
+<p>Odwołania w <a class="el" href="mark_8h_source.html#l00095">Mark::getMark()</a> i <a class="el" href="mark_8h_source.html#l00086">Mark::isClassic()</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00047"></a>00047     {
+<a name="l00048"></a>00048         <span class="keywordflow">if</span> (!<a class="code" href="classInitializable.html#a4ee9b254d6d9dc5649f5b6319d85ca3f" title="Czy zostało zainicjalizowane.">initialized</a>)
+<a name="l00049"></a>00049             <span class="keywordflow">throw</span> <span class="stringliteral">&quot;Ten obiekt jest niezainicjalizowany!&quot;</span>;
+<a name="l00050"></a>00050     }
+</pre></div></p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dynsection">
+<div class="center"><img src="classInitializable_afdbe035143b09de69f5c45a05c1b332c_icgraph.png" border="0" usemap="#classInitializable_afdbe035143b09de69f5c45a05c1b332c_icgraph_map" alt=""></div>
+<map name="classInitializable_afdbe035143b09de69f5c45a05c1b332c_icgraph_map" id="classInitializable_afdbe035143b09de69f5c45a05c1b332c_icgraph">
+<area shape="rect" id="node3" href="classMark.html#a7938a3174e1719cca417f3b12c916442" title="Zwraca dany rezultat wydarzenia." alt="" coords="444,5,567,38"/><area shape="rect" id="node5" href="classMark.html#a4445b1b6a824bd03bdd9c451a7a96b47" title="Czy skutek jest klasyczny." alt="" coords="268,31,393,65"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a66450e10ce53eaaa89d9daa23e356df5"></a><!-- doxytag: member="Event::isInitialized" ref="a66450e10ce53eaaa89d9daa23e356df5" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Initializable::isInitialized </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const<code> [inline, protected, inherited]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Sprawdza czy obiekt został zainicjalizowany. </p>
+
+<p>Definicja w linii <a class="el" href="initializable_8h_source.html#l00028">28</a> pliku <a class="el" href="initializable_8h_source.html">initializable.h</a>.</p>
+
+<p>Odwołuje się do <a class="el" href="initializable_8h_source.html#l00012">Initializable::initialized</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00029"></a>00029     {
+<a name="l00030"></a>00030         <span class="keywordflow">return</span> <a class="code" href="classInitializable.html#a4ee9b254d6d9dc5649f5b6319d85ca3f" title="Czy zostało zainicjalizowane.">initialized</a>;
+<a name="l00031"></a>00031     }
+</pre></div></p>
+
+</div>
+</div>
+<a class="anchor" id="a87f5a7bd9ab84a142b7e6b8fd2175aa8"></a><!-- doxytag: member="Event::makeInitialized" ref="a87f5a7bd9ab84a142b7e6b8fd2175aa8" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Initializable::makeInitialized </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td>  throw (QString)<code> [inline, protected, inherited]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Ustawia niezainicjalizowany obiekt w stan zainicjalizowany. </p>
+<dl><dt><b>Wyjątki:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>QString</em>&nbsp;</td><td>Jeżeli dany obiekt już został zainicjalizowany </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definicja w linii <a class="el" href="initializable_8h_source.html#l00036">36</a> pliku <a class="el" href="initializable_8h_source.html">initializable.h</a>.</p>
+
+<p>Odwołuje się do <a class="el" href="initializable_8h_source.html#l00012">Initializable::initialized</a>.</p>
+
+<p>Odwołania w <a class="el" href="mark_8h_source.html#l00066">Mark::initialize()</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00037"></a>00037     {
+<a name="l00038"></a>00038         <span class="keywordflow">if</span> (<a class="code" href="classInitializable.html#a4ee9b254d6d9dc5649f5b6319d85ca3f" title="Czy zostało zainicjalizowane.">initialized</a>)
+<a name="l00039"></a>00039             <span class="keywordflow">throw</span> <span class="stringliteral">&quot;Ten obiekt jest zainicjalizowany!&quot;</span>;
+<a name="l00040"></a>00040         <a class="code" href="classInitializable.html#a4ee9b254d6d9dc5649f5b6319d85ca3f" title="Czy zostało zainicjalizowane.">initialized</a>=<span class="keyword">true</span>;
+<a name="l00041"></a>00041     }
+</pre></div></p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dynsection">
+<div class="center"><img src="classInitializable_a87f5a7bd9ab84a142b7e6b8fd2175aa8_icgraph.png" border="0" usemap="#classInitializable_a87f5a7bd9ab84a142b7e6b8fd2175aa8_icgraph_map" alt=""></div>
+<map name="classInitializable_a87f5a7bd9ab84a142b7e6b8fd2175aa8_icgraph_map" id="classInitializable_a87f5a7bd9ab84a142b7e6b8fd2175aa8_icgraph">
+<area shape="rect" id="node3" href="classMark.html#a9a3fb6d142542abda563ad55cb4577f2" title="Inicjalizuje obiekt." alt="" coords="264,5,384,38"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ab2939a2d4e18079d5b6d083983d753a4"></a><!-- doxytag: member="Event::operator==" ref="ab2939a2d4e18079d5b6d083983d753a4" args="(const Initializable &amp;o) const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Initializable::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classInitializable.html">Initializable</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>o</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const<code> [inline, inherited]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Porównuje ze sobą obiekty pod kątem identyczności. </p>
+<p>Wykorzystywane do kontroli spójności zapisu. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>o</em>&nbsp;</td><td>Obiekt z którym zostanie porównany dany obiekt </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definicja w linii <a class="el" href="initializable_8h_source.html#l00021">21</a> pliku <a class="el" href="initializable_8h_source.html">initializable.h</a>.</p>
+
+<p>Odwołuje się do <a class="el" href="initializable_8h_source.html#l00012">Initializable::initialized</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00022"></a>00022     {
+<a name="l00023"></a>00023         <span class="keywordflow">return</span> <a class="code" href="classInitializable.html#a4ee9b254d6d9dc5649f5b6319d85ca3f" title="Czy zostało zainicjalizowane.">initialized</a>==o.<a class="code" href="classInitializable.html#a4ee9b254d6d9dc5649f5b6319d85ca3f" title="Czy zostało zainicjalizowane.">initialized</a>;
+<a name="l00024"></a>00024     }
+</pre></div></p>
+
+</div>
+</div>
+<a class="anchor" id="afec6a898272e6b49f975a7925281db6f"></a><!-- doxytag: member="Event::operator==" ref="afec6a898272e6b49f975a7925281db6f" args="(const Event &amp;o) const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Event::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classEvent.html">Event</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>o</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Porównuje ze sobą obiekty pod kątem identyczności. </p>
+<p>Wykorzystywane do kontroli spójności zapisu. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>o</em>&nbsp;</td><td>Obiekt z którym zostanie porównany dany obiekt </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definicja w linii <a class="el" href="event_8cpp_source.html#l00022">22</a> pliku <a class="el" href="event_8cpp_source.html">event.cpp</a>.</p>
+
+<p>Odwołuje się do <a class="el" href="initializable_8h_source.html#l00015">Initializable::Initializable()</a>, <a class="el" href="event_8h_source.html#l00029">subjectID</a>, <a class="el" href="event_8h_source.html#l00032">terms</a>, <a class="el" href="event_8h_source.html#l00031">thisID</a> i <a class="el" href="event_8h_source.html#l00030">typeID</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00023"></a>00023 {
+<a name="l00024"></a>00024     <span class="keywordflow">return</span> <a class="code" href="classInitializable.html#a0d9f25f381621c834296c8935119bc9f" title="Decyduje o tym, czy powstający obiekt jest zainicjalizowany.">Initializable</a>(*<span class="keyword">this</span>)==<a class="code" href="classInitializable.html#a0d9f25f381621c834296c8935119bc9f" title="Decyduje o tym, czy powstający obiekt jest zainicjalizowany.">Initializable</a>(o) &amp;&amp; <a class="code" href="classEvent.html#a584a3fce37eaa31ee45c202a538f59b6" title="Identyfikator przedmiotu skojarzonego z wydarzeniem.">subjectID</a>==o.<a class="code" href="classEvent.html#a584a3fce37eaa31ee45c202a538f59b6" title="Identyfikator przedmiotu skojarzonego z wydarzeniem.">subjectID</a> &amp;&amp; <a class="code" href="classEvent.html#a8abdf6e037043e6d6d761de593d33807" title="Identyfikator typu wydarzenia.">typeID</a>==o.<a class="code" href="classEvent.html#a8abdf6e037043e6d6d761de593d33807" title="Identyfikator typu wydarzenia.">typeID</a> &amp;&amp; <a class="code" href="classEvent.html#afea305d9a127746e4801a32e1b58b224" title="Identyfikator tego wydarzenia.">thisID</a>==o.<a class="code" href="classEvent.html#afea305d9a127746e4801a32e1b58b224" title="Identyfikator tego wydarzenia.">thisID</a> &amp;&amp; <a class="code" href="classEvent.html#ad582587dbc808515daa7563431c3345f" title="Lista terminów danego wydarzenia.">terms</a>==o.<a class="code" href="classEvent.html#ad582587dbc808515daa7563431c3345f" title="Lista terminów danego wydarzenia.">terms</a>;
+<a name="l00025"></a>00025 }
+</pre></div></p>
+
+<p><div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dynsection">
+<div class="center"><img src="classEvent_afec6a898272e6b49f975a7925281db6f_cgraph.png" border="0" usemap="#classEvent_afec6a898272e6b49f975a7925281db6f_cgraph_map" alt=""></div>
+<map name="classEvent_afec6a898272e6b49f975a7925281db6f_cgraph_map" id="classEvent_afec6a898272e6b49f975a7925281db6f_cgraph">
+<area shape="rect" id="node3" href="classInitializable.html#a0d9f25f381621c834296c8935119bc9f" title="Decyduje o tym, czy powstający obiekt jest zainicjalizowany." alt="" coords="200,5,392,38"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja przyjaciół i funkcji związanych</h2>
+<a class="anchor" id="a62e8730ab4dc16e3d456b527a12635b3"></a><!-- doxytag: member="Event::operator&lt;&lt;" ref="a62e8730ab4dc16e3d456b527a12635b3" args="(QDataStream &amp;stream, const Event &amp;event)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDataStream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">QDataStream &amp;&nbsp;</td>
+          <td class="paramname"> <em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classEvent.html">Event</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>event</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td>  throw (QString)<code> [friend]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Zapisuje informacje o danym wydarzeniu do danego strumienia. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>stream</em>&nbsp;</td><td>Strumień do którego będą zapisywane dane. </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>event</em>&nbsp;</td><td>Wydarzenie które będzie zapisywane. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl><dt><b>Wyjątki:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>QString</em>&nbsp;</td><td>Jeżeli zapisywane wydarzenie nie zostało zainicjalizowane </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Zwraca:</b></dt><dd>Ten sam strumień. </dd></dl>
+
+<p>Definicja w linii <a class="el" href="event_8cpp_source.html#l00003">3</a> pliku <a class="el" href="event_8cpp_source.html">event.cpp</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00004"></a>00004 {
+<a name="l00005"></a>00005     <span class="keyword">event</span>.checkInitialized();
+<a name="l00006"></a>00006     stream&lt;&lt;<span class="keyword">event</span>.thisID&lt;&lt;<span class="keyword">event</span>.subjectID&lt;&lt;<span class="keyword">event</span>.typeID;
+<a name="l00007"></a>00007     <span class="keywordflow">try</span>
+<a name="l00008"></a>00008     {
+<a name="l00009"></a>00009         <span class="keywordflow">return</span> stream&lt;&lt;<span class="keyword">event</span>.terms;
+<a name="l00010"></a>00010     } <span class="keywordflow">catch</span>(<span class="keyword">const</span> <span class="keywordtype">char</span> * <span class="keyword">const</span> e)
+<a name="l00011"></a>00011     {
+<a name="l00012"></a>00012         <span class="keywordflow">throw</span> QString(<span class="stringliteral">&quot;Wystąpił wyjątek podczas odczytu listy terminów wydarzenia:\n&quot;</span>)+e;
+<a name="l00013"></a>00013     }
+<a name="l00014"></a>00014 }
+</pre></div></p>
+
+</div>
+</div>
+<a class="anchor" id="a055427e98ad131966edb6fb652add004"></a><!-- doxytag: member="Event::operator&gt;&gt;" ref="a055427e98ad131966edb6fb652add004" args="(QDataStream &amp;stream, Event &amp;event)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDataStream&amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype">QDataStream &amp;&nbsp;</td>
+          <td class="paramname"> <em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classEvent.html">Event</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>event</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td>  throw (QString)<code> [friend]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Odczytuje informacje o danym wydarzeniu z danego strumienia. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>stream</em>&nbsp;</td><td>Strumień z którego będą odczytywane dane. </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>event</em>&nbsp;</td><td>Wydarzenie które zostanie zainicjalizowane wczytanymi danymi. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl><dt><b>Wyjątki:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>QString</em>&nbsp;</td><td>Jeżeli Wydarzenie zostało wcześniej zainicjalizowane. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Zwraca:</b></dt><dd>Ten sam strumień. </dd></dl>
+
+<p>Definicja w linii <a class="el" href="event_8cpp_source.html#l00016">16</a> pliku <a class="el" href="event_8cpp_source.html">event.cpp</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00017"></a>00017 {
+<a name="l00018"></a>00018     <span class="keyword">event</span>.makeInitialized();
+<a name="l00019"></a>00019     <span class="keywordflow">return</span> stream&gt;&gt;<span class="keyword">event</span>.thisID&gt;&gt;<span class="keyword">event</span>.subjectID&gt;&gt;<span class="keyword">event</span>.typeID&gt;&gt;<span class="keyword">event</span>.terms;
+<a name="l00020"></a>00020 }
+</pre></div></p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja atrybutów składowych</h2>
+<a class="anchor" id="a584a3fce37eaa31ee45c202a538f59b6"></a><!-- doxytag: member="Event::subjectID" ref="a584a3fce37eaa31ee45c202a538f59b6" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a> <a class="el" href="classEvent.html#a584a3fce37eaa31ee45c202a538f59b6">Event::subjectID</a><code> [private]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Identyfikator przedmiotu skojarzonego z wydarzeniem. </p>
+
+<p>Definicja w linii <a class="el" href="event_8h_source.html#l00029">29</a> pliku <a class="el" href="event_8h_source.html">event.h</a>.</p>
+
+<p>Odwołania w <a class="el" href="event_8cpp_source.html#l00022">operator==()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad582587dbc808515daa7563431c3345f"></a><!-- doxytag: member="Event::terms" ref="ad582587dbc808515daa7563431c3345f" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCompList.html">CompList</a>&lt;<a class="el" href="classTerm.html">Term</a>&gt; <a class="el" href="classEvent.html#ad582587dbc808515daa7563431c3345f">Event::terms</a><code> [private]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Lista terminów danego wydarzenia. </p>
+
+<p>Definicja w linii <a class="el" href="event_8h_source.html#l00032">32</a> pliku <a class="el" href="event_8h_source.html">event.h</a>.</p>
+
+<p>Odwołania w <a class="el" href="event_8cpp_source.html#l00022">operator==()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afea305d9a127746e4801a32e1b58b224"></a><!-- doxytag: member="Event::thisID" ref="afea305d9a127746e4801a32e1b58b224" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a> <a class="el" href="classEvent.html#afea305d9a127746e4801a32e1b58b224">Event::thisID</a><code> [private]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Identyfikator tego wydarzenia. </p>
+
+<p>Definicja w linii <a class="el" href="event_8h_source.html#l00031">31</a> pliku <a class="el" href="event_8h_source.html">event.h</a>.</p>
+
+<p>Odwołania w <a class="el" href="event_8cpp_source.html#l00022">operator==()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8abdf6e037043e6d6d761de593d33807"></a><!-- doxytag: member="Event::typeID" ref="a8abdf6e037043e6d6d761de593d33807" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classIDGenerator_1_1ID.html">IDGenerator::ID</a> <a class="el" href="classEvent.html#a8abdf6e037043e6d6d761de593d33807">Event::typeID</a><code> [private]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Identyfikator typu wydarzenia. </p>
+
+<p>Definicja w linii <a class="el" href="event_8h_source.html#l00030">30</a> pliku <a class="el" href="event_8h_source.html">event.h</a>.</p>
+
+<p>Odwołania w <a class="el" href="event_8cpp_source.html#l00022">operator==()</a>.</p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li>include/<a class="el" href="event_8h_source.html">event.h</a></li>
+<li>src/<a class="el" href="event_8cpp_source.html">event.cpp</a></li>
+</ul>
+</div>
+<hr class="footer"/><address style="text-align: right;"><small>Wygenerowano Sat Jul 10 18:45:20 2010 dla SchoolTools - Schedule programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>

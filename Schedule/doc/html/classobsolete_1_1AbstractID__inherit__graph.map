@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classobsolete_1_1AbstractIDGenerator.html" title="Klasa bazowa obiektów&#45;generatorów identyfikatorów." alt="" coords="484,153,727,293"/>
+<area shape="rect" id="node13" href="$classobsolete_1_1AbstractIncrementalID.html" title="Podstawa dla wszystkich klas identyfikatorów automatycznych." alt="" coords="975,163,1225,282"/>
+<area shape="rect" id="node22" href="$classobsolete_1_1AbstractReservedID.html" title="Klasa reprezentująca identyfikatory rezerwowane z góry." alt="" coords="1288,153,1525,293"/>
+<area shape="rect" id="node5" href="$classobsolete_1_1EventIDGenerator.html" title="Klasa generatorów generatorów identyfikatorów wydarzeń." alt="" coords="5,353,227,450"/>
+<area shape="rect" id="node7" href="$classobsolete_1_1MarkIDGenerator.html" title="Klasa generatorów generatorów identyfikatorów skutków wydarzeń." alt="" coords="251,353,464,450"/>
+<area shape="rect" id="node9" href="$classobsolete_1_1SubjectIDGenerator.html" title="Klasa generatorów generatorów identyfikatorów przedmiotów." alt="" coords="488,353,723,450"/>
+<area shape="rect" id="node11" href="$classobsolete_1_1TypeIDGenerator.html" title="Generator generatorów obiektów TypeID." alt="" coords="747,353,963,450"/>
+<area shape="rect" id="node15" href="$classobsolete_1_1EventID.html" title="Klasa reprezentująca identyfikator zdarzenia." alt="" coords="987,342,1136,461"/>
+<area shape="rect" id="node19" href="$classobsolete_1_1MarkID.html" title="Klasa reprezentująca identyfikator oceny." alt="" coords="1160,342,1301,461"/>
+<area shape="rect" id="node17" href="$classobsolete_1_1ID.html" title="Korzeń nowej idei uniwersalnego ID." alt="" coords="1265,510,1372,607"/>
+<area shape="rect" id="node24" href="$classobsolete_1_1SubjectID.html" title="Klasa reprezentująca identyfikator przedmiotu." alt="" coords="1325,353,1488,450"/>
+<area shape="rect" id="node27" href="$classobsolete_1_1TypeID.html" title="Klasa reprezentująca identyfikator typu wydarzenia." alt="" coords="1512,353,1656,450"/>
+</map>

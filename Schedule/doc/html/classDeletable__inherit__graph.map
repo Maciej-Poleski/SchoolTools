@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classSubject.html" title="Reprezentuje informacje o pojedyńczym przedmiocie." alt="" coords="5,217,152,442"/>
+<area shape="rect" id="node5" href="$classType.html" title="Reprezentuje dany typ wydarzenia." alt="" coords="176,259,299,399"/>
+</map>

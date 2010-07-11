@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>SchoolTools - Schedule: Dokumentacja klasy AbstractID</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Wygenerowano przez Doxygen 1.6.3 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul>
+      <li><a href="main.html"><span>Strona&nbsp;główna</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klasy</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+      <li><a href="dirs.html"><span>Katalogi</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs">
+    <ul>
+      <li><a href="annotated.html"><span>Lista&nbsp;klas</span></a></li>
+      <li><a href="hierarchy.html"><span>Hierarchia&nbsp;klas</span></a></li>
+      <li><a href="functions.html"><span>Składowe&nbsp;klas</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="contents">
+<h1>Dokumentacja klasy AbstractID</h1><!-- doxytag: class="AbstractID" -->
+<p>Klasa bazowa dla wszystkich typów identyfikatorowych.  
+<a href="#_details">Więcej...</a></p>
+
+<p><code>#include &lt;<a class="el" href="abstractid_8h_source.html">abstractid.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagram dziedziczenia dla AbstractID</div>
+<div class="dynsection">
+<div class="center"><img src="classAbstractID__inherit__graph.png" border="0" usemap="#AbstractID_inherit__map" alt="Inheritance graph"/></div>
+<map name="AbstractID_inherit__map" id="AbstractID_inherit__map">
+<area shape="rect" id="node3" href="classAbstractIDGenerator.html" title="Klasa bazowa obiektów&#45;generatorów identyfikatorów." alt="" coords="331,153,525,293"/><area shape="rect" id="node13" href="classAbstractIncrementalID.html" title="Podstawa dla wszystkich klas identyfikatorów automatycznych." alt="" coords="660,163,865,282"/><area shape="rect" id="node22" href="classAbstractReservedID.html" title="Klasa reprezentująca identyfikatory rezerwowane z góry." alt="" coords="899,153,1091,293"/><area shape="rect" id="node5" href="classEventIDGenerator.html" title="Klasa generatorów generatorów identyfikatorów wydarzeń." alt="" coords="5,353,155,450"/><area shape="rect" id="node7" href="classMarkIDGenerator.html" title="Klasa generatorów generatorów identyfikatorów skutków wydarzeń." alt="" coords="179,353,323,450"/><area shape="rect" id="node9" href="classSubjectIDGenerator.html" title="Klasa generatorów generatorów identyfikatorów przedmiotów." alt="" coords="347,353,509,450"/><area shape="rect" id="node11" href="classTypeIDGenerator.html" title="Generator generatorów obiektów TypeID." alt="" coords="533,353,680,450"/><area shape="rect" id="node15" href="classEventID.html" title="Klasa reprezentująca identyfikator zdarzenia." alt="" coords="704,342,805,461"/><area shape="rect" id="node19" href="classMarkID.html" title="Klasa reprezentująca identyfikator oceny." alt="" coords="829,342,925,461"/><area shape="rect" id="node17" href="classID.html" title="Korzeń nowej idei uniwersalnego ID." alt="" coords="917,510,955,607"/><area shape="rect" id="node24" href="classSubjectID.html" title="Klasa reprezentująca identyfikator przedmiotu." alt="" coords="949,353,1040,450"/><area shape="rect" id="node27" href="classTypeID.html" title="Klasa reprezentująca identyfikator typu wydarzenia." alt="" coords="1064,353,1139,450"/></map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<div class="dynheader">
+Diagram współpracy dla AbstractID:</div>
+<div class="dynsection">
+<div class="center"><img src="classAbstractID__coll__graph.png" border="0" usemap="#AbstractID_coll__map" alt="Collaboration graph"/></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+
+<p><a href="classAbstractID-members.html">Lista wszystkich składowych.</a></p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2"><h2>Metody publiczne</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractID.html#abb5e7623e7909dda2327e95ac6c00d41">AbstractID</a> (uint <a class="el" href="classID.html">ID</a>=0)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Inicjalizuje nowy obiekt.  <a href="#abb5e7623e7909dda2327e95ac6c00d41"></a><br/></td></tr>
+<tr><td colspan="2"><h2>Atrybuty chronione</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">uint&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractID.html#a2aa928ac17f4658d6c052a69e71df976">ID</a></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Reprezentowany <a class="el" href="classID.html" title="Korzeń nowej idei uniwersalnego ID.">ID</a>.  <a href="#a2aa928ac17f4658d6c052a69e71df976"></a><br/></td></tr>
+<tr><td colspan="2"><h2>Przyjaciele</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractID.html#ae018346f525245975a90a561d3cffccd">operator&lt;&lt;</a> (QDataStream &amp;stream, const <a class="el" href="classAbstractID.html">AbstractID</a> &amp;<a class="el" href="classID.html">ID</a>)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Zapisuje dany identyfikator do danego strumienia.  <a href="#ae018346f525245975a90a561d3cffccd"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">QDataStream &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAbstractID.html#ae2290b15582443d09db5f4963e546920">operator&gt;&gt;</a> (QDataStream &amp;stream, <a class="el" href="classAbstractID.html">AbstractID</a> &amp;<a class="el" href="classID.html">ID</a>)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Odczytuje dany identyfikator z danego strumienia.  <a href="#ae2290b15582443d09db5f4963e546920"></a><br/></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Opis szczegółowy</h2>
+<p>Klasa bazowa dla wszystkich typów identyfikatorowych. </p>
+
+<p>Definicja w linii <a class="el" href="abstractid_8h_source.html#l00008">8</a> pliku <a class="el" href="abstractid_8h_source.html">abstractid.h</a>.</p>
+<hr/><h2>Dokumentacja konstruktora i destruktora</h2>
+<a class="anchor" id="abb5e7623e7909dda2327e95ac6c00d41"></a><!-- doxytag: member="AbstractID::AbstractID" ref="abb5e7623e7909dda2327e95ac6c00d41" args="(uint ID=0)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AbstractID::AbstractID </td>
+          <td>(</td>
+          <td class="paramtype">uint&nbsp;</td>
+          <td class="paramname"> <em>ID</em> = <code>0</code></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Inicjalizuje nowy obiekt. </p>
+<p>Użytkownik powinien użyć metody createdID(). </p>
+
+<p>Definicja w linii <a class="el" href="abstractid_8h_source.html#l00028">28</a> pliku <a class="el" href="abstractid_8h_source.html">abstractid.h</a>.</p>
+
+<p>Odwołania w <a class="el" href="abstractidgenerator_8h_source.html#l00008">AbstractIDGenerator::AbstractIDGenerator()</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00028"></a>00028 : <a class="code" href="classAbstractID.html#a2aa928ac17f4658d6c052a69e71df976" title="Reprezentowany ID.">ID</a> ( <a class="code" href="classID.html" title="Korzeń nowej idei uniwersalnego ID.">ID</a> ) {}
+</pre></div></p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dynsection">
+<div class="center"><img src="classAbstractID_abb5e7623e7909dda2327e95ac6c00d41_icgraph.png" border="0" usemap="#classAbstractID_abb5e7623e7909dda2327e95ac6c00d41_icgraph_map" alt=""></div>
+<map name="classAbstractID_abb5e7623e7909dda2327e95ac6c00d41_icgraph_map" id="classAbstractID_abb5e7623e7909dda2327e95ac6c00d41_icgraph">
+<area shape="rect" id="node3" href="classAbstractIDGenerator.html#a29d60d4a32b136c82fe4be8ed660b983" title="Inicjalizuje wartość początkową generatora identyfikatorów." alt="" coords="240,5,571,38"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja przyjaciół i funkcji związanych</h2>
+<a class="anchor" id="ae018346f525245975a90a561d3cffccd"></a><!-- doxytag: member="AbstractID::operator&lt;&lt;" ref="ae018346f525245975a90a561d3cffccd" args="(QDataStream &amp;stream, const AbstractID &amp;ID)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDataStream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">QDataStream &amp;&nbsp;</td>
+          <td class="paramname"> <em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classAbstractID.html">AbstractID</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>ID</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [friend]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Zapisuje dany identyfikator do danego strumienia. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>stream</em>&nbsp;</td><td>Strumień do którego będzie zapisany identyfikator. </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em><a class="el" href="classID.html" title="Korzeń nowej idei uniwersalnego ID.">ID</a></em>&nbsp;</td><td>Identyfikator który zostanie zapisany. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Zwraca:</b></dt><dd>Ten sam strumień. </dd></dl>
+
+<p>Definicja w linii <a class="el" href="abstractid_8cpp_source.html#l00003">3</a> pliku <a class="el" href="abstractid_8cpp_source.html">abstractid.cpp</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00004"></a>00004 {
+<a name="l00005"></a>00005     <span class="keywordflow">return</span> stream&lt;&lt;ID.<a class="code" href="classAbstractID.html#a2aa928ac17f4658d6c052a69e71df976" title="Reprezentowany ID.">ID</a>;
+<a name="l00006"></a>00006 }
+</pre></div></p>
+
+</div>
+</div>
+<a class="anchor" id="ae2290b15582443d09db5f4963e546920"></a><!-- doxytag: member="AbstractID::operator&gt;&gt;" ref="ae2290b15582443d09db5f4963e546920" args="(QDataStream &amp;stream, AbstractID &amp;ID)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDataStream&amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype">QDataStream &amp;&nbsp;</td>
+          <td class="paramname"> <em>stream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classAbstractID.html">AbstractID</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>ID</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td><code> [friend]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Odczytuje dany identyfikator z danego strumienia. </p>
+<dl><dt><b>Parametry:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>stream</em>&nbsp;</td><td>Strumień z którego będzie odczytany identyfikator. </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em><a class="el" href="classID.html" title="Korzeń nowej idei uniwersalnego ID.">ID</a></em>&nbsp;</td><td>Identyfikator który zostanie zainicjalizowany odczytanymi danymi. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Zwraca:</b></dt><dd>Ten sam strumień. </dd></dl>
+
+<p>Definicja w linii <a class="el" href="abstractid_8cpp_source.html#l00008">8</a> pliku <a class="el" href="abstractid_8cpp_source.html">abstractid.cpp</a>.</p>
+
+<p><div class="fragment"><pre class="fragment"><a name="l00009"></a>00009 {
+<a name="l00010"></a>00010     <span class="keywordflow">return</span> stream&gt;&gt;ID.<a class="code" href="classAbstractID.html#a2aa928ac17f4658d6c052a69e71df976" title="Reprezentowany ID.">ID</a>;
+<a name="l00011"></a>00011 }
+</pre></div></p>
+
+</div>
+</div>
+<hr/><h2>Dokumentacja atrybutów składowych</h2>
+<a class="anchor" id="a2aa928ac17f4658d6c052a69e71df976"></a><!-- doxytag: member="AbstractID::ID" ref="a2aa928ac17f4658d6c052a69e71df976" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint <a class="el" href="classAbstractID.html#a2aa928ac17f4658d6c052a69e71df976">AbstractID::ID</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Reprezentowany <a class="el" href="classID.html" title="Korzeń nowej idei uniwersalnego ID.">ID</a>. </p>
+
+<p>Definicja w linii <a class="el" href="abstractid_8h_source.html#l00031">31</a> pliku <a class="el" href="abstractid_8h_source.html">abstractid.h</a>.</p>
+
+<p>Odwołania w <a class="el" href="abstractidgenerator_8cpp_source.html#l00003">AbstractIDGenerator::createID()</a>, <a class="el" href="abstractidgenerator_8cpp_source.html#l00008">AbstractIDGenerator::createVoidID()</a>, <a class="el" href="abstractid_8cpp_source.html#l00003">operator&lt;&lt;()</a> i <a class="el" href="abstractid_8cpp_source.html#l00008">operator&gt;&gt;()</a>.</p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z pliku:<ul>
+<li>include/<a class="el" href="abstractid_8h_source.html">abstractid.h</a></li>
+</ul>
+</div>
+<hr class="footer"/><address style="text-align: right;"><small>Wygenerowano Wed May 19 12:01:26 2010 dla SchoolTools - Schedule programem&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.6.3 </small></address>
+</body>
+</html>
